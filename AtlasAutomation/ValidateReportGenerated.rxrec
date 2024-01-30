@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8cb6a6a3-7be3-4974-9ca9-373a91fd2c78"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateReportGenerated"
+	namespace="AtlasAutomation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="Exists"
+		codegenpropertyname="Report_Page_Screenshot1"
+		enabled="True"
+		imageoptions="0.97;None;0,0,0,0;True;10000000;0ms"
+		imagerect="0,0,2254,1400"
+		optional="False"
+		screenshotguid="2f301309-82e4-4cd9-8d9a-3b169438dc59"
+		screenshotname="Screenshot1"
+		searchpropertyid="0dd1b963-5d87-43a0-afba-a6d98159f6cd"
+		similarity="0.97">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8008f399-f077-4af8-b690-a795f9671eae"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Root' and @title~'Jobs']/indicator
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message="Report Page created"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="eff12e77-58a4-4948-9818-828937b506f7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8008f399-f077-4af8-b690-a795f9671eae"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Root' and @title~'Jobs']/indicator
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="42cdd5ff-5eb1-4664-9973-a59e1ff290a7"
+	name="AtlasAutomationRepository"
+	relativepath="AtlasAutomationRepository.rxrep">
+		<codegen
+		classname="AtlasAutomationRepository"
+		namespace="AtlasAutomation">
+		</codegen>
+		<rootfolder
+		id="3edb66b5-6f9c-45cd-af09-b10d23d5f5aa"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateReportGenerated.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
