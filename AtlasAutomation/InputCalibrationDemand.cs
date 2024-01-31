@@ -100,8 +100,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton1' at 11;17.", repo.JobWindow.TC_01.ToggleButton1Info, new RecordItemIndex(6));
-            repo.JobWindow.TC_01.ToggleButton1.Click("11;17");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Airline_Preference_Toggle' at 11;17.", repo.JobWindow.TC_01.Airline_Preference_ToggleInfo, new RecordItemIndex(6));
+            repo.JobWindow.TC_01.Airline_Preference_Toggle.Click("11;17");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
@@ -114,8 +114,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(9));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton3' at 13;13.", repo.JobWindow.TC_01.ToggleButton3Info, new RecordItemIndex(10));
-            repo.JobWindow.TC_01.ToggleButton3.Click("13;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Airport_Preference_Toggle' at 13;13.", repo.JobWindow.TC_01.Airport_Preference_ToggleInfo, new RecordItemIndex(10));
+            repo.JobWindow.TC_01.Airport_Preference_Toggle.Click("13;13");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(11));

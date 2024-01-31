@@ -93,8 +93,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton4' at 13;13.", repo.JobWindow.TC_01.ToggleButton4Info, new RecordItemIndex(4));
-            repo.JobWindow.TC_01.ToggleButton4.Click("13;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Codeshare_Toggle' at 13;13.", repo.JobWindow.TC_01.Codeshare_ToggleInfo, new RecordItemIndex(4));
+            repo.JobWindow.TC_01.Codeshare_Toggle.Click("13;13");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
@@ -121,8 +121,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(11));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton5' at 13;18.", repo.JobWindow.TC_01.ToggleButton5Info, new RecordItemIndex(12));
-            repo.JobWindow.TC_01.ToggleButton5.Click("13;18");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Non_Stop_Impact' at 13;18.", repo.JobWindow.TC_01.Non_Stop_ImpactInfo, new RecordItemIndex(12));
+            repo.JobWindow.TC_01.Non_Stop_Impact.Click("13;18");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(13));
@@ -135,8 +135,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(15));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton6' at 9;14.", repo.JobWindow.TC_01.ToggleButton6Info, new RecordItemIndex(16));
-            repo.JobWindow.TC_01.ToggleButton6.Click("9;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Partnership_Factor_Toggle' at 9;14.", repo.JobWindow.TC_01.Partnership_Factor_ToggleInfo, new RecordItemIndex(16));
+            repo.JobWindow.TC_01.Partnership_Factor_Toggle.Click("9;14");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(17));
@@ -149,8 +149,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(19));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton7' at 13;14.", repo.JobWindow.TC_01.ToggleButton7Info, new RecordItemIndex(20));
-            repo.JobWindow.TC_01.ToggleButton7.Click("13;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Relative_Fare' at 13;14.", repo.JobWindow.TC_01.Relative_FareInfo, new RecordItemIndex(20));
+            repo.JobWindow.TC_01.Relative_Fare.Click("13;14");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(21));
@@ -163,8 +163,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(23));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton9' at 17;18.", repo.JobWindow.TC_01.ToggleButton9Info, new RecordItemIndex(24));
-            repo.JobWindow.TC_01.ToggleButton9.Click("17;18");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Service_Type' at 17;18.", repo.JobWindow.TC_01.Service_TypeInfo, new RecordItemIndex(24));
+            repo.JobWindow.TC_01.Service_Type.Click("17;18");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(25));
@@ -177,8 +177,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(27));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton10' at Center.", repo.JobWindow.TC_01.ToggleButton10Info, new RecordItemIndex(28));
-            repo.JobWindow.TC_01.ToggleButton10.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Global_Time_of_the_Week_Toggle' at Center.", repo.JobWindow.TC_01.Global_Time_of_the_Week_ToggleInfo, new RecordItemIndex(28));
+            repo.JobWindow.TC_01.Global_Time_of_the_Week_Toggle.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(29));

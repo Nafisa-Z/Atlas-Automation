@@ -81,16 +81,6 @@ namespace AtlasAutomation
         }
 
         /// <summary>
-        /// Gets or sets the value of variable workspaceName.
-        /// </summary>
-        [TestVariable("3013f374-57e1-4896-b74b-5663b612e152")]
-        public string workspaceName
-        {
-            get { return repo.workspaceName; }
-            set { repo.workspaceName = value; }
-        }
-
-        /// <summary>
         /// Gets or sets the value of variable jb4Name.
         /// </summary>
         [TestVariable("146de5d7-b8e2-4d67-a246-24dd56921b4f")]
@@ -126,87 +116,52 @@ namespace AtlasAutomation
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite' at 747;26.", repo.SkySuite.SelfInfo, new RecordItemIndex(0));
-            repo.SkySuite.Self.Click("747;26");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.Container.Scenario_Name' at CenterRight.", repo.NewScenario.Container.Scenario_NameInfo, new RecordItemIndex(0));
+            repo.NewScenario.Container.Scenario_Name.Click(Location.CenterRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.workspace' at 156;15.", repo.SkySuite.workspaceInfo, new RecordItemIndex(1));
-            repo.SkySuite.workspace.Click(System.Windows.Forms.MouseButtons.Right, "156;15");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$scNameEval' with focus on 'NewScenario.Container.Scenario_Name'.", repo.NewScenario.Container.Scenario_NameInfo, new RecordItemIndex(1));
+            repo.NewScenario.Container.Scenario_Name.PressKeys(scNameEval);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(2));
-            Delay.Duration(1000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.NewScenario1' at 60;10.", repo.SkySuiteEasyJetUAT2.NewScenario1Info, new RecordItemIndex(3));
-            repo.SkySuiteEasyJetUAT2.NewScenario1.Click("60;10");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'NewScenario'.", repo.NewScenario.SelfInfo, new RecordItemIndex(4));
-            Validate.Exists(repo.NewScenario.SelfInfo);
-            Delay.Milliseconds(0);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.NewScenario.Self, false, new RecordItemIndex(5));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario' at 369;21.", repo.NewScenario.SelfInfo, new RecordItemIndex(6));
-            repo.NewScenario.Self.Click("369;21");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.SomeContainer.Scenario_Name' at CenterRight.", repo.NewScenario.SomeContainer.Scenario_NameInfo, new RecordItemIndex(7));
-            repo.NewScenario.SomeContainer.Scenario_Name.Click(Location.CenterRight);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$scNameEval' with focus on 'NewScenario.SomeContainer.Scenario_Name'.", repo.NewScenario.SomeContainer.Scenario_NameInfo, new RecordItemIndex(8));
-            repo.NewScenario.SomeContainer.Scenario_Name.PressKeys(scNameEval);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.Job_Name' at CenterRight.", repo.NewScenario.Job_NameInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.Job_Name' at CenterRight.", repo.NewScenario.Job_NameInfo, new RecordItemIndex(2));
             repo.NewScenario.Job_Name.Click(Location.CenterRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$jb4Name' with focus on 'NewScenario.Job_Name'.", repo.NewScenario.Job_NameInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$jb4Name' with focus on 'NewScenario.Job_Name'.", repo.NewScenario.Job_NameInfo, new RecordItemIndex(3));
             repo.NewScenario.Job_Name.PressKeys(jb4Name);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.SomeContainer.Job_Type_Toggle' at 10;16.", repo.NewScenario.SomeContainer.Job_Type_ToggleInfo, new RecordItemIndex(11));
-            repo.NewScenario.SomeContainer.Job_Type_Toggle.Click("10;16");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.Container.Job_Type_Toggle' at 10;16.", repo.NewScenario.Container.Job_Type_ToggleInfo, new RecordItemIndex(4));
+            repo.NewScenario.Container.Job_Type_Toggle.Click("10;16");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.Optimization' at 82;11.", repo.SkySuiteEasyJetUAT2.OptimizationInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.Optimization' at 82;11.", repo.SkySuiteEasyJetUAT2.OptimizationInfo, new RecordItemIndex(5));
             repo.SkySuiteEasyJetUAT2.Optimization.Click("82;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.SomeContainer.Job_Description' at 10;13.", repo.NewScenario.SomeContainer.Job_DescriptionInfo, new RecordItemIndex(13));
-            repo.NewScenario.SomeContainer.Job_Description.Click("10;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.Container.Job_Description' at 10;13.", repo.NewScenario.Container.Job_DescriptionInfo, new RecordItemIndex(6));
+            repo.NewScenario.Container.Job_Description.Click("10;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.Evaluation' at 264;14.", repo.SkySuiteEasyJetUAT2.EvaluationInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.Evaluation' at 264;14.", repo.SkySuiteEasyJetUAT2.EvaluationInfo, new RecordItemIndex(7));
             repo.SkySuiteEasyJetUAT2.Evaluation.Click("264;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.SomeContainer.Job_Dates' at 131;7.", repo.NewScenario.SomeContainer.Job_DatesInfo, new RecordItemIndex(15));
-            repo.NewScenario.SomeContainer.Job_Dates.Click("131;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.Container.Job_Dates' at 131;7.", repo.NewScenario.Container.Job_DatesInfo, new RecordItemIndex(8));
+            repo.NewScenario.Container.Job_Dates.Click("131;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesMed' with focus on 'NewScenario.SomeContainer.Job_Dates'.", repo.NewScenario.SomeContainer.Job_DatesInfo, new RecordItemIndex(16));
-            repo.NewScenario.SomeContainer.Job_Dates.PressKeys(datesMed);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesMed' with focus on 'NewScenario.Container.Job_Dates'.", repo.NewScenario.Container.Job_DatesInfo, new RecordItemIndex(9));
+            repo.NewScenario.Container.Job_Dates.PressKeys(datesMed);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.Create' at 49;8.", repo.NewScenario.CreateInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.Create' at 49;8.", repo.NewScenario.CreateInfo, new RecordItemIndex(10));
             repo.NewScenario.Create.Click("49;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow' at 197;704.", repo.JobWindow.SelfInfo, new RecordItemIndex(18));
-            repo.JobWindow.Self.Click("197;704");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(11));
             Delay.Duration(10000, false);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'JobWindow'.", repo.JobWindow.SelfInfo, new RecordItemIndex(20));
-            Validate.Exists(repo.JobWindow.SelfInfo);
-            Delay.Milliseconds(0);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.JobWindow.Self, false, new RecordItemIndex(21));
             
         }
 

@@ -228,6 +228,30 @@
       <UserCode>true</UserCode>
       <id>9f1c2277-910b-41c6-a732-b280c7a59e6c</id>
     </Compile>
+    <Compile Include="FilloutTC05.cs">
+      <BoundTo>a947dee2-f0bb-403a-a406-8b577f07ab91</BoundTo>
+      <DependentUpon>FilloutTC05.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ea58529b-419d-493e-a0bc-455af198b9c9</id>
+    </Compile>
+    <Compile Include="FilloutTC05.UserCode.cs">
+      <BoundTo>a947dee2-f0bb-403a-a406-8b577f07ab91</BoundTo>
+      <DependentUpon>FilloutTC05.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4172f5a9-9354-42a3-b22d-8cb21dcadc50</id>
+    </Compile>
+    <Compile Include="FilloutTC06.cs">
+      <BoundTo>a5ada7da-baab-4c6e-b44e-f0f36d8fc48d</BoundTo>
+      <DependentUpon>FilloutTC06.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5e958762-220c-41e0-8887-577537c42197</id>
+    </Compile>
+    <Compile Include="FilloutTC06.UserCode.cs">
+      <BoundTo>a5ada7da-baab-4c6e-b44e-f0f36d8fc48d</BoundTo>
+      <DependentUpon>FilloutTC06.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5bacde7c-e576-4f2f-8ef8-c0e68e32c04c</id>
+    </Compile>
     <Compile Include="FilloutTC07Details.cs">
       <BoundTo>147e3262-21b6-497b-9cfd-cd90e50b29f3</BoundTo>
       <DependentUpon>FilloutTC07Details.rxrec</DependentUpon>
@@ -1031,6 +1055,16 @@
       <id>8b2e4615-25f0-48c9-a95d-625887d13df9</id>
       <recordtableid>30701a83-5693-489b-b9f5-b3336727caf4</recordtableid>
     </None>
+    <None Include="FilloutTC05.rxrec">
+      <BoundTo>b208d674-fdf2-42c0-9195-b8ce293f288a</BoundTo>
+      <id>a947dee2-f0bb-403a-a406-8b577f07ab91</id>
+      <recordtableid>f06526c5-9dba-46c3-b537-f4890e8c7820</recordtableid>
+    </None>
+    <None Include="FilloutTC06.rxrec">
+      <BoundTo>b208d674-fdf2-42c0-9195-b8ce293f288a</BoundTo>
+      <id>a5ada7da-baab-4c6e-b44e-f0f36d8fc48d</id>
+      <recordtableid>a595dffc-ae68-43c6-98ea-7320d7d01475</recordtableid>
+    </None>
     <None Include="FilloutTC07Details.rxrec">
       <BoundTo>b208d674-fdf2-42c0-9195-b8ce293f288a</BoundTo>
       <id>147e3262-21b6-497b-9cfd-cd90e50b29f3</id>
@@ -1351,11 +1385,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>ddd5b27f-fbbc-4410-9651-c260a78dc474</id>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="RecordingModules">
-      <id>33fa100d-6c07-4e80-aeab-636f717d2c87</id>
-    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

@@ -106,8 +106,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(3));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SomeContextMenu.S23AmadeusSampleNew' at 45;12.", repo.SomeContextMenu.S23AmadeusSampleNewInfo, new RecordItemIndex(4));
-            repo.SomeContextMenu.S23AmadeusSampleNew.Click("45;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContextMenu.S23AmadeusSampleNew' at 45;12.", repo.ContextMenu.S23AmadeusSampleNewInfo, new RecordItemIndex(4));
+            repo.ContextMenu.S23AmadeusSampleNew.Click("45;12");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(5));
@@ -128,8 +128,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(9));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SomeContextMenu.S23AmadeusSampleNew' at 66;13.", repo.SomeContextMenu.S23AmadeusSampleNewInfo, new RecordItemIndex(10));
-            repo.SomeContextMenu.S23AmadeusSampleNew.Click("66;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContextMenu.S23AmadeusSampleNew' at 66;13.", repo.ContextMenu.S23AmadeusSampleNewInfo, new RecordItemIndex(10));
+            repo.ContextMenu.S23AmadeusSampleNew.Click("66;13");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(11));

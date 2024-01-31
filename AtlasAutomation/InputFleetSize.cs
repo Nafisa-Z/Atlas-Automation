@@ -95,17 +95,33 @@ namespace AtlasAutomation
             Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(4));
-            Delay.Duration(1000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.MEDFleetSize' at Center.", repo.SkySuiteEasyJetUAT2.MEDFleetSizeInfo, new RecordItemIndex(5));
-            repo.SkySuiteEasyJetUAT2.MEDFleetSize.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.LoadFromDatabase' at Center.", repo.SkySuiteEasyJetUAT2.LoadFromDatabaseInfo, new RecordItemIndex(4));
+            repo.SkySuiteEasyJetUAT2.LoadFromDatabase.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddDatasetFromDatabase' at Center.", repo.AddDatasetFromDatabase.SelfInfo, new RecordItemIndex(5));
+            repo.AddDatasetFromDatabase.Self.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddDatasetFromDatabase.AnyPeriod' at Center.", repo.AddDatasetFromDatabase.AnyPeriodInfo, new RecordItemIndex(6));
+            repo.AddDatasetFromDatabase.AnyPeriod.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_05.Aircraft_Expand' at 22;22.", repo.JobWindow.TC_05.Aircraft_ExpandInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddDatasetFromDatabase.PEAKFleetSizeV2V1' at UpperRight.", repo.AddDatasetFromDatabase.PEAKFleetSizeV2V1Info, new RecordItemIndex(8));
+            repo.AddDatasetFromDatabase.PEAKFleetSizeV2V1.Click(Location.UpperRight);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddDatasetFromDatabase.LoadClose' at Center.", repo.AddDatasetFromDatabase.LoadCloseInfo, new RecordItemIndex(9));
+            repo.AddDatasetFromDatabase.LoadClose.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(10));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_05.Aircraft_Expand' at 22;22.", repo.JobWindow.TC_05.Aircraft_ExpandInfo, new RecordItemIndex(11));
             repo.JobWindow.TC_05.Aircraft_Expand.Click("22;22");
             Delay.Milliseconds(0);
             

@@ -96,8 +96,8 @@ namespace AtlasAutomation
             repo.SkySuite.Self.Click("1498;35");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.job103' at Center.", repo.SkySuite.job103Info, new RecordItemIndex(1));
-            repo.SkySuite.job103.Click(System.Windows.Forms.MouseButtons.Right);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.job1_TC03' at Center.", repo.SkySuite.job1_TC03Info, new RecordItemIndex(1));
+            repo.SkySuite.job1_TC03.Click(System.Windows.Forms.MouseButtons.Right);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(2));

@@ -86,8 +86,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Copy_of_ToggleButton1' at Center.", repo.JobWindow.TC_01.Copy_of_ToggleButton1Info, new RecordItemIndex(2));
-            repo.JobWindow.TC_01.Copy_of_ToggleButton1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Circuity_Toggle' at Center.", repo.JobWindow.TC_01.Circuity_ToggleInfo, new RecordItemIndex(2));
+            repo.JobWindow.TC_01.Circuity_Toggle.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
@@ -100,8 +100,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Copy_of_ToggleButton10' at Center.", repo.JobWindow.TC_01.Copy_of_ToggleButton10Info, new RecordItemIndex(6));
-            repo.JobWindow.TC_01.Copy_of_ToggleButton10.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Duplicate_Rule_Toggle' at Center.", repo.JobWindow.TC_01.Duplicate_Rule_ToggleInfo, new RecordItemIndex(6));
+            repo.JobWindow.TC_01.Duplicate_Rule_Toggle.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
@@ -114,8 +114,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(9));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton11' at 13;16.", repo.JobWindow.TC_01.ToggleButton11Info, new RecordItemIndex(10));
-            repo.JobWindow.TC_01.ToggleButton11.Click("13;16");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Combined_Pruning_Toggle' at 13;16.", repo.JobWindow.TC_01.Combined_Pruning_ToggleInfo, new RecordItemIndex(10));
+            repo.JobWindow.TC_01.Combined_Pruning_Toggle.Click("13;16");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(11));
@@ -128,8 +128,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(13));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.ToggleButton12' at 10;9.", repo.JobWindow.TC_01.ToggleButton12Info, new RecordItemIndex(14));
-            repo.JobWindow.TC_01.ToggleButton12.Click("10;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Combined_Suppression_Toggle' at 10;9.", repo.JobWindow.TC_01.Combined_Suppression_ToggleInfo, new RecordItemIndex(14));
+            repo.JobWindow.TC_01.Combined_Suppression_Toggle.Click("10;9");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(15));

@@ -112,45 +112,6 @@ namespace AtlasAutomation
             repo.SkySuiteEasyJetUAT2.ToCurrentScenario.Click("27;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DuplicateJobToCurrentScenario'.", repo.DuplicateJobToCurrentScenario.SelfInfo, new RecordItemIndex(5));
-            Validate.Exists(repo.DuplicateJobToCurrentScenario.SelfInfo);
-            Delay.Milliseconds(0);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.DuplicateJobToCurrentScenario.Self, false, new RecordItemIndex(6));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DuplicateJobToCurrentScenario' at 357;28.", repo.DuplicateJobToCurrentScenario.SelfInfo, new RecordItemIndex(7));
-            repo.DuplicateJobToCurrentScenario.Self.Click("357;28");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DuplicateJobToCurrentScenario.Job_Name' at CenterRight.", repo.DuplicateJobToCurrentScenario.Job_NameInfo, new RecordItemIndex(8));
-            repo.DuplicateJobToCurrentScenario.Job_Name.Click(Location.CenterRight);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back 44}' with focus on 'DuplicateJobToCurrentScenario.Job_Name'.", repo.DuplicateJobToCurrentScenario.Job_NameInfo, new RecordItemIndex(9));
-            repo.DuplicateJobToCurrentScenario.Job_Name.PressKeys("{Back 44}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$jb5Name' with focus on 'DuplicateJobToCurrentScenario.Job_Name'.", repo.DuplicateJobToCurrentScenario.Job_NameInfo, new RecordItemIndex(10));
-            repo.DuplicateJobToCurrentScenario.Job_Name.PressKeys(jb5Name);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DuplicateJobToCurrentScenario.Create1' at 79;16.", repo.DuplicateJobToCurrentScenario.Create1Info, new RecordItemIndex(11));
-            repo.DuplicateJobToCurrentScenario.Create1.Click("79;16");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(12));
-            Delay.Duration(10000, false);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'JobWindow'.", repo.JobWindow.SelfInfo, new RecordItemIndex(13));
-            Validate.Exists(repo.JobWindow.SelfInfo);
-            Delay.Milliseconds(0);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.JobWindow.Self, false, new RecordItemIndex(14));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow' at Center.", repo.JobWindow.SelfInfo, new RecordItemIndex(15));
-            repo.JobWindow.Self.Click();
-            Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data
