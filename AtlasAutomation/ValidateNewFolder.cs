@@ -54,13 +54,13 @@ namespace AtlasAutomation
 #region Variables
 
         /// <summary>
-        /// Gets or sets the value of variable FolderName.
+        /// Gets or sets the value of variable workbenchName.
         /// </summary>
         [TestVariable("174dfc9d-41ec-4e4b-a91e-c57f6048bf92")]
-        public string FolderName
+        public string workbenchName
         {
-            get { return repo.FolderName; }
-            set { repo.FolderName = value; }
+            get { return repo.workbenchName; }
+            set { repo.workbenchName = value; }
         }
 
 #endregion
@@ -89,11 +89,11 @@ namespace AtlasAutomation
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SkySuite.NewlyCreatedFolder'.", repo.SkySuite.NewlyCreatedFolderInfo, new RecordItemIndex(0));
-            Validate.Exists(repo.SkySuite.NewlyCreatedFolderInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SkySuite.newlyCreatedFolder'.", repo.SkySuite.newlyCreatedFolderInfo, new RecordItemIndex(0));
+            Validate.Exists(repo.SkySuite.newlyCreatedFolderInfo);
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "New Folder successfully created", repo.SkySuite.NewlyCreatedFolder, false, new RecordItemIndex(1));
+            Report.Screenshot(ReportLevel.Info, "User", "New Folder successfully created", repo.SkySuite.newlyCreatedFolder, false, new RecordItemIndex(1));
             
         }
 

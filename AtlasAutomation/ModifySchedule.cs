@@ -41,7 +41,7 @@ namespace AtlasAutomation
         /// </summary>
         public ModifySchedule()
         {
-            Dates_Peak = "21Aug2023 to 27Aug2023";
+            datesPeak = "21Aug2023 to 27Aug2023";
         }
 
         /// <summary>
@@ -54,16 +54,16 @@ namespace AtlasAutomation
 
 #region Variables
 
-        string _Dates_Peak;
+        string _datesPeak;
 
         /// <summary>
-        /// Gets or sets the value of variable Dates_Peak.
+        /// Gets or sets the value of variable datesPeak.
         /// </summary>
         [TestVariable("d46d5f03-393d-457f-b71c-23f0481a1446")]
-        public string Dates_Peak
+        public string datesPeak
         {
-            get { return _Dates_Peak; }
-            set { _Dates_Peak = value; }
+            get { return _datesPeak; }
+            set { _datesPeak = value; }
         }
 
 #endregion
@@ -104,16 +104,16 @@ namespace AtlasAutomation
             repo.JobWindow.TC_02.OA_Dates.Click("76;16");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Dates_Peak' with focus on 'JobWindow.TC_02.OA_Dates'.", repo.JobWindow.TC_02.OA_DatesInfo, new RecordItemIndex(3));
-            repo.JobWindow.TC_02.OA_Dates.PressKeys(Dates_Peak);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesPeak' with focus on 'JobWindow.TC_02.OA_Dates'.", repo.JobWindow.TC_02.OA_DatesInfo, new RecordItemIndex(3));
+            repo.JobWindow.TC_02.OA_Dates.PressKeys(datesPeak);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_02.Replacement_Dates' at 112;4.", repo.JobWindow.TC_02.Replacement_DatesInfo, new RecordItemIndex(4));
             repo.JobWindow.TC_02.Replacement_Dates.Click("112;4");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Dates_Peak' with focus on 'JobWindow.TC_02.Replacement_Dates'.", repo.JobWindow.TC_02.Replacement_DatesInfo, new RecordItemIndex(5));
-            repo.JobWindow.TC_02.Replacement_Dates.PressKeys(Dates_Peak);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesPeak' with focus on 'JobWindow.TC_02.Replacement_Dates'.", repo.JobWindow.TC_02.Replacement_DatesInfo, new RecordItemIndex(5));
+            repo.JobWindow.TC_02.Replacement_Dates.PressKeys(datesPeak);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Job_Inputs.Schedule_Expand' at 22;16.", repo.JobWindow.Job_Inputs.Schedule_ExpandInfo, new RecordItemIndex(6));

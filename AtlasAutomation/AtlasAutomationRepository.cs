@@ -37,15 +37,6 @@ namespace AtlasAutomation
         AtlasAutomationRepositoryFolders.ImportScheduleAppFolder _importschedule;
         AtlasAutomationRepositoryFolders.OpenAppFolder _open;
         AtlasAutomationRepositoryFolders.DuplicateJobToCurrentScenarioAppFolder _duplicatejobtocurrentscenario;
-        AtlasAutomationRepositoryFolders.JobWindow1AppFolder _jobwindow1;
-        AtlasAutomationRepositoryFolders.JobWIndow2AppFolder _jobwindow2;
-        AtlasAutomationRepositoryFolders.JobWIndow3AppFolder _jobwindow3;
-        AtlasAutomationRepositoryFolders.JobWindow4AppFolder _jobwindow4;
-        AtlasAutomationRepositoryFolders.JobWindow5AppFolder _jobwindow5;
-        AtlasAutomationRepositoryFolders.JobWindow6AppFolder _jobwindow6;
-        AtlasAutomationRepositoryFolders.JobWindow7AppFolder _jobwindow7;
-        AtlasAutomationRepositoryFolders.JobWindow8AppFolder _jobwindow8;
-        AtlasAutomationRepositoryFolders.JobWindow9AppFolder _jobwindow9;
         AtlasAutomationRepositoryFolders.AddDatasetFromDatabaseAppFolder _adddatasetfromdatabase;
         AtlasAutomationRepositoryFolders.JobWindowAppFolder _jobwindow;
 
@@ -74,15 +65,6 @@ namespace AtlasAutomation
             _importschedule = new AtlasAutomationRepositoryFolders.ImportScheduleAppFolder(this);
             _open = new AtlasAutomationRepositoryFolders.OpenAppFolder(this);
             _duplicatejobtocurrentscenario = new AtlasAutomationRepositoryFolders.DuplicateJobToCurrentScenarioAppFolder(this);
-            _jobwindow1 = new AtlasAutomationRepositoryFolders.JobWindow1AppFolder(this);
-            _jobwindow2 = new AtlasAutomationRepositoryFolders.JobWIndow2AppFolder(this);
-            _jobwindow3 = new AtlasAutomationRepositoryFolders.JobWIndow3AppFolder(this);
-            _jobwindow4 = new AtlasAutomationRepositoryFolders.JobWindow4AppFolder(this);
-            _jobwindow5 = new AtlasAutomationRepositoryFolders.JobWindow5AppFolder(this);
-            _jobwindow6 = new AtlasAutomationRepositoryFolders.JobWindow6AppFolder(this);
-            _jobwindow7 = new AtlasAutomationRepositoryFolders.JobWindow7AppFolder(this);
-            _jobwindow8 = new AtlasAutomationRepositoryFolders.JobWindow8AppFolder(this);
-            _jobwindow9 = new AtlasAutomationRepositoryFolders.JobWindow9AppFolder(this);
             _adddatasetfromdatabase = new AtlasAutomationRepositoryFolders.AddDatasetFromDatabaseAppFolder(this);
             _jobwindow = new AtlasAutomationRepositoryFolders.JobWindowAppFolder(this);
         }
@@ -101,28 +83,28 @@ namespace AtlasAutomation
             set { _TC_01_PreCalibration_IB_Med = value; }
         }
 
-        string _FolderName = "AtlasDemo";
+        string _workbenchName = "AtlasDemo";
 
         /// <summary>
-        /// Gets or sets the value of variable FolderName.
+        /// Gets or sets the value of variable workbenchName.
         /// </summary>
         [TestVariable("174dfc9d-41ec-4e4b-a91e-c57f6048bf92")]
-        public string FolderName
+        public string workbenchName
         {
-            get { return _FolderName; }
-            set { _FolderName = value; }
+            get { return _workbenchName; }
+            set { _workbenchName = value; }
         }
 
-        string _JbWindow_Title = "";
+        string _jbWindowTitle = "";
 
         /// <summary>
-        /// Gets or sets the value of variable JbWindow_Title.
+        /// Gets or sets the value of variable jbWindowTitle.
         /// </summary>
         [TestVariable("adf59c56-3149-4ee6-bffd-8a261f7a9b4c")]
-        public string JbWindow_Title
+        public string jbWindowTitle
         {
-            get { return _JbWindow_Title; }
-            set { _JbWindow_Title = value; }
+            get { return _jbWindowTitle; }
+            set { _jbWindowTitle = value; }
         }
 
         string _Jb2Window_Title = "TC_02";
@@ -221,28 +203,28 @@ namespace AtlasAutomation
             set { _Jb9Window_Title = value; }
         }
 
-        string _Workspace_Name = "Atlas_Cycle1";
+        string _workspaceName = "Atlas_Cycle1";
 
         /// <summary>
-        /// Gets or sets the value of variable Workspace_Name.
+        /// Gets or sets the value of variable workspaceName.
         /// </summary>
         [TestVariable("3013f374-57e1-4896-b74b-5663b612e152")]
-        public string Workspace_Name
+        public string workspaceName
         {
-            get { return _Workspace_Name; }
-            set { _Workspace_Name = value; }
+            get { return _workspaceName; }
+            set { _workspaceName = value; }
         }
 
-        string _Jb4_Name = "TC_04";
+        string _jb4Name = "TC_04";
 
         /// <summary>
-        /// Gets or sets the value of variable Jb4_Name.
+        /// Gets or sets the value of variable jb4Name.
         /// </summary>
         [TestVariable("231ef092-5454-4758-bd7a-c25a082fffe2")]
-        public string Jb4_Name
+        public string jb4Name
         {
-            get { return _Jb4_Name; }
-            set { _Jb4_Name = value; }
+            get { return _jb4Name; }
+            set { _jb4Name = value; }
         }
 
 #endregion
@@ -350,87 +332,6 @@ namespace AtlasAutomation
         }
 
         /// <summary>
-        /// The JobWindow1 folder.
-        /// </summary>
-        [RepositoryFolder("9b1dbb10-8980-4895-9d6f-83c6c02b6d53")]
-        public virtual AtlasAutomationRepositoryFolders.JobWindow1AppFolder JobWindow1
-        {
-            get { return _jobwindow1; }
-        }
-
-        /// <summary>
-        /// The JobWIndow2 folder.
-        /// </summary>
-        [RepositoryFolder("847e6270-77f3-4f89-a526-c9f8f0a356cc")]
-        public virtual AtlasAutomationRepositoryFolders.JobWIndow2AppFolder JobWIndow2
-        {
-            get { return _jobwindow2; }
-        }
-
-        /// <summary>
-        /// The JobWIndow3 folder.
-        /// </summary>
-        [RepositoryFolder("7527503d-7d47-4223-b9c8-cca3f8795f29")]
-        public virtual AtlasAutomationRepositoryFolders.JobWIndow3AppFolder JobWIndow3
-        {
-            get { return _jobwindow3; }
-        }
-
-        /// <summary>
-        /// The JobWindow4 folder.
-        /// </summary>
-        [RepositoryFolder("fb2f31b3-915b-4825-adcb-8efb91998f32")]
-        public virtual AtlasAutomationRepositoryFolders.JobWindow4AppFolder JobWindow4
-        {
-            get { return _jobwindow4; }
-        }
-
-        /// <summary>
-        /// The JobWindow5 folder.
-        /// </summary>
-        [RepositoryFolder("4749831c-2265-45d0-a363-e9f89293d974")]
-        public virtual AtlasAutomationRepositoryFolders.JobWindow5AppFolder JobWindow5
-        {
-            get { return _jobwindow5; }
-        }
-
-        /// <summary>
-        /// The JobWindow6 folder.
-        /// </summary>
-        [RepositoryFolder("9d382232-3b4c-4f5a-9fdc-973a323297c4")]
-        public virtual AtlasAutomationRepositoryFolders.JobWindow6AppFolder JobWindow6
-        {
-            get { return _jobwindow6; }
-        }
-
-        /// <summary>
-        /// The JobWindow7 folder.
-        /// </summary>
-        [RepositoryFolder("84a299bc-d082-4b6e-9275-6de64287fd96")]
-        public virtual AtlasAutomationRepositoryFolders.JobWindow7AppFolder JobWindow7
-        {
-            get { return _jobwindow7; }
-        }
-
-        /// <summary>
-        /// The JobWindow8 folder.
-        /// </summary>
-        [RepositoryFolder("c2f96fef-a7d7-486d-b60d-df910803e269")]
-        public virtual AtlasAutomationRepositoryFolders.JobWindow8AppFolder JobWindow8
-        {
-            get { return _jobwindow8; }
-        }
-
-        /// <summary>
-        /// The JobWindow9 folder.
-        /// </summary>
-        [RepositoryFolder("292d7fbd-07c7-4633-a098-e43ee562ea9a")]
-        public virtual AtlasAutomationRepositoryFolders.JobWindow9AppFolder JobWindow9
-        {
-            get { return _jobwindow9; }
-        }
-
-        /// <summary>
         /// The AddDatasetFromDatabase folder.
         /// </summary>
         [RepositoryFolder("08fae8d3-bd14-43d1-a147-033d6ef3808b")]
@@ -470,17 +371,16 @@ namespace AtlasAutomation
             RepoItemInfo _schedulestabtoolbarimportschedulebuttonInfo;
             RepoItemInfo _workbenchtabcontrolInfo;
             RepoItemInfo _scenariotreelistviewInfo;
-            RepoItemInfo _job_1Info;
-            RepoItemInfo _job_1_3Info;
-            RepoItemInfo _eval_medInfo;
-            RepoItemInfo _eval_med_2Info;
-            RepoItemInfo _eval_med_3Info;
+            RepoItemInfo _job1Info;
+            RepoItemInfo _job103Info;
+            RepoItemInfo _evalmedInfo;
+            RepoItemInfo _evalmed2Info;
+            RepoItemInfo _evalmed3Info;
             RepoItemInfo _tabpagescenariosInfo;
-            RepoItemInfo _evaluation_jobsInfo;
-            RepoItemInfo _industry_jobsInfo;
+            RepoItemInfo _evaluationjobsInfo;
+            RepoItemInfo _industryjobsInfo;
             RepoItemInfo _workspaceInfo;
-            RepoItemInfo _eval_peakInfo;
-            RepoItemInfo _cellelement130Info;
+            RepoItemInfo _evalpeakInfo;
             RepoItemInfo _parttoggleInfo;
             RepoItemInfo _kpi_report_tabInfo;
             RepoItemInfo _sometreeitemInfo;
@@ -491,26 +391,25 @@ namespace AtlasAutomation
             public SkySuiteAppFolder(RepoGenBaseFolder parentFolder) :
                     base("SkySuite", "/form[@name='Root']", parentFolder, 30000, null, true, "12f9a8e2-bf21-41d6-a222-3baa984f5626", "")
             {
-                _workbenchbuttonInfo = new RepoItemInfo(this, "WorkbenchButton", "?/?/list[@automationid='LeftPanelMainList']/listitem[@index='1']/radiobutton", ".//listitem[@index='1']/radiobutton", 30000, null, "30857447-b394-4b30-b92b-5627caff8e46");
-                _workbenchviewInfo = new RepoItemInfo(this, "WorkbenchView", "tabpagelist", "tabpagelist", 30000, null, "21946c28-6721-4c46-a856-e8df5bca7cbc");
-                _workbenchfolderlistInfo = new RepoItemInfo(this, "WorkbenchFolderList", "tabpagelist/indicator[1]", "tabpagelist/indicator[1]", 30000, null, "4fa9f3ad-ea08-4ec5-938f-fb3870407a1c");
-                _workbenchtoolbarnewfolderbuttonInfo = new RepoItemInfo(this, "WorkbenchToolbarNewFolderButton", ".//toolbar[@automationid='WorkbenchToolbar']/button[@automationid='WorkbenchToolbar_NewFolderButton']", ".//button[@automationid='WorkbenchToolbar_NewFolderButton']", 30000, null, "9c6089f0-7a55-4f77-b6f6-166b2a0461fc");
-                _newlycreatedfolderInfo = new RepoItemInfo(this, "NewlyCreatedFolder", ".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text=$FolderName]", "", 30000, null, "c19dfd4a-9b46-4bcb-bf51-79c27d05ca90");
-                _schedulesInfo = new RepoItemInfo(this, "ScheduLes", ".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/?/?/text[@caption='Schedu_les']", ".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/tabpage[@title='Schedu_les']/text[@caption='Schedu_les']", 30000, null, "9087996b-9b6c-4182-9442-e6416580a240");
-                _schedulestabtoolbarimportschedulebuttonInfo = new RepoItemInfo(this, "SchedulesTabToolbarImportScheduleButton", ".//tabpagelist[@automationid='workbenchTabControl']/toolbar[@automationid='SchedulesTabToolbar']/button[@automationid='SchedulesTabToolbar_ImportScheduleButton']", ".//button[@automationid='SchedulesTabToolbar_ImportScheduleButton']", 30000, null, "9044f21f-33a5-46b5-8597-e754e395a0a0");
-                _workbenchtabcontrolInfo = new RepoItemInfo(this, "WorkbenchTabControl", "tabpagelist/indicator[1]/tabpagelist[@automationid='workbenchTabControl']", ".//tabpagelist[@automationid='workbenchTabControl']", 30000, null, "42acf0b2-33f3-461b-9e35-6105a9e1699a");
-                _scenariotreelistviewInfo = new RepoItemInfo(this, "ScenarioTreeListView", "tabpagelist/indicator[1]/tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']", ".//table[@automationid='scenarioTreeListView']", 30000, null, "2eddba84-0e95-4878-a0f9-45a4a2726fd6");
-                _job_1Info = new RepoItemInfo(this, "Job_1", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", 30000, null, "b00d5957-264b-4b62-b036-ab84d20d759d");
-                _job_1_3Info = new RepoItemInfo(this, "Job_1_3", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]/container[@automationid='PART_ContentPresenter']/text[@automationid='name']", 30000, null, "f75b3bdc-0b8e-4bb6-b969-4b03957c4ce4");
-                _eval_medInfo = new RepoItemInfo(this, "Eval_med", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "28ad0feb-58e1-4bcd-9c23-74e4996782a3");
-                _eval_med_2Info = new RepoItemInfo(this, "Eval_med_2", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "22045ea4-6766-4cfa-af70-170ab3cf1e27");
-                _eval_med_3Info = new RepoItemInfo(this, "Eval_med_3", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "cb7381ac-14d4-4538-9323-bd4a6d5dd89c");
-                _tabpagescenariosInfo = new RepoItemInfo(this, "TabPageScenarios", ".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/tabpage[@title='_Scenarios']", ".//tabpage[@title='_Scenarios']", 30000, null, "5c21ea2b-ca4e-4784-b18f-cb0d8cdc5b28");
-                _evaluation_jobsInfo = new RepoItemInfo(this, "Evaluation_Jobs", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']//row[1]//button[@automationid='PART_ExpandButton']", "", 30000, null, "46f527f3-bfa5-492d-b562-ce0f3214f144");
-                _industry_jobsInfo = new RepoItemInfo(this, "Industry_Jobs", "tabpagelist/?/?/tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/row[1]/button[@automationid='PART_ExpandButton']", ".//table[@automationid='scenarioTreeListView']", 30000, null, "335d5545-795a-4455-bcf6-6e63c62ca53e");
-                _workspaceInfo = new RepoItemInfo(this, "Workspace", ".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text=$Workspace_Name]", "", 30000, null, "bc768678-1a3a-4600-a47f-34794c90c691");
-                _eval_peakInfo = new RepoItemInfo(this, "Eval_Peak", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "e886293c-a331-4545-8164-b7df47c8f2e0");
-                _cellelement130Info = new RepoItemInfo(this, "CellElement130", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[20]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@automationid='CellElement_13_0']", ".//text[@automationid='CellElement_13_0']", 30000, null, "23d6ad5b-5ca4-4884-acf8-5c193e08883f");
+                _workbenchbuttonInfo = new RepoItemInfo(this, "workbenchButton", "?/?/list[@automationid='LeftPanelMainList']/listitem[@index='1']/radiobutton", ".//listitem[@index='1']/radiobutton", 30000, null, "30857447-b394-4b30-b92b-5627caff8e46");
+                _workbenchviewInfo = new RepoItemInfo(this, "workbenchView", "tabpagelist", "tabpagelist", 30000, null, "21946c28-6721-4c46-a856-e8df5bca7cbc");
+                _workbenchfolderlistInfo = new RepoItemInfo(this, "workbenchFolderList", "tabpagelist/indicator[1]", "tabpagelist/indicator[1]", 30000, null, "4fa9f3ad-ea08-4ec5-938f-fb3870407a1c");
+                _workbenchtoolbarnewfolderbuttonInfo = new RepoItemInfo(this, "workbenchToolbarNewFolderButton", ".//toolbar[@automationid='WorkbenchToolbar']/button[@automationid='WorkbenchToolbar_NewFolderButton']", ".//button[@automationid='WorkbenchToolbar_NewFolderButton']", 30000, null, "9c6089f0-7a55-4f77-b6f6-166b2a0461fc");
+                _newlycreatedfolderInfo = new RepoItemInfo(this, "newlyCreatedFolder", ".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text=$workbenchName]", "", 30000, null, "c19dfd4a-9b46-4bcb-bf51-79c27d05ca90");
+                _schedulesInfo = new RepoItemInfo(this, "schedules", ".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/?/?/text[@caption='Schedu_les']", ".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/tabpage[@title='Schedu_les']/text[@caption='Schedu_les']", 30000, null, "9087996b-9b6c-4182-9442-e6416580a240");
+                _schedulestabtoolbarimportschedulebuttonInfo = new RepoItemInfo(this, "schedulesTabToolbarImportScheduleButton", ".//tabpagelist[@automationid='workbenchTabControl']/toolbar[@automationid='SchedulesTabToolbar']/button[@automationid='SchedulesTabToolbar_ImportScheduleButton']", ".//button[@automationid='SchedulesTabToolbar_ImportScheduleButton']", 30000, null, "9044f21f-33a5-46b5-8597-e754e395a0a0");
+                _workbenchtabcontrolInfo = new RepoItemInfo(this, "workbenchTabControl", "tabpagelist/indicator[1]/tabpagelist[@automationid='workbenchTabControl']", ".//tabpagelist[@automationid='workbenchTabControl']", 30000, null, "42acf0b2-33f3-461b-9e35-6105a9e1699a");
+                _scenariotreelistviewInfo = new RepoItemInfo(this, "scenarioTreeListView", "tabpagelist/indicator[1]/tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']", ".//table[@automationid='scenarioTreeListView']", 30000, null, "2eddba84-0e95-4878-a0f9-45a4a2726fd6");
+                _job1Info = new RepoItemInfo(this, "job1", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", 30000, null, "b00d5957-264b-4b62-b036-ab84d20d759d");
+                _job103Info = new RepoItemInfo(this, "job103", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]/container[@automationid='PART_ContentPresenter']/text[@automationid='name']", 30000, null, "f75b3bdc-0b8e-4bb6-b969-4b03957c4ce4");
+                _evalmedInfo = new RepoItemInfo(this, "evalMed", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "28ad0feb-58e1-4bcd-9c23-74e4996782a3");
+                _evalmed2Info = new RepoItemInfo(this, "evalMed2", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "22045ea4-6766-4cfa-af70-170ab3cf1e27");
+                _evalmed3Info = new RepoItemInfo(this, "evalMed3", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "cb7381ac-14d4-4538-9323-bd4a6d5dd89c");
+                _tabpagescenariosInfo = new RepoItemInfo(this, "tabPageScenarios", ".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/tabpage[@title='_Scenarios']", ".//tabpage[@title='_Scenarios']", 30000, null, "5c21ea2b-ca4e-4784-b18f-cb0d8cdc5b28");
+                _evaluationjobsInfo = new RepoItemInfo(this, "evaluationJobs", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']//row[1]//button[@automationid='PART_ExpandButton']", "", 30000, null, "46f527f3-bfa5-492d-b562-ce0f3214f144");
+                _industryjobsInfo = new RepoItemInfo(this, "industryJobs", "tabpagelist/?/?/tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/row[1]/button[@automationid='PART_ExpandButton']", ".//table[@automationid='scenarioTreeListView']", 30000, null, "335d5545-795a-4455-bcf6-6e63c62ca53e");
+                _workspaceInfo = new RepoItemInfo(this, "workspace", ".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text=$workspaceName]", "", 30000, null, "bc768678-1a3a-4600-a47f-34794c90c691");
+                _evalpeakInfo = new RepoItemInfo(this, "evalPeak", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "e886293c-a331-4545-8164-b7df47c8f2e0");
                 _parttoggleInfo = new RepoItemInfo(this, "PARTToggle", "container[@automationid='content']//button[@automationid='PART_Toggle']", "?/?/container[@automationid='ToolBarRegion']/container[@caption='']/button[@automationid='PART_Toggle']", 30000, null, "c55e11a6-0ebf-4558-91ce-db2d58e33f6d");
                 _kpi_report_tabInfo = new RepoItemInfo(this, "KPI_Report_Tab", ".//container[@automationid='PART_HeaderGrid']/tabpage[@index='0']", "", 30000, null, "a9716763-20a5-409a-8ac6-e7e3d0c54b8d");
                 _sometreeitemInfo = new RepoItemInfo(this, "SomeTreeItem", ".//tree[@automationid='workbenchTreeView']/treeitem[2]", ".//tree/treeitem[2]", 30000, null, "f4b7d6bc-aaf3-4c95-84fc-6cf035a9d229");
@@ -541,10 +440,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchButton item.
+            /// The workbenchButton item.
             /// </summary>
             [RepositoryItem("30857447-b394-4b30-b92b-5627caff8e46")]
-            public virtual Ranorex.RadioButton WorkbenchButton
+            public virtual Ranorex.RadioButton workbenchButton
             {
                 get
                 {
@@ -553,10 +452,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchButton item info.
+            /// The workbenchButton item info.
             /// </summary>
             [RepositoryItemInfo("30857447-b394-4b30-b92b-5627caff8e46")]
-            public virtual RepoItemInfo WorkbenchButtonInfo
+            public virtual RepoItemInfo workbenchButtonInfo
             {
                 get
                 {
@@ -565,10 +464,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchView item.
+            /// The workbenchView item.
             /// </summary>
             [RepositoryItem("21946c28-6721-4c46-a856-e8df5bca7cbc")]
-            public virtual Ranorex.TabPageList WorkbenchView
+            public virtual Ranorex.TabPageList workbenchView
             {
                 get
                 {
@@ -577,10 +476,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchView item info.
+            /// The workbenchView item info.
             /// </summary>
             [RepositoryItemInfo("21946c28-6721-4c46-a856-e8df5bca7cbc")]
-            public virtual RepoItemInfo WorkbenchViewInfo
+            public virtual RepoItemInfo workbenchViewInfo
             {
                 get
                 {
@@ -589,10 +488,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchFolderList item.
+            /// The workbenchFolderList item.
             /// </summary>
             [RepositoryItem("4fa9f3ad-ea08-4ec5-938f-fb3870407a1c")]
-            public virtual Ranorex.Indicator WorkbenchFolderList
+            public virtual Ranorex.Indicator workbenchFolderList
             {
                 get
                 {
@@ -601,10 +500,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchFolderList item info.
+            /// The workbenchFolderList item info.
             /// </summary>
             [RepositoryItemInfo("4fa9f3ad-ea08-4ec5-938f-fb3870407a1c")]
-            public virtual RepoItemInfo WorkbenchFolderListInfo
+            public virtual RepoItemInfo workbenchFolderListInfo
             {
                 get
                 {
@@ -613,10 +512,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchToolbarNewFolderButton item.
+            /// The workbenchToolbarNewFolderButton item.
             /// </summary>
             [RepositoryItem("9c6089f0-7a55-4f77-b6f6-166b2a0461fc")]
-            public virtual Ranorex.Button WorkbenchToolbarNewFolderButton
+            public virtual Ranorex.Button workbenchToolbarNewFolderButton
             {
                 get
                 {
@@ -625,10 +524,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchToolbarNewFolderButton item info.
+            /// The workbenchToolbarNewFolderButton item info.
             /// </summary>
             [RepositoryItemInfo("9c6089f0-7a55-4f77-b6f6-166b2a0461fc")]
-            public virtual RepoItemInfo WorkbenchToolbarNewFolderButtonInfo
+            public virtual RepoItemInfo workbenchToolbarNewFolderButtonInfo
             {
                 get
                 {
@@ -637,10 +536,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The NewlyCreatedFolder item.
+            /// The newlyCreatedFolder item.
             /// </summary>
             [RepositoryItem("c19dfd4a-9b46-4bcb-bf51-79c27d05ca90")]
-            public virtual Ranorex.Text NewlyCreatedFolder
+            public virtual Ranorex.Text newlyCreatedFolder
             {
                 get
                 {
@@ -649,10 +548,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The NewlyCreatedFolder item info.
+            /// The newlyCreatedFolder item info.
             /// </summary>
             [RepositoryItemInfo("c19dfd4a-9b46-4bcb-bf51-79c27d05ca90")]
-            public virtual RepoItemInfo NewlyCreatedFolderInfo
+            public virtual RepoItemInfo newlyCreatedFolderInfo
             {
                 get
                 {
@@ -661,10 +560,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The ScheduLes item.
+            /// The schedules item.
             /// </summary>
             [RepositoryItem("9087996b-9b6c-4182-9442-e6416580a240")]
-            public virtual Ranorex.Text ScheduLes
+            public virtual Ranorex.Text schedules
             {
                 get
                 {
@@ -673,10 +572,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The ScheduLes item info.
+            /// The schedules item info.
             /// </summary>
             [RepositoryItemInfo("9087996b-9b6c-4182-9442-e6416580a240")]
-            public virtual RepoItemInfo ScheduLesInfo
+            public virtual RepoItemInfo schedulesInfo
             {
                 get
                 {
@@ -685,10 +584,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The SchedulesTabToolbarImportScheduleButton item.
+            /// The schedulesTabToolbarImportScheduleButton item.
             /// </summary>
             [RepositoryItem("9044f21f-33a5-46b5-8597-e754e395a0a0")]
-            public virtual Ranorex.Button SchedulesTabToolbarImportScheduleButton
+            public virtual Ranorex.Button schedulesTabToolbarImportScheduleButton
             {
                 get
                 {
@@ -697,10 +596,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The SchedulesTabToolbarImportScheduleButton item info.
+            /// The schedulesTabToolbarImportScheduleButton item info.
             /// </summary>
             [RepositoryItemInfo("9044f21f-33a5-46b5-8597-e754e395a0a0")]
-            public virtual RepoItemInfo SchedulesTabToolbarImportScheduleButtonInfo
+            public virtual RepoItemInfo schedulesTabToolbarImportScheduleButtonInfo
             {
                 get
                 {
@@ -709,10 +608,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchTabControl item.
+            /// The workbenchTabControl item.
             /// </summary>
             [RepositoryItem("42acf0b2-33f3-461b-9e35-6105a9e1699a")]
-            public virtual Ranorex.TabPageList WorkbenchTabControl
+            public virtual Ranorex.TabPageList workbenchTabControl
             {
                 get
                 {
@@ -721,10 +620,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The WorkbenchTabControl item info.
+            /// The workbenchTabControl item info.
             /// </summary>
             [RepositoryItemInfo("42acf0b2-33f3-461b-9e35-6105a9e1699a")]
-            public virtual RepoItemInfo WorkbenchTabControlInfo
+            public virtual RepoItemInfo workbenchTabControlInfo
             {
                 get
                 {
@@ -733,10 +632,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The ScenarioTreeListView item.
+            /// The scenarioTreeListView item.
             /// </summary>
             [RepositoryItem("2eddba84-0e95-4878-a0f9-45a4a2726fd6")]
-            public virtual Ranorex.Table ScenarioTreeListView
+            public virtual Ranorex.Table scenarioTreeListView
             {
                 get
                 {
@@ -745,10 +644,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The ScenarioTreeListView item info.
+            /// The scenarioTreeListView item info.
             /// </summary>
             [RepositoryItemInfo("2eddba84-0e95-4878-a0f9-45a4a2726fd6")]
-            public virtual RepoItemInfo ScenarioTreeListViewInfo
+            public virtual RepoItemInfo scenarioTreeListViewInfo
             {
                 get
                 {
@@ -757,130 +656,130 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The Job_1 item.
+            /// The job1 item.
             /// </summary>
             [RepositoryItem("b00d5957-264b-4b62-b036-ab84d20d759d")]
-            public virtual Ranorex.Cell Job_1
+            public virtual Ranorex.Cell job1
             {
                 get
                 {
-                    return _job_1Info.CreateAdapter<Ranorex.Cell>(true);
+                    return _job1Info.CreateAdapter<Ranorex.Cell>(true);
                 }
             }
 
             /// <summary>
-            /// The Job_1 item info.
+            /// The job1 item info.
             /// </summary>
             [RepositoryItemInfo("b00d5957-264b-4b62-b036-ab84d20d759d")]
-            public virtual RepoItemInfo Job_1Info
+            public virtual RepoItemInfo job1Info
             {
                 get
                 {
-                    return _job_1Info;
+                    return _job1Info;
                 }
             }
 
             /// <summary>
-            /// The Job_1_3 item.
+            /// The job103 item.
             /// </summary>
             [RepositoryItem("f75b3bdc-0b8e-4bb6-b969-4b03957c4ce4")]
-            public virtual Ranorex.Cell Job_1_3
+            public virtual Ranorex.Cell job103
             {
                 get
                 {
-                    return _job_1_3Info.CreateAdapter<Ranorex.Cell>(true);
+                    return _job103Info.CreateAdapter<Ranorex.Cell>(true);
                 }
             }
 
             /// <summary>
-            /// The Job_1_3 item info.
+            /// The job103 item info.
             /// </summary>
             [RepositoryItemInfo("f75b3bdc-0b8e-4bb6-b969-4b03957c4ce4")]
-            public virtual RepoItemInfo Job_1_3Info
+            public virtual RepoItemInfo job103Info
             {
                 get
                 {
-                    return _job_1_3Info;
+                    return _job103Info;
                 }
             }
 
             /// <summary>
-            /// The Eval_med item.
+            /// The evalMed item.
             /// </summary>
             [RepositoryItem("28ad0feb-58e1-4bcd-9c23-74e4996782a3")]
-            public virtual Ranorex.Cell Eval_med
+            public virtual Ranorex.Cell evalMed
             {
                 get
                 {
-                    return _eval_medInfo.CreateAdapter<Ranorex.Cell>(true);
+                    return _evalmedInfo.CreateAdapter<Ranorex.Cell>(true);
                 }
             }
 
             /// <summary>
-            /// The Eval_med item info.
+            /// The evalMed item info.
             /// </summary>
             [RepositoryItemInfo("28ad0feb-58e1-4bcd-9c23-74e4996782a3")]
-            public virtual RepoItemInfo Eval_medInfo
+            public virtual RepoItemInfo evalMedInfo
             {
                 get
                 {
-                    return _eval_medInfo;
+                    return _evalmedInfo;
                 }
             }
 
             /// <summary>
-            /// The Eval_med_2 item.
+            /// The evalMed2 item.
             /// </summary>
             [RepositoryItem("22045ea4-6766-4cfa-af70-170ab3cf1e27")]
-            public virtual Ranorex.Cell Eval_med_2
+            public virtual Ranorex.Cell evalMed2
             {
                 get
                 {
-                    return _eval_med_2Info.CreateAdapter<Ranorex.Cell>(true);
+                    return _evalmed2Info.CreateAdapter<Ranorex.Cell>(true);
                 }
             }
 
             /// <summary>
-            /// The Eval_med_2 item info.
+            /// The evalMed2 item info.
             /// </summary>
             [RepositoryItemInfo("22045ea4-6766-4cfa-af70-170ab3cf1e27")]
-            public virtual RepoItemInfo Eval_med_2Info
+            public virtual RepoItemInfo evalMed2Info
             {
                 get
                 {
-                    return _eval_med_2Info;
+                    return _evalmed2Info;
                 }
             }
 
             /// <summary>
-            /// The Eval_med_3 item.
+            /// The evalMed3 item.
             /// </summary>
             [RepositoryItem("cb7381ac-14d4-4538-9323-bd4a6d5dd89c")]
-            public virtual Ranorex.Cell Eval_med_3
+            public virtual Ranorex.Cell evalMed3
             {
                 get
                 {
-                    return _eval_med_3Info.CreateAdapter<Ranorex.Cell>(true);
+                    return _evalmed3Info.CreateAdapter<Ranorex.Cell>(true);
                 }
             }
 
             /// <summary>
-            /// The Eval_med_3 item info.
+            /// The evalMed3 item info.
             /// </summary>
             [RepositoryItemInfo("cb7381ac-14d4-4538-9323-bd4a6d5dd89c")]
-            public virtual RepoItemInfo Eval_med_3Info
+            public virtual RepoItemInfo evalMed3Info
             {
                 get
                 {
-                    return _eval_med_3Info;
+                    return _evalmed3Info;
                 }
             }
 
             /// <summary>
-            /// The TabPageScenarios item.
+            /// The tabPageScenarios item.
             /// </summary>
             [RepositoryItem("5c21ea2b-ca4e-4784-b18f-cb0d8cdc5b28")]
-            public virtual Ranorex.TabPage TabPageScenarios
+            public virtual Ranorex.TabPage tabPageScenarios
             {
                 get
                 {
@@ -889,10 +788,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The TabPageScenarios item info.
+            /// The tabPageScenarios item info.
             /// </summary>
             [RepositoryItemInfo("5c21ea2b-ca4e-4784-b18f-cb0d8cdc5b28")]
-            public virtual RepoItemInfo TabPageScenariosInfo
+            public virtual RepoItemInfo tabPageScenariosInfo
             {
                 get
                 {
@@ -901,58 +800,58 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The Evaluation_Jobs item.
+            /// The evaluationJobs item.
             /// </summary>
             [RepositoryItem("46f527f3-bfa5-492d-b562-ce0f3214f144")]
-            public virtual Ranorex.Button Evaluation_Jobs
+            public virtual Ranorex.Button evaluationJobs
             {
                 get
                 {
-                    return _evaluation_jobsInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _evaluationjobsInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Evaluation_Jobs item info.
+            /// The evaluationJobs item info.
             /// </summary>
             [RepositoryItemInfo("46f527f3-bfa5-492d-b562-ce0f3214f144")]
-            public virtual RepoItemInfo Evaluation_JobsInfo
+            public virtual RepoItemInfo evaluationJobsInfo
             {
                 get
                 {
-                    return _evaluation_jobsInfo;
+                    return _evaluationjobsInfo;
                 }
             }
 
             /// <summary>
-            /// The Industry_Jobs item.
+            /// The industryJobs item.
             /// </summary>
             [RepositoryItem("335d5545-795a-4455-bcf6-6e63c62ca53e")]
-            public virtual Ranorex.Button Industry_Jobs
+            public virtual Ranorex.Button industryJobs
             {
                 get
                 {
-                    return _industry_jobsInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _industryjobsInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Industry_Jobs item info.
+            /// The industryJobs item info.
             /// </summary>
             [RepositoryItemInfo("335d5545-795a-4455-bcf6-6e63c62ca53e")]
-            public virtual RepoItemInfo Industry_JobsInfo
+            public virtual RepoItemInfo industryJobsInfo
             {
                 get
                 {
-                    return _industry_jobsInfo;
+                    return _industryjobsInfo;
                 }
             }
 
             /// <summary>
-            /// The Workspace item.
+            /// The workspace item.
             /// </summary>
             [RepositoryItem("bc768678-1a3a-4600-a47f-34794c90c691")]
-            public virtual Ranorex.Text Workspace
+            public virtual Ranorex.Text workspace
             {
                 get
                 {
@@ -961,10 +860,10 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The Workspace item info.
+            /// The workspace item info.
             /// </summary>
             [RepositoryItemInfo("bc768678-1a3a-4600-a47f-34794c90c691")]
-            public virtual RepoItemInfo WorkspaceInfo
+            public virtual RepoItemInfo workspaceInfo
             {
                 get
                 {
@@ -973,50 +872,26 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The Eval_Peak item.
+            /// The evalPeak item.
             /// </summary>
             [RepositoryItem("e886293c-a331-4545-8164-b7df47c8f2e0")]
-            public virtual Ranorex.Cell Eval_Peak
+            public virtual Ranorex.Cell evalPeak
             {
                 get
                 {
-                    return _eval_peakInfo.CreateAdapter<Ranorex.Cell>(true);
+                    return _evalpeakInfo.CreateAdapter<Ranorex.Cell>(true);
                 }
             }
 
             /// <summary>
-            /// The Eval_Peak item info.
+            /// The evalPeak item info.
             /// </summary>
             [RepositoryItemInfo("e886293c-a331-4545-8164-b7df47c8f2e0")]
-            public virtual RepoItemInfo Eval_PeakInfo
+            public virtual RepoItemInfo evalPeakInfo
             {
                 get
                 {
-                    return _eval_peakInfo;
-                }
-            }
-
-            /// <summary>
-            /// The CellElement130 item.
-            /// </summary>
-            [RepositoryItem("23d6ad5b-5ca4-4884-acf8-5c193e08883f")]
-            public virtual Ranorex.Text CellElement130
-            {
-                get
-                {
-                    return _cellelement130Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CellElement130 item info.
-            /// </summary>
-            [RepositoryItemInfo("23d6ad5b-5ca4-4884-acf8-5c193e08883f")]
-            public virtual RepoItemInfo CellElement130Info
-            {
-                get
-                {
-                    return _cellelement130Info;
+                    return _evalpeakInfo;
                 }
             }
 
@@ -1250,7 +1125,6 @@ namespace AtlasAutomation
             RepoItemInfo _duplicateInfo;
             RepoItemInfo _tocurrentscenarioInfo;
             RepoItemInfo _ibhighmarketgrowthInfo;
-            RepoItemInfo _duplicate1Info;
             RepoItemInfo _newscenario1Info;
             RepoItemInfo _optimizationInfo;
             RepoItemInfo _evaluationInfo;
@@ -1315,7 +1189,6 @@ namespace AtlasAutomation
                 _duplicateInfo = new RepoItemInfo(this, "DUplicate", "menuitem[@text='D_uplicate']", "menuitem[@text='D_uplicate']", 30000, null, "70637a22-7594-4c15-a6d3-a8691329afe0");
                 _tocurrentscenarioInfo = new RepoItemInfo(this, "ToCurrentScenario", "?/?/menuitem[@text='To current scenario...']", "?/?/menuitem[@text='To current scenario...']", 30000, null, "fe44949b-81e6-48d8-88e8-7f282af5a9c6");
                 _ibhighmarketgrowthInfo = new RepoItemInfo(this, "IBHighMarketGrowth", "button[@automationid='PART_HeaderExpander']/?/?/listitem[@text='IB_High_MarketGrowth']", ".//listitem[@text='IB_High_MarketGrowth']", 30000, null, "c09903cc-c4c4-48ad-9e00-6bd06924c8a4");
-                _duplicate1Info = new RepoItemInfo(this, "DUplicate1", "?/?/text[@caption='D_uplicate']", "?/?/text[@caption='D_uplicate']", 30000, null, "a5acbbe5-0fca-46c5-aa10-1cd4a62f557f");
                 _newscenario1Info = new RepoItemInfo(this, "NewScenario1", "?/?/text[@caption='New _Scenario...']", "?/?/text[@caption='New _Scenario...']", 30000, null, "077e9741-a023-4d1b-8533-8828853457f5");
                 _optimizationInfo = new RepoItemInfo(this, "Optimization", "?/?/listitem[@text='Optimization']", "?/?/listitem[@text='Optimization']", 30000, null, "08341e9c-a91f-4d96-994c-805a3703af49");
                 _evaluationInfo = new RepoItemInfo(this, "Evaluation", "?/?/listitem[@text='Evaluation']", "?/?/listitem[@text='Evaluation']", 30000, null, "4de19829-3884-4024-aa13-55581d63f6cd");
@@ -2155,30 +2028,6 @@ namespace AtlasAutomation
                 get
                 {
                     return _ibhighmarketgrowthInfo;
-                }
-            }
-
-            /// <summary>
-            /// The DUplicate1 item.
-            /// </summary>
-            [RepositoryItem("a5acbbe5-0fca-46c5-aa10-1cd4a62f557f")]
-            public virtual Ranorex.Text DUplicate1
-            {
-                get
-                {
-                    return _duplicate1Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The DUplicate1 item info.
-            /// </summary>
-            [RepositoryItemInfo("a5acbbe5-0fca-46c5-aa10-1cd4a62f557f")]
-            public virtual RepoItemInfo DUplicate1Info
-            {
-                get
-                {
-                    return _duplicate1Info;
                 }
             }
 
@@ -3896,4285 +3745,6 @@ namespace AtlasAutomation
         }
 
         /// <summary>
-        /// The JobWindow1AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("9b1dbb10-8980-4895-9d6f-83c6c02b6d53")]
-        public partial class JobWindow1AppFolder : RepoGenBaseFolder
-        {
-            AtlasAutomationRepositoryFolders.SomeContainerFolder1 _somecontainer;
-            Report_PageInfoClass _report_pageInfo;
-            RepoItemInfo _saveInfo;
-            RepoItemInfo _runInfo;
-            SomeIndicatorInfoClass _someindicatorInfo;
-
-            /// <summary>
-            /// Creates a new JobWindow1  folder.
-            /// </summary>
-            public JobWindow1AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobWindow1", "/form[@name='Root' and @title=$JbWindow_Title]", parentFolder, 30000, null, false, "9b1dbb10-8980-4895-9d6f-83c6c02b6d53", "")
-            {
-                _somecontainer = new AtlasAutomationRepositoryFolders.SomeContainerFolder1(this);
-                _report_pageInfo = new Report_PageInfoClass(this);
-                _saveInfo = new RepoItemInfo(this, "Save", ".//container[@automationid='tabWhitespaceContent']/button[2]", ".//container[@automationid='tabWhitespaceContent']/button[2]", 30000, null, "9a54976c-81f5-4fe2-bbeb-4925682ff63a");
-                _runInfo = new RepoItemInfo(this, "Run", ".//container[@automationid='tabWhitespaceContent']/button[10]", ".//container[@automationid='tabWhitespaceContent']/button[10]", 30000, null, "bb4911b7-9218-4518-b4e2-fe388ed77c5e");
-                _someindicatorInfo = new SomeIndicatorInfoClass(this);
-            }
-
-            /// <summary>
-            /// The Report_PageInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("88cf8c2d-2627-4283-8098-b4ac94ca92a2")]
-            public class Report_PageInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// Report_PageInfoClass class constructor.
-                /// </summary>
-                public Report_PageInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "Report_Page", "indicator", 30000, null, "88cf8c2d-2627-4283-8098-b4ac94ca92a2")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("a2c34344-c0e5-4359-9834-46d541d28bb1")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("a2c34344-c0e5-4359-9834-46d541d28bb1");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("a2c34344-c0e5-4359-9834-46d541d28bb1")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("a2c34344-c0e5-4359-9834-46d541d28bb1", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicatorInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("44c4e6a5-0953-40a5-a8da-c9ff687efd87")]
-            public class SomeIndicatorInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// SomeIndicatorInfoClass class constructor.
-                /// </summary>
-                public SomeIndicatorInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "SomeIndicator", "indicator", 30000, null, "44c4e6a5-0953-40a5-a8da-c9ff687efd87")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("8667b40e-21e9-4cb3-abb4-11ce85101178")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("8667b40e-21e9-4cb3-abb4-11ce85101178");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("8667b40e-21e9-4cb3-abb4-11ce85101178")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("8667b40e-21e9-4cb3-abb4-11ce85101178", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("9b1dbb10-8980-4895-9d6f-83c6c02b6d53")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("9b1dbb10-8980-4895-9d6f-83c6c02b6d53")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Report_Page item.
-            /// </summary>
-            [RepositoryItem("88cf8c2d-2627-4283-8098-b4ac94ca92a2")]
-            public virtual Ranorex.Indicator Report_Page
-            {
-                get
-                {
-                    return _report_pageInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Report_Page item info.
-            /// </summary>
-            [RepositoryItemInfo("88cf8c2d-2627-4283-8098-b4ac94ca92a2")]
-            public virtual Report_PageInfoClass Report_PageInfo
-            {
-                get
-                {
-                    return _report_pageInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Save item.
-            /// </summary>
-            [RepositoryItem("9a54976c-81f5-4fe2-bbeb-4925682ff63a")]
-            public virtual Ranorex.Button Save
-            {
-                get
-                {
-                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Save item info.
-            /// </summary>
-            [RepositoryItemInfo("9a54976c-81f5-4fe2-bbeb-4925682ff63a")]
-            public virtual RepoItemInfo SaveInfo
-            {
-                get
-                {
-                    return _saveInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Run item.
-            /// </summary>
-            [RepositoryItem("bb4911b7-9218-4518-b4e2-fe388ed77c5e")]
-            public virtual Ranorex.Button Run
-            {
-                get
-                {
-                    return _runInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Run item info.
-            /// </summary>
-            [RepositoryItemInfo("bb4911b7-9218-4518-b4e2-fe388ed77c5e")]
-            public virtual RepoItemInfo RunInfo
-            {
-                get
-                {
-                    return _runInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item.
-            /// </summary>
-            [RepositoryItem("44c4e6a5-0953-40a5-a8da-c9ff687efd87")]
-            public virtual Ranorex.Indicator SomeIndicator
-            {
-                get
-                {
-                    return _someindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("44c4e6a5-0953-40a5-a8da-c9ff687efd87")]
-            public virtual SomeIndicatorInfoClass SomeIndicatorInfo
-            {
-                get
-                {
-                    return _someindicatorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer folder.
-            /// </summary>
-            [RepositoryFolder("e7d7e8a2-4fff-4578-9a94-fd016dbc9bf9")]
-            public virtual AtlasAutomationRepositoryFolders.SomeContainerFolder1 SomeContainer
-            {
-                get { return _somecontainer; }
-            }
-        }
-
-        /// <summary>
-        /// The SomeContainerFolder1 folder.
-        /// </summary>
-        [RepositoryFolder("e7d7e8a2-4fff-4578-9a94-fd016dbc9bf9")]
-        public partial class SomeContainerFolder1 : RepoGenBaseFolder
-        {
-            SelfInfoClass _selfInfo;
-            RepoItemInfo _schedule_expandInfo;
-            RepoItemInfo _aircraft_expandInfo;
-            RepoItemInfo _aircraft_collapseInfo;
-            RepoItemInfo _calibration_demand_exoandInfo;
-            RepoItemInfo _calibration_demand_collapseInfo;
-            RepoItemInfo _calibration_network_exoandInfo;
-            RepoItemInfo _calibration_network_collapseInfo;
-            RepoItemInfo _market_expandInfo;
-            RepoItemInfo _market_collapseInfo;
-            RepoItemInfo _network_expandInfo;
-            RepoItemInfo _network_collapseInfo;
-            RepoItemInfo _revenue_expandInfo;
-            RepoItemInfo _oa_datesInfo;
-            RepoItemInfo _replacement_datesInfo;
-            RepoItemInfo _show_toggleInfo;
-            RepoItemInfo _aircraft_toggleInfo;
-            RepoItemInfo _market_size_toggleInfo;
-            RepoItemInfo _passenger_toggleInfo;
-            RepoItemInfo _alliance_toggleInfo;
-            RepoItemInfo _copy_of_alliance_toggleInfo;
-            RepoItemInfo _elapsed_time_toggleInfo;
-            RepoItemInfo _min_connection_time_toggleInfo;
-            RepoItemInfo _multi_airport_toggleInfo;
-            RepoItemInfo _partnership_toggleInfo;
-            RepoItemInfo _revenue_toggleInfo;
-            RepoItemInfo _relative_fare_by_week_toggleInfo;
-            RepoItemInfo _parameters_toggleInfo;
-            RepoItemInfo _oa_toggleInfo;
-            RepoItemInfo _replacement_toggleInfo;
-            RepoItemInfo _aircraft_body_toggleInfo;
-            RepoItemInfo _togglebutton1Info;
-            RepoItemInfo _copy_of_togglebutton1Info;
-            RepoItemInfo _togglebutton3Info;
-            RepoItemInfo _togglebutton4Info;
-            RepoItemInfo _togglebutton5Info;
-            RepoItemInfo _togglebutton6Info;
-            RepoItemInfo _togglebutton7Info;
-            RepoItemInfo _togglebutton9Info;
-            RepoItemInfo _togglebutton10Info;
-            RepoItemInfo _copy_of_togglebutton10Info;
-            RepoItemInfo _togglebutton11Info;
-            RepoItemInfo _togglebutton12Info;
-
-            /// <summary>
-            /// Creates a new SomeContainer  folder.
-            /// </summary>
-            public SomeContainerFolder1(RepoGenBaseFolder parentFolder) :
-                    base("SomeContainer", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']", parentFolder, 30000, null, false, "e7d7e8a2-4fff-4578-9a94-fd016dbc9bf9", "")
-            {
-                _selfInfo = new SelfInfoClass(this);
-                _schedule_expandInfo = new RepoItemInfo(this, "Schedule_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']", "", 30000, null, "9114eae0-3b1f-41bd-9e52-82fcaea65752");
-                _aircraft_expandInfo = new RepoItemInfo(this, "Aircraft_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/button[@automationid='PART_ExpandButton']", "", 30000, null, "d88095da-a486-4efb-ba86-cfc5d88a6543");
-                _aircraft_collapseInfo = new RepoItemInfo(this, "Aircraft_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']", "", 30000, null, "2320818f-0bce-4dfc-b175-34c2594963d9");
-                _calibration_demand_exoandInfo = new RepoItemInfo(this, "Calibration_Demand_Exoand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']", "", 30000, null, "4158f407-b77f-4eaf-9f1b-a6ea0553f21c");
-                _calibration_demand_collapseInfo = new RepoItemInfo(this, "Calibration_Demand_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/button[@automationid='PART_ExpandButton']", "", 30000, null, "bf49c0d0-585c-4cf0-876a-823f2f0431bd");
-                _calibration_network_exoandInfo = new RepoItemInfo(this, "Calibration_Network_Exoand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']", "", 30000, null, "28c0ec84-cd20-47c2-a15a-285d9dee9711");
-                _calibration_network_collapseInfo = new RepoItemInfo(this, "Calibration_Network_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']", "", 30000, null, "c1461c21-7953-41f6-bbe4-1f0e251ab560");
-                _market_expandInfo = new RepoItemInfo(this, "Market_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[10]/button[@automationid='PART_ExpandButton']", "", 30000, null, "13cb077c-f010-4985-984e-f3816fc205f5");
-                _market_collapseInfo = new RepoItemInfo(this, "Market_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[10]/button[@automationid='PART_ExpandButton']", "", 30000, null, "afcacbed-e058-4925-bdc8-393933976424");
-                _network_expandInfo = new RepoItemInfo(this, "Network_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[12]/button[@automationid='PART_ExpandButton']", "", 30000, null, "757d4ca8-2a45-4248-aaf9-f6ceb1aa9dd2");
-                _network_collapseInfo = new RepoItemInfo(this, "Network_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[10]/button[@automationid='PART_ExpandButton']", "", 30000, null, "ef736587-cf04-48fc-ba15-9a6bb6b0a4f3");
-                _revenue_expandInfo = new RepoItemInfo(this, "Revenue_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']", "", 30000, null, "353c6994-34cb-4cdd-b57b-9aa1ad1354d5");
-                _oa_datesInfo = new RepoItemInfo(this, "OA_Dates", "button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']", "cell[4]/text[@automationid='PART_FieldLabel']/text[@automationid='PART_TextBox']/text[@caption='']", 30000, null, "97dce6f0-c385-4950-958d-3355344870a0");
-                _replacement_datesInfo = new RepoItemInfo(this, "Replacement_Dates", "button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']", "cell[4]/text[@automationid='PART_FieldLabel']/text[@automationid='PART_TextBox']/text[@caption='']", 30000, null, "50ba3836-29fa-44fa-9a6c-3f9115ac2bf6");
-                _show_toggleInfo = new RepoItemInfo(this, "Show_Toggle", "button[3]/indicator[@automationid='JobInputsBusyIndicator']//combobox/button[@automationid='toggleButton']", "", 30000, null, "3269d866-5bd5-41d9-acb8-282870d45e85");
-                _aircraft_toggleInfo = new RepoItemInfo(this, "Aircraft_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[6]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "1618ff9f-abe8-485b-b708-63cd0f7fb2c1");
-                _market_size_toggleInfo = new RepoItemInfo(this, "Market_Size_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[15]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "e53bd34d-4b69-4772-a530-cf0159dcf159");
-                _passenger_toggleInfo = new RepoItemInfo(this, "Passenger_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[16]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "f8b55457-d3ae-4bf1-bf05-09ea0412cfab");
-                _alliance_toggleInfo = new RepoItemInfo(this, "Alliance_Toggle", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[14]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "b883694f-6c80-46fb-b6da-650b3c7d1076");
-                _copy_of_alliance_toggleInfo = new RepoItemInfo(this, "Copy_of_Alliance_Toggle", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "c644a63e-9fd8-435f-b292-b4c545ca6cb7");
-                _elapsed_time_toggleInfo = new RepoItemInfo(this, "Elapsed_Time_Toggle", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[16]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "6911050d-da3b-4208-9bee-3f727b38924b");
-                _min_connection_time_toggleInfo = new RepoItemInfo(this, "Min_Connection_Time_Toggle", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "bc78122c-cd41-434b-8622-6e20a40a3b8b");
-                _multi_airport_toggleInfo = new RepoItemInfo(this, "Multi_Airport_Toggle", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[21]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "42c2dc6d-5ce0-4646-8832-1d858620ae12");
-                _partnership_toggleInfo = new RepoItemInfo(this, "Partnership_Toggle", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[24]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "ac4ec685-85b5-4cb3-b4be-3721103f3bc6");
-                _revenue_toggleInfo = new RepoItemInfo(this, "Revenue_Toggle", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "d417ec62-d495-4188-b6de-f3bc54110589");
-                _relative_fare_by_week_toggleInfo = new RepoItemInfo(this, "Relative_Fare_by_Week_Toggle", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "f71c279b-419b-4a1f-97df-9be0b65432d1");
-                _parameters_toggleInfo = new RepoItemInfo(this, "Parameters_Toggle", "button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", "", 30000, null, "8df2f53c-bf5a-4c8b-8437-feb6b4a79fe1");
-                _oa_toggleInfo = new RepoItemInfo(this, "OA_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "4b39c711-0d44-4852-b469-d7b883744d88");
-                _replacement_toggleInfo = new RepoItemInfo(this, "Replacement_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[3]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "872e694d-4050-43a9-80b1-2427c31f24ee");
-                _aircraft_body_toggleInfo = new RepoItemInfo(this, "Aircraft_Body_Toggle", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "553f1938-40ed-409a-ba2d-1d467d5ab0b5");
-                _togglebutton1Info = new RepoItemInfo(this, "ToggleButton1", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "1626f4f3-fae7-4a35-adf4-5b908b58cd96");
-                _copy_of_togglebutton1Info = new RepoItemInfo(this, "Copy_of_ToggleButton1", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "414d4069-385f-4010-9239-ebb59ecfadfe");
-                _togglebutton3Info = new RepoItemInfo(this, "ToggleButton3", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[10]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "d62affba-ad23-4b52-b125-58c32b609968");
-                _togglebutton4Info = new RepoItemInfo(this, "ToggleButton4", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[15]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "11c367c8-eb9e-409b-887d-d69edda99877");
-                _togglebutton5Info = new RepoItemInfo(this, "ToggleButton5", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "0b7bbc33-0387-47a9-83d2-6010381aa620");
-                _togglebutton6Info = new RepoItemInfo(this, "ToggleButton6", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[18]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "2db0a29b-9b83-45d4-804d-8a6838a9e766");
-                _togglebutton7Info = new RepoItemInfo(this, "ToggleButton7", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[19]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "cell[2]/container[@automationid='stackPanel']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", 30000, null, "a293a58f-ac99-44fb-9b75-ea28d9222dc1");
-                _togglebutton9Info = new RepoItemInfo(this, "ToggleButton9", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[21]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "6b6c0772-ef18-4474-99fd-89e80fb85b29");
-                _togglebutton10Info = new RepoItemInfo(this, "ToggleButton10", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[22]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "0e0b6a2d-4683-4ee4-9ade-d51fc770e8d9");
-                _copy_of_togglebutton10Info = new RepoItemInfo(this, "Copy_of_ToggleButton10", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[9]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "caaa0b9e-e848-41d0-9ce6-97973712f208");
-                _togglebutton11Info = new RepoItemInfo(this, "ToggleButton11", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[10]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "62f96a35-9fcb-43ed-bfaf-1b2ba145cb2f");
-                _togglebutton12Info = new RepoItemInfo(this, "ToggleButton12", ".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "df203a2a-5725-409a-bc1d-42b5931a5a5a");
-            }
-
-            /// <summary>
-            /// The SelfInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("e7d7e8a2-4fff-4578-9a94-fd016dbc9bf9")]
-            public class SelfInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// SelfInfoClass class constructor.
-                /// </summary>
-                public SelfInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "Self", "", 0, null, "e7d7e8a2-4fff-4578-9a94-fd016dbc9bf9")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot11 item image.
-                /// </summary>
-                /// <returns>The Screenshot11 image.</returns>
-                [RepositoryImage("df54717b-5be2-4266-9af2-7159986ea2b0")]
-                public CompressedImage GetScreenshot11()
-                {
-                    return GetImage("df54717b-5be2-4266-9af2-7159986ea2b0");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot11 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("df54717b-5be2-4266-9af2-7159986ea2b0")]
-                public CompressedImage GetScreenshot11(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("df54717b-5be2-4266-9af2-7159986ea2b0", cropRect);
-                }
-
-                /// <summary>
-                /// Gets the Screenshot12 item image.
-                /// </summary>
-                /// <returns>The Screenshot12 image.</returns>
-                [RepositoryImage("d7a874d6-c576-4dd5-b5a6-f4dd34c5fd1f")]
-                public CompressedImage GetScreenshot12()
-                {
-                    return GetImage("d7a874d6-c576-4dd5-b5a6-f4dd34c5fd1f");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot12 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("d7a874d6-c576-4dd5-b5a6-f4dd34c5fd1f")]
-                public CompressedImage GetScreenshot12(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("d7a874d6-c576-4dd5-b5a6-f4dd34c5fd1f", cropRect);
-                }
-
-                /// <summary>
-                /// Gets the Screenshot13 item image.
-                /// </summary>
-                /// <returns>The Screenshot13 image.</returns>
-                [RepositoryImage("a2511dbf-8e88-40df-9256-6e75eb389802")]
-                public CompressedImage GetScreenshot13()
-                {
-                    return GetImage("a2511dbf-8e88-40df-9256-6e75eb389802");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot13 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("a2511dbf-8e88-40df-9256-6e75eb389802")]
-                public CompressedImage GetScreenshot13(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("a2511dbf-8e88-40df-9256-6e75eb389802", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("e7d7e8a2-4fff-4578-9a94-fd016dbc9bf9")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("e7d7e8a2-4fff-4578-9a94-fd016dbc9bf9")]
-            public virtual SelfInfoClass SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Schedule_Expand item.
-            /// </summary>
-            [RepositoryItem("9114eae0-3b1f-41bd-9e52-82fcaea65752")]
-            public virtual Ranorex.Button Schedule_Expand
-            {
-                get
-                {
-                    return _schedule_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Schedule_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("9114eae0-3b1f-41bd-9e52-82fcaea65752")]
-            public virtual RepoItemInfo Schedule_ExpandInfo
-            {
-                get
-                {
-                    return _schedule_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Expand item.
-            /// </summary>
-            [RepositoryItem("d88095da-a486-4efb-ba86-cfc5d88a6543")]
-            public virtual Ranorex.Button Aircraft_Expand
-            {
-                get
-                {
-                    return _aircraft_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("d88095da-a486-4efb-ba86-cfc5d88a6543")]
-            public virtual RepoItemInfo Aircraft_ExpandInfo
-            {
-                get
-                {
-                    return _aircraft_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Collapse item.
-            /// </summary>
-            [RepositoryItem("2320818f-0bce-4dfc-b175-34c2594963d9")]
-            public virtual Ranorex.Button Aircraft_Collapse
-            {
-                get
-                {
-                    return _aircraft_collapseInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Collapse item info.
-            /// </summary>
-            [RepositoryItemInfo("2320818f-0bce-4dfc-b175-34c2594963d9")]
-            public virtual RepoItemInfo Aircraft_CollapseInfo
-            {
-                get
-                {
-                    return _aircraft_collapseInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Calibration_Demand_Exoand item.
-            /// </summary>
-            [RepositoryItem("4158f407-b77f-4eaf-9f1b-a6ea0553f21c")]
-            public virtual Ranorex.Button Calibration_Demand_Exoand
-            {
-                get
-                {
-                    return _calibration_demand_exoandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Calibration_Demand_Exoand item info.
-            /// </summary>
-            [RepositoryItemInfo("4158f407-b77f-4eaf-9f1b-a6ea0553f21c")]
-            public virtual RepoItemInfo Calibration_Demand_ExoandInfo
-            {
-                get
-                {
-                    return _calibration_demand_exoandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Calibration_Demand_Collapse item.
-            /// </summary>
-            [RepositoryItem("bf49c0d0-585c-4cf0-876a-823f2f0431bd")]
-            public virtual Ranorex.Button Calibration_Demand_Collapse
-            {
-                get
-                {
-                    return _calibration_demand_collapseInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Calibration_Demand_Collapse item info.
-            /// </summary>
-            [RepositoryItemInfo("bf49c0d0-585c-4cf0-876a-823f2f0431bd")]
-            public virtual RepoItemInfo Calibration_Demand_CollapseInfo
-            {
-                get
-                {
-                    return _calibration_demand_collapseInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Calibration_Network_Exoand item.
-            /// </summary>
-            [RepositoryItem("28c0ec84-cd20-47c2-a15a-285d9dee9711")]
-            public virtual Ranorex.Button Calibration_Network_Exoand
-            {
-                get
-                {
-                    return _calibration_network_exoandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Calibration_Network_Exoand item info.
-            /// </summary>
-            [RepositoryItemInfo("28c0ec84-cd20-47c2-a15a-285d9dee9711")]
-            public virtual RepoItemInfo Calibration_Network_ExoandInfo
-            {
-                get
-                {
-                    return _calibration_network_exoandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Calibration_Network_Collapse item.
-            /// </summary>
-            [RepositoryItem("c1461c21-7953-41f6-bbe4-1f0e251ab560")]
-            public virtual Ranorex.Button Calibration_Network_Collapse
-            {
-                get
-                {
-                    return _calibration_network_collapseInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Calibration_Network_Collapse item info.
-            /// </summary>
-            [RepositoryItemInfo("c1461c21-7953-41f6-bbe4-1f0e251ab560")]
-            public virtual RepoItemInfo Calibration_Network_CollapseInfo
-            {
-                get
-                {
-                    return _calibration_network_collapseInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Market_Expand item.
-            /// </summary>
-            [RepositoryItem("13cb077c-f010-4985-984e-f3816fc205f5")]
-            public virtual Ranorex.Button Market_Expand
-            {
-                get
-                {
-                    return _market_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Market_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("13cb077c-f010-4985-984e-f3816fc205f5")]
-            public virtual RepoItemInfo Market_ExpandInfo
-            {
-                get
-                {
-                    return _market_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Market_Collapse item.
-            /// </summary>
-            [RepositoryItem("afcacbed-e058-4925-bdc8-393933976424")]
-            public virtual Ranorex.Button Market_Collapse
-            {
-                get
-                {
-                    return _market_collapseInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Market_Collapse item info.
-            /// </summary>
-            [RepositoryItemInfo("afcacbed-e058-4925-bdc8-393933976424")]
-            public virtual RepoItemInfo Market_CollapseInfo
-            {
-                get
-                {
-                    return _market_collapseInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Network_Expand item.
-            /// </summary>
-            [RepositoryItem("757d4ca8-2a45-4248-aaf9-f6ceb1aa9dd2")]
-            public virtual Ranorex.Button Network_Expand
-            {
-                get
-                {
-                    return _network_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Network_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("757d4ca8-2a45-4248-aaf9-f6ceb1aa9dd2")]
-            public virtual RepoItemInfo Network_ExpandInfo
-            {
-                get
-                {
-                    return _network_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Network_Collapse item.
-            /// </summary>
-            [RepositoryItem("ef736587-cf04-48fc-ba15-9a6bb6b0a4f3")]
-            public virtual Ranorex.Button Network_Collapse
-            {
-                get
-                {
-                    return _network_collapseInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Network_Collapse item info.
-            /// </summary>
-            [RepositoryItemInfo("ef736587-cf04-48fc-ba15-9a6bb6b0a4f3")]
-            public virtual RepoItemInfo Network_CollapseInfo
-            {
-                get
-                {
-                    return _network_collapseInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Revenue_Expand item.
-            /// </summary>
-            [RepositoryItem("353c6994-34cb-4cdd-b57b-9aa1ad1354d5")]
-            public virtual Ranorex.Button Revenue_Expand
-            {
-                get
-                {
-                    return _revenue_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Revenue_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("353c6994-34cb-4cdd-b57b-9aa1ad1354d5")]
-            public virtual RepoItemInfo Revenue_ExpandInfo
-            {
-                get
-                {
-                    return _revenue_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The OA_Dates item.
-            /// </summary>
-            [RepositoryItem("97dce6f0-c385-4950-958d-3355344870a0")]
-            public virtual Ranorex.Text OA_Dates
-            {
-                get
-                {
-                    return _oa_datesInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The OA_Dates item info.
-            /// </summary>
-            [RepositoryItemInfo("97dce6f0-c385-4950-958d-3355344870a0")]
-            public virtual RepoItemInfo OA_DatesInfo
-            {
-                get
-                {
-                    return _oa_datesInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Replacement_Dates item.
-            /// </summary>
-            [RepositoryItem("50ba3836-29fa-44fa-9a6c-3f9115ac2bf6")]
-            public virtual Ranorex.Text Replacement_Dates
-            {
-                get
-                {
-                    return _replacement_datesInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Replacement_Dates item info.
-            /// </summary>
-            [RepositoryItemInfo("50ba3836-29fa-44fa-9a6c-3f9115ac2bf6")]
-            public virtual RepoItemInfo Replacement_DatesInfo
-            {
-                get
-                {
-                    return _replacement_datesInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Show_Toggle item.
-            /// </summary>
-            [RepositoryItem("3269d866-5bd5-41d9-acb8-282870d45e85")]
-            public virtual Ranorex.Button Show_Toggle
-            {
-                get
-                {
-                    return _show_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Show_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("3269d866-5bd5-41d9-acb8-282870d45e85")]
-            public virtual RepoItemInfo Show_ToggleInfo
-            {
-                get
-                {
-                    return _show_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Toggle item.
-            /// </summary>
-            [RepositoryItem("1618ff9f-abe8-485b-b708-63cd0f7fb2c1")]
-            public virtual Ranorex.Button Aircraft_Toggle
-            {
-                get
-                {
-                    return _aircraft_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("1618ff9f-abe8-485b-b708-63cd0f7fb2c1")]
-            public virtual RepoItemInfo Aircraft_ToggleInfo
-            {
-                get
-                {
-                    return _aircraft_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Market_Size_Toggle item.
-            /// </summary>
-            [RepositoryItem("e53bd34d-4b69-4772-a530-cf0159dcf159")]
-            public virtual Ranorex.Button Market_Size_Toggle
-            {
-                get
-                {
-                    return _market_size_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Market_Size_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("e53bd34d-4b69-4772-a530-cf0159dcf159")]
-            public virtual RepoItemInfo Market_Size_ToggleInfo
-            {
-                get
-                {
-                    return _market_size_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Passenger_Toggle item.
-            /// </summary>
-            [RepositoryItem("f8b55457-d3ae-4bf1-bf05-09ea0412cfab")]
-            public virtual Ranorex.Button Passenger_Toggle
-            {
-                get
-                {
-                    return _passenger_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Passenger_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("f8b55457-d3ae-4bf1-bf05-09ea0412cfab")]
-            public virtual RepoItemInfo Passenger_ToggleInfo
-            {
-                get
-                {
-                    return _passenger_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Alliance_Toggle item.
-            /// </summary>
-            [RepositoryItem("b883694f-6c80-46fb-b6da-650b3c7d1076")]
-            public virtual Ranorex.Button Alliance_Toggle
-            {
-                get
-                {
-                    return _alliance_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Alliance_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("b883694f-6c80-46fb-b6da-650b3c7d1076")]
-            public virtual RepoItemInfo Alliance_ToggleInfo
-            {
-                get
-                {
-                    return _alliance_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_Alliance_Toggle item.
-            /// </summary>
-            [RepositoryItem("c644a63e-9fd8-435f-b292-b4c545ca6cb7")]
-            public virtual Ranorex.Button Copy_of_Alliance_Toggle
-            {
-                get
-                {
-                    return _copy_of_alliance_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_Alliance_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("c644a63e-9fd8-435f-b292-b4c545ca6cb7")]
-            public virtual RepoItemInfo Copy_of_Alliance_ToggleInfo
-            {
-                get
-                {
-                    return _copy_of_alliance_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Elapsed_Time_Toggle item.
-            /// </summary>
-            [RepositoryItem("6911050d-da3b-4208-9bee-3f727b38924b")]
-            public virtual Ranorex.Button Elapsed_Time_Toggle
-            {
-                get
-                {
-                    return _elapsed_time_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Elapsed_Time_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("6911050d-da3b-4208-9bee-3f727b38924b")]
-            public virtual RepoItemInfo Elapsed_Time_ToggleInfo
-            {
-                get
-                {
-                    return _elapsed_time_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Min_Connection_Time_Toggle item.
-            /// </summary>
-            [RepositoryItem("bc78122c-cd41-434b-8622-6e20a40a3b8b")]
-            public virtual Ranorex.Button Min_Connection_Time_Toggle
-            {
-                get
-                {
-                    return _min_connection_time_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Min_Connection_Time_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("bc78122c-cd41-434b-8622-6e20a40a3b8b")]
-            public virtual RepoItemInfo Min_Connection_Time_ToggleInfo
-            {
-                get
-                {
-                    return _min_connection_time_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Multi_Airport_Toggle item.
-            /// </summary>
-            [RepositoryItem("42c2dc6d-5ce0-4646-8832-1d858620ae12")]
-            public virtual Ranorex.Button Multi_Airport_Toggle
-            {
-                get
-                {
-                    return _multi_airport_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Multi_Airport_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("42c2dc6d-5ce0-4646-8832-1d858620ae12")]
-            public virtual RepoItemInfo Multi_Airport_ToggleInfo
-            {
-                get
-                {
-                    return _multi_airport_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Partnership_Toggle item.
-            /// </summary>
-            [RepositoryItem("ac4ec685-85b5-4cb3-b4be-3721103f3bc6")]
-            public virtual Ranorex.Button Partnership_Toggle
-            {
-                get
-                {
-                    return _partnership_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Partnership_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("ac4ec685-85b5-4cb3-b4be-3721103f3bc6")]
-            public virtual RepoItemInfo Partnership_ToggleInfo
-            {
-                get
-                {
-                    return _partnership_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Revenue_Toggle item.
-            /// </summary>
-            [RepositoryItem("d417ec62-d495-4188-b6de-f3bc54110589")]
-            public virtual Ranorex.Button Revenue_Toggle
-            {
-                get
-                {
-                    return _revenue_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Revenue_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("d417ec62-d495-4188-b6de-f3bc54110589")]
-            public virtual RepoItemInfo Revenue_ToggleInfo
-            {
-                get
-                {
-                    return _revenue_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Relative_Fare_by_Week_Toggle item.
-            /// </summary>
-            [RepositoryItem("f71c279b-419b-4a1f-97df-9be0b65432d1")]
-            public virtual Ranorex.Button Relative_Fare_by_Week_Toggle
-            {
-                get
-                {
-                    return _relative_fare_by_week_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Relative_Fare_by_Week_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("f71c279b-419b-4a1f-97df-9be0b65432d1")]
-            public virtual RepoItemInfo Relative_Fare_by_Week_ToggleInfo
-            {
-                get
-                {
-                    return _relative_fare_by_week_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Parameters_Toggle item.
-            /// </summary>
-            [RepositoryItem("8df2f53c-bf5a-4c8b-8437-feb6b4a79fe1")]
-            public virtual Ranorex.Button Parameters_Toggle
-            {
-                get
-                {
-                    return _parameters_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Parameters_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("8df2f53c-bf5a-4c8b-8437-feb6b4a79fe1")]
-            public virtual RepoItemInfo Parameters_ToggleInfo
-            {
-                get
-                {
-                    return _parameters_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The OA_Toggle item.
-            /// </summary>
-            [RepositoryItem("4b39c711-0d44-4852-b469-d7b883744d88")]
-            public virtual Ranorex.Button OA_Toggle
-            {
-                get
-                {
-                    return _oa_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The OA_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("4b39c711-0d44-4852-b469-d7b883744d88")]
-            public virtual RepoItemInfo OA_ToggleInfo
-            {
-                get
-                {
-                    return _oa_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Replacement_Toggle item.
-            /// </summary>
-            [RepositoryItem("872e694d-4050-43a9-80b1-2427c31f24ee")]
-            public virtual Ranorex.Button Replacement_Toggle
-            {
-                get
-                {
-                    return _replacement_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Replacement_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("872e694d-4050-43a9-80b1-2427c31f24ee")]
-            public virtual RepoItemInfo Replacement_ToggleInfo
-            {
-                get
-                {
-                    return _replacement_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Body_Toggle item.
-            /// </summary>
-            [RepositoryItem("553f1938-40ed-409a-ba2d-1d467d5ab0b5")]
-            public virtual Ranorex.Button Aircraft_Body_Toggle
-            {
-                get
-                {
-                    return _aircraft_body_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Body_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("553f1938-40ed-409a-ba2d-1d467d5ab0b5")]
-            public virtual RepoItemInfo Aircraft_Body_ToggleInfo
-            {
-                get
-                {
-                    return _aircraft_body_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton1 item.
-            /// </summary>
-            [RepositoryItem("1626f4f3-fae7-4a35-adf4-5b908b58cd96")]
-            public virtual Ranorex.Button ToggleButton1
-            {
-                get
-                {
-                    return _togglebutton1Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton1 item info.
-            /// </summary>
-            [RepositoryItemInfo("1626f4f3-fae7-4a35-adf4-5b908b58cd96")]
-            public virtual RepoItemInfo ToggleButton1Info
-            {
-                get
-                {
-                    return _togglebutton1Info;
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_ToggleButton1 item.
-            /// </summary>
-            [RepositoryItem("414d4069-385f-4010-9239-ebb59ecfadfe")]
-            public virtual Ranorex.Button Copy_of_ToggleButton1
-            {
-                get
-                {
-                    return _copy_of_togglebutton1Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_ToggleButton1 item info.
-            /// </summary>
-            [RepositoryItemInfo("414d4069-385f-4010-9239-ebb59ecfadfe")]
-            public virtual RepoItemInfo Copy_of_ToggleButton1Info
-            {
-                get
-                {
-                    return _copy_of_togglebutton1Info;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton3 item.
-            /// </summary>
-            [RepositoryItem("d62affba-ad23-4b52-b125-58c32b609968")]
-            public virtual Ranorex.Button ToggleButton3
-            {
-                get
-                {
-                    return _togglebutton3Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton3 item info.
-            /// </summary>
-            [RepositoryItemInfo("d62affba-ad23-4b52-b125-58c32b609968")]
-            public virtual RepoItemInfo ToggleButton3Info
-            {
-                get
-                {
-                    return _togglebutton3Info;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton4 item.
-            /// </summary>
-            [RepositoryItem("11c367c8-eb9e-409b-887d-d69edda99877")]
-            public virtual Ranorex.Button ToggleButton4
-            {
-                get
-                {
-                    return _togglebutton4Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton4 item info.
-            /// </summary>
-            [RepositoryItemInfo("11c367c8-eb9e-409b-887d-d69edda99877")]
-            public virtual RepoItemInfo ToggleButton4Info
-            {
-                get
-                {
-                    return _togglebutton4Info;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton5 item.
-            /// </summary>
-            [RepositoryItem("0b7bbc33-0387-47a9-83d2-6010381aa620")]
-            public virtual Ranorex.Button ToggleButton5
-            {
-                get
-                {
-                    return _togglebutton5Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton5 item info.
-            /// </summary>
-            [RepositoryItemInfo("0b7bbc33-0387-47a9-83d2-6010381aa620")]
-            public virtual RepoItemInfo ToggleButton5Info
-            {
-                get
-                {
-                    return _togglebutton5Info;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton6 item.
-            /// </summary>
-            [RepositoryItem("2db0a29b-9b83-45d4-804d-8a6838a9e766")]
-            public virtual Ranorex.Button ToggleButton6
-            {
-                get
-                {
-                    return _togglebutton6Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton6 item info.
-            /// </summary>
-            [RepositoryItemInfo("2db0a29b-9b83-45d4-804d-8a6838a9e766")]
-            public virtual RepoItemInfo ToggleButton6Info
-            {
-                get
-                {
-                    return _togglebutton6Info;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton7 item.
-            /// </summary>
-            [RepositoryItem("a293a58f-ac99-44fb-9b75-ea28d9222dc1")]
-            public virtual Ranorex.Button ToggleButton7
-            {
-                get
-                {
-                    return _togglebutton7Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton7 item info.
-            /// </summary>
-            [RepositoryItemInfo("a293a58f-ac99-44fb-9b75-ea28d9222dc1")]
-            public virtual RepoItemInfo ToggleButton7Info
-            {
-                get
-                {
-                    return _togglebutton7Info;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton9 item.
-            /// </summary>
-            [RepositoryItem("6b6c0772-ef18-4474-99fd-89e80fb85b29")]
-            public virtual Ranorex.Button ToggleButton9
-            {
-                get
-                {
-                    return _togglebutton9Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton9 item info.
-            /// </summary>
-            [RepositoryItemInfo("6b6c0772-ef18-4474-99fd-89e80fb85b29")]
-            public virtual RepoItemInfo ToggleButton9Info
-            {
-                get
-                {
-                    return _togglebutton9Info;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton10 item.
-            /// </summary>
-            [RepositoryItem("0e0b6a2d-4683-4ee4-9ade-d51fc770e8d9")]
-            public virtual Ranorex.Button ToggleButton10
-            {
-                get
-                {
-                    return _togglebutton10Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton10 item info.
-            /// </summary>
-            [RepositoryItemInfo("0e0b6a2d-4683-4ee4-9ade-d51fc770e8d9")]
-            public virtual RepoItemInfo ToggleButton10Info
-            {
-                get
-                {
-                    return _togglebutton10Info;
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_ToggleButton10 item.
-            /// </summary>
-            [RepositoryItem("caaa0b9e-e848-41d0-9ce6-97973712f208")]
-            public virtual Ranorex.Button Copy_of_ToggleButton10
-            {
-                get
-                {
-                    return _copy_of_togglebutton10Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_ToggleButton10 item info.
-            /// </summary>
-            [RepositoryItemInfo("caaa0b9e-e848-41d0-9ce6-97973712f208")]
-            public virtual RepoItemInfo Copy_of_ToggleButton10Info
-            {
-                get
-                {
-                    return _copy_of_togglebutton10Info;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton11 item.
-            /// </summary>
-            [RepositoryItem("62f96a35-9fcb-43ed-bfaf-1b2ba145cb2f")]
-            public virtual Ranorex.Button ToggleButton11
-            {
-                get
-                {
-                    return _togglebutton11Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton11 item info.
-            /// </summary>
-            [RepositoryItemInfo("62f96a35-9fcb-43ed-bfaf-1b2ba145cb2f")]
-            public virtual RepoItemInfo ToggleButton11Info
-            {
-                get
-                {
-                    return _togglebutton11Info;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton12 item.
-            /// </summary>
-            [RepositoryItem("df203a2a-5725-409a-bc1d-42b5931a5a5a")]
-            public virtual Ranorex.Button ToggleButton12
-            {
-                get
-                {
-                    return _togglebutton12Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton12 item info.
-            /// </summary>
-            [RepositoryItemInfo("df203a2a-5725-409a-bc1d-42b5931a5a5a")]
-            public virtual RepoItemInfo ToggleButton12Info
-            {
-                get
-                {
-                    return _togglebutton12Info;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The JobWIndow2AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("847e6270-77f3-4f89-a526-c9f8f0a356cc")]
-        public partial class JobWIndow2AppFolder : RepoGenBaseFolder
-        {
-            AtlasAutomationRepositoryFolders.PARTGridViewVirtualizingPanelFolder _partgridviewvirtualizingpanel;
-            AtlasAutomationRepositoryFolders.Compare_JobsFolder _compare_jobs;
-            RepoItemInfo _planning_periodInfo;
-            RepoItemInfo _jobinputsbusyindicatorInfo;
-            RepoItemInfo _schedule_expandInfo;
-            RepoItemInfo _reportsInfo;
-            RepoItemInfo _partexpandbuttonInfo;
-            RepoItemInfo _partexpandbutton1Info;
-            Report_PageInfoClass _report_pageInfo;
-
-            /// <summary>
-            /// Creates a new JobWIndow2  folder.
-            /// </summary>
-            public JobWIndow2AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobWIndow2", "/form[@title=$Jb2Window_Title and @name='Root']", parentFolder, 30000, null, true, "847e6270-77f3-4f89-a526-c9f8f0a356cc", "")
-            {
-                _partgridviewvirtualizingpanel = new AtlasAutomationRepositoryFolders.PARTGridViewVirtualizingPanelFolder(this);
-                _compare_jobs = new AtlasAutomationRepositoryFolders.Compare_JobsFolder(this);
-                _planning_periodInfo = new RepoItemInfo(this, "Planning_Period", "indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']/text[@caption='']", ".//text[@automationid='PART_FieldLabel']/picture/container[@caption='']/text[@automationid='PART_TextBox']/text[@caption='']", 30000, null, "0644dd2d-c3a6-4887-9529-8454c65c209c");
-                _jobinputsbusyindicatorInfo = new RepoItemInfo(this, "JobInputsBusyIndicator", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']", ".//indicator[@automationid='JobInputsBusyIndicator']", 30000, null, "74e51531-56e2-4b88-bde8-ddb6d5dec616");
-                _schedule_expandInfo = new RepoItemInfo(this, "Schedule_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']", 30000, null, "70a7f171-ee97-4064-a949-2532e709a335");
-                _reportsInfo = new RepoItemInfo(this, "Reports", ".//container[@automationid='HeaderPanel']/?/?/text[@caption='Reports']", ".//text[@caption='Reports']", 30000, null, "2c23db0d-d582-424e-b26a-e033da15a95b");
-                _partexpandbuttonInfo = new RepoItemInfo(this, "PARTExpandButton", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", 30000, null, "809cef05-f5c4-4707-b50c-8a63a6505b06");
-                _partexpandbutton1Info = new RepoItemInfo(this, "PARTExpandButton1", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[33]/button[@automationid='PART_ExpandButton']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[33]/button[@automationid='PART_ExpandButton']", 30000, null, "9dd0d0d0-949c-4827-81bf-72442a58159b");
-                _report_pageInfo = new Report_PageInfoClass(this);
-            }
-
-            /// <summary>
-            /// The Report_PageInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("404a07a4-e916-4a6b-b5ac-a7ed815bcda4")]
-            public class Report_PageInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// Report_PageInfoClass class constructor.
-                /// </summary>
-                public Report_PageInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "Report_Page", "indicator", 30000, null, "404a07a4-e916-4a6b-b5ac-a7ed815bcda4")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("70594be3-0752-4272-ab29-bc98503f0137")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("70594be3-0752-4272-ab29-bc98503f0137");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("70594be3-0752-4272-ab29-bc98503f0137")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("70594be3-0752-4272-ab29-bc98503f0137", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("847e6270-77f3-4f89-a526-c9f8f0a356cc")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("847e6270-77f3-4f89-a526-c9f8f0a356cc")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Planning_Period item.
-            /// </summary>
-            [RepositoryItem("0644dd2d-c3a6-4887-9529-8454c65c209c")]
-            public virtual Ranorex.Text Planning_Period
-            {
-                get
-                {
-                    return _planning_periodInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Planning_Period item info.
-            /// </summary>
-            [RepositoryItemInfo("0644dd2d-c3a6-4887-9529-8454c65c209c")]
-            public virtual RepoItemInfo Planning_PeriodInfo
-            {
-                get
-                {
-                    return _planning_periodInfo;
-                }
-            }
-
-            /// <summary>
-            /// The JobInputsBusyIndicator item.
-            /// </summary>
-            [RepositoryItem("74e51531-56e2-4b88-bde8-ddb6d5dec616")]
-            public virtual Ranorex.Indicator JobInputsBusyIndicator
-            {
-                get
-                {
-                    return _jobinputsbusyindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The JobInputsBusyIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("74e51531-56e2-4b88-bde8-ddb6d5dec616")]
-            public virtual RepoItemInfo JobInputsBusyIndicatorInfo
-            {
-                get
-                {
-                    return _jobinputsbusyindicatorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Schedule_Expand item.
-            /// </summary>
-            [RepositoryItem("70a7f171-ee97-4064-a949-2532e709a335")]
-            public virtual Ranorex.Button Schedule_Expand
-            {
-                get
-                {
-                    return _schedule_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Schedule_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("70a7f171-ee97-4064-a949-2532e709a335")]
-            public virtual RepoItemInfo Schedule_ExpandInfo
-            {
-                get
-                {
-                    return _schedule_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Reports item.
-            /// </summary>
-            [RepositoryItem("2c23db0d-d582-424e-b26a-e033da15a95b")]
-            public virtual Ranorex.Text Reports
-            {
-                get
-                {
-                    return _reportsInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Reports item info.
-            /// </summary>
-            [RepositoryItemInfo("2c23db0d-d582-424e-b26a-e033da15a95b")]
-            public virtual RepoItemInfo ReportsInfo
-            {
-                get
-                {
-                    return _reportsInfo;
-                }
-            }
-
-            /// <summary>
-            /// The PARTExpandButton item.
-            /// </summary>
-            [RepositoryItem("809cef05-f5c4-4707-b50c-8a63a6505b06")]
-            public virtual Ranorex.Button PARTExpandButton
-            {
-                get
-                {
-                    return _partexpandbuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The PARTExpandButton item info.
-            /// </summary>
-            [RepositoryItemInfo("809cef05-f5c4-4707-b50c-8a63a6505b06")]
-            public virtual RepoItemInfo PARTExpandButtonInfo
-            {
-                get
-                {
-                    return _partexpandbuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The PARTExpandButton1 item.
-            /// </summary>
-            [RepositoryItem("9dd0d0d0-949c-4827-81bf-72442a58159b")]
-            public virtual Ranorex.Button PARTExpandButton1
-            {
-                get
-                {
-                    return _partexpandbutton1Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The PARTExpandButton1 item info.
-            /// </summary>
-            [RepositoryItemInfo("9dd0d0d0-949c-4827-81bf-72442a58159b")]
-            public virtual RepoItemInfo PARTExpandButton1Info
-            {
-                get
-                {
-                    return _partexpandbutton1Info;
-                }
-            }
-
-            /// <summary>
-            /// The Report_Page item.
-            /// </summary>
-            [RepositoryItem("404a07a4-e916-4a6b-b5ac-a7ed815bcda4")]
-            public virtual Ranorex.Indicator Report_Page
-            {
-                get
-                {
-                    return _report_pageInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Report_Page item info.
-            /// </summary>
-            [RepositoryItemInfo("404a07a4-e916-4a6b-b5ac-a7ed815bcda4")]
-            public virtual Report_PageInfoClass Report_PageInfo
-            {
-                get
-                {
-                    return _report_pageInfo;
-                }
-            }
-
-            /// <summary>
-            /// The PARTGridViewVirtualizingPanel folder.
-            /// </summary>
-            [RepositoryFolder("6000b8b9-d252-48f4-b773-31b9d5ce2699")]
-            public virtual AtlasAutomationRepositoryFolders.PARTGridViewVirtualizingPanelFolder PARTGridViewVirtualizingPanel
-            {
-                get { return _partgridviewvirtualizingpanel; }
-            }
-
-            /// <summary>
-            /// The Compare_Jobs folder.
-            /// </summary>
-            [RepositoryFolder("4b694eb7-319f-463d-a8f3-93e476ab7a31")]
-            public virtual AtlasAutomationRepositoryFolders.Compare_JobsFolder Compare_Jobs
-            {
-                get { return _compare_jobs; }
-            }
-        }
-
-        /// <summary>
-        /// The PARTGridViewVirtualizingPanelFolder folder.
-        /// </summary>
-        [RepositoryFolder("6000b8b9-d252-48f4-b773-31b9d5ce2699")]
-        public partial class PARTGridViewVirtualizingPanelFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _market_expandInfo;
-            RepoItemInfo _oa_datesInfo;
-            RepoItemInfo _replacement_datesInfo;
-            RepoItemInfo _market_growth_toggleInfo;
-
-            /// <summary>
-            /// Creates a new PARTGridViewVirtualizingPanel  folder.
-            /// </summary>
-            public PARTGridViewVirtualizingPanelFolder(RepoGenBaseFolder parentFolder) :
-                    base("PARTGridViewVirtualizingPanel", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']", parentFolder, 30000, null, false, "6000b8b9-d252-48f4-b773-31b9d5ce2699", "")
-            {
-                _market_expandInfo = new RepoItemInfo(this, "Market_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']", "", 30000, null, "3b11bc7c-1170-4c2d-b9cb-02be0ecb85f6");
-                _oa_datesInfo = new RepoItemInfo(this, "OA_Dates", "row[2]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']", "", 30000, null, "788ac159-52ac-45af-bc98-f2156f564476");
-                _replacement_datesInfo = new RepoItemInfo(this, "Replacement_Dates", "row[3]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']", "", 30000, null, "bef1b806-aeaf-4f5e-8d88-aa9c2a069f89");
-                _market_growth_toggleInfo = new RepoItemInfo(this, "Market_Growth_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[10]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "8fad9552-900d-47ec-8fc8-cff7343fd3c7");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("6000b8b9-d252-48f4-b773-31b9d5ce2699")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("6000b8b9-d252-48f4-b773-31b9d5ce2699")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Market_Expand item.
-            /// </summary>
-            [RepositoryItem("3b11bc7c-1170-4c2d-b9cb-02be0ecb85f6")]
-            public virtual Ranorex.Button Market_Expand
-            {
-                get
-                {
-                    return _market_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Market_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("3b11bc7c-1170-4c2d-b9cb-02be0ecb85f6")]
-            public virtual RepoItemInfo Market_ExpandInfo
-            {
-                get
-                {
-                    return _market_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The OA_Dates item.
-            /// </summary>
-            [RepositoryItem("788ac159-52ac-45af-bc98-f2156f564476")]
-            public virtual Ranorex.Text OA_Dates
-            {
-                get
-                {
-                    return _oa_datesInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The OA_Dates item info.
-            /// </summary>
-            [RepositoryItemInfo("788ac159-52ac-45af-bc98-f2156f564476")]
-            public virtual RepoItemInfo OA_DatesInfo
-            {
-                get
-                {
-                    return _oa_datesInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Replacement_Dates item.
-            /// </summary>
-            [RepositoryItem("bef1b806-aeaf-4f5e-8d88-aa9c2a069f89")]
-            public virtual Ranorex.Text Replacement_Dates
-            {
-                get
-                {
-                    return _replacement_datesInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Replacement_Dates item info.
-            /// </summary>
-            [RepositoryItemInfo("bef1b806-aeaf-4f5e-8d88-aa9c2a069f89")]
-            public virtual RepoItemInfo Replacement_DatesInfo
-            {
-                get
-                {
-                    return _replacement_datesInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Market_Growth_Toggle item.
-            /// </summary>
-            [RepositoryItem("8fad9552-900d-47ec-8fc8-cff7343fd3c7")]
-            public virtual Ranorex.Button Market_Growth_Toggle
-            {
-                get
-                {
-                    return _market_growth_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Market_Growth_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("8fad9552-900d-47ec-8fc8-cff7343fd3c7")]
-            public virtual RepoItemInfo Market_Growth_ToggleInfo
-            {
-                get
-                {
-                    return _market_growth_toggleInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The Compare_JobsFolder folder.
-        /// </summary>
-        [RepositoryFolder("4b694eb7-319f-463d-a8f3-93e476ab7a31")]
-        public partial class Compare_JobsFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _applyInfo;
-            RepoItemInfo _togglebuttonInfo;
-            RepoItemInfo _compare_buttonInfo;
-            RepoItemInfo _checkboxnetInfo;
-
-            /// <summary>
-            /// Creates a new Compare_Jobs  folder.
-            /// </summary>
-            public Compare_JobsFolder(RepoGenBaseFolder parentFolder) :
-                    base("Compare_Jobs", ".//tabpagelist[@automationid='tabs']", parentFolder, 30000, null, false, "4b694eb7-319f-463d-a8f3-93e476ab7a31", "")
-            {
-                _applyInfo = new RepoItemInfo(this, "Apply", ".//container[@name='root' and @caption='']/button[@automationid='Apply']", "", 30000, null, "38ecca05-e55d-4669-b977-3dc057e71f6a");
-                _togglebuttonInfo = new RepoItemInfo(this, "ToggleButton", ".//container[@name='root' and @caption='']/button[@automationid='HeaderSite']//button[@automationid='toggleButton']", "indicator[2]/list/combobox[1]/button[@automationid='toggleButton']", 30000, null, "6933f871-040d-4890-b315-ed0547ed3af9");
-                _compare_buttonInfo = new RepoItemInfo(this, "Compare_Button", "indicator/container[2]/picture", "indicator", 30000, null, "ed2c9a84-8ca6-47b1-8ece-7d7593585ed5");
-                _checkboxnetInfo = new RepoItemInfo(this, "CheckBoxNet", "?/?/tabpagelist[@automationid='TabControl']/tabpagelist[@automationid='tabs']//container[@name='root' and @caption='']//checkbox[@text='Net']", "", 30000, null, "2cb6ca4b-9155-4238-bbac-17db22146c93");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("4b694eb7-319f-463d-a8f3-93e476ab7a31")]
-            public virtual Ranorex.TabPageList Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.TabPageList>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("4b694eb7-319f-463d-a8f3-93e476ab7a31")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Apply item.
-            /// </summary>
-            [RepositoryItem("38ecca05-e55d-4669-b977-3dc057e71f6a")]
-            public virtual Ranorex.Button Apply
-            {
-                get
-                {
-                    return _applyInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Apply item info.
-            /// </summary>
-            [RepositoryItemInfo("38ecca05-e55d-4669-b977-3dc057e71f6a")]
-            public virtual RepoItemInfo ApplyInfo
-            {
-                get
-                {
-                    return _applyInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item.
-            /// </summary>
-            [RepositoryItem("6933f871-040d-4890-b315-ed0547ed3af9")]
-            public virtual Ranorex.Button ToggleButton
-            {
-                get
-                {
-                    return _togglebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item info.
-            /// </summary>
-            [RepositoryItemInfo("6933f871-040d-4890-b315-ed0547ed3af9")]
-            public virtual RepoItemInfo ToggleButtonInfo
-            {
-                get
-                {
-                    return _togglebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Compare_Button item.
-            /// </summary>
-            [RepositoryItem("ed2c9a84-8ca6-47b1-8ece-7d7593585ed5")]
-            public virtual Ranorex.Picture Compare_Button
-            {
-                get
-                {
-                    return _compare_buttonInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Compare_Button item info.
-            /// </summary>
-            [RepositoryItemInfo("ed2c9a84-8ca6-47b1-8ece-7d7593585ed5")]
-            public virtual RepoItemInfo Compare_ButtonInfo
-            {
-                get
-                {
-                    return _compare_buttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The CheckBoxNet item.
-            /// </summary>
-            [RepositoryItem("2cb6ca4b-9155-4238-bbac-17db22146c93")]
-            public virtual Ranorex.CheckBox CheckBoxNet
-            {
-                get
-                {
-                    return _checkboxnetInfo.CreateAdapter<Ranorex.CheckBox>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CheckBoxNet item info.
-            /// </summary>
-            [RepositoryItemInfo("2cb6ca4b-9155-4238-bbac-17db22146c93")]
-            public virtual RepoItemInfo CheckBoxNetInfo
-            {
-                get
-                {
-                    return _checkboxnetInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The JobWIndow3AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("7527503d-7d47-4223-b9c8-cca3f8795f29")]
-        public partial class JobWIndow3AppFolder : RepoGenBaseFolder
-        {
-            AtlasAutomationRepositoryFolders.JobIndicatorFolder _jobindicator;
-            AtlasAutomationRepositoryFolders.TabsFolder _tabs;
-            RepoItemInfo _job_window_3Info;
-            RepoItemInfo _planning_periodInfo;
-            RepoItemInfo _parameter_toggleInfo;
-            RepoItemInfo _saveInfo;
-            RepoItemInfo _runInfo;
-            RepoItemInfo _schedule_expandInfo;
-            RepoItemInfo _copy_of_oa_datesInfo;
-            RepoItemInfo _copy_of_replacement_datesInfo;
-            RepoItemInfo _reportsInfo;
-            RepoItemInfo _checkboxnetInfo;
-
-            /// <summary>
-            /// Creates a new JobWIndow3  folder.
-            /// </summary>
-            public JobWIndow3AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobWIndow3", "/form[@title=$Jb3Window_Title and @name='Root']", parentFolder, 30000, null, true, "7527503d-7d47-4223-b9c8-cca3f8795f29", "")
-            {
-                _jobindicator = new AtlasAutomationRepositoryFolders.JobIndicatorFolder(this);
-                _tabs = new AtlasAutomationRepositoryFolders.TabsFolder(this);
-                _job_window_3Info = new RepoItemInfo(this, "Job_Window_3", "?/?/tabpagelist[@automationid='TabControl']/indicator", "?/?/tabpagelist/indicator", 30000, null, "c54cc5ee-4cde-4181-87f1-e3da59def1eb");
-                _planning_periodInfo = new RepoItemInfo(this, "Planning_Period", "indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']", ".//text[@automationid='PART_FieldLabel']/picture/container[@caption='']/text[@automationid='PART_TextBox']", 30000, null, "3697024f-ffb8-4203-8fa2-f76282bbe8cd");
-                _parameter_toggleInfo = new RepoItemInfo(this, "Parameter_Toggle", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", ".//tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", 30000, null, "55498f19-5e0c-4fd0-bc54-175272d963ce");
-                _saveInfo = new RepoItemInfo(this, "Save", ".//container[@automationid='tabWhitespaceContent']/button[2]", ".//container[@automationid='tabWhitespaceContent']/button[2]", 30000, null, "4a9da1b8-f6cd-4eea-a027-d35e426c5df6");
-                _runInfo = new RepoItemInfo(this, "Run", ".//container[@automationid='tabWhitespaceContent']/button[10]", ".//container[@automationid='tabWhitespaceContent']/button[10]", 30000, null, "d9300e1d-5b4a-448b-bae5-172caa277a62");
-                _schedule_expandInfo = new RepoItemInfo(this, "Schedule_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']", 30000, null, "2ea6dd6a-5be5-4b66-b55a-dc285e75bdd8");
-                _copy_of_oa_datesInfo = new RepoItemInfo(this, "Copy_of_OA_Dates", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']", "", 30000, null, "03be3e3e-f721-4840-b78e-cd3eb0b693d7");
-                _copy_of_replacement_datesInfo = new RepoItemInfo(this, "Copy_of_Replacement_Dates", "indicator/?/?/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/cell[4]/text[@automationid='PART_FieldLabel']/text[@automationid='PART_TextBox']/text[@caption='']", 30000, null, "0aa7fe1a-0726-47e4-9ba9-0e515bd7279f");
-                _reportsInfo = new RepoItemInfo(this, "Reports", "?/?/tabpagelist[@automationid='TabControl']//text[@caption='Reports']", ".//text[@caption='Reports']", 30000, null, "a2f3b8db-8457-477d-88bc-bdcd45f20dec");
-                _checkboxnetInfo = new RepoItemInfo(this, "CheckBoxNet", "?/?/tabpagelist[@automationid='TabControl']/tabpagelist[@automationid='tabs']//container[@name='root' and @caption='']//checkbox[@text='Net']", ".//checkbox[@text='Net']", 30000, null, "08aa4922-623d-4f79-8311-8b7ba9a40559");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("7527503d-7d47-4223-b9c8-cca3f8795f29")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("7527503d-7d47-4223-b9c8-cca3f8795f29")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Job_Window_3 item.
-            /// </summary>
-            [RepositoryItem("c54cc5ee-4cde-4181-87f1-e3da59def1eb")]
-            public virtual Ranorex.Indicator Job_Window_3
-            {
-                get
-                {
-                    return _job_window_3Info.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Job_Window_3 item info.
-            /// </summary>
-            [RepositoryItemInfo("c54cc5ee-4cde-4181-87f1-e3da59def1eb")]
-            public virtual RepoItemInfo Job_Window_3Info
-            {
-                get
-                {
-                    return _job_window_3Info;
-                }
-            }
-
-            /// <summary>
-            /// The Planning_Period item.
-            /// </summary>
-            [RepositoryItem("3697024f-ffb8-4203-8fa2-f76282bbe8cd")]
-            public virtual Ranorex.Text Planning_Period
-            {
-                get
-                {
-                    return _planning_periodInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Planning_Period item info.
-            /// </summary>
-            [RepositoryItemInfo("3697024f-ffb8-4203-8fa2-f76282bbe8cd")]
-            public virtual RepoItemInfo Planning_PeriodInfo
-            {
-                get
-                {
-                    return _planning_periodInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Parameter_Toggle item.
-            /// </summary>
-            [RepositoryItem("55498f19-5e0c-4fd0-bc54-175272d963ce")]
-            public virtual Ranorex.Button Parameter_Toggle
-            {
-                get
-                {
-                    return _parameter_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Parameter_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("55498f19-5e0c-4fd0-bc54-175272d963ce")]
-            public virtual RepoItemInfo Parameter_ToggleInfo
-            {
-                get
-                {
-                    return _parameter_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Save item.
-            /// </summary>
-            [RepositoryItem("4a9da1b8-f6cd-4eea-a027-d35e426c5df6")]
-            public virtual Ranorex.Button Save
-            {
-                get
-                {
-                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Save item info.
-            /// </summary>
-            [RepositoryItemInfo("4a9da1b8-f6cd-4eea-a027-d35e426c5df6")]
-            public virtual RepoItemInfo SaveInfo
-            {
-                get
-                {
-                    return _saveInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Run item.
-            /// </summary>
-            [RepositoryItem("d9300e1d-5b4a-448b-bae5-172caa277a62")]
-            public virtual Ranorex.Button Run
-            {
-                get
-                {
-                    return _runInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Run item info.
-            /// </summary>
-            [RepositoryItemInfo("d9300e1d-5b4a-448b-bae5-172caa277a62")]
-            public virtual RepoItemInfo RunInfo
-            {
-                get
-                {
-                    return _runInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Schedule_Expand item.
-            /// </summary>
-            [RepositoryItem("2ea6dd6a-5be5-4b66-b55a-dc285e75bdd8")]
-            public virtual Ranorex.Button Schedule_Expand
-            {
-                get
-                {
-                    return _schedule_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Schedule_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("2ea6dd6a-5be5-4b66-b55a-dc285e75bdd8")]
-            public virtual RepoItemInfo Schedule_ExpandInfo
-            {
-                get
-                {
-                    return _schedule_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_OA_Dates item.
-            /// </summary>
-            [RepositoryItem("03be3e3e-f721-4840-b78e-cd3eb0b693d7")]
-            public virtual Ranorex.Text Copy_of_OA_Dates
-            {
-                get
-                {
-                    return _copy_of_oa_datesInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_OA_Dates item info.
-            /// </summary>
-            [RepositoryItemInfo("03be3e3e-f721-4840-b78e-cd3eb0b693d7")]
-            public virtual RepoItemInfo Copy_of_OA_DatesInfo
-            {
-                get
-                {
-                    return _copy_of_oa_datesInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_Replacement_Dates item.
-            /// </summary>
-            [RepositoryItem("0aa7fe1a-0726-47e4-9ba9-0e515bd7279f")]
-            public virtual Ranorex.Text Copy_of_Replacement_Dates
-            {
-                get
-                {
-                    return _copy_of_replacement_datesInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Copy_of_Replacement_Dates item info.
-            /// </summary>
-            [RepositoryItemInfo("0aa7fe1a-0726-47e4-9ba9-0e515bd7279f")]
-            public virtual RepoItemInfo Copy_of_Replacement_DatesInfo
-            {
-                get
-                {
-                    return _copy_of_replacement_datesInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Reports item.
-            /// </summary>
-            [RepositoryItem("a2f3b8db-8457-477d-88bc-bdcd45f20dec")]
-            public virtual Ranorex.Text Reports
-            {
-                get
-                {
-                    return _reportsInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Reports item info.
-            /// </summary>
-            [RepositoryItemInfo("a2f3b8db-8457-477d-88bc-bdcd45f20dec")]
-            public virtual RepoItemInfo ReportsInfo
-            {
-                get
-                {
-                    return _reportsInfo;
-                }
-            }
-
-            /// <summary>
-            /// The CheckBoxNet item.
-            /// </summary>
-            [RepositoryItem("08aa4922-623d-4f79-8311-8b7ba9a40559")]
-            public virtual Ranorex.CheckBox CheckBoxNet
-            {
-                get
-                {
-                    return _checkboxnetInfo.CreateAdapter<Ranorex.CheckBox>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CheckBoxNet item info.
-            /// </summary>
-            [RepositoryItemInfo("08aa4922-623d-4f79-8311-8b7ba9a40559")]
-            public virtual RepoItemInfo CheckBoxNetInfo
-            {
-                get
-                {
-                    return _checkboxnetInfo;
-                }
-            }
-
-            /// <summary>
-            /// The JobIndicator folder.
-            /// </summary>
-            [RepositoryFolder("91e1ecdf-c77d-4238-94e7-e98f6f21092c")]
-            public virtual AtlasAutomationRepositoryFolders.JobIndicatorFolder JobIndicator
-            {
-                get { return _jobindicator; }
-            }
-
-            /// <summary>
-            /// The Tabs folder.
-            /// </summary>
-            [RepositoryFolder("137052a0-4c06-4195-a19d-12c7e6b2ecfe")]
-            public virtual AtlasAutomationRepositoryFolders.TabsFolder Tabs
-            {
-                get { return _tabs; }
-            }
-        }
-
-        /// <summary>
-        /// The JobIndicatorFolder folder.
-        /// </summary>
-        [RepositoryFolder("91e1ecdf-c77d-4238-94e7-e98f6f21092c")]
-        public partial class JobIndicatorFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _jobinputsbusyindicatorInfo;
-
-            /// <summary>
-            /// Creates a new JobIndicator  folder.
-            /// </summary>
-            public JobIndicatorFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobIndicator", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']", parentFolder, 30000, null, false, "91e1ecdf-c77d-4238-94e7-e98f6f21092c", "")
-            {
-                _jobinputsbusyindicatorInfo = new RepoItemInfo(this, "JobInputsBusyIndicator", "button[3]/indicator[@automationid='JobInputsBusyIndicator']", "", 30000, null, "aa81ffc2-c622-4b85-bc2c-566d37e9fa70");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("91e1ecdf-c77d-4238-94e7-e98f6f21092c")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("91e1ecdf-c77d-4238-94e7-e98f6f21092c")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The JobInputsBusyIndicator item.
-            /// </summary>
-            [RepositoryItem("aa81ffc2-c622-4b85-bc2c-566d37e9fa70")]
-            public virtual Ranorex.Indicator JobInputsBusyIndicator
-            {
-                get
-                {
-                    return _jobinputsbusyindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The JobInputsBusyIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("aa81ffc2-c622-4b85-bc2c-566d37e9fa70")]
-            public virtual RepoItemInfo JobInputsBusyIndicatorInfo
-            {
-                get
-                {
-                    return _jobinputsbusyindicatorInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The TabsFolder folder.
-        /// </summary>
-        [RepositoryFolder("137052a0-4c06-4195-a19d-12c7e6b2ecfe")]
-        public partial class TabsFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _applyInfo;
-            RepoItemInfo _togglebuttonInfo;
-            RepoItemInfo _someindicatorInfo;
-
-            /// <summary>
-            /// Creates a new Tabs  folder.
-            /// </summary>
-            public TabsFolder(RepoGenBaseFolder parentFolder) :
-                    base("Tabs", ".//tabpagelist[@automationid='tabs']", parentFolder, 30000, null, false, "137052a0-4c06-4195-a19d-12c7e6b2ecfe", "")
-            {
-                _applyInfo = new RepoItemInfo(this, "Apply", ".//container[@name='root' and @caption='']/button[@automationid='Apply']", "", 30000, null, "3d49d018-03b8-4582-bf36-55d035e30214");
-                _togglebuttonInfo = new RepoItemInfo(this, "ToggleButton", ".//container[@name='root' and @caption='']/button[@automationid='HeaderSite']//button[@automationid='toggleButton']", "indicator[2]/list/combobox[1]/button[@automationid='toggleButton']", 30000, null, "990c98a3-1184-4c25-9a1b-09ca41fa5ef9");
-                _someindicatorInfo = new RepoItemInfo(this, "SomeIndicator", "indicator", "indicator", 30000, null, "1ba2102c-a9fd-4f04-8117-b7c921364c91");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("137052a0-4c06-4195-a19d-12c7e6b2ecfe")]
-            public virtual Ranorex.TabPageList Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.TabPageList>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("137052a0-4c06-4195-a19d-12c7e6b2ecfe")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Apply item.
-            /// </summary>
-            [RepositoryItem("3d49d018-03b8-4582-bf36-55d035e30214")]
-            public virtual Ranorex.Button Apply
-            {
-                get
-                {
-                    return _applyInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Apply item info.
-            /// </summary>
-            [RepositoryItemInfo("3d49d018-03b8-4582-bf36-55d035e30214")]
-            public virtual RepoItemInfo ApplyInfo
-            {
-                get
-                {
-                    return _applyInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item.
-            /// </summary>
-            [RepositoryItem("990c98a3-1184-4c25-9a1b-09ca41fa5ef9")]
-            public virtual Ranorex.Button ToggleButton
-            {
-                get
-                {
-                    return _togglebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item info.
-            /// </summary>
-            [RepositoryItemInfo("990c98a3-1184-4c25-9a1b-09ca41fa5ef9")]
-            public virtual RepoItemInfo ToggleButtonInfo
-            {
-                get
-                {
-                    return _togglebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item.
-            /// </summary>
-            [RepositoryItem("1ba2102c-a9fd-4f04-8117-b7c921364c91")]
-            public virtual Ranorex.Indicator SomeIndicator
-            {
-                get
-                {
-                    return _someindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("1ba2102c-a9fd-4f04-8117-b7c921364c91")]
-            public virtual RepoItemInfo SomeIndicatorInfo
-            {
-                get
-                {
-                    return _someindicatorInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The JobWindow4AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("fb2f31b3-915b-4825-adcb-8efb91998f32")]
-        public partial class JobWindow4AppFolder : RepoGenBaseFolder
-        {
-            AtlasAutomationRepositoryFolders.JobIndicatorFolder1 _jobindicator;
-            RepoItemInfo _job_window_4Info;
-            RepoItemInfo _import_parameter_toggleInfo;
-            RepoItemInfo _saveInfo;
-            RepoItemInfo _runInfo;
-
-            /// <summary>
-            /// Creates a new JobWindow4  folder.
-            /// </summary>
-            public JobWindow4AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobWindow4", "/form[@title=$Jb4Window_Title and @name='Root']", parentFolder, 30000, null, true, "fb2f31b3-915b-4825-adcb-8efb91998f32", "")
-            {
-                _jobindicator = new AtlasAutomationRepositoryFolders.JobIndicatorFolder1(this);
-                _job_window_4Info = new RepoItemInfo(this, "Job_Window_4", "?/?/tabpagelist[@automationid='TabControl']/indicator", "?/?/tabpagelist/indicator", 30000, null, "8792b6d4-a9b8-4f75-a101-c5ff23d8939a");
-                _import_parameter_toggleInfo = new RepoItemInfo(this, "Import_Parameter_Toggle", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", ".//tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", 30000, null, "63495e5a-8142-4ed1-84b0-3b2a466bb9e2");
-                _saveInfo = new RepoItemInfo(this, "Save", ".//container[@automationid='tabWhitespaceContent']/button[2]", ".//container[@automationid='tabWhitespaceContent']/button[2]", 30000, null, "505b2857-54d2-4c9a-b220-55e0beddb12b");
-                _runInfo = new RepoItemInfo(this, "Run", ".//container[@automationid='tabWhitespaceContent']/button[10]", ".//container[@automationid='tabWhitespaceContent']/button[10]", 30000, null, "188d0a68-852f-43e8-97ac-dd42163907b2");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("fb2f31b3-915b-4825-adcb-8efb91998f32")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("fb2f31b3-915b-4825-adcb-8efb91998f32")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Job_Window_4 item.
-            /// </summary>
-            [RepositoryItem("8792b6d4-a9b8-4f75-a101-c5ff23d8939a")]
-            public virtual Ranorex.Indicator Job_Window_4
-            {
-                get
-                {
-                    return _job_window_4Info.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Job_Window_4 item info.
-            /// </summary>
-            [RepositoryItemInfo("8792b6d4-a9b8-4f75-a101-c5ff23d8939a")]
-            public virtual RepoItemInfo Job_Window_4Info
-            {
-                get
-                {
-                    return _job_window_4Info;
-                }
-            }
-
-            /// <summary>
-            /// The Import_Parameter_Toggle item.
-            /// </summary>
-            [RepositoryItem("63495e5a-8142-4ed1-84b0-3b2a466bb9e2")]
-            public virtual Ranorex.Button Import_Parameter_Toggle
-            {
-                get
-                {
-                    return _import_parameter_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Import_Parameter_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("63495e5a-8142-4ed1-84b0-3b2a466bb9e2")]
-            public virtual RepoItemInfo Import_Parameter_ToggleInfo
-            {
-                get
-                {
-                    return _import_parameter_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Save item.
-            /// </summary>
-            [RepositoryItem("505b2857-54d2-4c9a-b220-55e0beddb12b")]
-            public virtual Ranorex.Button Save
-            {
-                get
-                {
-                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Save item info.
-            /// </summary>
-            [RepositoryItemInfo("505b2857-54d2-4c9a-b220-55e0beddb12b")]
-            public virtual RepoItemInfo SaveInfo
-            {
-                get
-                {
-                    return _saveInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Run item.
-            /// </summary>
-            [RepositoryItem("188d0a68-852f-43e8-97ac-dd42163907b2")]
-            public virtual Ranorex.Button Run
-            {
-                get
-                {
-                    return _runInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Run item info.
-            /// </summary>
-            [RepositoryItemInfo("188d0a68-852f-43e8-97ac-dd42163907b2")]
-            public virtual RepoItemInfo RunInfo
-            {
-                get
-                {
-                    return _runInfo;
-                }
-            }
-
-            /// <summary>
-            /// The JobIndicator folder.
-            /// </summary>
-            [RepositoryFolder("2efb1d75-68f3-4189-91d3-a2dcef15d68a")]
-            public virtual AtlasAutomationRepositoryFolders.JobIndicatorFolder1 JobIndicator
-            {
-                get { return _jobindicator; }
-            }
-        }
-
-        /// <summary>
-        /// The JobIndicatorFolder1 folder.
-        /// </summary>
-        [RepositoryFolder("2efb1d75-68f3-4189-91d3-a2dcef15d68a")]
-        public partial class JobIndicatorFolder1 : RepoGenBaseFolder
-        {
-            RepoItemInfo _host_toggleInfo;
-            RepoItemInfo _aircraft_togggleInfo;
-            RepoItemInfo _aircraft_expandInfo;
-            RepoItemInfo _aircraft_collapseInfo;
-            RepoItemInfo _parameters_expandInfo;
-            RepoItemInfo _optimisation_parametersInfo;
-            RepoItemInfo _optimisation_configurationInfo;
-
-            /// <summary>
-            /// Creates a new JobIndicator  folder.
-            /// </summary>
-            public JobIndicatorFolder1(RepoGenBaseFolder parentFolder) :
-                    base("JobIndicator", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']", parentFolder, 30000, null, false, "2efb1d75-68f3-4189-91d3-a2dcef15d68a", "")
-            {
-                _host_toggleInfo = new RepoItemInfo(this, "Host_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "6e173acf-759d-48eb-b731-c4863fbe181a");
-                _aircraft_togggleInfo = new RepoItemInfo(this, "Aircraft_Togggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[8]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "4a6217a9-e6b7-499f-b583-090f25c15ab5");
-                _aircraft_expandInfo = new RepoItemInfo(this, "Aircraft_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/button[@automationid='PART_ExpandButton']", "", 30000, null, "5fdd129d-ff4d-41e8-8649-f37f6ec651b4");
-                _aircraft_collapseInfo = new RepoItemInfo(this, "Aircraft_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']", "", 30000, null, "ae0282cc-6331-4540-ba00-72fe02e61ec8");
-                _parameters_expandInfo = new RepoItemInfo(this, "Parameters_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']", "", 30000, null, "bafb5b35-8920-47bd-a09e-8c1b6ef405e0");
-                _optimisation_parametersInfo = new RepoItemInfo(this, "Optimisation_Parameters", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[17]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "dd21029a-96a9-439f-9d74-0cf685d712ef");
-                _optimisation_configurationInfo = new RepoItemInfo(this, "Optimisation_Configuration", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[19]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "65ee887a-9c05-4371-9403-a5c3fc629ded");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("2efb1d75-68f3-4189-91d3-a2dcef15d68a")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("2efb1d75-68f3-4189-91d3-a2dcef15d68a")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Host_Toggle item.
-            /// </summary>
-            [RepositoryItem("6e173acf-759d-48eb-b731-c4863fbe181a")]
-            public virtual Ranorex.Button Host_Toggle
-            {
-                get
-                {
-                    return _host_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Host_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("6e173acf-759d-48eb-b731-c4863fbe181a")]
-            public virtual RepoItemInfo Host_ToggleInfo
-            {
-                get
-                {
-                    return _host_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Togggle item.
-            /// </summary>
-            [RepositoryItem("4a6217a9-e6b7-499f-b583-090f25c15ab5")]
-            public virtual Ranorex.Button Aircraft_Togggle
-            {
-                get
-                {
-                    return _aircraft_togggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Togggle item info.
-            /// </summary>
-            [RepositoryItemInfo("4a6217a9-e6b7-499f-b583-090f25c15ab5")]
-            public virtual RepoItemInfo Aircraft_TogggleInfo
-            {
-                get
-                {
-                    return _aircraft_togggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Expand item.
-            /// </summary>
-            [RepositoryItem("5fdd129d-ff4d-41e8-8649-f37f6ec651b4")]
-            public virtual Ranorex.Button Aircraft_Expand
-            {
-                get
-                {
-                    return _aircraft_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("5fdd129d-ff4d-41e8-8649-f37f6ec651b4")]
-            public virtual RepoItemInfo Aircraft_ExpandInfo
-            {
-                get
-                {
-                    return _aircraft_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Collapse item.
-            /// </summary>
-            [RepositoryItem("ae0282cc-6331-4540-ba00-72fe02e61ec8")]
-            public virtual Ranorex.Button Aircraft_Collapse
-            {
-                get
-                {
-                    return _aircraft_collapseInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Collapse item info.
-            /// </summary>
-            [RepositoryItemInfo("ae0282cc-6331-4540-ba00-72fe02e61ec8")]
-            public virtual RepoItemInfo Aircraft_CollapseInfo
-            {
-                get
-                {
-                    return _aircraft_collapseInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Parameters_Expand item.
-            /// </summary>
-            [RepositoryItem("bafb5b35-8920-47bd-a09e-8c1b6ef405e0")]
-            public virtual Ranorex.Button Parameters_Expand
-            {
-                get
-                {
-                    return _parameters_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Parameters_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("bafb5b35-8920-47bd-a09e-8c1b6ef405e0")]
-            public virtual RepoItemInfo Parameters_ExpandInfo
-            {
-                get
-                {
-                    return _parameters_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Optimisation_Parameters item.
-            /// </summary>
-            [RepositoryItem("dd21029a-96a9-439f-9d74-0cf685d712ef")]
-            public virtual Ranorex.Button Optimisation_Parameters
-            {
-                get
-                {
-                    return _optimisation_parametersInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Optimisation_Parameters item info.
-            /// </summary>
-            [RepositoryItemInfo("dd21029a-96a9-439f-9d74-0cf685d712ef")]
-            public virtual RepoItemInfo Optimisation_ParametersInfo
-            {
-                get
-                {
-                    return _optimisation_parametersInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Optimisation_Configuration item.
-            /// </summary>
-            [RepositoryItem("65ee887a-9c05-4371-9403-a5c3fc629ded")]
-            public virtual Ranorex.Button Optimisation_Configuration
-            {
-                get
-                {
-                    return _optimisation_configurationInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Optimisation_Configuration item info.
-            /// </summary>
-            [RepositoryItemInfo("65ee887a-9c05-4371-9403-a5c3fc629ded")]
-            public virtual RepoItemInfo Optimisation_ConfigurationInfo
-            {
-                get
-                {
-                    return _optimisation_configurationInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The JobWindow5AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("4749831c-2265-45d0-a363-e9f89293d974")]
-        public partial class JobWindow5AppFolder : RepoGenBaseFolder
-        {
-            AtlasAutomationRepositoryFolders.SomeContainerFolder2 _somecontainer;
-            RepoItemInfo _someindicatorInfo;
-            RepoItemInfo _togglebuttonInfo;
-            RepoItemInfo _sometextInfo;
-            RepoItemInfo _saveInfo;
-            RepoItemInfo _runInfo;
-
-            /// <summary>
-            /// Creates a new JobWindow5  folder.
-            /// </summary>
-            public JobWindow5AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobWindow5", "/form[@name='Root' and @title=$Jb5Window_Title]", parentFolder, 30000, null, true, "4749831c-2265-45d0-a363-e9f89293d974", "")
-            {
-                _somecontainer = new AtlasAutomationRepositoryFolders.SomeContainerFolder2(this);
-                _someindicatorInfo = new RepoItemInfo(this, "SomeIndicator", "?/?/tabpagelist[@automationid='TabControl']/indicator", "?/?/tabpagelist/indicator", 30000, null, "170512bf-9e62-4588-9f33-3edda3842860");
-                _togglebuttonInfo = new RepoItemInfo(this, "ToggleButton", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']", "?/?/tabpagelist/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']", 30000, null, "f6d40378-1da3-43ca-a27b-658f834bb875");
-                _sometextInfo = new RepoItemInfo(this, "SomeText", "indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']/text[@caption='']", ".//text[@automationid='PART_FieldLabel']/picture/container[@caption='']/text[@automationid='PART_TextBox']/text[@caption='']", 30000, null, "510eb788-1f06-4967-8227-22c5abf77a8a");
-                _saveInfo = new RepoItemInfo(this, "Save", ".//container[@automationid='tabWhitespaceContent']/button[2]", ".//container[@automationid='tabWhitespaceContent']/button[2]", 30000, null, "28f09abc-69e1-4f49-8d93-d88a54198140");
-                _runInfo = new RepoItemInfo(this, "Run", ".//container[@automationid='tabWhitespaceContent']/button[10]", ".//container[@automationid='tabWhitespaceContent']/button[10]", 30000, null, "e06a9c0d-5a11-4d0a-8591-ce330e08b081");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("4749831c-2265-45d0-a363-e9f89293d974")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("4749831c-2265-45d0-a363-e9f89293d974")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item.
-            /// </summary>
-            [RepositoryItem("170512bf-9e62-4588-9f33-3edda3842860")]
-            public virtual Ranorex.Indicator SomeIndicator
-            {
-                get
-                {
-                    return _someindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("170512bf-9e62-4588-9f33-3edda3842860")]
-            public virtual RepoItemInfo SomeIndicatorInfo
-            {
-                get
-                {
-                    return _someindicatorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item.
-            /// </summary>
-            [RepositoryItem("f6d40378-1da3-43ca-a27b-658f834bb875")]
-            public virtual Ranorex.Button ToggleButton
-            {
-                get
-                {
-                    return _togglebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item info.
-            /// </summary>
-            [RepositoryItemInfo("f6d40378-1da3-43ca-a27b-658f834bb875")]
-            public virtual RepoItemInfo ToggleButtonInfo
-            {
-                get
-                {
-                    return _togglebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeText item.
-            /// </summary>
-            [RepositoryItem("510eb788-1f06-4967-8227-22c5abf77a8a")]
-            public virtual Ranorex.Text SomeText
-            {
-                get
-                {
-                    return _sometextInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeText item info.
-            /// </summary>
-            [RepositoryItemInfo("510eb788-1f06-4967-8227-22c5abf77a8a")]
-            public virtual RepoItemInfo SomeTextInfo
-            {
-                get
-                {
-                    return _sometextInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Save item.
-            /// </summary>
-            [RepositoryItem("28f09abc-69e1-4f49-8d93-d88a54198140")]
-            public virtual Ranorex.Button Save
-            {
-                get
-                {
-                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Save item info.
-            /// </summary>
-            [RepositoryItemInfo("28f09abc-69e1-4f49-8d93-d88a54198140")]
-            public virtual RepoItemInfo SaveInfo
-            {
-                get
-                {
-                    return _saveInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Run item.
-            /// </summary>
-            [RepositoryItem("e06a9c0d-5a11-4d0a-8591-ce330e08b081")]
-            public virtual Ranorex.Button Run
-            {
-                get
-                {
-                    return _runInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Run item info.
-            /// </summary>
-            [RepositoryItemInfo("e06a9c0d-5a11-4d0a-8591-ce330e08b081")]
-            public virtual RepoItemInfo RunInfo
-            {
-                get
-                {
-                    return _runInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer folder.
-            /// </summary>
-            [RepositoryFolder("2a11b5ad-cd29-48ea-83c2-2bfad7c0d9b2")]
-            public virtual AtlasAutomationRepositoryFolders.SomeContainerFolder2 SomeContainer
-            {
-                get { return _somecontainer; }
-            }
-        }
-
-        /// <summary>
-        /// The SomeContainerFolder2 folder.
-        /// </summary>
-        [RepositoryFolder("2a11b5ad-cd29-48ea-83c2-2bfad7c0d9b2")]
-        public partial class SomeContainerFolder2 : RepoGenBaseFolder
-        {
-            RepoItemInfo _jobinputsbusyindicatorInfo;
-            RepoItemInfo _fleet_size_toggleInfo;
-            RepoItemInfo _aircraft_expandInfo;
-            RepoItemInfo _market_expandInfo;
-            RepoItemInfo _market_frequency_toggleInfo;
-            RepoItemInfo _airport_expandInfo;
-            RepoItemInfo _balance_toggleInfo;
-
-            /// <summary>
-            /// Creates a new SomeContainer  folder.
-            /// </summary>
-            public SomeContainerFolder2(RepoGenBaseFolder parentFolder) :
-                    base("SomeContainer", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']", parentFolder, 30000, null, false, "2a11b5ad-cd29-48ea-83c2-2bfad7c0d9b2", "")
-            {
-                _jobinputsbusyindicatorInfo = new RepoItemInfo(this, "JobInputsBusyIndicator", "button[3]/indicator[@automationid='JobInputsBusyIndicator']", "", 30000, null, "e3deadd4-f512-4230-908d-5be91e26117c");
-                _fleet_size_toggleInfo = new RepoItemInfo(this, "Fleet_size_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[9]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "55aef923-b22e-4740-b956-23543b00e903");
-                _aircraft_expandInfo = new RepoItemInfo(this, "Aircraft_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']", "", 30000, null, "2b0d645f-497b-423e-8d4c-527177e372d8");
-                _market_expandInfo = new RepoItemInfo(this, "Market_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[14]/button[@automationid='PART_ExpandButton']", "", 30000, null, "6c15409a-47a7-4751-a4e2-dbcce0bcca4f");
-                _market_frequency_toggleInfo = new RepoItemInfo(this, "Market_Frequency_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[17]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "e4301eb7-961f-4b6c-8c71-0c252a1a5b3f");
-                _airport_expandInfo = new RepoItemInfo(this, "Airport_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/button[@automationid='PART_ExpandButton']", "", 30000, null, "d9f8ed1a-c7f0-49c4-8d3b-082bcf69959f");
-                _balance_toggleInfo = new RepoItemInfo(this, "Balance_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "83196266-dc71-4471-85ab-3438ffa871a4");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("2a11b5ad-cd29-48ea-83c2-2bfad7c0d9b2")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("2a11b5ad-cd29-48ea-83c2-2bfad7c0d9b2")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The JobInputsBusyIndicator item.
-            /// </summary>
-            [RepositoryItem("e3deadd4-f512-4230-908d-5be91e26117c")]
-            public virtual Ranorex.Indicator JobInputsBusyIndicator
-            {
-                get
-                {
-                    return _jobinputsbusyindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The JobInputsBusyIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("e3deadd4-f512-4230-908d-5be91e26117c")]
-            public virtual RepoItemInfo JobInputsBusyIndicatorInfo
-            {
-                get
-                {
-                    return _jobinputsbusyindicatorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Fleet_size_Toggle item.
-            /// </summary>
-            [RepositoryItem("55aef923-b22e-4740-b956-23543b00e903")]
-            public virtual Ranorex.Button Fleet_size_Toggle
-            {
-                get
-                {
-                    return _fleet_size_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Fleet_size_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("55aef923-b22e-4740-b956-23543b00e903")]
-            public virtual RepoItemInfo Fleet_size_ToggleInfo
-            {
-                get
-                {
-                    return _fleet_size_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Expand item.
-            /// </summary>
-            [RepositoryItem("2b0d645f-497b-423e-8d4c-527177e372d8")]
-            public virtual Ranorex.Button Aircraft_Expand
-            {
-                get
-                {
-                    return _aircraft_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("2b0d645f-497b-423e-8d4c-527177e372d8")]
-            public virtual RepoItemInfo Aircraft_ExpandInfo
-            {
-                get
-                {
-                    return _aircraft_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Market_Expand item.
-            /// </summary>
-            [RepositoryItem("6c15409a-47a7-4751-a4e2-dbcce0bcca4f")]
-            public virtual Ranorex.Button Market_Expand
-            {
-                get
-                {
-                    return _market_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Market_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("6c15409a-47a7-4751-a4e2-dbcce0bcca4f")]
-            public virtual RepoItemInfo Market_ExpandInfo
-            {
-                get
-                {
-                    return _market_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Market_Frequency_Toggle item.
-            /// </summary>
-            [RepositoryItem("e4301eb7-961f-4b6c-8c71-0c252a1a5b3f")]
-            public virtual Ranorex.Button Market_Frequency_Toggle
-            {
-                get
-                {
-                    return _market_frequency_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Market_Frequency_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("e4301eb7-961f-4b6c-8c71-0c252a1a5b3f")]
-            public virtual RepoItemInfo Market_Frequency_ToggleInfo
-            {
-                get
-                {
-                    return _market_frequency_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Airport_Expand item.
-            /// </summary>
-            [RepositoryItem("d9f8ed1a-c7f0-49c4-8d3b-082bcf69959f")]
-            public virtual Ranorex.Button Airport_Expand
-            {
-                get
-                {
-                    return _airport_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Airport_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("d9f8ed1a-c7f0-49c4-8d3b-082bcf69959f")]
-            public virtual RepoItemInfo Airport_ExpandInfo
-            {
-                get
-                {
-                    return _airport_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Balance_Toggle item.
-            /// </summary>
-            [RepositoryItem("83196266-dc71-4471-85ab-3438ffa871a4")]
-            public virtual Ranorex.Button Balance_Toggle
-            {
-                get
-                {
-                    return _balance_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Balance_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("83196266-dc71-4471-85ab-3438ffa871a4")]
-            public virtual RepoItemInfo Balance_ToggleInfo
-            {
-                get
-                {
-                    return _balance_toggleInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The JobWindow6AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("9d382232-3b4c-4f5a-9fdc-973a323297c4")]
-        public partial class JobWindow6AppFolder : RepoGenBaseFolder
-        {
-            AtlasAutomationRepositoryFolders.SomeContainerFolder3 _somecontainer;
-            RepoItemInfo _someindicatorInfo;
-            RepoItemInfo _togglebuttonInfo;
-            RepoItemInfo _sometextInfo;
-            RepoItemInfo _saveInfo;
-            RepoItemInfo _runInfo;
-
-            /// <summary>
-            /// Creates a new JobWindow6  folder.
-            /// </summary>
-            public JobWindow6AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobWindow6", "/form[@name='Root' and @title=$Jb6Window_Title]", parentFolder, 30000, null, true, "9d382232-3b4c-4f5a-9fdc-973a323297c4", "")
-            {
-                _somecontainer = new AtlasAutomationRepositoryFolders.SomeContainerFolder3(this);
-                _someindicatorInfo = new RepoItemInfo(this, "SomeIndicator", "?/?/tabpagelist[@automationid='TabControl']/indicator", "?/?/tabpagelist/indicator", 30000, null, "8322da8a-8f31-47cd-ba56-cb4108b623e0");
-                _togglebuttonInfo = new RepoItemInfo(this, "ToggleButton", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']", "?/?/tabpagelist/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']", 30000, null, "952dcc11-0efd-44a9-8cb9-d3c2237f1942");
-                _sometextInfo = new RepoItemInfo(this, "SomeText", "indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']/text[@caption='']", ".//text[@automationid='PART_FieldLabel']/picture/container[@caption='']/text[@automationid='PART_TextBox']/text[@caption='']", 30000, null, "bd390508-aa5d-4642-9602-e252f3e7acbf");
-                _saveInfo = new RepoItemInfo(this, "Save", ".//container[@automationid='tabWhitespaceContent']/button[2]", ".//container[@automationid='tabWhitespaceContent']/button[2]", 30000, null, "48faa220-308c-4add-be7c-b66d7455c7e5");
-                _runInfo = new RepoItemInfo(this, "Run", ".//container[@automationid='tabWhitespaceContent']/button[10]", ".//container[@automationid='tabWhitespaceContent']/button[10]", 30000, null, "74b8b12d-e4ff-4868-8757-9c2b0cb04fa0");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("9d382232-3b4c-4f5a-9fdc-973a323297c4")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("9d382232-3b4c-4f5a-9fdc-973a323297c4")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item.
-            /// </summary>
-            [RepositoryItem("8322da8a-8f31-47cd-ba56-cb4108b623e0")]
-            public virtual Ranorex.Indicator SomeIndicator
-            {
-                get
-                {
-                    return _someindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("8322da8a-8f31-47cd-ba56-cb4108b623e0")]
-            public virtual RepoItemInfo SomeIndicatorInfo
-            {
-                get
-                {
-                    return _someindicatorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item.
-            /// </summary>
-            [RepositoryItem("952dcc11-0efd-44a9-8cb9-d3c2237f1942")]
-            public virtual Ranorex.Button ToggleButton
-            {
-                get
-                {
-                    return _togglebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item info.
-            /// </summary>
-            [RepositoryItemInfo("952dcc11-0efd-44a9-8cb9-d3c2237f1942")]
-            public virtual RepoItemInfo ToggleButtonInfo
-            {
-                get
-                {
-                    return _togglebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeText item.
-            /// </summary>
-            [RepositoryItem("bd390508-aa5d-4642-9602-e252f3e7acbf")]
-            public virtual Ranorex.Text SomeText
-            {
-                get
-                {
-                    return _sometextInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeText item info.
-            /// </summary>
-            [RepositoryItemInfo("bd390508-aa5d-4642-9602-e252f3e7acbf")]
-            public virtual RepoItemInfo SomeTextInfo
-            {
-                get
-                {
-                    return _sometextInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Save item.
-            /// </summary>
-            [RepositoryItem("48faa220-308c-4add-be7c-b66d7455c7e5")]
-            public virtual Ranorex.Button Save
-            {
-                get
-                {
-                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Save item info.
-            /// </summary>
-            [RepositoryItemInfo("48faa220-308c-4add-be7c-b66d7455c7e5")]
-            public virtual RepoItemInfo SaveInfo
-            {
-                get
-                {
-                    return _saveInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Run item.
-            /// </summary>
-            [RepositoryItem("74b8b12d-e4ff-4868-8757-9c2b0cb04fa0")]
-            public virtual Ranorex.Button Run
-            {
-                get
-                {
-                    return _runInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Run item info.
-            /// </summary>
-            [RepositoryItemInfo("74b8b12d-e4ff-4868-8757-9c2b0cb04fa0")]
-            public virtual RepoItemInfo RunInfo
-            {
-                get
-                {
-                    return _runInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer folder.
-            /// </summary>
-            [RepositoryFolder("769a2a57-e905-42d9-99d5-598c1b9f441c")]
-            public virtual AtlasAutomationRepositoryFolders.SomeContainerFolder3 SomeContainer
-            {
-                get { return _somecontainer; }
-            }
-        }
-
-        /// <summary>
-        /// The SomeContainerFolder3 folder.
-        /// </summary>
-        [RepositoryFolder("769a2a57-e905-42d9-99d5-598c1b9f441c")]
-        public partial class SomeContainerFolder3 : RepoGenBaseFolder
-        {
-            RepoItemInfo _aircraft_expandInfo;
-            RepoItemInfo _airport_expandInfo;
-            RepoItemInfo _balance_toggleInfo;
-            RepoItemInfo _market_expandInfo;
-            RepoItemInfo _market_frequency_toggleInfo;
-            RepoItemInfo _fleet_size_toggleInfo;
-
-            /// <summary>
-            /// Creates a new SomeContainer  folder.
-            /// </summary>
-            public SomeContainerFolder3(RepoGenBaseFolder parentFolder) :
-                    base("SomeContainer", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']", parentFolder, 30000, null, false, "769a2a57-e905-42d9-99d5-598c1b9f441c", "")
-            {
-                _aircraft_expandInfo = new RepoItemInfo(this, "Aircraft_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']", "", 30000, null, "dc436d09-78a5-4254-837e-ea8e1bc76e8d");
-                _airport_expandInfo = new RepoItemInfo(this, "Airport_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/button[@automationid='PART_ExpandButton']", "", 30000, null, "5417b218-543f-4c8a-b87f-ea067a13f18c");
-                _balance_toggleInfo = new RepoItemInfo(this, "Balance_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "fe3a70a1-2f89-4880-b3fe-5e5f175985fd");
-                _market_expandInfo = new RepoItemInfo(this, "Market_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[14]/button[@automationid='PART_ExpandButton']", "", 30000, null, "d05e5e60-d91b-4a5b-bafe-1a967b1c4a88");
-                _market_frequency_toggleInfo = new RepoItemInfo(this, "Market_Frequency_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[17]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "", 30000, null, "528eab32-769c-4536-8c7b-08d2ebd32cd2");
-                _fleet_size_toggleInfo = new RepoItemInfo(this, "Fleet_Size_Toggle", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[9]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", "cell[2]/container[@automationid='stackPanel']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']", 30000, null, "8afd2826-0161-478f-b3c0-9d82c8070977");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("769a2a57-e905-42d9-99d5-598c1b9f441c")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("769a2a57-e905-42d9-99d5-598c1b9f441c")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Expand item.
-            /// </summary>
-            [RepositoryItem("dc436d09-78a5-4254-837e-ea8e1bc76e8d")]
-            public virtual Ranorex.Button Aircraft_Expand
-            {
-                get
-                {
-                    return _aircraft_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Aircraft_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("dc436d09-78a5-4254-837e-ea8e1bc76e8d")]
-            public virtual RepoItemInfo Aircraft_ExpandInfo
-            {
-                get
-                {
-                    return _aircraft_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Airport_Expand item.
-            /// </summary>
-            [RepositoryItem("5417b218-543f-4c8a-b87f-ea067a13f18c")]
-            public virtual Ranorex.Button Airport_Expand
-            {
-                get
-                {
-                    return _airport_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Airport_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("5417b218-543f-4c8a-b87f-ea067a13f18c")]
-            public virtual RepoItemInfo Airport_ExpandInfo
-            {
-                get
-                {
-                    return _airport_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Balance_Toggle item.
-            /// </summary>
-            [RepositoryItem("fe3a70a1-2f89-4880-b3fe-5e5f175985fd")]
-            public virtual Ranorex.Button Balance_Toggle
-            {
-                get
-                {
-                    return _balance_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Balance_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("fe3a70a1-2f89-4880-b3fe-5e5f175985fd")]
-            public virtual RepoItemInfo Balance_ToggleInfo
-            {
-                get
-                {
-                    return _balance_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Market_Expand item.
-            /// </summary>
-            [RepositoryItem("d05e5e60-d91b-4a5b-bafe-1a967b1c4a88")]
-            public virtual Ranorex.Button Market_Expand
-            {
-                get
-                {
-                    return _market_expandInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Market_Expand item info.
-            /// </summary>
-            [RepositoryItemInfo("d05e5e60-d91b-4a5b-bafe-1a967b1c4a88")]
-            public virtual RepoItemInfo Market_ExpandInfo
-            {
-                get
-                {
-                    return _market_expandInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Market_Frequency_Toggle item.
-            /// </summary>
-            [RepositoryItem("528eab32-769c-4536-8c7b-08d2ebd32cd2")]
-            public virtual Ranorex.Button Market_Frequency_Toggle
-            {
-                get
-                {
-                    return _market_frequency_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Market_Frequency_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("528eab32-769c-4536-8c7b-08d2ebd32cd2")]
-            public virtual RepoItemInfo Market_Frequency_ToggleInfo
-            {
-                get
-                {
-                    return _market_frequency_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Fleet_Size_Toggle item.
-            /// </summary>
-            [RepositoryItem("8afd2826-0161-478f-b3c0-9d82c8070977")]
-            public virtual Ranorex.Button Fleet_Size_Toggle
-            {
-                get
-                {
-                    return _fleet_size_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Fleet_Size_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("8afd2826-0161-478f-b3c0-9d82c8070977")]
-            public virtual RepoItemInfo Fleet_Size_ToggleInfo
-            {
-                get
-                {
-                    return _fleet_size_toggleInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The JobWindow7AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("84a299bc-d082-4b6e-9275-6de64287fd96")]
-        public partial class JobWindow7AppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _someindicatorInfo;
-            RepoItemInfo _adjust_job_typeInfo;
-            RepoItemInfo _parameter_toggleInfo;
-            RepoItemInfo _saveInfo;
-            RepoItemInfo _runInfo;
-
-            /// <summary>
-            /// Creates a new JobWindow7  folder.
-            /// </summary>
-            public JobWindow7AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobWindow7", "/form[@name='Root' and @title=$Jb7Window_Title]", parentFolder, 30000, null, true, "84a299bc-d082-4b6e-9275-6de64287fd96", "")
-            {
-                _someindicatorInfo = new RepoItemInfo(this, "SomeIndicator", "indicator", "indicator", 30000, null, "56a78c2e-31ea-4828-bef6-5b1387587517");
-                _adjust_job_typeInfo = new RepoItemInfo(this, "Adjust_Job_Type", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']", "?/?/tabpagelist/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']", 30000, null, "54c4cb24-71d5-421e-a8cf-10bf0d4c164e");
-                _parameter_toggleInfo = new RepoItemInfo(this, "Parameter_Toggle", "?/?/tabpagelist/indicator/container[@caption='']/button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", ".//tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", 30000, null, "7d521810-0b2e-401d-a459-7a3a33cf141e");
-                _saveInfo = new RepoItemInfo(this, "Save", ".//container[@automationid='tabWhitespaceContent']/button[2]", ".//container[@automationid='tabWhitespaceContent']/button[2]", 30000, null, "fd1b3369-bf97-43d6-8aaf-3b2fdbb46cb4");
-                _runInfo = new RepoItemInfo(this, "Run", ".//container[@automationid='tabWhitespaceContent']/button[10]", ".//container[@automationid='tabWhitespaceContent']/button[10]", 30000, null, "3ccdf70a-e1b6-432b-b5c0-fc27ae34eaaf");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("84a299bc-d082-4b6e-9275-6de64287fd96")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("84a299bc-d082-4b6e-9275-6de64287fd96")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item.
-            /// </summary>
-            [RepositoryItem("56a78c2e-31ea-4828-bef6-5b1387587517")]
-            public virtual Ranorex.Indicator SomeIndicator
-            {
-                get
-                {
-                    return _someindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("56a78c2e-31ea-4828-bef6-5b1387587517")]
-            public virtual RepoItemInfo SomeIndicatorInfo
-            {
-                get
-                {
-                    return _someindicatorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Adjust_Job_Type item.
-            /// </summary>
-            [RepositoryItem("54c4cb24-71d5-421e-a8cf-10bf0d4c164e")]
-            public virtual Ranorex.Button Adjust_Job_Type
-            {
-                get
-                {
-                    return _adjust_job_typeInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Adjust_Job_Type item info.
-            /// </summary>
-            [RepositoryItemInfo("54c4cb24-71d5-421e-a8cf-10bf0d4c164e")]
-            public virtual RepoItemInfo Adjust_Job_TypeInfo
-            {
-                get
-                {
-                    return _adjust_job_typeInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Parameter_Toggle item.
-            /// </summary>
-            [RepositoryItem("7d521810-0b2e-401d-a459-7a3a33cf141e")]
-            public virtual Ranorex.Button Parameter_Toggle
-            {
-                get
-                {
-                    return _parameter_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Parameter_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("7d521810-0b2e-401d-a459-7a3a33cf141e")]
-            public virtual RepoItemInfo Parameter_ToggleInfo
-            {
-                get
-                {
-                    return _parameter_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Save item.
-            /// </summary>
-            [RepositoryItem("fd1b3369-bf97-43d6-8aaf-3b2fdbb46cb4")]
-            public virtual Ranorex.Button Save
-            {
-                get
-                {
-                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Save item info.
-            /// </summary>
-            [RepositoryItemInfo("fd1b3369-bf97-43d6-8aaf-3b2fdbb46cb4")]
-            public virtual RepoItemInfo SaveInfo
-            {
-                get
-                {
-                    return _saveInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Run item.
-            /// </summary>
-            [RepositoryItem("3ccdf70a-e1b6-432b-b5c0-fc27ae34eaaf")]
-            public virtual Ranorex.Button Run
-            {
-                get
-                {
-                    return _runInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Run item info.
-            /// </summary>
-            [RepositoryItemInfo("3ccdf70a-e1b6-432b-b5c0-fc27ae34eaaf")]
-            public virtual RepoItemInfo RunInfo
-            {
-                get
-                {
-                    return _runInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The JobWindow8AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("c2f96fef-a7d7-486d-b60d-df910803e269")]
-        public partial class JobWindow8AppFolder : RepoGenBaseFolder
-        {
-            AtlasAutomationRepositoryFolders.TabControlFolder _tabcontrol;
-            RepoItemInfo _togglebuttonInfo;
-            RepoItemInfo _sometext1Info;
-            RepoItemInfo _saveInfo;
-            RepoItemInfo _runInfo;
-
-            /// <summary>
-            /// Creates a new JobWindow8  folder.
-            /// </summary>
-            public JobWindow8AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobWindow8", "/form[@name='Root' and @title=$Jb8Window_Title]", parentFolder, 30000, null, true, "c2f96fef-a7d7-486d-b60d-df910803e269", "")
-            {
-                _tabcontrol = new AtlasAutomationRepositoryFolders.TabControlFolder(this);
-                _togglebuttonInfo = new RepoItemInfo(this, "ToggleButton", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']", ".//form[@automationid='ValidationPopup']/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']", 30000, null, "31b359cf-9678-43e1-bc6e-df16b6474e99");
-                _sometext1Info = new RepoItemInfo(this, "SomeText1", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']//text[@automationid='PART_TextBox']/text[@caption='']", ".//text[@automationid='PART_FieldLabel']/picture/container[@caption='']/text[@automationid='PART_TextBox']/text[@caption='']", 30000, null, "6c6b7861-f302-4e7c-bd6c-3cf18b420daf");
-                _saveInfo = new RepoItemInfo(this, "Save", ".//container[@automationid='tabWhitespaceContent']/button[2]", ".//container[@automationid='tabWhitespaceContent']/button[2]", 30000, null, "6b31454b-ad0f-480e-bddf-bb5df0094d75");
-                _runInfo = new RepoItemInfo(this, "Run", ".//container[@automationid='tabWhitespaceContent']/button[10]", ".//container[@automationid='tabWhitespaceContent']/button[10]", 30000, null, "5665ffa9-a63b-46a6-9e42-a93f4f086097");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("c2f96fef-a7d7-486d-b60d-df910803e269")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("c2f96fef-a7d7-486d-b60d-df910803e269")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item.
-            /// </summary>
-            [RepositoryItem("31b359cf-9678-43e1-bc6e-df16b6474e99")]
-            public virtual Ranorex.Button ToggleButton
-            {
-                get
-                {
-                    return _togglebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item info.
-            /// </summary>
-            [RepositoryItemInfo("31b359cf-9678-43e1-bc6e-df16b6474e99")]
-            public virtual RepoItemInfo ToggleButtonInfo
-            {
-                get
-                {
-                    return _togglebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeText1 item.
-            /// </summary>
-            [RepositoryItem("6c6b7861-f302-4e7c-bd6c-3cf18b420daf")]
-            public virtual Ranorex.Text SomeText1
-            {
-                get
-                {
-                    return _sometext1Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeText1 item info.
-            /// </summary>
-            [RepositoryItemInfo("6c6b7861-f302-4e7c-bd6c-3cf18b420daf")]
-            public virtual RepoItemInfo SomeText1Info
-            {
-                get
-                {
-                    return _sometext1Info;
-                }
-            }
-
-            /// <summary>
-            /// The Save item.
-            /// </summary>
-            [RepositoryItem("6b31454b-ad0f-480e-bddf-bb5df0094d75")]
-            public virtual Ranorex.Button Save
-            {
-                get
-                {
-                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Save item info.
-            /// </summary>
-            [RepositoryItemInfo("6b31454b-ad0f-480e-bddf-bb5df0094d75")]
-            public virtual RepoItemInfo SaveInfo
-            {
-                get
-                {
-                    return _saveInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Run item.
-            /// </summary>
-            [RepositoryItem("5665ffa9-a63b-46a6-9e42-a93f4f086097")]
-            public virtual Ranorex.Button Run
-            {
-                get
-                {
-                    return _runInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Run item info.
-            /// </summary>
-            [RepositoryItemInfo("5665ffa9-a63b-46a6-9e42-a93f4f086097")]
-            public virtual RepoItemInfo RunInfo
-            {
-                get
-                {
-                    return _runInfo;
-                }
-            }
-
-            /// <summary>
-            /// The TabControl folder.
-            /// </summary>
-            [RepositoryFolder("20c1426d-d6b8-444e-9636-e417a5a16c69")]
-            public virtual AtlasAutomationRepositoryFolders.TabControlFolder TabControl
-            {
-                get { return _tabcontrol; }
-            }
-        }
-
-        /// <summary>
-        /// The TabControlFolder folder.
-        /// </summary>
-        [RepositoryFolder("20c1426d-d6b8-444e-9636-e417a5a16c69")]
-        public partial class TabControlFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _someindicatorInfo;
-            RepoItemInfo _parameter_toggleInfo;
-
-            /// <summary>
-            /// Creates a new TabControl  folder.
-            /// </summary>
-            public TabControlFolder(RepoGenBaseFolder parentFolder) :
-                    base("TabControl", "?/?/tabpagelist", parentFolder, 30000, null, false, "20c1426d-d6b8-444e-9636-e417a5a16c69", "")
-            {
-                _someindicatorInfo = new RepoItemInfo(this, "SomeIndicator", "indicator", "indicator", 30000, null, "fb157848-4b61-400e-a24a-6d44b1e4ba6c");
-                _parameter_toggleInfo = new RepoItemInfo(this, "Parameter_Toggle", "indicator/container[@caption='']/button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", "container[4]/button[@automationid='PART_Toggle']", 30000, null, "5338bb20-6f41-4ba6-b3e9-e2ddd6cbfeae");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("20c1426d-d6b8-444e-9636-e417a5a16c69")]
-            public virtual Ranorex.TabPageList Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.TabPageList>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("20c1426d-d6b8-444e-9636-e417a5a16c69")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item.
-            /// </summary>
-            [RepositoryItem("fb157848-4b61-400e-a24a-6d44b1e4ba6c")]
-            public virtual Ranorex.Indicator SomeIndicator
-            {
-                get
-                {
-                    return _someindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("fb157848-4b61-400e-a24a-6d44b1e4ba6c")]
-            public virtual RepoItemInfo SomeIndicatorInfo
-            {
-                get
-                {
-                    return _someindicatorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Parameter_Toggle item.
-            /// </summary>
-            [RepositoryItem("5338bb20-6f41-4ba6-b3e9-e2ddd6cbfeae")]
-            public virtual Ranorex.Button Parameter_Toggle
-            {
-                get
-                {
-                    return _parameter_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Parameter_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("5338bb20-6f41-4ba6-b3e9-e2ddd6cbfeae")]
-            public virtual RepoItemInfo Parameter_ToggleInfo
-            {
-                get
-                {
-                    return _parameter_toggleInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The JobWindow9AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("292d7fbd-07c7-4633-a098-e43ee562ea9a")]
-        public partial class JobWindow9AppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _someindicatorInfo;
-            RepoItemInfo _togglebuttonInfo;
-            RepoItemInfo _sometextInfo;
-            RepoItemInfo _parameter_toggleInfo;
-            RepoItemInfo _saveInfo;
-            RepoItemInfo _runInfo;
-
-            /// <summary>
-            /// Creates a new JobWindow9  folder.
-            /// </summary>
-            public JobWindow9AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("JobWindow9", "/form[@name='Root' and @title=$Jb9Window_Title]", parentFolder, 30000, null, true, "292d7fbd-07c7-4633-a098-e43ee562ea9a", "")
-            {
-                _someindicatorInfo = new RepoItemInfo(this, "SomeIndicator", "indicator", "indicator", 30000, null, "184ae4cc-4a0b-45d5-883a-d3c9c39903b8");
-                _togglebuttonInfo = new RepoItemInfo(this, "ToggleButton", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']", "?/?/tabpagelist/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']", 30000, null, "c8a7f70f-250b-4658-94ad-fc3cd4af2fbd");
-                _sometextInfo = new RepoItemInfo(this, "SomeText", "?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']//text[@automationid='PART_TextBox']/text[@caption='']", ".//text[@automationid='PART_FieldLabel']/picture/container[@caption='']/text[@automationid='PART_TextBox']/text[@caption='']", 30000, null, "4b13ac0e-fb05-454e-aebd-e87f60d9d5d1");
-                _parameter_toggleInfo = new RepoItemInfo(this, "Parameter_Toggle", "?/?/tabpagelist/indicator/container[@caption='']/button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", ".//tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']", 30000, null, "288f0291-b759-40c7-b2fe-ba98a941f705");
-                _saveInfo = new RepoItemInfo(this, "Save", ".//container[@automationid='tabWhitespaceContent']/button[2]", ".//container[@automationid='tabWhitespaceContent']/button[2]", 30000, null, "4d0af68f-4a78-4d3a-b8a7-aa13a1201010");
-                _runInfo = new RepoItemInfo(this, "Run", ".//container[@automationid='tabWhitespaceContent']/button[10]", ".//container[@automationid='tabWhitespaceContent']/button[10]", 30000, null, "4b765c65-6b70-45c1-8b09-cd45bc5a9968");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("292d7fbd-07c7-4633-a098-e43ee562ea9a")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("292d7fbd-07c7-4633-a098-e43ee562ea9a")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item.
-            /// </summary>
-            [RepositoryItem("184ae4cc-4a0b-45d5-883a-d3c9c39903b8")]
-            public virtual Ranorex.Indicator SomeIndicator
-            {
-                get
-                {
-                    return _someindicatorInfo.CreateAdapter<Ranorex.Indicator>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeIndicator item info.
-            /// </summary>
-            [RepositoryItemInfo("184ae4cc-4a0b-45d5-883a-d3c9c39903b8")]
-            public virtual RepoItemInfo SomeIndicatorInfo
-            {
-                get
-                {
-                    return _someindicatorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item.
-            /// </summary>
-            [RepositoryItem("c8a7f70f-250b-4658-94ad-fc3cd4af2fbd")]
-            public virtual Ranorex.Button ToggleButton
-            {
-                get
-                {
-                    return _togglebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item info.
-            /// </summary>
-            [RepositoryItemInfo("c8a7f70f-250b-4658-94ad-fc3cd4af2fbd")]
-            public virtual RepoItemInfo ToggleButtonInfo
-            {
-                get
-                {
-                    return _togglebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeText item.
-            /// </summary>
-            [RepositoryItem("4b13ac0e-fb05-454e-aebd-e87f60d9d5d1")]
-            public virtual Ranorex.Text SomeText
-            {
-                get
-                {
-                    return _sometextInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeText item info.
-            /// </summary>
-            [RepositoryItemInfo("4b13ac0e-fb05-454e-aebd-e87f60d9d5d1")]
-            public virtual RepoItemInfo SomeTextInfo
-            {
-                get
-                {
-                    return _sometextInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Parameter_Toggle item.
-            /// </summary>
-            [RepositoryItem("288f0291-b759-40c7-b2fe-ba98a941f705")]
-            public virtual Ranorex.Button Parameter_Toggle
-            {
-                get
-                {
-                    return _parameter_toggleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Parameter_Toggle item info.
-            /// </summary>
-            [RepositoryItemInfo("288f0291-b759-40c7-b2fe-ba98a941f705")]
-            public virtual RepoItemInfo Parameter_ToggleInfo
-            {
-                get
-                {
-                    return _parameter_toggleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Save item.
-            /// </summary>
-            [RepositoryItem("4d0af68f-4a78-4d3a-b8a7-aa13a1201010")]
-            public virtual Ranorex.Button Save
-            {
-                get
-                {
-                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Save item info.
-            /// </summary>
-            [RepositoryItemInfo("4d0af68f-4a78-4d3a-b8a7-aa13a1201010")]
-            public virtual RepoItemInfo SaveInfo
-            {
-                get
-                {
-                    return _saveInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Run item.
-            /// </summary>
-            [RepositoryItem("4b765c65-6b70-45c1-8b09-cd45bc5a9968")]
-            public virtual Ranorex.Button Run
-            {
-                get
-                {
-                    return _runInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Run item info.
-            /// </summary>
-            [RepositoryItemInfo("4b765c65-6b70-45c1-8b09-cd45bc5a9968")]
-            public virtual RepoItemInfo RunInfo
-            {
-                get
-                {
-                    return _runInfo;
-                }
-            }
-        }
-
-        /// <summary>
         /// The AddDatasetFromDatabaseAppFolder folder.
         /// </summary>
         [RepositoryFolder("08fae8d3-bd14-43d1-a147-033d6ef3808b")]
@@ -9438,7 +5008,7 @@ namespace AtlasAutomation
         [RepositoryFolder("5baa2a1c-aa54-48f0-9eef-d6dda50cab06")]
         public partial class Report_TabFolder : RepoGenBaseFolder
         {
-            AtlasAutomationRepositoryFolders.Compare_JobsFolder1 _compare_jobs;
+            AtlasAutomationRepositoryFolders.Compare_JobsFolder _compare_jobs;
             SomeCellInfoClass _somecellInfo;
             RepoItemInfo _somegripInfo;
             Report_PageInfoClass _report_pageInfo;
@@ -9450,7 +5020,7 @@ namespace AtlasAutomation
             public Report_TabFolder(RepoGenBaseFolder parentFolder) :
                     base("Report_Tab", "", parentFolder, 0, null, false, "5baa2a1c-aa54-48f0-9eef-d6dda50cab06", "")
             {
-                _compare_jobs = new AtlasAutomationRepositoryFolders.Compare_JobsFolder1(this);
+                _compare_jobs = new AtlasAutomationRepositoryFolders.Compare_JobsFolder(this);
                 _somecellInfo = new SomeCellInfoClass(this);
                 _somegripInfo = new RepoItemInfo(this, "SomeGrip", ".//table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/scrollbar[@automationid='PART_VerticalScrollBar']/?/?/grip", ".//slider/grip", 30000, null, "db71692e-885e-42c2-bf06-bcf98e97cc9f");
                 _report_pageInfo = new Report_PageInfoClass(this);
@@ -9639,17 +5209,17 @@ namespace AtlasAutomation
             /// The Compare_Jobs folder.
             /// </summary>
             [RepositoryFolder("be75f03b-d27c-4cce-9e15-eb8c74836c02")]
-            public virtual AtlasAutomationRepositoryFolders.Compare_JobsFolder1 Compare_Jobs
+            public virtual AtlasAutomationRepositoryFolders.Compare_JobsFolder Compare_Jobs
             {
                 get { return _compare_jobs; }
             }
         }
 
         /// <summary>
-        /// The Compare_JobsFolder1 folder.
+        /// The Compare_JobsFolder folder.
         /// </summary>
         [RepositoryFolder("be75f03b-d27c-4cce-9e15-eb8c74836c02")]
-        public partial class Compare_JobsFolder1 : RepoGenBaseFolder
+        public partial class Compare_JobsFolder : RepoGenBaseFolder
         {
             RepoItemInfo _applyInfo;
             RepoItemInfo _togglebuttonInfo;
@@ -9659,7 +5229,7 @@ namespace AtlasAutomation
             /// <summary>
             /// Creates a new Compare_Jobs  folder.
             /// </summary>
-            public Compare_JobsFolder1(RepoGenBaseFolder parentFolder) :
+            public Compare_JobsFolder(RepoGenBaseFolder parentFolder) :
                     base("Compare_Jobs", ".//tabpagelist[@automationid='tabs']", parentFolder, 30000, null, false, "be75f03b-d27c-4cce-9e15-eb8c74836c02", "")
             {
                 _applyInfo = new RepoItemInfo(this, "Apply", ".//container[@name='root' and @caption='']/button[@automationid='Apply']", "", 30000, null, "7e486827-56bb-4bd7-89dc-c63043306177");
@@ -9801,7 +5371,7 @@ namespace AtlasAutomation
             RepoItemInfo _aircraft_collapseInfo;
             RepoItemInfo _calibration_demand_exoandInfo;
             RepoItemInfo _calibration_demand_collapseInfo;
-            RepoItemInfo _calibration_network_exoandInfo;
+            RepoItemInfo _calibration_network_expandInfo;
             RepoItemInfo _calibration_network_collapseInfo;
             RepoItemInfo _market_expandInfo;
             RepoItemInfo _market_collapseInfo;
@@ -9850,7 +5420,7 @@ namespace AtlasAutomation
                 _aircraft_collapseInfo = new RepoItemInfo(this, "Aircraft_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']", "", 30000, null, "d069470e-d19d-4e4f-92c5-614454f4d0e7");
                 _calibration_demand_exoandInfo = new RepoItemInfo(this, "Calibration_Demand_Exoand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']", "", 30000, null, "29e0b5b3-692e-4821-81e4-50993c04f80d");
                 _calibration_demand_collapseInfo = new RepoItemInfo(this, "Calibration_Demand_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/button[@automationid='PART_ExpandButton']", "", 30000, null, "1777bd8e-add1-40e8-90bb-1eda5fe09c0f");
-                _calibration_network_exoandInfo = new RepoItemInfo(this, "Calibration_Network_Exoand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']", "", 30000, null, "5e832440-8939-48ba-a3f2-e771d33715af");
+                _calibration_network_expandInfo = new RepoItemInfo(this, "Calibration_Network_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']", "", 30000, null, "5e832440-8939-48ba-a3f2-e771d33715af");
                 _calibration_network_collapseInfo = new RepoItemInfo(this, "Calibration_Network_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']", "", 30000, null, "66f50f65-71fa-4997-9cf7-87dc296e10e8");
                 _market_expandInfo = new RepoItemInfo(this, "Market_Expand", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[10]/button[@automationid='PART_ExpandButton']", "", 30000, null, "10957ca3-7f8d-4248-9865-623b263444bc");
                 _market_collapseInfo = new RepoItemInfo(this, "Market_Collapse", ".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[10]/button[@automationid='PART_ExpandButton']", "", 30000, null, "f2cde77b-d8e9-44e1-ad4a-be7fec778bf5");
@@ -10110,26 +5680,26 @@ namespace AtlasAutomation
             }
 
             /// <summary>
-            /// The Calibration_Network_Exoand item.
+            /// The Calibration_Network_Expand item.
             /// </summary>
             [RepositoryItem("5e832440-8939-48ba-a3f2-e771d33715af")]
-            public virtual Ranorex.Button Calibration_Network_Exoand
+            public virtual Ranorex.Button Calibration_Network_Expand
             {
                 get
                 {
-                    return _calibration_network_exoandInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _calibration_network_expandInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Calibration_Network_Exoand item info.
+            /// The Calibration_Network_Expand item info.
             /// </summary>
             [RepositoryItemInfo("5e832440-8939-48ba-a3f2-e771d33715af")]
-            public virtual RepoItemInfo Calibration_Network_ExoandInfo
+            public virtual RepoItemInfo Calibration_Network_ExpandInfo
             {
                 get
                 {
-                    return _calibration_network_exoandInfo;
+                    return _calibration_network_expandInfo;
                 }
             }
 

@@ -41,9 +41,9 @@ namespace AtlasAutomation
         /// </summary>
         public FilloutScenarioDetails()
         {
-            Jb1_Name = "Demo_IB";
-            ScName = "Demo_IB";
-            Dates_Med = "18Sep2023 to 24Sep2023";
+            jb1Name = "Demo_IB";
+            scName = "Demo_IB";
+            datesMed = "18Sep2023 to 24Sep2023";
         }
 
         /// <summary>
@@ -56,40 +56,40 @@ namespace AtlasAutomation
 
 #region Variables
 
-        string _Jb1_Name;
+        string _jb1Name;
 
         /// <summary>
-        /// Gets or sets the value of variable Jb1_Name.
+        /// Gets or sets the value of variable jb1Name.
         /// </summary>
         [TestVariable("0933a35d-c702-402a-828a-751c7a015205")]
-        public string Jb1_Name
+        public string jb1Name
         {
-            get { return _Jb1_Name; }
-            set { _Jb1_Name = value; }
+            get { return _jb1Name; }
+            set { _jb1Name = value; }
         }
 
-        string _ScName;
+        string _scName;
 
         /// <summary>
-        /// Gets or sets the value of variable ScName.
+        /// Gets or sets the value of variable scName.
         /// </summary>
         [TestVariable("ef8a5b07-c4cd-4eb7-b47b-6d47d7cbb0b0")]
-        public string ScName
+        public string scName
         {
-            get { return _ScName; }
-            set { _ScName = value; }
+            get { return _scName; }
+            set { _scName = value; }
         }
 
-        string _Dates_Med;
+        string _datesMed;
 
         /// <summary>
-        /// Gets or sets the value of variable Dates_Med.
+        /// Gets or sets the value of variable datesMed.
         /// </summary>
         [TestVariable("54f5d2b5-d8d9-4087-8c0f-79289445f518")]
-        public string Dates_Med
+        public string datesMed
         {
-            get { return _Dates_Med; }
-            set { _Dates_Med = value; }
+            get { return _datesMed; }
+            set { _datesMed = value; }
         }
 
 #endregion
@@ -122,16 +122,16 @@ namespace AtlasAutomation
             repo.NewScenario.SomeContainer.ScNameTB.Click("184;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$ScName' with focus on 'NewScenario.SomeContainer.ScNameTB'.", repo.NewScenario.SomeContainer.ScNameTBInfo, new RecordItemIndex(1));
-            repo.NewScenario.SomeContainer.ScNameTB.PressKeys(ScName);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$scName' with focus on 'NewScenario.SomeContainer.ScNameTB'.", repo.NewScenario.SomeContainer.ScNameTBInfo, new RecordItemIndex(1));
+            repo.NewScenario.SomeContainer.ScNameTB.PressKeys(scName);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.JbNameTB' at 180;13.", repo.NewScenario.JbNameTBInfo, new RecordItemIndex(2));
             repo.NewScenario.JbNameTB.Click("180;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Jb1_Name' with focus on 'NewScenario.JbNameTB'.", repo.NewScenario.JbNameTBInfo, new RecordItemIndex(3));
-            repo.NewScenario.JbNameTB.PressKeys(Jb1_Name);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$jb1Name' with focus on 'NewScenario.JbNameTB'.", repo.NewScenario.JbNameTBInfo, new RecordItemIndex(3));
+            repo.NewScenario.JbNameTB.PressKeys(jb1Name);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.SomeContainer.jobType' at 10;6.", repo.NewScenario.SomeContainer.jobTypeInfo, new RecordItemIndex(4));
@@ -146,8 +146,8 @@ namespace AtlasAutomation
             repo.NewScenario.SomeContainer.jobDates.Click("4;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Dates_Med' with focus on 'NewScenario.SomeContainer.jobDates'.", repo.NewScenario.SomeContainer.jobDatesInfo, new RecordItemIndex(7));
-            repo.NewScenario.SomeContainer.jobDates.PressKeys(Dates_Med);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesMed' with focus on 'NewScenario.SomeContainer.jobDates'.", repo.NewScenario.SomeContainer.jobDatesInfo, new RecordItemIndex(7));
+            repo.NewScenario.SomeContainer.jobDates.PressKeys(datesMed);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewScenario.Create' at Center.", repo.NewScenario.CreateInfo, new RecordItemIndex(8));

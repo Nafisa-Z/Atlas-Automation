@@ -53,16 +53,6 @@ namespace AtlasAutomation
 
 #region Variables
 
-        /// <summary>
-        /// Gets or sets the value of variable JbWindow_Title.
-        /// </summary>
-        [TestVariable("adf59c56-3149-4ee6-bffd-8a261f7a9b4c")]
-        public string JbWindow_Title
-        {
-            get { return repo.JbWindow_Title; }
-            set { repo.JbWindow_Title = value; }
-        }
-
 #endregion
 
         /// <summary>
@@ -89,15 +79,15 @@ namespace AtlasAutomation
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Revenue_Expand' at 6;10.", repo.JobWindow1.SomeContainer.Revenue_ExpandInfo, new RecordItemIndex(0));
-            repo.JobWindow1.SomeContainer.Revenue_Expand.Click("6;10");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Revenue_Expand' at 6;10.", repo.JobWindow.TC_01.Revenue_ExpandInfo, new RecordItemIndex(0));
+            repo.JobWindow.TC_01.Revenue_Expand.Click("6;10");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Relative_Fare_by_Week_Toggle' at Center.", repo.JobWindow1.SomeContainer.Relative_Fare_by_Week_ToggleInfo, new RecordItemIndex(2));
-            repo.JobWindow1.SomeContainer.Relative_Fare_by_Week_Toggle.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Relative_Fare_by_Week_Toggle' at Center.", repo.JobWindow.TC_01.Relative_Fare_by_Week_ToggleInfo, new RecordItemIndex(2));
+            repo.JobWindow.TC_01.Relative_Fare_by_Week_Toggle.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
@@ -110,8 +100,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Revenue_Toggle' at Center.", repo.JobWindow1.SomeContainer.Revenue_ToggleInfo, new RecordItemIndex(6));
-            repo.JobWindow1.SomeContainer.Revenue_Toggle.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Revenue_Toggle' at Center.", repo.JobWindow.TC_01.Revenue_ToggleInfo, new RecordItemIndex(6));
+            repo.JobWindow.TC_01.Revenue_Toggle.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));

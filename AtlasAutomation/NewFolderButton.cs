@@ -83,16 +83,16 @@ namespace AtlasAutomation
             repo.SkySuite.Self.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.WorkbenchButton' at 80;31.", repo.SkySuite.WorkbenchButtonInfo, new RecordItemIndex(1));
-            repo.SkySuite.WorkbenchButton.Click("80;31");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.workbenchButton' at 80;31.", repo.SkySuite.workbenchButtonInfo, new RecordItemIndex(1));
+            repo.SkySuite.workbenchButton.Click("80;31");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.WorkbenchView' at 623;13.", repo.SkySuite.WorkbenchViewInfo, new RecordItemIndex(2));
-            repo.SkySuite.WorkbenchView.Click("623;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.workbenchView' at 623;13.", repo.SkySuite.workbenchViewInfo, new RecordItemIndex(2));
+            repo.SkySuite.workbenchView.Click("623;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.WorkbenchToolbarNewFolderButton' at 23;22.", repo.SkySuite.WorkbenchToolbarNewFolderButtonInfo, new RecordItemIndex(3));
-            repo.SkySuite.WorkbenchToolbarNewFolderButton.Click("23;22");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.workbenchToolbarNewFolderButton' at 23;22.", repo.SkySuite.workbenchToolbarNewFolderButtonInfo, new RecordItemIndex(3));
+            repo.SkySuite.workbenchToolbarNewFolderButton.Click("23;22");
             Delay.Milliseconds(0);
             
         }

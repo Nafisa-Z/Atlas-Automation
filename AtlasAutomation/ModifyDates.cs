@@ -41,7 +41,7 @@ namespace AtlasAutomation
         /// </summary>
         public ModifyDates()
         {
-            Dates_Peak = "21Aug2023 to 27Aug2023";
+            datesPeak = "21Aug2023 to 27Aug2023";
         }
 
         /// <summary>
@@ -54,16 +54,16 @@ namespace AtlasAutomation
 
 #region Variables
 
-        string _Dates_Peak;
+        string _datesPeak;
 
         /// <summary>
-        /// Gets or sets the value of variable Dates_Peak.
+        /// Gets or sets the value of variable datesPeak.
         /// </summary>
         [TestVariable("b5c7e78e-0a46-4d7d-a5ef-906ec1b4514f")]
-        public string Dates_Peak
+        public string datesPeak
         {
-            get { return _Dates_Peak; }
-            set { _Dates_Peak = value; }
+            get { return _datesPeak; }
+            set { _datesPeak = value; }
         }
 
 #endregion
@@ -96,8 +96,8 @@ namespace AtlasAutomation
             repo.JobWindow.Job_Details.Planning_Period.Click("205;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Dates_Peak' with focus on 'JobWindow.Job_Details.Planning_Period'.", repo.JobWindow.Job_Details.Planning_PeriodInfo, new RecordItemIndex(1));
-            repo.JobWindow.Job_Details.Planning_Period.PressKeys(Dates_Peak);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesPeak' with focus on 'JobWindow.Job_Details.Planning_Period'.", repo.JobWindow.Job_Details.Planning_PeriodInfo, new RecordItemIndex(1));
+            repo.JobWindow.Job_Details.Planning_Period.PressKeys(datesPeak);
             Delay.Milliseconds(0);
             
         }

@@ -54,13 +54,13 @@ namespace AtlasAutomation
 #region Variables
 
         /// <summary>
-        /// Gets or sets the value of variable Workspace_Name.
+        /// Gets or sets the value of variable workspaceName.
         /// </summary>
         [TestVariable("3013f374-57e1-4896-b74b-5663b612e152")]
-        public string Workspace_Name
+        public string workspaceName
         {
-            get { return repo.Workspace_Name; }
-            set { repo.Workspace_Name = value; }
+            get { return repo.workspaceName; }
+            set { repo.workspaceName = value; }
         }
 
 #endregion
@@ -89,11 +89,11 @@ namespace AtlasAutomation
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SkySuite.Workspace'.", repo.SkySuite.WorkspaceInfo, new RecordItemIndex(0));
-            Validate.Exists(repo.SkySuite.WorkspaceInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SkySuite.workspace'.", repo.SkySuite.workspaceInfo, new RecordItemIndex(0));
+            Validate.Exists(repo.SkySuite.workspaceInfo);
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "New Workspace successfully created", repo.SkySuite.Workspace, false, new RecordItemIndex(1));
+            Report.Screenshot(ReportLevel.Info, "User", "New Workspace successfully created", repo.SkySuite.workspace, false, new RecordItemIndex(1));
             
         }
 

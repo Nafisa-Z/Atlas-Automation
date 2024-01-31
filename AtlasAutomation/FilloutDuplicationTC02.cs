@@ -41,7 +41,7 @@ namespace AtlasAutomation
         /// </summary>
         public FilloutDuplicationTC02()
         {
-            Jb2_Name = "TC_02";
+            jb2Name = "TC_02";
         }
 
         /// <summary>
@@ -54,16 +54,16 @@ namespace AtlasAutomation
 
 #region Variables
 
-        string _Jb2_Name;
+        string _jb2Name;
 
         /// <summary>
-        /// Gets or sets the value of variable Jb2_Name.
+        /// Gets or sets the value of variable jb2Name.
         /// </summary>
         [TestVariable("f683cf55-46d2-4fce-b814-742d50f0557e")]
-        public string Jb2_Name
+        public string jb2Name
         {
-            get { return _Jb2_Name; }
-            set { _Jb2_Name = value; }
+            get { return _jb2Name; }
+            set { _jb2Name = value; }
         }
 
 #endregion
@@ -100,8 +100,8 @@ namespace AtlasAutomation
             repo.DuplicateJobToCurrentScenario.Job_Name.PressKeys("{Back 80}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Jb2_Name' with focus on 'DuplicateJobToCurrentScenario.Job_Name'.", repo.DuplicateJobToCurrentScenario.Job_NameInfo, new RecordItemIndex(2));
-            repo.DuplicateJobToCurrentScenario.Job_Name.PressKeys(Jb2_Name);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$jb2Name' with focus on 'DuplicateJobToCurrentScenario.Job_Name'.", repo.DuplicateJobToCurrentScenario.Job_NameInfo, new RecordItemIndex(2));
+            repo.DuplicateJobToCurrentScenario.Job_Name.PressKeys(jb2Name);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DuplicateJobToCurrentScenario.Create' at 4;11.", repo.DuplicateJobToCurrentScenario.CreateInfo, new RecordItemIndex(3));

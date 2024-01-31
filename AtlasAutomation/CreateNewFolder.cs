@@ -41,7 +41,7 @@ namespace AtlasAutomation
         /// </summary>
         public CreateNewFolder()
         {
-            FolderName = "AtlasDemo";
+            workbenchName = "AtlasDemo";
         }
 
         /// <summary>
@@ -55,13 +55,13 @@ namespace AtlasAutomation
 #region Variables
 
         /// <summary>
-        /// Gets or sets the value of variable FolderName.
+        /// Gets or sets the value of variable workbenchName.
         /// </summary>
         [TestVariable("032670c3-3d82-4fe8-b971-9320dc6b5111")]
-        public string FolderName
+        public string workbenchName
         {
-            get { return repo.FolderName; }
-            set { repo.FolderName = value; }
+            get { return repo.workbenchName; }
+            set { repo.workbenchName = value; }
         }
 
 #endregion
@@ -94,8 +94,8 @@ namespace AtlasAutomation
             repo.WorkbenchFolder.FolderName.Click("73;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$FolderName' with focus on 'WorkbenchFolder.FolderName'.", repo.WorkbenchFolder.FolderNameInfo, new RecordItemIndex(1));
-            repo.WorkbenchFolder.FolderName.PressKeys(FolderName);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$workbenchName' with focus on 'WorkbenchFolder.FolderName'.", repo.WorkbenchFolder.FolderNameInfo, new RecordItemIndex(1));
+            repo.WorkbenchFolder.FolderName.PressKeys(workbenchName);
             Delay.Milliseconds(20);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(2));

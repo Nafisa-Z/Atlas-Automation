@@ -53,16 +53,6 @@ namespace AtlasAutomation
 
 #region Variables
 
-        /// <summary>
-        /// Gets or sets the value of variable JbWindow_Title.
-        /// </summary>
-        [TestVariable("adf59c56-3149-4ee6-bffd-8a261f7a9b4c")]
-        public string JbWindow_Title
-        {
-            get { return repo.JbWindow_Title; }
-            set { repo.JbWindow_Title = value; }
-        }
-
 #endregion
 
         /// <summary>
@@ -89,15 +79,15 @@ namespace AtlasAutomation
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Market_Expand' at Center.", repo.JobWindow1.SomeContainer.Market_ExpandInfo, new RecordItemIndex(0));
-            repo.JobWindow1.SomeContainer.Market_Expand.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Market_Expand' at Center.", repo.JobWindow.TC_01.Market_ExpandInfo, new RecordItemIndex(0));
+            repo.JobWindow.TC_01.Market_Expand.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Market_Size_Toggle' at Center.", repo.JobWindow1.SomeContainer.Market_Size_ToggleInfo, new RecordItemIndex(2));
-            repo.JobWindow1.SomeContainer.Market_Size_Toggle.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Market_Size_Toggle' at Center.", repo.JobWindow.TC_01.Market_Size_ToggleInfo, new RecordItemIndex(2));
+            repo.JobWindow.TC_01.Market_Size_Toggle.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
@@ -110,8 +100,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Passenger_Toggle' at Center.", repo.JobWindow1.SomeContainer.Passenger_ToggleInfo, new RecordItemIndex(6));
-            repo.JobWindow1.SomeContainer.Passenger_Toggle.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Passenger_Toggle' at Center.", repo.JobWindow.TC_01.Passenger_ToggleInfo, new RecordItemIndex(6));
+            repo.JobWindow.TC_01.Passenger_Toggle.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
@@ -124,8 +114,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(9));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Market_Collapse' at Center.", repo.JobWindow1.SomeContainer.Market_CollapseInfo, new RecordItemIndex(10));
-            repo.JobWindow1.SomeContainer.Market_Collapse.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Market_Collapse' at Center.", repo.JobWindow.TC_01.Market_CollapseInfo, new RecordItemIndex(10));
+            repo.JobWindow.TC_01.Market_Collapse.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(11));

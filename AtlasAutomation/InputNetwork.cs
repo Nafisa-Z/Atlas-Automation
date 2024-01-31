@@ -53,16 +53,6 @@ namespace AtlasAutomation
 
 #region Variables
 
-        /// <summary>
-        /// Gets or sets the value of variable JbWindow_Title.
-        /// </summary>
-        [TestVariable("adf59c56-3149-4ee6-bffd-8a261f7a9b4c")]
-        public string JbWindow_Title
-        {
-            get { return repo.JbWindow_Title; }
-            set { repo.JbWindow_Title = value; }
-        }
-
 #endregion
 
         /// <summary>
@@ -89,15 +79,15 @@ namespace AtlasAutomation
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Network_Expand' at 4;4.", repo.JobWindow1.SomeContainer.Network_ExpandInfo, new RecordItemIndex(0));
-            repo.JobWindow1.SomeContainer.Network_Expand.Click("4;4");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Network_Expand' at 4;4.", repo.JobWindow.TC_01.Network_ExpandInfo, new RecordItemIndex(0));
+            repo.JobWindow.TC_01.Network_Expand.Click("4;4");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Copy_of_Alliance_Toggle' at 15;17.", repo.JobWindow1.SomeContainer.Copy_of_Alliance_ToggleInfo, new RecordItemIndex(2));
-            repo.JobWindow1.SomeContainer.Copy_of_Alliance_Toggle.Click("15;17");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Copy_of_Alliance_Toggle' at 15;17.", repo.JobWindow.TC_01.Copy_of_Alliance_ToggleInfo, new RecordItemIndex(2));
+            repo.JobWindow.TC_01.Copy_of_Alliance_Toggle.Click("15;17");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
@@ -110,8 +100,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Min_Connection_Time_Toggle' at 11;14.", repo.JobWindow1.SomeContainer.Min_Connection_Time_ToggleInfo, new RecordItemIndex(6));
-            repo.JobWindow1.SomeContainer.Min_Connection_Time_Toggle.Click("11;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Min_Connection_Time_Toggle' at 11;14.", repo.JobWindow.TC_01.Min_Connection_Time_ToggleInfo, new RecordItemIndex(6));
+            repo.JobWindow.TC_01.Min_Connection_Time_Toggle.Click("11;14");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
@@ -124,8 +114,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(9));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Multi_Airport_Toggle' at Center.", repo.JobWindow1.SomeContainer.Multi_Airport_ToggleInfo, new RecordItemIndex(10));
-            repo.JobWindow1.SomeContainer.Multi_Airport_Toggle.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Multi_Airport_Toggle' at Center.", repo.JobWindow.TC_01.Multi_Airport_ToggleInfo, new RecordItemIndex(10));
+            repo.JobWindow.TC_01.Multi_Airport_Toggle.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(11));
@@ -138,8 +128,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(13));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Partnership_Toggle' at 13;15.", repo.JobWindow1.SomeContainer.Partnership_ToggleInfo, new RecordItemIndex(14));
-            repo.JobWindow1.SomeContainer.Partnership_Toggle.Click("13;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Partnership_Toggle' at 13;15.", repo.JobWindow.TC_01.Partnership_ToggleInfo, new RecordItemIndex(14));
+            repo.JobWindow.TC_01.Partnership_Toggle.Click("13;15");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(15));
@@ -152,8 +142,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(17));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Network_Collapse' at 4;4.", repo.JobWindow1.SomeContainer.Network_CollapseInfo, new RecordItemIndex(18));
-            repo.JobWindow1.SomeContainer.Network_Collapse.Click("4;4");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Network_Collapse' at 4;4.", repo.JobWindow.TC_01.Network_CollapseInfo, new RecordItemIndex(18));
+            repo.JobWindow.TC_01.Network_Collapse.Click("4;4");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(19));

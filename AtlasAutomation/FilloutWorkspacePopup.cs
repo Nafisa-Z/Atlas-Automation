@@ -41,8 +41,8 @@ namespace AtlasAutomation
         /// </summary>
         public Create_Workspace()
         {
-            Workspace_Name = "Demo_Cycle1";
-            Planning_Period = "3/26/2023 to 10/28/2023";
+            workspaceName = "Demo_Cycle1";
+            planningPeriod = "3/26/2023 to 10/28/2023";
         }
 
         /// <summary>
@@ -55,26 +55,26 @@ namespace AtlasAutomation
 
 #region Variables
 
-        string _Planning_Period;
+        string _planningPeriod;
 
         /// <summary>
-        /// Gets or sets the value of variable Planning_Period.
+        /// Gets or sets the value of variable planningPeriod.
         /// </summary>
         [TestVariable("6cb791b2-d155-42af-bea5-9f987813aff5")]
-        public string Planning_Period
+        public string planningPeriod
         {
-            get { return _Planning_Period; }
-            set { _Planning_Period = value; }
+            get { return _planningPeriod; }
+            set { _planningPeriod = value; }
         }
 
         /// <summary>
-        /// Gets or sets the value of variable Workspace_Name.
+        /// Gets or sets the value of variable workspaceName.
         /// </summary>
         [TestVariable("42df0ad1-cfe1-4cc9-8958-33a76f0d7df3")]
-        public string Workspace_Name
+        public string workspaceName
         {
-            get { return repo.Workspace_Name; }
-            set { repo.Workspace_Name = value; }
+            get { return repo.workspaceName; }
+            set { repo.workspaceName = value; }
         }
 
 #endregion
@@ -107,16 +107,16 @@ namespace AtlasAutomation
             repo.NewWorkspace.NameTextBox.Click("268;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Workspace_Name' with focus on 'NewWorkspace.NameTextBox'.", repo.NewWorkspace.NameTextBoxInfo, new RecordItemIndex(1));
-            repo.NewWorkspace.NameTextBox.PressKeys(Workspace_Name);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$workspaceName' with focus on 'NewWorkspace.NameTextBox'.", repo.NewWorkspace.NameTextBoxInfo, new RecordItemIndex(1));
+            repo.NewWorkspace.NameTextBox.PressKeys(workspaceName);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewWorkspace.PlanningPeriod' at 68;3.", repo.NewWorkspace.PlanningPeriodInfo, new RecordItemIndex(2));
             repo.NewWorkspace.PlanningPeriod.Click("68;3");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Planning_Period' with focus on 'NewWorkspace.PlanningPeriod'.", repo.NewWorkspace.PlanningPeriodInfo, new RecordItemIndex(3));
-            repo.NewWorkspace.PlanningPeriod.PressKeys(Planning_Period);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$planningPeriod' with focus on 'NewWorkspace.PlanningPeriod'.", repo.NewWorkspace.PlanningPeriodInfo, new RecordItemIndex(3));
+            repo.NewWorkspace.PlanningPeriod.PressKeys(planningPeriod);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewWorkspace.Create' at 5;8.", repo.NewWorkspace.CreateInfo, new RecordItemIndex(4));

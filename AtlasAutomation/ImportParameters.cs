@@ -41,7 +41,7 @@ namespace AtlasAutomation
         /// </summary>
         public ImportParameters()
         {
-            Param_Search = "precalibration";
+            paramSearch = "precalibration";
         }
 
         /// <summary>
@@ -54,26 +54,16 @@ namespace AtlasAutomation
 
 #region Variables
 
-        string _Param_Search;
+        string _paramSearch;
 
         /// <summary>
-        /// Gets or sets the value of variable Param_Search.
+        /// Gets or sets the value of variable paramSearch.
         /// </summary>
         [TestVariable("82fee5d7-7c7e-4de9-9bb3-5a97cd2f0b26")]
-        public string Param_Search
+        public string paramSearch
         {
-            get { return _Param_Search; }
-            set { _Param_Search = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable JbWindow_Title.
-        /// </summary>
-        [TestVariable("adf59c56-3149-4ee6-bffd-8a261f7a9b4c")]
-        public string JbWindow_Title
-        {
-            get { return repo.JbWindow_Title; }
-            set { repo.JbWindow_Title = value; }
+            get { return _paramSearch; }
+            set { _paramSearch = value; }
         }
 
 #endregion
@@ -108,8 +98,8 @@ namespace AtlasAutomation
             repo.JobWindow.Self.Click("841;26");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Parameters_Toggle' at 42;15.", repo.JobWindow1.SomeContainer.Parameters_ToggleInfo, new RecordItemIndex(2));
-            repo.JobWindow1.SomeContainer.Parameters_Toggle.Click("42;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Parameters.Parameter_Toggle' at 42;15.", repo.JobWindow.Parameters.Parameter_ToggleInfo, new RecordItemIndex(2));
+            repo.JobWindow.Parameters.Parameter_Toggle.Click("42;15");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(3));
@@ -149,9 +139,9 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(13));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Param_Search' with focus on 'Open'.", repo.Open.SelfInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$paramSearch' with focus on 'Open'.", repo.Open.SelfInfo, new RecordItemIndex(14));
             repo.Open.Self.EnsureVisible();
-            Keyboard.Press(Param_Search);
+            Keyboard.Press(paramSearch);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(15));

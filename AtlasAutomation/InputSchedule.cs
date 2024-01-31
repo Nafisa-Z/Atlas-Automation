@@ -41,7 +41,7 @@ namespace AtlasAutomation
         /// </summary>
         public InputSchedule()
         {
-            Dates_Med = "18Sep2023 to 24Sep2023";
+            datesMed = "18Sep2023 to 24Sep2023";
         }
 
         /// <summary>
@@ -54,26 +54,16 @@ namespace AtlasAutomation
 
 #region Variables
 
-        string _Dates_Med;
+        string _datesMed;
 
         /// <summary>
-        /// Gets or sets the value of variable Dates_Med.
+        /// Gets or sets the value of variable datesMed.
         /// </summary>
         [TestVariable("0b2e0f63-89dc-44cf-aaaf-34c6bfbb9921")]
-        public string Dates_Med
+        public string datesMed
         {
-            get { return _Dates_Med; }
-            set { _Dates_Med = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable JbWindow_Title.
-        /// </summary>
-        [TestVariable("adf59c56-3149-4ee6-bffd-8a261f7a9b4c")]
-        public string JbWindow_Title
-        {
-            get { return repo.JbWindow_Title; }
-            set { repo.JbWindow_Title = value; }
+            get { return _datesMed; }
+            set { _datesMed = value; }
         }
 
 #endregion
@@ -102,15 +92,15 @@ namespace AtlasAutomation
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Schedule_Expand' at Center.", repo.JobWindow1.SomeContainer.Schedule_ExpandInfo, new RecordItemIndex(0));
-            repo.JobWindow1.SomeContainer.Schedule_Expand.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Job_Inputs.Schedule_Expand' at Center.", repo.JobWindow.Job_Inputs.Schedule_ExpandInfo, new RecordItemIndex(0));
+            repo.JobWindow.Job_Inputs.Schedule_Expand.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.OA_Toggle' at Center.", repo.JobWindow1.SomeContainer.OA_ToggleInfo, new RecordItemIndex(2));
-            repo.JobWindow1.SomeContainer.OA_Toggle.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.OA_Toggle' at Center.", repo.JobWindow.TC_01.OA_ToggleInfo, new RecordItemIndex(2));
+            repo.JobWindow.TC_01.OA_Toggle.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(3));
@@ -123,16 +113,16 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(5));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.OA_Dates' at 58;12.", repo.JobWindow1.SomeContainer.OA_DatesInfo, new RecordItemIndex(6));
-            repo.JobWindow1.SomeContainer.OA_Dates.Click("58;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.OA_Dates' at 58;12.", repo.JobWindow.TC_01.OA_DatesInfo, new RecordItemIndex(6));
+            repo.JobWindow.TC_01.OA_Dates.Click("58;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Dates_Med' with focus on 'JobWindow1.SomeContainer.OA_Dates'.", repo.JobWindow1.SomeContainer.OA_DatesInfo, new RecordItemIndex(7));
-            repo.JobWindow1.SomeContainer.OA_Dates.PressKeys(Dates_Med);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesMed' with focus on 'JobWindow.TC_01.OA_Dates'.", repo.JobWindow.TC_01.OA_DatesInfo, new RecordItemIndex(7));
+            repo.JobWindow.TC_01.OA_Dates.PressKeys(datesMed);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Replacement_Toggle' at 7;14.", repo.JobWindow1.SomeContainer.Replacement_ToggleInfo, new RecordItemIndex(8));
-            repo.JobWindow1.SomeContainer.Replacement_Toggle.Click("7;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Replacement_Toggle' at 7;14.", repo.JobWindow.TC_01.Replacement_ToggleInfo, new RecordItemIndex(8));
+            repo.JobWindow.TC_01.Replacement_Toggle.Click("7;14");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(9));
@@ -145,19 +135,19 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(11));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Replacement_Dates' at 19;11.", repo.JobWindow1.SomeContainer.Replacement_DatesInfo, new RecordItemIndex(12));
-            repo.JobWindow1.SomeContainer.Replacement_Dates.Click("19;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Replacement_Dates' at 19;11.", repo.JobWindow.TC_01.Replacement_DatesInfo, new RecordItemIndex(12));
+            repo.JobWindow.TC_01.Replacement_Dates.Click("19;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Dates_Med' with focus on 'JobWindow1.SomeContainer.Replacement_Dates'.", repo.JobWindow1.SomeContainer.Replacement_DatesInfo, new RecordItemIndex(13));
-            repo.JobWindow1.SomeContainer.Replacement_Dates.PressKeys(Dates_Med);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesMed' with focus on 'JobWindow.TC_01.Replacement_Dates'.", repo.JobWindow.TC_01.Replacement_DatesInfo, new RecordItemIndex(13));
+            repo.JobWindow.TC_01.Replacement_Dates.PressKeys(datesMed);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(14));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow1.SomeContainer.Schedule_Expand' at 21;17.", repo.JobWindow1.SomeContainer.Schedule_ExpandInfo, new RecordItemIndex(15));
-            repo.JobWindow1.SomeContainer.Schedule_Expand.Click("21;17");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Job_Inputs.Schedule_Expand' at 21;17.", repo.JobWindow.Job_Inputs.Schedule_ExpandInfo, new RecordItemIndex(15));
+            repo.JobWindow.Job_Inputs.Schedule_Expand.Click("21;17");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(16));

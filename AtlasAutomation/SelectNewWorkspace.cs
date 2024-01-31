@@ -54,13 +54,13 @@ namespace AtlasAutomation
 #region Variables
 
         /// <summary>
-        /// Gets or sets the value of variable FolderName.
+        /// Gets or sets the value of variable workbenchName.
         /// </summary>
         [TestVariable("174dfc9d-41ec-4e4b-a91e-c57f6048bf92")]
-        public string FolderName
+        public string workbenchName
         {
-            get { return repo.FolderName; }
-            set { repo.FolderName = value; }
+            get { return repo.workbenchName; }
+            set { repo.workbenchName = value; }
         }
 
 #endregion
@@ -89,8 +89,8 @@ namespace AtlasAutomation
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.NewlyCreatedFolder' at 243;19.", repo.SkySuite.NewlyCreatedFolderInfo, new RecordItemIndex(0));
-            repo.SkySuite.NewlyCreatedFolder.Click(System.Windows.Forms.MouseButtons.Right, "243;19");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.newlyCreatedFolder' at 243;19.", repo.SkySuite.newlyCreatedFolderInfo, new RecordItemIndex(0));
+            repo.SkySuite.newlyCreatedFolder.Click(System.Windows.Forms.MouseButtons.Right, "243;19");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.NewWorkspace' at 216;20.", repo.SkySuiteEasyJetUAT2.NewWorkspaceInfo, new RecordItemIndex(1));

@@ -54,13 +54,13 @@ namespace AtlasAutomation
 #region Variables
 
         /// <summary>
-        /// Gets or sets the value of variable Workspace_Name.
+        /// Gets or sets the value of variable workspaceName.
         /// </summary>
         [TestVariable("3013f374-57e1-4896-b74b-5663b612e152")]
-        public string Workspace_Name
+        public string workspaceName
         {
-            get { return repo.Workspace_Name; }
-            set { repo.Workspace_Name = value; }
+            get { return repo.workspaceName; }
+            set { repo.workspaceName = value; }
         }
 
 #endregion
@@ -93,12 +93,12 @@ namespace AtlasAutomation
             repo.SkySuite.Self.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.WorkbenchFolderList' at 196;1030.", repo.SkySuite.WorkbenchFolderListInfo, new RecordItemIndex(1));
-            repo.SkySuite.WorkbenchFolderList.Click("196;1030");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.workbenchFolderList' at 196;1030.", repo.SkySuite.workbenchFolderListInfo, new RecordItemIndex(1));
+            repo.SkySuite.workbenchFolderList.Click("196;1030");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.Workspace' at Center.", repo.SkySuite.WorkspaceInfo, new RecordItemIndex(2));
-            repo.SkySuite.Workspace.Click(System.Windows.Forms.MouseButtons.Right);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.workspace' at Center.", repo.SkySuite.workspaceInfo, new RecordItemIndex(2));
+            repo.SkySuite.workspace.Click(System.Windows.Forms.MouseButtons.Right);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.NewScenario' at 220;16.", repo.SkySuiteEasyJetUAT2.NewScenarioInfo, new RecordItemIndex(3));
