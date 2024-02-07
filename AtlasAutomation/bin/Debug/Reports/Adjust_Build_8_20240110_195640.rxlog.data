@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="37.26s"
+		durationms="37258"
+		type="root"
+		rid="f3b48525c356ac"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="10/01/2024 19:56:43"
+		timestampiso="2024-01-10T19:56:43"
+		endtime="10/01/2024 19:57:20"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Adjust_Build_8">
+		<detail>
+			Adjust_Build_8
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.649"
+			timeRelativeToTestModuleStartTime="00:03.649"
+			timeWallClock="19:56:47"
+			time="00:03.649"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.SomeIndicator' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist/indicator"
+				itempath="?/?/tabpagelist/indicator"
+				fullname="AtlasAutomationRepository.SkySuite.SomeIndicator"
+				id="200e3f15d157428dad1723172d4971c4"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Adjust_Build_8.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.941"
+			timeRelativeToTestModuleStartTime="00:07.941"
+			timeWallClock="19:56:51"
+			time="00:07.941"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.SomeContainer.ToggleButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+				itempath="button[1]/container[2]/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.SkySuite.SomeContainer.ToggleButton"
+				id="0c1071422c234d068533135c11f80f50"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Adjust_Build_8.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.256"
+			timeRelativeToTestModuleStartTime="00:37.256"
+			timeWallClock="19:57:20"
+			time="00:37.256"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="34.69s"
+		durationms="34685"
+		type="root"
+		rid="3ab2e35561a52fd0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="11/12/2023 17:59:26"
+		timestampiso="2023-12-11T17:59:26"
+		endtime="11/12/2023 18:00:01"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Data">
+		<detail>
+			Input_Data
+		</detail>
+		<errormessage>
+			Failed to find item 'AtlasAutomationRepository.EmptyAutomationPeer.Self'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.310"
+			timeRelativeToTestModuleStartTime="00:04.310"
+			timeWallClock="17:59:30"
+			time="00:04.310"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Da_fe77ad4a\Input_Da_fe77ad4a_b39e350e_trace.jpg"
+			errthumb="images_Input_Da_fe77ad4a\Input_Da_fe77ad4a_b39e350e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'EmptyAutomationPeer' at 1228;147.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='EmptyAutomationPeer']"
+				itempath="/form[@name='EmptyAutomationPeer']"
+				fullname="AtlasAutomationRepository.EmptyAutomationPeer.Self"
+				id="ab76220b6b274767ab82b2ec776bc2c6"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.486"
+			timeRelativeToTestModuleStartTime="00:34.486"
+			timeWallClock="18:00:00"
+			time="00:34.486"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Da_fe77ad4a\Input_Da_fe77ad4a_60e21914_trace.jpg"
+			errthumb="images_Input_Da_fe77ad4a\Input_Da_fe77ad4a_60e21914_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AtlasAutomationRepository.EmptyAutomationPeer.Self'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@name='EmptyAutomationPeer']' at step 'form[@name='EmptyAutomationPeer']' after 209 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.EmptyAutomationPeerAppFolder.get_Self() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 2486&#13;&#10;   at AtlasAutomation.Input_Data.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@name='EmptyAutomationPeer']"
+				itempath="/form[@name='EmptyAutomationPeer']"
+				fullname="AtlasAutomationRepository.EmptyAutomationPeer.Self"
+				id="ab76220b6b274767ab82b2ec776bc2c6"
+				timeout="30000"
+				failedStep="form[@name='EmptyAutomationPeer']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

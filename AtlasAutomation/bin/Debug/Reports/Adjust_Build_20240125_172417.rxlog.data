@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.34s"
+		durationms="9341"
+		type="root"
+		rid="9460984ba5332e6"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 17:24:20"
+		timestampiso="2024-01-25T17:24:20"
+		endtime="25/01/2024 17:24:29"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Adjust_Build">
+		<detail>
+			Adjust_Build
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.731"
+			timeRelativeToTestModuleStartTime="00:02.731"
+			timeWallClock="17:24:22"
+			time="00:02.731"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Dates_Low
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.765"
+			timeRelativeToTestModuleStartTime="00:02.765"
+			timeWallClock="17:24:22"
+			time="00:02.765"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Indicator' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow.Indicator"
+				id="a20402e01bb147709a57dd3cd323485f"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Adjust_Build.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.915"
+			timeRelativeToTestModuleStartTime="00:04.915"
+			timeWallClock="17:24:24"
+			time="00:04.915"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Job_Details.Adjust_Job_Type' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Details.Adjust_Job_Type"
+				id="dfb2d2eb43244587a4b6e885c09193c9"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Adjust_Build.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.943"
+			timeRelativeToTestModuleStartTime="00:05.943"
+			timeWallClock="17:24:25"
+			time="00:05.943"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.Adapt' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/listitem[@text='Adapt']"
+				itempath="?/?/listitem[@text='Adapt']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.Adapt"
+				id="b5cef96098b0464dabc08b90cfa29e36"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Adjust_Build.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.527"
+			timeRelativeToTestModuleStartTime="00:06.527"
+			timeWallClock="17:24:26"
+			time="00:06.527"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Job_Details.Planning_Period' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				itempath="indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Details.Planning_Period"
+				id="2ac3e3edee3544438822be6d0f01c310"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Adjust_Build.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.563"
+			timeRelativeToTestModuleStartTime="00:07.563"
+			timeWallClock="17:24:27"
+			time="00:07.563"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Dates_Low' with focus on 'JobWindow.Job_Details.Planning_Period'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				itempath="indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Details.Planning_Period"
+				id="2ac3e3edee3544438822be6d0f01c310"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Adjust_Build.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

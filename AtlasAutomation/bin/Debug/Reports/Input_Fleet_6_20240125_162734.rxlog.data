@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="31.19s"
+		durationms="31187"
+		type="root"
+		rid="168d774b13df90d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 16:27:37"
+		timestampiso="2024-01-25T16:27:37"
+		endtime="25/01/2024 16:28:08"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Fleet_6">
+		<detail>
+			Input_Fleet_6
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.797"
+			timeRelativeToTestModuleStartTime="00:02.797"
+			timeWallClock="16:27:39"
+			time="00:02.797"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TC_06.Aircraft_Expand' at 17;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']"
+				itempath=".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.TC_06.Aircraft_Expand"
+				id="21b5812966e24e9bb9b95f2b210ea4cf"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.517"
+			timeRelativeToTestModuleStartTime="00:06.517"
+			timeWallClock="16:27:43"
+			time="00:06.517"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.526"
+			timeRelativeToTestModuleStartTime="00:07.526"
+			timeWallClock="16:27:44"
+			time="00:07.526"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TC_06.Fleet_Size_Toggle' at 10;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[9]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				itempath=".//container[@automationid='PART_GridViewVirtualizingPanel']/row[9]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow.TC_06.Fleet_Size_Toggle"
+				id="d047e062947542fca2316bd303d5463c"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.405"
+			timeRelativeToTestModuleStartTime="00:21.405"
+			timeWallClock="16:27:58"
+			time="00:21.405"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.411"
+			timeRelativeToTestModuleStartTime="00:22.411"
+			timeWallClock="16:27:59"
+			time="00:22.411"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.LoadFromDatabase' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']//text[@caption='Load from Database']"
+				itempath="button[@automationid='PART_HeaderExpander']//text[@caption='Load from Database']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.LoadFromDatabase"
+				id="7f59f443b46e4bef8d83545980915843"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.032"
+			timeRelativeToTestModuleStartTime="00:23.032"
+			timeWallClock="16:28:00"
+			time="00:23.032"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddDatasetFromDatabase' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Dataset from Database']"
+				itempath="/form[@title='Add Dataset from Database']"
+				fullname="AtlasAutomationRepository.AddDatasetFromDatabase.Self"
+				id="08fae8d3bd1443d1a147033d6ef3808b"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="100"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.865"
+			timeRelativeToTestModuleStartTime="00:23.865"
+			timeWallClock="16:28:00"
+			time="00:23.865"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddDatasetFromDatabase.AnyPeriod' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Dataset from Database']//tabpage[@title='Data_base']/?/?/radiobutton[@text='any period']"
+				itempath=".//tabpage[@title='Data_base']/?/?/radiobutton[@text='any period']"
+				fullname="AtlasAutomationRepository.AddDatasetFromDatabase.AnyPeriod"
+				id="904a07d16b4f4b31b486fd04957b5eaa"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="104"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.699"
+			timeRelativeToTestModuleStartTime="00:24.699"
+			timeWallClock="16:28:01"
+			time="00:24.699"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.706"
+			timeRelativeToTestModuleStartTime="00:25.706"
+			timeWallClock="16:28:02"
+			time="00:25.706"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'AddDatasetFromDatabase.LOWFleetSizeV1V1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Dataset from Database']//table[@automationid='datasetRadGridView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='LOW_FleetSize - v.1 - v.1']"
+				itempath=".//table[@automationid='datasetRadGridView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='LOW_FleetSize - v.1 - v.1']"
+				fullname="AtlasAutomationRepository.AddDatasetFromDatabase.LOWFleetSizeV1V1"
+				id="66f6dfcd10c44d9eb1b9b3252bc1659e"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="111"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.065"
+			timeRelativeToTestModuleStartTime="00:27.065"
+			timeWallClock="16:28:04"
+			time="00:27.065"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="119"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.071"
+			timeRelativeToTestModuleStartTime="00:28.071"
+			timeWallClock="16:28:05"
+			time="00:28.071"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TC_06.Aircraft_Expand' at 18;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']"
+				itempath=".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.TC_06.Aircraft_Expand"
+				id="21b5812966e24e9bb9b95f2b210ea4cf"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="122"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.183"
+			timeRelativeToTestModuleStartTime="00:30.183"
+			timeWallClock="16:28:07"
+			time="00:30.183"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Fleet_6.cs"
+				codeline="126"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

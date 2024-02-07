@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="51.88s"
+		durationms="51882"
+		type="root"
+		rid="6201d9f5595f6bf"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="12/12/2023 16:27:54"
+		timestampiso="2023-12-12T16:27:54"
+		endtime="12/12/2023 16:28:46"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Data">
+		<detail>
+			Input_Data
+		</detail>
+		<errormessage>
+			Failed to find item 'AtlasAutomationRepository.SkySuite.ToggleButton1'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.527"
+			timeRelativeToTestModuleStartTime="00:04.527"
+			timeWallClock="16:27:58"
+			time="00:04.527"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.TabControl.JobInputsBusyIndicator' at 4;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				fullname="AtlasAutomationRepository.SkySuite.TabControl.JobInputsBusyIndicator"
+				id="ef3c80fa0a604eb195d924daa2cd0c50"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.984"
+			timeRelativeToTestModuleStartTime="00:09.984"
+			timeWallClock="16:28:04"
+			time="00:09.984"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Da_11e68505\Input_Da_11e68505_5f21db1c_trace.jpg"
+			errthumb="images_Input_Da_11e68505\Input_Da_11e68505_5f21db1c_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SkySuite.TabControl.PARTExpandButton' at 4;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.SkySuite.TabControl.PARTExpandButton"
+				id="a97c142d4db644b8bcc930313a1b9465"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.015"
+			timeRelativeToTestModuleStartTime="00:13.015"
+			timeWallClock="16:28:07"
+			time="00:13.015"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Da_11e68505\Input_Da_11e68505_48f3d3d7_trace.jpg"
+			errthumb="images_Input_Da_11e68505\Input_Da_11e68505_48f3d3d7_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SkySuite.ToggleButton1' at 4;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='stackPanel']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				itempath="?/?/tabpagelist/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='stackPanel']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.SkySuite.ToggleButton1"
+				id="7f31c75fddac4a2b8113ee9ca44783cc"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.639"
+			timeRelativeToTestModuleStartTime="00:51.639"
+			timeWallClock="16:28:45"
+			time="00:51.639"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Da_11e68505\Input_Da_11e68505_a0713134_trace.jpg"
+			errthumb="images_Input_Da_11e68505\Input_Da_11e68505_a0713134_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AtlasAutomationRepository.SkySuite.ToggleButton1'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '?/?/tabpagelist/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='stackPanel']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']' at step 'container[@automationid='stackPanel']' after 4 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.SkySuiteAppFolder.get_ToggleButton1() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 531&#13;&#10;   at AtlasAutomation.Input_Data.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs:line 91&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="91"
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='stackPanel']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				itempath="?/?/tabpagelist/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='stackPanel']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.SkySuite.ToggleButton1"
+				id="7f31c75fddac4a2b8113ee9ca44783cc"
+				timeout="60000"
+				failedStep="container[@automationid='stackPanel']"
+				bestPathPrefix="?/?/tabpagelist/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']/descendant-or-self::table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?"
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

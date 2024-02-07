@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="35.21s"
+		durationms="35214"
+		type="root"
+		rid="115cca63824bbc4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="22/12/2023 16:39:22"
+		timestampiso="2023-12-22T16:39:22"
+		endtime="22/12/2023 16:39:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputMarketGrowth">
+		<detail>
+			InputMarketGrowth
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.443"
+			timeRelativeToTestModuleStartTime="00:04.443"
+			timeWallClock="16:39:27"
+			time="00:04.443"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWIndow2.PARTExpandButton' at 18;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisa(11) -- nafisa2 (FOR)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWIndow2.PARTExpandButton"
+				id="70a7f171ee974064a9492532e709a335"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputMarketGrowth.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.045"
+			timeRelativeToTestModuleStartTime="00:10.045"
+			timeWallClock="16:39:32"
+			time="00:10.045"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWIndow2.PARTGridViewVirtualizingPanel.Market_Growth_Row' at 10;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisa(11) -- nafisa2 (FOR)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[18]"
+				itempath="row[18]"
+				fullname="AtlasAutomationRepository.JobWIndow2.PARTGridViewVirtualizingPanel.Market_Growth_Row"
+				id="ab245071de6e42b0890fde31470a9e51"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputMarketGrowth.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.209"
+			timeRelativeToTestModuleStartTime="00:35.209"
+			timeWallClock="16:39:58"
+			time="00:35.209"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

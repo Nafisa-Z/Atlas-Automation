@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.45s"
+		durationms="11448"
+		type="root"
+		rid="d136ed6a69d0005"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="11/01/2024 14:22:24"
+		timestampiso="2024-01-11T14:22:24"
+		endtime="11/01/2024 14:22:35"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SaveandRunJob">
+		<detail>
+			SaveandRunJob
+		</detail>
+		<errormessage>
+			Screenshot of item 'AtlasAutomationRepository.JobWindow1.SomeIndicator' does not contain the specified image.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.143"
+			timeRelativeToTestModuleStartTime="00:06.143"
+			timeWallClock="14:22:30"
+			time="00:06.143"
+			level="Info"
+			category="Validation"
+			errimg="images_SaveandR_456db9b1\SaveandR_456db9b1_352cf0b8_trace.jpg"
+			errthumb="images_SaveandR_456db9b1\SaveandR_456db9b1_352cf0b8_trace_thumb.jpg">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=2254,Height=1400}) on item 'JobWindow1.SomeIndicator'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeIndicator"
+				id="88cf8c2d262742838098b4ac94ca92a2"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRunJob.cs"
+				codeline="82"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.093"
+			timeRelativeToTestModuleStartTime="00:11.093"
+			timeWallClock="14:22:35"
+			time="00:11.093"
+			level="Failure"
+			category="Validation"
+			errimg="images_SaveandR_456db9b1\SaveandR_456db9b1_c5840f38_trace.jpg"
+			errthumb="images_SaveandR_456db9b1\SaveandR_456db9b1_c5840f38_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'AtlasAutomationRepository.JobWindow1.SomeIndicator' does not contain the specified image.
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRunJob.cs"
+				codeline="83"
+				loglvl="Failure"
+				id="88cf8c2d262742838098b4ac94ca92a2"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']/indicator"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeIndicator"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.164"
+			timeRelativeToTestModuleStartTime="00:11.164"
+			timeWallClock="14:22:35"
+			time="00:11.164"
+			level="Failure"
+			category="Expected image"
+			errimg="images_SaveandR_456db9b1\SaveandR_df5d4f22_rxlog.png"
+			errthumb="images_SaveandR_456db9b1\SaveandR_df5d4f22_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				fullSizeImage="true"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRunJob.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.218"
+			timeRelativeToTestModuleStartTime="00:11.218"
+			timeWallClock="14:22:35"
+			time="00:11.218"
+			level="Failure"
+			category="Actual image"
+			errimg="images_SaveandR_456db9b1\SaveandR_3cb5da87_rxlog.png"
+			errthumb="images_SaveandR_456db9b1\SaveandR_3cb5da87_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				fullSizeImage="true"
+				replaceImage="true"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRunJob.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.245"
+			timeRelativeToTestModuleStartTime="00:11.245"
+			timeWallClock="14:22:35"
+			time="00:11.245"
+			level="Error"
+			category="Module"
+			errimg="images_SaveandR_456db9b1\SaveandR_456db9b1_1439cd7b_trace.jpg"
+			errthumb="images_SaveandR_456db9b1\SaveandR_456db9b1_1439cd7b_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'AtlasAutomationRepository.JobWindow1.SomeIndicator' does not contain the specified image.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.ContainsImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at AtlasAutomation.SaveandRunJob.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRunJob.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRunJob.cs"
+				codeline="83"
+				loglvl="Error"
+				id="88cf8c2d262742838098b4ac94ca92a2"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']/indicator"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeIndicator"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

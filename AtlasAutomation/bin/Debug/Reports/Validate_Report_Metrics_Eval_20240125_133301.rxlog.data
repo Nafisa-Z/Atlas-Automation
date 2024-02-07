@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="32.67s"
+		durationms="32665"
+		type="root"
+		rid="1a538d94c5853dd2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 13:33:05"
+		timestampiso="2024-01-25T13:33:05"
+		endtime="25/01/2024 13:33:38"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Validate_Report_Metrics_Eval">
+		<detail>
+			Validate_Report_Metrics_Eval
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.Total_Flights' does not match the specified value (actual='(null)', expected='Total·Flights').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.050"
+			timeRelativeToTestModuleStartTime="00:06.050"
+			timeWallClock="13:33:11"
+			time="00:06.050"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Report_Tab.Report_Page' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page"
+				id="8008f399f0774af8b690a795f9671eae"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.596"
+			timeRelativeToTestModuleStartTime="00:10.596"
+			timeWallClock="13:33:16"
+			time="00:10.596"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.608"
+			timeRelativeToTestModuleStartTime="00:11.608"
+			timeWallClock="13:33:17"
+			time="00:11.608"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Eval_Report_Metrics.Financial_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']//button[@automationid='PART_ExpandButton']"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']//button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.Financial_Expand"
+				id="2d6eca8262dd490e9f2a3ffd87053681"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.713"
+			timeRelativeToTestModuleStartTime="00:14.713"
+			timeWallClock="13:33:20"
+			time="00:14.713"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Total Revenue') on item 'JobWindow.Eval_Report_Metrics.TotalRevenue'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Revenue']"
+				itempath=".//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Revenue']"
+				fullname="AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.TotalRevenue"
+				id="c945eb25625b4ccb94f1fbf6d788353c"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.454"
+			timeRelativeToTestModuleStartTime="00:16.454"
+			timeWallClock="13:33:22"
+			time="00:16.454"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.TotalRevenue' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Revenue']"
+				itempath=".//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Revenue']"
+				fullname="AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.TotalRevenue"
+				id="c945eb25625b4ccb94f1fbf6d788353c"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="94"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.762"
+			timeRelativeToTestModuleStartTime="00:18.762"
+			timeWallClock="13:33:24"
+			time="00:18.762"
+			level="Info"
+			category="User"
+			errimg="images_Validate_8650646a\Validate_b6afb5ed_rxlog.jpg"
+			errthumb="images_Validate_8650646a\Validate_b6afb5ed_rxlog_thumb.jpg">
+			<message>
+				Revenue<br/>
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.768"
+			timeRelativeToTestModuleStartTime="00:18.768"
+			timeWallClock="13:33:24"
+			time="00:18.768"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Load Factor (%)') on item 'JobWindow.Eval_Report_Metrics.LoadFactorPercent'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Load Factor (%)']"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Load Factor (%)']"
+				fullname="AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.LoadFactorPercent"
+				id="a3f461679ca84e82a55ffe000c7c9fa6"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="99"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.224"
+			timeRelativeToTestModuleStartTime="00:21.224"
+			timeWallClock="13:33:26"
+			time="00:21.224"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.LoadFactorPercent' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Load Factor (%)']"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Load Factor (%)']"
+				fullname="AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.LoadFactorPercent"
+				id="a3f461679ca84e82a55ffe000c7c9fa6"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="100"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.597"
+			timeRelativeToTestModuleStartTime="00:23.597"
+			timeWallClock="13:33:29"
+			time="00:23.597"
+			level="Info"
+			category="User"
+			errimg="images_Validate_8650646a\Validate_b6aeb5ed_rxlog.jpg"
+			errthumb="images_Validate_8650646a\Validate_b6aeb5ed_rxlog_thumb.jpg">
+			<message>
+				Load Factor<br/>
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.597"
+			timeRelativeToTestModuleStartTime="00:23.597"
+			timeWallClock="13:33:29"
+			time="00:23.597"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Eval_Report_Metrics.Flights_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[20]/button[@automationid='PART_ExpandButton']"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[20]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.Flights_Expand"
+				id="30f8ad56c6ef4842a75c02f022a8d33e"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="105"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.364"
+			timeRelativeToTestModuleStartTime="00:26.364"
+			timeWallClock="13:33:31"
+			time="00:26.364"
+			level="Info"
+			category="Validation"
+			errimg="images_Validate_8650646a\Validate_8650646a_eb331228_trace.jpg"
+			errthumb="images_Validate_8650646a\Validate_8650646a_eb331228_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Total Flights') on item 'JobWindow.Eval_Report_Metrics.Total_Flights'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[23]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[23]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				fullname="AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.Total_Flights"
+				id="f45d3e495cb94517ad32d9b48d11be4a"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="109"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.466"
+			timeRelativeToTestModuleStartTime="00:32.466"
+			timeWallClock="13:33:38"
+			time="00:32.466"
+			level="Failure"
+			category="Validation"
+			errimg="images_Validate_8650646a\Validate_8650646a_009d98ad_trace.jpg"
+			errthumb="images_Validate_8650646a\Validate_8650646a_009d98ad_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.Total_Flights' does not match the specified value (actual='(null)', expected='Total·Flights').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[23]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[23]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				fullname="AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.Total_Flights"
+				id="f45d3e495cb94517ad32d9b48d11be4a"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="110"
+				loglvl="Failure"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.478"
+			timeRelativeToTestModuleStartTime="00:32.478"
+			timeWallClock="13:33:38"
+			time="00:32.478"
+			level="Error"
+			category="Module"
+			errimg="images_Validate_8650646a\Validate_8650646a_009d98ad_trace.jpg"
+			errthumb="images_Validate_8650646a\Validate_8650646a_009d98ad_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.Total_Flights' does not match the specified value (actual='(null)', expected='Total·Flights').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at AtlasAutomation.Validate_Report_Metrics_Eval.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs:line 110
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics_Eval.cs"
+				codeline="110"
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[23]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[23]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				fullname="AtlasAutomationRepository.JobWindow.Eval_Report_Metrics.Total_Flights"
+				id="f45d3e495cb94517ad32d9b48d11be4a"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>

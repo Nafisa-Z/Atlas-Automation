@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.89s"
+		durationms="3886"
+		type="root"
+		rid="1da6624286da6810"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="07/01/2024 21:33:56"
+		timestampiso="2024-01-07T21:33:56"
+		endtime="07/01/2024 21:34:00"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.875"
+			timeRelativeToTestModuleStartTime="00:03.875"
+			timeWallClock="21:34:00"
+			time="00:03.875"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.986"
+			timeRelativeToTestModuleStartTime="00:03.986"
+			timeWallClock="21:34:00"
+			time="00:03.986"
+			level="Failure"
+			category="Module"
+			errimg="images_Duplicat_9551c76d\Duplicat_9551c76d_9e3e350a_trace.jpg"
+			errthumb="images_Duplicat_9551c76d\Duplicat_9551c76d_9e3e350a_trace_thumb.jpg">
+			<message>
+				Failed to load default plugins. Please reinstall Ranorex. Failed to load plugins from assembly 'Ranorex.Plugin.FirefoxWeb, Version=10.7.4.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a'. Failed to construct plugin 'Ranorex.Plugin.FirefoxWebPlugin' from assembly 'Ranorex.Plugin.FirefoxWeb, Version=10.7.4.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a'. Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.PluginManager.LoadDefaultPlugins(Boolean nonBlocking)
+   at Ranorex.Core.PluginManager.LoadDefaultPluginsSuppressible(Boolean nonBlocking)
+   at Ranorex.Core.ElementEngine.get_Instance()
+   at Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

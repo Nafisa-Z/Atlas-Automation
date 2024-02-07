@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="19.18s"
+		durationms="19175"
+		type="root"
+		rid="d966f12636be0dc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="05/01/2024 19:27:18"
+		timestampiso="2024-01-05T19:27:18"
+		endtime="05/01/2024 19:27:37"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputCalibrationDemand">
+		<detail>
+			InputCalibrationDemand
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.548"
+			timeRelativeToTestModuleStartTime="00:03.548"
+			timeWallClock="19:27:21"
+			time="00:03.548"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1.SomeContainer.Calibration_Demand_Exoand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa1(1) -- nafisa1 (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']"
+				itempath=".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeContainer.Calibration_Demand_Exoand"
+				id="4158f407b77f4eaf9f1ba6ea0553f21c"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.407"
+			timeRelativeToTestModuleStartTime="00:09.407"
+			timeWallClock="19:27:27"
+			time="00:09.407"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.411"
+			timeRelativeToTestModuleStartTime="00:10.411"
+			timeWallClock="19:27:28"
+			time="00:10.411"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1.SomeContainer.Aircraft_Body_Toggle' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa1(1) -- nafisa1 (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				itempath=".//button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeContainer.Aircraft_Body_Toggle"
+				id="553f193840ed409aba2d1d467d5ab0b5"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.922"
+			timeRelativeToTestModuleStartTime="00:11.922"
+			timeWallClock="19:27:30"
+			time="00:11.922"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.931"
+			timeRelativeToTestModuleStartTime="00:12.931"
+			timeWallClock="19:27:31"
+			time="00:12.931"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.A1GlobalEquipmentType' at 61;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']/?/?/listitem[@text='A1_Global_EquipmentType']"
+				itempath="button[@automationid='PART_HeaderExpander']/?/?/listitem[@text='A1_Global_EquipmentType']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.A1GlobalEquipmentType"
+				id="6697eed61ee242c583a36cfef0b2dff7"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.173"
+			timeRelativeToTestModuleStartTime="00:19.173"
+			timeWallClock="19:27:37"
+			time="00:19.173"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

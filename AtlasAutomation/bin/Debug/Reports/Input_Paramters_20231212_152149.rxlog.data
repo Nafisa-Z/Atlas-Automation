@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.3m"
+		durationms="78764"
+		type="root"
+		rid="1c624e8c7798e79"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="12/12/2023 15:21:51"
+		timestampiso="2023-12-12T15:21:51"
+		endtime="12/12/2023 15:23:10"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Paramters">
+		<detail>
+			Input_Paramters
+		</detail>
+		<errormessage>
+			Failed to find item 'AtlasAutomationRepository.Open.ShellView.SystemItemNameDisplay1'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.495"
+			timeRelativeToTestModuleStartTime="00:03.495"
+			timeWallClock="15:21:55"
+			time="00:03.495"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.TabControl.SomeIndicator' at 924;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.SkySuite.TabControl.SomeIndicator"
+				id="e0c2af7fd62e4a0e9029f85e0c39faf2"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.735"
+			timeRelativeToTestModuleStartTime="00:06.735"
+			timeWallClock="15:21:58"
+			time="00:06.735"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.TabControl.ParameterImportToggle' at 41;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']"
+				itempath="indicator/container[@caption='']/button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']"
+				fullname="AtlasAutomationRepository.SkySuite.TabControl.ParameterImportToggle"
+				id="d9fd83e7cb354d40a3c4524f3fc4936e"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.550"
+			timeRelativeToTestModuleStartTime="00:07.550"
+			timeWallClock="15:21:59"
+			time="00:07.550"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.File' at 10;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/list[@automationid='importParameters']/?/?/text[@caption='File']"
+				itempath="list[@automationid='importParameters']/?/?/text[@caption='File']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.File"
+				id="d69bbdc6b17745d39737448eb935691b"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.134"
+			timeRelativeToTestModuleStartTime="00:08.134"
+			timeWallClock="15:21:59"
+			time="00:08.134"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Open.Open' at 240;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/titlebar[@accessiblerole='TitleBar']"
+				itempath="titlebar[@accessiblerole='TitleBar']"
+				fullname="AtlasAutomationRepository.Open.Open"
+				id="831e6bb53b4846a68329e2172f303348"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.931"
+			timeRelativeToTestModuleStartTime="00:08.931"
+			timeWallClock="15:22:00"
+			time="00:08.931"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Open' at 212;709.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']"
+				itempath="/form[@title='Open']"
+				fullname="AtlasAutomationRepository.Open.Self"
+				id="3c49c9cd30494ec1924301ef667a47ca"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.317"
+			timeRelativeToTestModuleStartTime="00:09.317"
+			timeWallClock="15:22:01"
+			time="00:09.317"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Open.Documents' at 52;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/treeitem[@text='Quick access']/treeitem[@text='Documents']"
+				itempath="element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/treeitem[@text='Quick access']/treeitem[@text='Documents']"
+				fullname="AtlasAutomationRepository.Open.Documents"
+				id="3f537e94c29841b0a90ff187be11f51c"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.000"
+			timeRelativeToTestModuleStartTime="00:10.000"
+			timeWallClock="15:22:01"
+			time="00:10.000"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.004"
+			timeRelativeToTestModuleStartTime="00:11.004"
+			timeWallClock="15:22:02"
+			time="00:11.004"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'Open.ShellView.SystemItemNameDisplay' at 275;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+				itempath="?/?/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+				fullname="AtlasAutomationRepository.Open.ShellView.SystemItemNameDisplay"
+				id="dcc6e044ffde4fbeb6197def2ecfc025"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.099"
+			timeRelativeToTestModuleStartTime="00:12.099"
+			timeWallClock="15:22:03"
+			time="00:12.099"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.105"
+			timeRelativeToTestModuleStartTime="00:13.105"
+			timeWallClock="15:22:04"
+			time="00:13.105"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'Open.ShellView.SystemItemNameDisplay' at 350;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+				itempath="?/?/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+				fullname="AtlasAutomationRepository.Open.ShellView.SystemItemNameDisplay"
+				id="dcc6e044ffde4fbeb6197def2ecfc025"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.083"
+			timeRelativeToTestModuleStartTime="00:14.083"
+			timeWallClock="15:22:05"
+			time="00:14.083"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.093"
+			timeRelativeToTestModuleStartTime="00:15.093"
+			timeWallClock="15:22:06"
+			time="00:15.093"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'Open.ShellView.SystemItemNameDisplay1' at 637;255.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']"
+				itempath="?/?/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']"
+				fullname="AtlasAutomationRepository.Open.ShellView.SystemItemNameDisplay1"
+				id="3a999002593a4835bf1148a7f1e21859"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="123"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.881"
+			timeRelativeToTestModuleStartTime="00:15.881"
+			timeWallClock="15:22:07"
+			time="00:15.881"
+			level="Warn"
+			category="DoubleClick"
+			errimg="images_Input_Pa_1e6a51d6\Input_Pa_e1c3f1e8_rxlog.jpg"
+			errthumb="images_Input_Pa_1e6a51d6\Input_Pa_e1c3f1e8_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="124"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.400"
+			timeRelativeToTestModuleStartTime="00:16.400"
+			timeWallClock="15:22:08"
+			time="00:16.400"
+			level="Info"
+			category="Delay"
+			errimg="images_Input_Pa_1e6a51d6\Input_Pa_1e6a51d6_d22907ca_trace.jpg"
+			errthumb="images_Input_Pa_1e6a51d6\Input_Pa_1e6a51d6_d22907ca_trace_thumb.jpg">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="127"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.407"
+			timeRelativeToTestModuleStartTime="00:17.407"
+			timeWallClock="15:22:09"
+			time="00:17.407"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Pa_1e6a51d6\Input_Pa_1e6a51d6_d98aedf8_trace.jpg"
+			errthumb="images_Input_Pa_1e6a51d6\Input_Pa_1e6a51d6_d98aedf8_trace_thumb.jpg">
+			<message>
+				Mouse Left DoubleClick item 'Open.ShellView.SystemItemNameDisplay1' at 320;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']"
+				itempath="?/?/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']"
+				fullname="AtlasAutomationRepository.Open.ShellView.SystemItemNameDisplay1"
+				id="3a999002593a4835bf1148a7f1e21859"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="130"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.635"
+			timeRelativeToTestModuleStartTime="01:18.635"
+			timeWallClock="15:23:10"
+			time="01:18.635"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Pa_1e6a51d6\Input_Pa_1e6a51d6_9b02e547_trace.jpg"
+			errthumb="images_Input_Pa_1e6a51d6\Input_Pa_1e6a51d6_9b02e547_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AtlasAutomationRepository.Open.ShellView.SystemItemNameDisplay1'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path 'element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']' at step 'element[@class='DUIViewWndClassName']' after 1008 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.ShellViewFolder.get_SystemItemNameDisplay1() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 3120&#13;&#10;   at AtlasAutomation.Input_Paramters.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs:line 131&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Paramters.cs"
+				codeline="131"
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']"
+				itempath="?/?/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']"
+				fullname="AtlasAutomationRepository.Open.ShellView.SystemItemNameDisplay1"
+				id="3a999002593a4835bf1148a7f1e21859"
+				timeout="90000"
+				failedStep="element[@class='DUIViewWndClassName']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="13">
+			</metainfo>
+		</item>
+	</activity>
+</report>

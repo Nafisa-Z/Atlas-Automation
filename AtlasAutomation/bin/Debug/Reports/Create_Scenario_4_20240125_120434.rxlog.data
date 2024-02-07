@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.3m"
+		durationms="498766"
+		type="root"
+		rid="23c05fc3229f6a11"
+		totalerrorcount="2"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 12:04:38"
+		timestampiso="2024-01-25T12:04:38"
+		endtime="25/01/2024 12:12:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Create_Scenario_4">
+		<detail>
+			Create_Scenario_4
+		</detail>
+		<errormessage>
+			Failed to find item 'AtlasAutomationRepository.SkySuite.Workspace'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.961"
+			timeRelativeToTestModuleStartTime="00:05.961"
+			timeWallClock="12:04:44"
+			time="00:05.961"
+			level="Warn"
+			category="Data"
+			errimg="images_Create_S_2b350d05\Create_S_2b350d05_8a358a1e_trace.jpg"
+			errthumb="images_Create_S_2b350d05\Create_S_2b350d05_8a358a1e_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScNameEval, Jb4_Name, Dates_Med, Workspace_Name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.005"
+			timeRelativeToTestModuleStartTime="00:06.005"
+			timeWallClock="12:04:44"
+			time="00:06.005"
+			level="Info"
+			category="Mouse"
+			errimg="images_Create_S_2b350d05\Create_S_2b350d05_8a358a1e_trace.jpg"
+			errthumb="images_Create_S_2b350d05\Create_S_2b350d05_8a358a1e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SkySuite' at 747;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']"
+				itempath="/form[@name='Root']"
+				fullname="AtlasAutomationRepository.SkySuite.Self"
+				id="12f9a8e2bf2141d6a2223baa984f5626"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+				codeline="132"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.571"
+			timeRelativeToTestModuleStartTime="00:10.571"
+			timeWallClock="12:04:49"
+			time="00:10.571"
+			level="Info"
+			category="Mouse"
+			errimg="images_Create_S_2b350d05\Create_S_2b350d05_34ac5385_trace.jpg"
+			errthumb="images_Create_S_2b350d05\Create_S_2b350d05_34ac5385_trace_thumb.jpg">
+			<message>
+				Mouse Right Click item 'SkySuite.Workspace' at 156;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text='Atlas_Cycle1']"
+				itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text=$Workspace_Name]"
+				fullname="AtlasAutomationRepository.SkySuite.Workspace"
+				id="bc7686781a3a4600a47f34794c90c691"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+				codeline="136"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.975"
+			timeRelativeToTestModuleStartTime="00:35.975"
+			timeWallClock="12:05:14"
+			time="00:35.975"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:40.695"
+			timeRelativeToTestModuleStartTime="01:40.695"
+			timeWallClock="12:06:19"
+			time="01:40.695"
+			level="Error"
+			category="Module"
+			errimg="images_Create_S_2b350d05\Create_S_2b350d05_ed227396_trace.jpg"
+			errthumb="images_Create_S_2b350d05\Create_S_2b350d05_ed227396_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AtlasAutomationRepository.SkySuite.Workspace'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text='Atlas_Cycle1']' at step 'text[@automationid='nodeText' and @text='Atlas_Cycle1']' after 3 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.SkySuiteAppFolder.get_Workspace() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 895&#13;&#10;   at AtlasAutomation.Create_Scenario_4.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs:line 137&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+				codeline="137"
+				type="repoitem"
+				path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text='Atlas_Cycle1']"
+				itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text=$Workspace_Name]"
+				fullname="AtlasAutomationRepository.SkySuite.Workspace"
+				id="bc7686781a3a4600a47f34794c90c691"
+				timeout="60000"
+				failedStep="text[@automationid='nodeText' and @text=$Workspace_Name]"
+				bestPathPrefix="/form[@name='Root']/descendant-or-self::toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/descendant-or-self::picture[@automationid='icon']/container[@caption='']"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

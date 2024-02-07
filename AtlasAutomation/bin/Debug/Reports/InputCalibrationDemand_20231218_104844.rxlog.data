@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.42s"
+		durationms="11420"
+		type="root"
+		rid="109e4c13087bf590"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="18/12/2023 10:48:49"
+		timestampiso="2023-12-18T10:48:49"
+		endtime="18/12/2023 10:49:00"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputCalibrationDemand">
+		<detail>
+			InputCalibrationDemand
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.234"
+			timeRelativeToTestModuleStartTime="00:06.234"
+			timeWallClock="10:48:55"
+			time="00:06.234"
+			level="Info"
+			category="Mouse"
+			errimg="images_InputCal_e616e642\InputCal_e616e642_9f316e25_trace.jpg"
+			errthumb="images_InputCal_e616e642\InputCal_e616e642_9f316e25_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWindow.Callibration_Demand.Callibration_Demand_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[14]/button[@automationid='PART_ExpandButton']"
+				itempath="button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Callibration_Demand.Callibration_Demand_Expand"
+				id="0c6d93dea55443a3b173e8daff61759b"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.232"
+			timeRelativeToTestModuleStartTime="00:11.232"
+			timeWallClock="10:49:00"
+			time="00:11.232"
+			level="Error"
+			category="Module"
+			errimg="images_InputCal_e616e642\InputCal_e616e642_e1c888ef_trace.jpg"
+			errthumb="images_InputCal_e616e642\InputCal_e616e642_e1c888ef_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click()
+   at AtlasAutomation.InputCalibrationDemand.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

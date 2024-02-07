@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.75s"
+		durationms="1751"
+		type="root"
+		rid="768f101c777b822"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="06/02/2024 12:23:19"
+		timestampiso="2024-02-06T12:23:19"
+		endtime="06/02/2024 12:23:21"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.732"
+			timeRelativeToTestModuleStartTime="00:01.732"
+			timeWallClock="12:23:21"
+			time="00:01.732"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.874"
+			timeRelativeToTestModuleStartTime="00:01.874"
+			timeWallClock="12:23:21"
+			time="00:01.874"
+			level="Failure"
+			category="Module"
+			errimg="images_Createan_7dde28b1\Createan_7dde28b1_42123ffd_trace.jpg"
+			errthumb="images_Createan_7dde28b1\Createan_7dde28b1_42123ffd_trace_thumb.jpg">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at System.Diagnostics.StackTrace.GetStackFramesInternal(StackFrameHelper sfh, Int32 iSkip, Boolean fNeedFileInfo, Exception e)&#13;&#10;   at System.Diagnostics.StackFrameHelper.InitializeSourceInfo(Int32 iSkip, Boolean fNeedFileInfo, Exception exception)&#13;&#10;   at System.Diagnostics.StackTrace.CaptureStackTrace(Int32 iSkip, Boolean fNeedFileInfo, Thread targetThread, Exception e)&#13;&#10;   at Ranorex.Core.License.RestrictedBool`1..ctor()&#13;&#10;   at Ranorex.Core.License.ProductFeatures`1.Create(ProductFeaturesFlags flags)&#13;&#10;   at Ranorex.Core.ElementEngine.GetNodeLockedLicenseStatus(AuthenticatedLicense lic, ProductFeatures`1&amp; features)&#13;&#10;   at Ranorex.Core.ElementEngine.CheckLicense(Boolean verbose)&#13;&#10;   at Ranorex.Core.ElementEngine.AssertLicense()&#13;&#10;   at Ranorex.Core.ElementEngine..ctor()&#13;&#10;   at Ranorex.Core.ElementEngine.get_Instance()&#13;&#10;   at Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

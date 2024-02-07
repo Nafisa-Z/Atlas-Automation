@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="28.91s"
+		durationms="28905"
+		type="root"
+		rid="35b665189fcf0721"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="12/12/2023 16:02:45"
+		timestampiso="2023-12-12T16:02:45"
+		endtime="12/12/2023 16:03:14"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Data">
+		<detail>
+			Input_Data
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.957"
+			timeRelativeToTestModuleStartTime="00:02.957"
+			timeWallClock="16:02:48"
+			time="00:02.957"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.TabControl.JobInputsBusyIndicator' at 701;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				fullname="AtlasAutomationRepository.SkySuite.TabControl.JobInputsBusyIndicator"
+				id="ef3c80fa0a604eb195d924daa2cd0c50"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.754"
+			timeRelativeToTestModuleStartTime="00:04.754"
+			timeWallClock="16:02:50"
+			time="00:04.754"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.TabControl.PARTExpandButton' at 27;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.SkySuite.TabControl.PARTExpandButton"
+				id="a97c142d4db644b8bcc930313a1b9465"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.719"
+			timeRelativeToTestModuleStartTime="00:08.719"
+			timeWallClock="16:02:54"
+			time="00:08.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.TabControl.SomeCell3' at 437;102.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				fullname="AtlasAutomationRepository.SkySuite.TabControl.SomeCell3"
+				id="c3adde9b0fbd4639bac76c9b868a3e21"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.571"
+			timeRelativeToTestModuleStartTime="00:09.571"
+			timeWallClock="16:02:54"
+			time="00:09.571"
+			level="Warn"
+			category="Click"
+			errimg="images_Input_Da_10306e3c\Input_Da_e16a622_rxlog.jpg"
+			errthumb="images_Input_Da_10306e3c\Input_Da_e16a622_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="91"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.967"
+			timeRelativeToTestModuleStartTime="00:09.967"
+			timeWallClock="16:02:55"
+			time="00:09.967"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SomeContextMenu.S23AmadeusSampleNew' at 74;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu/button/?/?/listitem[@text='S23_AmadeusSample_New']"
+				itempath="button/?/?/listitem[@text='S23_AmadeusSample_New']"
+				fullname="AtlasAutomationRepository.SomeContextMenu.S23AmadeusSampleNew"
+				id="b17d774e1e41423b8a4c1795a3086c35"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Data.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.904"
+			timeRelativeToTestModuleStartTime="00:28.904"
+			timeWallClock="16:03:14"
+			time="00:28.904"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

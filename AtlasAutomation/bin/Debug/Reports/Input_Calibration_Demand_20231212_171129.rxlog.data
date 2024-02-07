@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.76s"
+		durationms="8756"
+		type="root"
+		rid="68654a90e3fbed8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="12/12/2023 17:11:33"
+		timestampiso="2023-12-12T17:11:33"
+		endtime="12/12/2023 17:11:42"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Calibration_Demand">
+		<detail>
+			Input_Calibration_Demand
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.617"
+			timeRelativeToTestModuleStartTime="00:04.617"
+			timeWallClock="17:11:37"
+			time="00:04.617"
+			level="Info"
+			category="Delay"
+			errimg="images_Input_Ca_e56cdcfc\Input_Ca_e56cdcfc_39c63d68_trace.jpg"
+			errthumb="images_Input_Ca_e56cdcfc\Input_Ca_e56cdcfc_39c63d68_trace_thumb.jpg">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Calibration_Demand.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.638"
+			timeRelativeToTestModuleStartTime="00:05.638"
+			timeWallClock="17:11:38"
+			time="00:05.638"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Ca_e56cdcfc\Input_Ca_e56cdcfc_ff613f96_trace.jpg"
+			errthumb="images_Input_Ca_e56cdcfc\Input_Ca_e56cdcfc_ff613f96_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SkySuite.TabControl.SomeRow6' at 13;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]"
+				fullname="AtlasAutomationRepository.SkySuite.TabControl.SomeRow6"
+				id="9f77ee53c64c4c66a757f15282f88687"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Calibration_Demand.cs"
+				codeline="85"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.442"
+			timeRelativeToTestModuleStartTime="00:08.442"
+			timeWallClock="17:11:41"
+			time="00:08.442"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Calibration_Demand.cs"
+				codeline="86"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.527"
+			timeRelativeToTestModuleStartTime="00:08.527"
+			timeWallClock="17:11:41"
+			time="00:08.527"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Ca_e56cdcfc\Input_Ca_e56cdcfc_d2f79f57_trace.jpg"
+			errthumb="images_Input_Ca_e56cdcfc\Input_Ca_e56cdcfc_d2f79f57_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at AtlasAutomation.Input_Calibration_Demand.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Calibration_Demand.cs:line 86
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Calibration_Demand.cs"
+				codeline="86"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.4m"
+		durationms="143344"
+		type="root"
+		rid="195fbfb641eeb8c4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="15/01/2024 20:08:49"
+		timestampiso="2024-01-15T20:08:49"
+		endtime="15/01/2024 20:11:13"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Validate_Report_Metrics">
+		<detail>
+			Validate_Report_Metrics
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic' does not match the specified value (Failed to find item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic'. Please check that your whitelist allows Ranorex to access the process. No element found for path './/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']' at step 'text[@caption='Traffic']' after 337 attempts within 1m.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.426"
+			timeRelativeToTestModuleStartTime="00:03.426"
+			timeWallClock="20:08:53"
+			time="00:03.426"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>JbWindow_Title
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.453"
+			timeRelativeToTestModuleStartTime="00:03.453"
+			timeWallClock="20:08:53"
+			time="00:03.453"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1.PARTGridViewVirtualizingPanel.Flight_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']"
+				itempath="row[2]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Flight_Expand"
+				id="de8076a819d94b5990368ae1533cd0f9"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.008"
+			timeRelativeToTestModuleStartTime="00:37.008"
+			timeWallClock="20:09:26"
+			time="00:37.008"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Flight Count - Schedule') on item 'JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//list[@automationid='PART_DataCellsPresenter']/?/?/text[@automationid='CellElement_2_0' and @text='Flight Count - Schedule']"
+				itempath=".//list[@automationid='PART_DataCellsPresenter']/?/?/text[@automationid='CellElement_2_0' and @text='Flight Count - Schedule']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule"
+				id="773b2e794ac7405cbed6d1f0018bbda0"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.359"
+			timeRelativeToTestModuleStartTime="00:52.359"
+			timeWallClock="20:09:42"
+			time="00:52.359"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//list[@automationid='PART_DataCellsPresenter']/?/?/text[@automationid='CellElement_2_0' and @text='Flight Count - Schedule']"
+				itempath=".//list[@automationid='PART_DataCellsPresenter']/?/?/text[@automationid='CellElement_2_0' and @text='Flight Count - Schedule']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule"
+				id="773b2e794ac7405cbed6d1f0018bbda0"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="97"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.466"
+			timeRelativeToTestModuleStartTime="00:52.466"
+			timeWallClock="20:09:42"
+			time="00:52.466"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1.PARTGridViewVirtualizingPanel.Traffic_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']"
+				itempath="row[11]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic_Expand"
+				id="04550c4999564ecbbf5c3517c1e9ab4c"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.104"
+			timeRelativeToTestModuleStartTime="01:08.104"
+			timeWallClock="20:09:58"
+			time="01:08.104"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Traffic') on item 'JobWindow1.PARTGridViewVirtualizingPanel.Traffic'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']"
+				itempath="row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic"
+				id="ccd479d8218140ee8fea8d8d8bf28020"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="104"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:08.170"
+			timeRelativeToTestModuleStartTime="02:08.170"
+			timeWallClock="20:10:58"
+			time="02:08.170"
+			level="Info"
+			category="User"
+			errimg="images_Validate_9221b4b3\Validate_9221b4b3_d9fc26a6_trace.jpg"
+			errthumb="images_Validate_9221b4b3\Validate_9221b4b3_d9fc26a6_trace_thumb.jpg">
+			<message>
+				Item 'Traffic' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="105"
+				loglvl="Info"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:23.202"
+			timeRelativeToTestModuleStartTime="02:23.202"
+			timeWallClock="20:11:13"
+			time="02:23.202"
+			level="Failure"
+			category="Validation"
+			errimg="images_Validate_9221b4b3\Validate_9221b4b3_58132d22_trace.jpg"
+			errthumb="images_Validate_9221b4b3\Validate_9221b4b3_58132d22_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic' does not match the specified value (Failed to find item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic'. Please check that your whitelist allows Ranorex to access the process. No element found for path './/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']' at step 'text[@caption='Traffic']' after 337 attempts within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']"
+				itempath="row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic"
+				id="ccd479d8218140ee8fea8d8d8bf28020"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="105"
+				failedStep="text[@caption='Traffic']"
+				bestPathPrefix=""
+				loglvl="Failure"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:23.206"
+			timeRelativeToTestModuleStartTime="02:23.206"
+			timeWallClock="20:11:13"
+			time="02:23.206"
+			level="Error"
+			category="Module"
+			errimg="images_Validate_9221b4b3\Validate_9221b4b3_58132d22_trace.jpg"
+			errthumb="images_Validate_9221b4b3\Validate_9221b4b3_58132d22_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic' does not match the specified value (Failed to find item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic'. Please check that your whitelist allows Ranorex to access the process. No element found for path './/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']' at step 'text[@caption='Traffic']' after 337 attempts within 1m.).<br/>Failed to find item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path './/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']' at step 'text[@caption='Traffic']' after 337 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at AtlasAutomation.Validate_Report_Metrics.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs:line 105
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="105"
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']"
+				itempath="row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic"
+				id="ccd479d8218140ee8fea8d8d8bf28020"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

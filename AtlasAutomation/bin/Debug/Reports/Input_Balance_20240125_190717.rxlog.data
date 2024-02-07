@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="37.8s"
+		durationms="37803"
+		type="root"
+		rid="b67a37dcaf297d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 19:07:20"
+		timestampiso="2024-01-25T19:07:20"
+		endtime="25/01/2024 19:07:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Balance">
+		<detail>
+			Input_Balance
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.419"
+			timeRelativeToTestModuleStartTime="00:03.419"
+			timeWallClock="19:07:23"
+			time="00:03.419"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TC_05.Airport_Expand' at 17;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/button[@automationid='PART_ExpandButton']"
+				itempath=".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.TC_05.Airport_Expand"
+				id="fb30b6a1765d4bddb025516c87ce9c8b"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Balance.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.904"
+			timeRelativeToTestModuleStartTime="00:07.904"
+			timeWallClock="19:07:28"
+			time="00:07.904"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Balance.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.916"
+			timeRelativeToTestModuleStartTime="00:08.916"
+			timeWallClock="19:07:29"
+			time="00:08.916"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TC_05.Balance_Toggle' at 15;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				itempath=".//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow.TC_05.Balance_Toggle"
+				id="0adfee830ff047329e84c4f24a78bfb0"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Balance.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.837"
+			timeRelativeToTestModuleStartTime="00:21.837"
+			timeWallClock="19:07:42"
+			time="00:21.837"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Balance.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.838"
+			timeRelativeToTestModuleStartTime="00:22.838"
+			timeWallClock="19:07:43"
+			time="00:22.838"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.PEAKRONBalanceV1' at 43;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']/?/?/listitem[@text='PEAK_RONBalance - v.1']"
+				itempath="button[@automationid='PART_HeaderExpander']/?/?/listitem[@text='PEAK_RONBalance - v.1']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.PEAKRONBalanceV1"
+				id="f64fe8219b434649867d2349f3fbc1a5"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Balance.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.799"
+			timeRelativeToTestModuleStartTime="00:37.799"
+			timeWallClock="19:07:58"
+			time="00:37.799"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

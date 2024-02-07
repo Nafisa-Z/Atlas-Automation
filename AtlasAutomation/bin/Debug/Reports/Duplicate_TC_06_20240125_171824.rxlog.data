@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="24.23s"
+		durationms="24227"
+		type="root"
+		rid="7a884bf3a5002a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 17:18:27"
+		timestampiso="2024-01-25T17:18:27"
+		endtime="25/01/2024 17:18:51"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Duplicate_TC_06">
+		<detail>
+			Duplicate_TC_06
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.695"
+			timeRelativeToTestModuleStartTime="00:02.695"
+			timeWallClock="17:18:30"
+			time="00:02.695"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Jb9_Name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.721"
+			timeRelativeToTestModuleStartTime="00:02.721"
+			timeWallClock="17:18:30"
+			time="00:02.721"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SkySuite.Eval_med_3' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				itempath=".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				fullname="AtlasAutomationRepository.SkySuite.Eval_med_3"
+				id="cb7381ac14d445389323bd4a6d5dd89c"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_06.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.709"
+			timeRelativeToTestModuleStartTime="00:06.709"
+			timeWallClock="17:18:34"
+			time="00:06.709"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.DUplicate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/menuitem[@text='D_uplicate']"
+				itempath="menuitem[@text='D_uplicate']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.DUplicate"
+				id="70637a2275944c15a6d3a8691329afe0"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_06.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.609"
+			timeRelativeToTestModuleStartTime="00:10.609"
+			timeWallClock="17:18:37"
+			time="00:10.609"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.ToCurrentScenario' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/menuitem[@text='To current scenario...']"
+				itempath="?/?/menuitem[@text='To current scenario...']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.ToCurrentScenario"
+				id="fe44949b81e648d888e87f282af5a9c6"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_06.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.895"
+			timeRelativeToTestModuleStartTime="00:11.895"
+			timeWallClock="17:18:39"
+			time="00:11.895"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'NewScenario'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='New Scenario']"
+				itempath="/form[@title='New Scenario']"
+				fullname="AtlasAutomationRepository.NewScenario.Self"
+				id="dc887175e7e84663bc83272b168c4ddd"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_06.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.224"
+			timeRelativeToTestModuleStartTime="00:24.224"
+			timeWallClock="17:18:51"
+			time="00:24.224"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

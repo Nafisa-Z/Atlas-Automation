@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="7.67s"
+		durationms="7674"
+		type="root"
+		rid="b782f54c1a3f5e8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="31/01/2024 11:16:01"
+		timestampiso="2024-01-31T11:16:01"
+		endtime="31/01/2024 11:16:09"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.87s"
+			durationms="2868"
+			type="test-suite"
+			rid="1331aed2461992ae"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="UAT1"
+			headertext="UAT1"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.5s"
+				durationms="1495"
+				type="iteration-container"
+				rid="4f074b3452bdf78"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="TC_01"
+				headertext="TC_01"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="4d9d872f-24bd-47f3-aaff-b7f163798c2a"
+				datasource="JobCreationData"
+				dataiterationcount="1">
+				<activity
+					result="Failed"
+					duration="1.49s"
+					durationms="1485"
+					type="test-case"
+					rid="4acb7824f2628"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="TC_01"
+					testcontainerid="4d9d872f-24bd-47f3-aaff-b7f163798c2a"
+					headertext="TC_01"
+					displayName="TC_01"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="workbench">
+							AtlasAutomation2024-01-31 11
+						</field>
+						<field
+							name="workspaceName">
+							Atlas_Cycle12024-01-31 11
+						</field>
+						<field
+							name="planningPeriod">
+							3/26/2023 to 10/28/2023
+						</field>
+						<field
+							name="schSearch">
+							S23_AmadeusSample_New
+						</field>
+						<field
+							name="scNameIB">
+							IB_Jobs 2024-01-31 11-16-07
+						</field>
+						<field
+							name="jb1Name">
+							TC-01 2024-01-31 11-16-07
+						</field>
+						<field
+							name="datesMed">
+							18Sep2023 to 24Sep2023
+						</field>
+						<field
+							name="paramSearch1">
+							TC_01_PreCalibration_IB_Med_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="jb2Name">
+							TC-02 2024-01-31 11-16-07
+						</field>
+						<field
+							name="datesPeak">
+							21Aug2023 to 27Aug2023
+						</field>
+						<field
+							name="jb3Name">
+							TC-03 2024-01-31 11-16-07
+						</field>
+						<field
+							name="datesLow">
+							15May2023 to 21May2023
+						</field>
+						<field
+							name="paramSearch3">
+							TC_03_PreCalibration_IB_Low_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="scNameEval">
+							Eval_Jobs 2024-01-31 11-16-07
+						</field>
+						<field
+							name="jb4Name">
+							TC-04 2024-01-31 11-16-07
+						</field>
+						<field
+							name="paramSearch4">
+							TC_04_Eval_Med_OPT_Evaluation_Def_Param
+						</field>
+						<field
+							name="jb5Name">
+							TC-05 2024-01-31 11-16-07
+						</field>
+						<field
+							name="jb6Name">
+							TC-06 2024-01-31 11-16-07
+						</field>
+						<field
+							name="jb7Name">
+							TC-07 2024-01-31 11-16-07
+						</field>
+						<field
+							name="paramSearch7">
+							TC_07_Adapt_Med_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="jb8Name">
+							TC-08 2024-01-31 11-16-07
+						</field>
+						<field
+							name="paramSearch8">
+							TC_08_Adapt_Peak_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="jb9Name">
+							TC-09 2024-01-31 11-16-07
+						</field>
+						<field
+							name="paramSearch9">
+							TC_09_Adapt_Low_OPT_Adapt_Def_Param
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="1.44s"
+						durationms="1440"
+						type="test-module"
+						rid="1f629b8c6096904b"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="NewFolderButton"
+						displayName="NewFolderButton"
+						moduleid="52eed58e-6188-4aaa-92c7-672417f60443"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.440"
+							timeRelativeToTestModuleStartTime="00:00.011"
+							timeWallClock="11:16:07"
+							time="00:01.440"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']"
+								itempath="/form[@name='Root']"
+								fullname="AtlasAutomationRepository.SkySuite.Self"
+								id="12f9a8e2bf2141d6a2223baa984f5626"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\NewFolderButton.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.868"
+							timeRelativeToTestModuleStartTime="00:01.440"
+							timeWallClock="11:16:09"
+							time="00:02.868"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

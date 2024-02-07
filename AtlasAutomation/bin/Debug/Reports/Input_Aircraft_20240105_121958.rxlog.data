@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="10.56s"
+		durationms="10563"
+		type="root"
+		rid="b5e45bac435f6a5"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="05/01/2024 12:20:01"
+		timestampiso="2024-01-05T12:20:01"
+		endtime="05/01/2024 12:20:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Aircraft">
+		<detail>
+			Input_Aircraft
+		</detail>
+		<errormessage>
+			Image not found in element {Button:PART_ExpandButton}.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.830"
+			timeRelativeToTestModuleStartTime="00:02.830"
+			timeWallClock="12:20:03"
+			time="00:02.830"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1.SomeContainer.Show_Toggle' at 20;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa1(1) -- nafisa1 (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//combobox/button[@automationid='toggleButton']"
+				itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//combobox/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeContainer.Show_Toggle"
+				id="3269d8665bd541d9acb8282870d45e85"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.017"
+			timeRelativeToTestModuleStartTime="00:06.017"
+			timeWallClock="12:20:07"
+			time="00:06.017"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.Required' at 124;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/listitem[@text='Required']"
+				itempath="?/?/listitem[@text='Required']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.Required"
+				id="22c39298907b4f08b39bd4f484770814"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.598"
+			timeRelativeToTestModuleStartTime="00:06.598"
+			timeWallClock="12:20:07"
+			time="00:06.598"
+			level="Info"
+			category="Delay"
+			errimg="images_Input_Ai_aee3e4b\Input_Ai_aee3e4b_ba9e8113_trace.jpg"
+			errthumb="images_Input_Ai_aee3e4b\Input_Ai_aee3e4b_ba9e8113_trace_thumb.jpg">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.605"
+			timeRelativeToTestModuleStartTime="00:09.605"
+			timeWallClock="12:20:10"
+			time="00:09.605"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Ai_aee3e4b\Input_Ai_aee3e4b_ba2ec5e1_trace.jpg"
+			errthumb="images_Input_Ai_aee3e4b\Input_Ai_aee3e4b_ba2ec5e1_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWindow1.SomeContainer.Copy_of_Aircraft_Expand' at 5;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa1(1) -- nafisa1 (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/*/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']"
+				itempath="*/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeContainer.Copy_of_Aircraft_Expand"
+				id="70f5c0a7dad445cc876dc967be5a239c"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.425"
+			timeRelativeToTestModuleStartTime="00:10.425"
+			timeWallClock="12:20:11"
+			time="00:10.425"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Ai_aee3e4b\Input_Ai_aee3e4b_198a7fe4_trace.jpg"
+			errthumb="images_Input_Ai_aee3e4b\Input_Ai_aee3e4b_198a7fe4_trace_thumb.jpg">
+			<message>
+				Image not found in element {Button:PART_ExpandButton}.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Imaging.FindSingle(Element element, Bitmap feature, FindOptions options)
+   at Ranorex.Location.GetElementLocation(Element element, Boolean relative)
+   at Ranorex.Adapter.IsClickOutOfBounds(Location location)
+   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at AtlasAutomation.Input_Aircraft.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs:line 94
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="94"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

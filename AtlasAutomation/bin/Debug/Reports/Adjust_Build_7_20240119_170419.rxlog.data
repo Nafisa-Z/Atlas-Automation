@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.5s"
+		durationms="1500"
+		type="root"
+		rid="da75342630001c0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="19/01/2024 17:04:24"
+		timestampiso="2024-01-19T17:04:24"
+		endtime="19/01/2024 17:04:26"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.486"
+			timeRelativeToTestModuleStartTime="00:01.486"
+			timeWallClock="17:04:26"
+			time="00:01.486"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.843"
+			timeRelativeToTestModuleStartTime="00:01.843"
+			timeWallClock="17:04:26"
+			time="00:01.843"
+			level="Failure"
+			category="Module"
+			errimg="images_Adjust_B_41aad7c5\Adjust_B_41aad7c5_c9e98aaa_trace.jpg"
+			errthumb="images_Adjust_B_41aad7c5\Adjust_B_41aad7c5_c9e98aaa_trace_thumb.jpg">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Keyboard.UpdateLowLevelKeyboardHookCallback()
+   at Ranorex.Keyboard.set_PauseKey(Keys value)
+   at Ranorex.Keyboard.set_AbortKey(Keys value)
+   at Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

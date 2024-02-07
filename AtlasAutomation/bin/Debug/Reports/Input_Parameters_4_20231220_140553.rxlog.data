@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.88s"
+		durationms="6879"
+		type="root"
+		rid="11a795399267558d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="20/12/2023 14:05:56"
+		timestampiso="2023-12-20T14:05:56"
+		endtime="20/12/2023 14:06:03"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Parameters_4">
+		<detail>
+			Input_Parameters_4
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.814"
+			timeRelativeToTestModuleStartTime="00:03.814"
+			timeWallClock="14:06:00"
+			time="00:03.814"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Pa_cacc491a\Input_Pa_cacc491a_02e7ad43_trace.jpg"
+			errthumb="images_Input_Pa_cacc491a\Input_Pa_cacc491a_02e7ad43_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWindow4.JobIndicator.PARTExpandButton1' at 19;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']"
+				itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.PARTExpandButton1"
+				id="58413fd9db5a4b118e9f7d2a7fb68411"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Parameters_4.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.749"
+			timeRelativeToTestModuleStartTime="00:06.749"
+			timeWallClock="14:06:03"
+			time="00:06.749"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Pa_cacc491a\Input_Pa_cacc491a_53347b00_trace.jpg"
+			errthumb="images_Input_Pa_cacc491a\Input_Pa_cacc491a_53347b00_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at AtlasAutomation.Input_Parameters_4.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Parameters_4.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Parameters_4.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

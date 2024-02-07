@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="44.73s"
+		durationms="44733"
+		type="root"
+		rid="15786f493a6b09c6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 17:32:28"
+		timestampiso="2024-01-25T17:32:28"
+		endtime="25/01/2024 17:33:12"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Validate_Report_Adapt">
+		<detail>
+			Validate_Report_Adapt
+		</detail>
+		<errormessage>
+			Item 'AtlasAutomationRepository.JobWindow.Adapt_Report_Metrics.Flight_Expand' is no Button.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.646"
+			timeRelativeToTestModuleStartTime="00:02.646"
+			timeWallClock="17:32:30"
+			time="00:02.646"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Report_Tab.Report_Page' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page"
+				id="8008f399f0774af8b690a795f9671eae"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Adapt.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.864"
+			timeRelativeToTestModuleStartTime="00:03.864"
+			timeWallClock="17:32:32"
+			time="00:03.864"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Adapt.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.868"
+			timeRelativeToTestModuleStartTime="00:04.868"
+			timeWallClock="17:32:33"
+			time="00:04.868"
+			level="Info"
+			category="Mouse"
+			errimg="images_Validate_17d6faf5\Validate_17d6faf5_8486476f_trace.jpg"
+			errthumb="images_Validate_17d6faf5\Validate_17d6faf5_8486476f_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWindow.Adapt_Report_Metrics.Flight_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Adapt_Report_Metrics.Flight_Expand"
+				id="784bada5931847dfbb3f5011d0b0f754"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Adapt.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.586"
+			timeRelativeToTestModuleStartTime="00:44.586"
+			timeWallClock="17:33:12"
+			time="00:44.586"
+			level="Info"
+			category="User"
+			errimg="images_Validate_17d6faf5\Validate_17d6faf5_2a33dc2f_trace.jpg"
+			errthumb="images_Validate_17d6faf5\Validate_17d6faf5_2a33dc2f_trace_thumb.jpg">
+			<message>
+				Item 'Flight_Expand' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Adapt.cs"
+				codeline="90"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.592"
+			timeRelativeToTestModuleStartTime="00:44.592"
+			timeWallClock="17:33:12"
+			time="00:44.592"
+			level="Error"
+			category="Module"
+			errimg="images_Validate_17d6faf5\Validate_17d6faf5_2a33dc2f_trace.jpg"
+			errthumb="images_Validate_17d6faf5\Validate_17d6faf5_2a33dc2f_trace_thumb.jpg">
+			<message>
+				Item 'AtlasAutomationRepository.JobWindow.Adapt_Report_Metrics.Flight_Expand' is no Button.<br/>The element does not support the required capability 'button'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.Adapt_Report_MetricsFolder.get_Flight_Expand() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 9344&#13;&#10;   at AtlasAutomation.Validate_Report_Adapt.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Adapt.cs:line 90&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Adapt.cs"
+				codeline="90"
+				loglvl="Error"
+				id="784bada5931847dfbb3f5011d0b0f754"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Adapt_Report_Metrics.Flight_Expand"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

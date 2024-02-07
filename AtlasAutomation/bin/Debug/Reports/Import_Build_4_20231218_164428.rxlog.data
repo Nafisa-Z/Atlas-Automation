@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="31.63s"
+		durationms="31633"
+		type="root"
+		rid="6cd17374ffe30e4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="18/12/2023 16:44:30"
+		timestampiso="2023-12-18T16:44:30"
+		endtime="18/12/2023 16:45:02"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Import_Build_4">
+		<detail>
+			Import_Build_4
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.641"
+			timeRelativeToTestModuleStartTime="00:03.641"
+			timeWallClock="16:44:34"
+			time="00:03.641"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>TC_01_PreCalibration_IB_Med
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.667"
+			timeRelativeToTestModuleStartTime="00:03.667"
+			timeWallClock="16:44:34"
+			time="00:03.667"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow4.Job_Window_4' at 310;669.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/indicator"
+				fullname="AtlasAutomationRepository.JobWindow4.Job_Window_4"
+				id="8792b6d4a9b84f75a101c5ff23d8939a"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Build_4.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.474"
+			timeRelativeToTestModuleStartTime="00:06.474"
+			timeWallClock="16:44:37"
+			time="00:06.474"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow4.JobIndicator.Industry_Build_Toggle' at 16;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+				itempath="button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.Industry_Build_Toggle"
+				id="848ea8db7c8b49b4b1610138588cf47b"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Build_4.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.392"
+			timeRelativeToTestModuleStartTime="00:07.392"
+			timeWallClock="16:44:38"
+			time="00:07.392"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SomeContextMenu.TC01PreCalibrationIBMed' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu/button/?/?/listitem[@index='0' and @text='    ']"
+				itempath="button/?/?/listitem[@index='0' and @text=$TC_01_PreCalibration_IB_Med]"
+				fullname="AtlasAutomationRepository.SomeContextMenu.TC01PreCalibrationIBMed"
+				id="700692f7a17c41ccbbc6b453f99e55e7"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Build_4.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.628"
+			timeRelativeToTestModuleStartTime="00:31.628"
+			timeWallClock="16:45:02"
+			time="00:31.628"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

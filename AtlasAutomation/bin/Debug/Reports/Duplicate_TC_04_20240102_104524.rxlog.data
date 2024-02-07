@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="64389"
+		type="root"
+		rid="ba002cecb62f688"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="02/01/2024 10:45:28"
+		timestampiso="2024-01-02T10:45:28"
+		endtime="02/01/2024 10:46:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Duplicate_TC_04">
+		<detail>
+			Duplicate_TC_04
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.958"
+			timeRelativeToTestModuleStartTime="00:04.958"
+			timeWallClock="10:45:33"
+			time="00:04.958"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Down item 'SkySuite.SomeCell1' at 43;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				itempath=".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				fullname="AtlasAutomationRepository.SkySuite.SomeCell1"
+				id="b00d5957264b4b62b036ab84d20d759d"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_04.cs"
+				codeline="82"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.385"
+			timeRelativeToTestModuleStartTime="00:09.385"
+			timeWallClock="10:45:38"
+			time="00:09.385"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.DUplicate' at 44;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/menuitem[@text='D_uplicate']"
+				itempath="menuitem[@text='D_uplicate']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.DUplicate"
+				id="70637a2275944c15a6d3a8691329afe0"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_04.cs"
+				codeline="87"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.386"
+			timeRelativeToTestModuleStartTime="01:04.386"
+			timeWallClock="10:46:33"
+			time="01:04.386"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

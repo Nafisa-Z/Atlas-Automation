@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="30.8s"
+		durationms="30801"
+		type="root"
+		rid="82ed938605d99ba"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="05/01/2024 13:23:17"
+		timestampiso="2024-01-05T13:23:17"
+		endtime="05/01/2024 13:23:48"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputCalibrationDemand">
+		<detail>
+			InputCalibrationDemand
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.848"
+			timeRelativeToTestModuleStartTime="00:02.848"
+			timeWallClock="13:23:20"
+			time="00:02.848"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="33"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.867"
+			timeRelativeToTestModuleStartTime="00:03.867"
+			timeWallClock="13:23:21"
+			time="00:03.867"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'JobWindow1.SomeContainer.ToggleButton6' at 9;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa1(1) -- nafisa1 (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='CellElement_14_1']//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				itempath=".//container[@automationid='CellElement_14_1']//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeContainer.ToggleButton6"
+				id="2db0a29b9b8345d4804d8a6838a9e766"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="85"
+				itemindex="34"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.498"
+			timeRelativeToTestModuleStartTime="00:26.498"
+			timeWallClock="13:23:44"
+			time="00:26.498"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="35"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.508"
+			timeRelativeToTestModuleStartTime="00:27.508"
+			timeWallClock="13:23:45"
+			time="00:27.508"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.A1GlobalPartnershipFactor' at 43;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']/?/?/listitem[@text>'A1_Global_PartnershipFact']"
+				itempath="button[@automationid='PART_HeaderExpander']/?/?/listitem[@text>'A1_Global_PartnershipFact']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.A1GlobalPartnershipFactor"
+				id="d5f7c559aaac4e13bac6ad7bea5278d6"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\InputCalibrationDemand.cs"
+				codeline="93"
+				itemindex="36"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.798"
+			timeRelativeToTestModuleStartTime="00:30.798"
+			timeWallClock="13:23:48"
+			time="00:30.798"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

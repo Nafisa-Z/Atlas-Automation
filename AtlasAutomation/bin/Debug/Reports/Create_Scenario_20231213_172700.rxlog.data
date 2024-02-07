@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.2m"
+		durationms="132471"
+		type="root"
+		rid="9aa3866b835998"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="13/12/2023 17:27:03"
+		timestampiso="2023-12-13T17:27:03"
+		endtime="13/12/2023 17:29:16"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Create_Scenario">
+		<detail>
+			Create_Scenario
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.214"
+			timeRelativeToTestModuleStartTime="00:04.214"
+			timeWallClock="17:27:08"
+			time="00:04.214"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite1' at 812;36.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']"
+				itempath="/form[@name='Root']"
+				fullname="AtlasAutomationRepository.SkySuite1.Self"
+				id="3e9fa1cb2adc4886a4cd2d96f33bc72d"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.612"
+			timeRelativeToTestModuleStartTime="00:06.612"
+			timeWallClock="17:27:10"
+			time="00:06.612"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SkySuite.SomeTreeItem' at 257;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/?/treeitem"
+				itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/?/treeitem"
+				fullname="AtlasAutomationRepository.SkySuite.SomeTreeItem"
+				id="bd7b72dc91064e0d98556d870ee760cf"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:12.465"
+			timeRelativeToTestModuleStartTime="02:12.465"
+			timeWallClock="17:29:16"
+			time="02:12.465"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

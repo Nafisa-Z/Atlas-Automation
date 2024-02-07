@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="31.15s"
+		durationms="31146"
+		type="root"
+		rid="1ad42230e76ece0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 10:25:10"
+		timestampiso="2024-01-25T10:25:10"
+		endtime="25/01/2024 10:25:41"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ModifySchedule">
+		<detail>
+			ModifySchedule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.393"
+			timeRelativeToTestModuleStartTime="00:06.393"
+			timeWallClock="10:25:16"
+			time="00:06.393"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Dates_Peak
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.447"
+			timeRelativeToTestModuleStartTime="00:06.447"
+			timeWallClock="10:25:17"
+			time="00:06.447"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Job_Inputs.JobInputsBusyIndicator' at 684;36.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Inputs.JobInputsBusyIndicator"
+				id="00a01766ccfa4bffae1541f1d9fd6ca1"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifySchedule.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.023"
+			timeRelativeToTestModuleStartTime="00:12.023"
+			timeWallClock="10:25:22"
+			time="00:12.023"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Job_Inputs.Schedule_Expand' at 22;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']"
+				itempath=".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Inputs.Schedule_Expand"
+				id="8036a8efdedb4e9e82d8f791c118d08a"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifySchedule.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.559"
+			timeRelativeToTestModuleStartTime="00:16.559"
+			timeWallClock="10:25:27"
+			time="00:16.559"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TC_02.OA_Dates' at 76;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']"
+				itempath="row[2]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']"
+				fullname="AtlasAutomationRepository.JobWindow.TC_02.OA_Dates"
+				id="dfb76e21122d4ddda0eb14f77962a2c8"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifySchedule.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.303"
+			timeRelativeToTestModuleStartTime="00:19.303"
+			timeWallClock="10:25:29"
+			time="00:19.303"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Dates_Peak' with focus on 'JobWindow.TC_02.OA_Dates'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']"
+				itempath="row[2]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']"
+				fullname="AtlasAutomationRepository.JobWindow.TC_02.OA_Dates"
+				id="dfb76e21122d4ddda0eb14f77962a2c8"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifySchedule.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.751"
+			timeRelativeToTestModuleStartTime="00:21.751"
+			timeWallClock="10:25:32"
+			time="00:21.751"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TC_02.Replacement_Dates' at 112;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']"
+				itempath="row[3]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']"
+				fullname="AtlasAutomationRepository.JobWindow.TC_02.Replacement_Dates"
+				id="81e4b03348fe4a27a45d7235e0a1eaef"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifySchedule.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.111"
+			timeRelativeToTestModuleStartTime="00:24.111"
+			timeWallClock="10:25:34"
+			time="00:24.111"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Dates_Peak' with focus on 'JobWindow.TC_02.Replacement_Dates'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']"
+				itempath="row[3]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='PART_TextBox']/text[@caption='']"
+				fullname="AtlasAutomationRepository.JobWindow.TC_02.Replacement_Dates"
+				id="81e4b03348fe4a27a45d7235e0a1eaef"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifySchedule.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.521"
+			timeRelativeToTestModuleStartTime="00:26.521"
+			timeWallClock="10:25:37"
+			time="00:26.521"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Job_Inputs.Schedule_Expand' at 22;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']"
+				itempath=".//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Inputs.Schedule_Expand"
+				id="8036a8efdedb4e9e82d8f791c118d08a"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifySchedule.cs"
+				codeline="119"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

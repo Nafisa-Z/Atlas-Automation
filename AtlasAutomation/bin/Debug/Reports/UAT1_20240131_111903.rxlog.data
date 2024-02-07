@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="21.02s"
+		durationms="21022"
+		type="root"
+		rid="33df11a7deebfcc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="31/01/2024 11:19:03"
+		timestampiso="2024-01-31T11:19:03"
+		endtime="31/01/2024 11:19:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="15.53s"
+			durationms="15532"
+			type="test-suite"
+			rid="a2536c8f9910790"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="UAT1"
+			headertext="UAT1"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="14.05s"
+				durationms="14053"
+				type="iteration-container"
+				rid="1fa36ca779fd9039"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="TC_01"
+				headertext="TC_01"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="4d9d872f-24bd-47f3-aaff-b7f163798c2a"
+				datasource="JobCreationData"
+				dataiterationcount="1">
+				<activity
+					result="Failed"
+					duration="14.05s"
+					durationms="14045"
+					type="test-case"
+					rid="86bd8ae078618c8"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="3"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="TC_01"
+					testcontainerid="4d9d872f-24bd-47f3-aaff-b7f163798c2a"
+					headertext="TC_01"
+					displayName="TC_01"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="workbench">
+							AtlasAutomation2024-01-31 11
+						</field>
+						<field
+							name="workspaceName">
+							Atlas_Cycle12024-01-31 11
+						</field>
+						<field
+							name="planningPeriod">
+							3/26/2023 to 10/28/2023
+						</field>
+						<field
+							name="schSearch">
+							S23_AmadeusSample_New
+						</field>
+						<field
+							name="scNameIB">
+							IB_Jobs 2024-01-31 11-19-10
+						</field>
+						<field
+							name="jb1Name">
+							TC-01 2024-01-31 11-19-10
+						</field>
+						<field
+							name="datesMed">
+							18Sep2023 to 24Sep2023
+						</field>
+						<field
+							name="paramSearch1">
+							TC_01_PreCalibration_IB_Med_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="jb2Name">
+							TC-02 2024-01-31 11-19-10
+						</field>
+						<field
+							name="datesPeak">
+							21Aug2023 to 27Aug2023
+						</field>
+						<field
+							name="jb3Name">
+							TC-03 2024-01-31 11-19-10
+						</field>
+						<field
+							name="datesLow">
+							15May2023 to 21May2023
+						</field>
+						<field
+							name="paramSearch3">
+							TC_03_PreCalibration_IB_Low_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="scNameEval">
+							Eval_Jobs 2024-01-31 11-19-10
+						</field>
+						<field
+							name="jb4Name">
+							TC-04 2024-01-31 11-19-10
+						</field>
+						<field
+							name="paramSearch4">
+							TC_04_Eval_Med_OPT_Evaluation_Def_Param
+						</field>
+						<field
+							name="jb5Name">
+							TC-05 2024-01-31 11-19-10
+						</field>
+						<field
+							name="jb6Name">
+							TC-06 2024-01-31 11-19-10
+						</field>
+						<field
+							name="jb7Name">
+							TC-07 2024-01-31 11-19-10
+						</field>
+						<field
+							name="paramSearch7">
+							TC_07_Adapt_Med_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="jb8Name">
+							TC-08 2024-01-31 11-19-10
+						</field>
+						<field
+							name="paramSearch8">
+							TC_08_Adapt_Peak_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="jb9Name">
+							TC-09 2024-01-31 11-19-10
+						</field>
+						<field
+							name="paramSearch9">
+							TC_09_Adapt_Low_OPT_Adapt_Def_Param
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="4.93s"
+						durationms="4928"
+						type="test-module"
+						rid="32bb93b65d3599c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="NewFolderButton"
+						displayName="NewFolderButton"
+						moduleid="52eed58e-6188-4aaa-92c7-672417f60443"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.538"
+							timeRelativeToTestModuleStartTime="00:00.011"
+							timeWallClock="11:19:10"
+							time="00:01.538"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']"
+								itempath="/form[@name='Root']"
+								fullname="AtlasAutomationRepository.SkySuite.Self"
+								id="12f9a8e2bf2141d6a2223baa984f5626"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\NewFolderButton.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.038"
+							timeRelativeToTestModuleStartTime="00:02.512"
+							timeWallClock="11:19:12"
+							time="00:04.038"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite.workbenchButton' at 80;31.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']/?/?/list[@automationid='LeftPanelMainList']/listitem[@index='1']/radiobutton"
+								itempath="?/?/list[@automationid='LeftPanelMainList']/listitem[@index='1']/radiobutton"
+								fullname="AtlasAutomationRepository.SkySuite.workbenchButton"
+								id="30857447b3944b30b92b5627caff8e46"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\NewFolderButton.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.991"
+							timeRelativeToTestModuleStartTime="00:03.464"
+							timeWallClock="11:19:13"
+							time="00:04.991"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite.workbenchView' at 623;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']/tabpagelist"
+								itempath="tabpagelist"
+								fullname="AtlasAutomationRepository.SkySuite.workbenchView"
+								id="21946c2867214c46a856e8df5bca7cbc"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\NewFolderButton.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.486"
+							timeRelativeToTestModuleStartTime="00:03.960"
+							timeWallClock="11:19:13"
+							time="00:05.486"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite.workbenchToolbarNewFolderButton' at 23;22.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/button[@automationid='WorkbenchToolbar_NewFolderButton']"
+								itempath=".//toolbar[@automationid='WorkbenchToolbar']/button[@automationid='WorkbenchToolbar_NewFolderButton']"
+								fullname="AtlasAutomationRepository.SkySuite.workbenchToolbarNewFolderButton"
+								id="9c6089f07a554f77b6f6166b2a0461fc"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\NewFolderButton.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="811ms"
+						durationms="811"
+						type="test-module"
+						rid="db7a6c0c5f809b4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="ValidateNewFolderPopup"
+						displayName="ValidateNewFolderPopup"
+						moduleid="ee20b5d4-f0f1-4d17-8428-18bd727d0d9a"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.459"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="11:19:14"
+							time="00:06.459"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'WorkbenchFolder'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']"
+								itempath="/form[@title='New Folder']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.Self"
+								id="f0bc859f0c5b4391b7fe9a4a50bc6c96"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\ValidateNewFolderPopup.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.635"
+							timeRelativeToTestModuleStartTime="00:00.176"
+							timeWallClock="11:19:15"
+							time="00:06.635"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'Self' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']"
+								itempath="/form[@title='New Folder']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.Self"
+								id="f0bc859f0c5b4391b7fe9a4a50bc6c96"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\ValidateNewFolderPopup.cs"
+								codeline="83"
+								loglvl="Success"
+								itemindex="0">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.766"
+							timeRelativeToTestModuleStartTime="00:00.307"
+							timeWallClock="11:19:15"
+							time="00:06.766"
+							level="Info"
+							category="User"
+							errimg="images_UAT1_202_4a3da6e4\UAT1_202_5330b0a0_rxlog.jpg"
+							errthumb="images_UAT1_202_4a3da6e4\UAT1_202_5330b0a0_rxlog_thumb.jpg">
+							<message>
+								New Folder pop-up appeared<br/>
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\ValidateNewFolderPopup.cs"
+								codeline="86"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.767"
+							timeRelativeToTestModuleStartTime="00:00.308"
+							timeWallClock="11:19:15"
+							time="00:06.767"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WorkbenchFolder' at 332;16.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']"
+								itempath="/form[@title='New Folder']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.Self"
+								id="f0bc859f0c5b4391b7fe9a4a50bc6c96"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\ValidateNewFolderPopup.cs"
+								codeline="88"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="4.14s"
+						durationms="4135"
+						type="test-module"
+						rid="1b7b3946d301da8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CreateNewFolder"
+						displayName="CreateNewFolder"
+						moduleid="034b6de2-17c9-438c-a624-50b10a3aedb0"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="workbenchName"
+								value="AtlasAutomation2024-01-31 11">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.275"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="11:19:15"
+							time="00:07.275"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$workbenchName = 'AtlasAutomation2024-01-31 11'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.323"
+							timeRelativeToTestModuleStartTime="00:00.052"
+							timeWallClock="11:19:15"
+							time="00:07.323"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WorkbenchFolder.FolderName' at 73;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']//text[@automationid='NameTextBox']/text[@caption='']"
+								itempath=".//text[@automationid='NameTextBox']/text[@caption='']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.FolderName"
+								id="b14633d43d9e4038add8e6e2eb979215"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\CreateNewFolder.cs"
+								codeline="93"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.987"
+							timeRelativeToTestModuleStartTime="00:00.716"
+							timeWallClock="11:19:16"
+							time="00:07.987"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$workbenchName' with focus on 'WorkbenchFolder.FolderName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']//text[@automationid='NameTextBox']/text[@caption='']"
+								itempath=".//text[@automationid='NameTextBox']/text[@caption='']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.FolderName"
+								id="b14633d43d9e4038add8e6e2eb979215"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\CreateNewFolder.cs"
+								codeline="97"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.945"
+							timeRelativeToTestModuleStartTime="00:01.674"
+							timeWallClock="11:19:17"
+							time="00:08.945"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 1s.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\CreateNewFolder.cs"
+								codeline="101"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.997"
+							timeRelativeToTestModuleStartTime="00:02.725"
+							timeWallClock="11:19:18"
+							time="00:09.997"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'WorkbenchFolder.SetToTopLevelButton' at 31;17.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']/indicator//container[@automationid='SelectWorkspaceField']/button[@automationid='SetToTopLevelButton']"
+								itempath="indicator//container[@automationid='SelectWorkspaceField']/button[@automationid='SetToTopLevelButton']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.SetToTopLevelButton"
+								id="adcf3b244078459d867f50442b142f63"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\CreateNewFolder.cs"
+								codeline="105"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.804"
+							timeRelativeToTestModuleStartTime="00:03.532"
+							timeWallClock="11:19:19"
+							time="00:10.804"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WorkbenchFolder.CreateButton' at 85;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']/container[@automationid='Footer']/?/?/button[@automationid='CreateButton']"
+								itempath="container[@automationid='Footer']/?/?/button[@automationid='CreateButton']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.CreateButton"
+								id="ea9b5fc6044b44978fbf24925acb784f"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\CreateNewFolder.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="4.12s"
+						durationms="4124"
+						type="test-module"
+						rid="1f4a12e7490a3b30"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="ValidateNewFolder"
+						displayName="ValidateNewFolder"
+						moduleid="421fa0b9-0935-4fc9-a2e1-ab669d456ad7"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="workbenchName"
+								value="AtlasAutomation2024-01-31 11">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.409"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="11:19:19"
+							time="00:11.409"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$workbenchName = 'AtlasAutomation2024-01-31 11'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.461"
+							timeRelativeToTestModuleStartTime="00:00.053"
+							timeWallClock="11:19:19"
+							time="00:11.461"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'SkySuite.newlyCreatedFolder'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text='AtlasAutomation2024-01-31 11']"
+								itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text=$workbenchName]"
+								fullname="AtlasAutomationRepository.SkySuite.newlyCreatedFolder"
+								id="c19dfd4a9b464bcbbf5179c27d05ca90"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\ValidateNewFolder.cs"
+								codeline="92"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.310"
+							timeRelativeToTestModuleStartTime="00:01.901"
+							timeWallClock="11:19:21"
+							time="00:13.310"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'newlyCreatedFolder' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text='AtlasAutomation2024-01-31 11']"
+								itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text=$workbenchName]"
+								fullname="AtlasAutomationRepository.SkySuite.newlyCreatedFolder"
+								id="c19dfd4a9b464bcbbf5179c27d05ca90"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\AtlasAutomation\AtlasAutomation\ValidateNewFolder.cs"
+								codeline="93"
+								loglvl="Success"
+								itemindex="0">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.532"
+							timeRelativeToTestModuleStartTime="00:04.124"
+							timeWallClock="11:19:24"
+							time="00:15.532"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

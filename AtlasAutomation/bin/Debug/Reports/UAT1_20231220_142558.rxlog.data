@@ -1,0 +1,1321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="51.61s"
+		durationms="51612"
+		type="root"
+		rid="128e0426bad5f698"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="20/12/2023 14:25:58"
+		timestampiso="2023-12-20T14:25:58"
+		endtime="20/12/2023 14:26:49"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="49.2s"
+			durationms="49196"
+			type="test-suite"
+			rid="b3b365534360483"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="UAT1"
+			headertext="UAT1"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="49.14s"
+				durationms="49144"
+				type="test-case"
+				rid="60a28f5469739ad"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="4"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC_04"
+				testcontainerid="4aa86eb9-ef8c-41f7-bc9e-3fcbd7c1d549"
+				headertext="TC_04"
+				displayName="TC_04"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="13.93s"
+					durationms="13928"
+					type="test-module"
+					rid="12e180d4218f054"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Create_Scenario_4"
+					displayName="Create_Scenario_4"
+					moduleid="30701a83-5693-489b-b9f5-b3336727caf4"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.452"
+						timeRelativeToTestModuleStartTime="00:00.021"
+						timeWallClock="14:26:00"
+						time="00:00.452"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuite' at 747;26.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@name='Root']"
+							itempath="/form[@name='Root']"
+							fullname="AtlasAutomationRepository.SkySuite.Self"
+							id="12f9a8e2bf2141d6a2223baa984f5626"
+							timeout="30000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.629"
+						timeRelativeToTestModuleStartTime="00:02.197"
+						timeWallClock="14:26:03"
+						time="00:02.629"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Right Up item 'SkySuite.NodeText' at 156;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/treeitem[10]/?/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText']"
+							itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/treeitem[10]/?/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText']"
+							fullname="AtlasAutomationRepository.SkySuite.NodeText"
+							id="5806befd79074dfcbbef26afbb49f716"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.638"
+						timeRelativeToTestModuleStartTime="00:03.206"
+						timeWallClock="14:26:04"
+						time="00:03.638"
+						level="Warn"
+						category="MoveTo"
+						errimg="images_UAT1_202_104a6bd3\UAT1_202_99813225_rxlog.jpg"
+						errthumb="images_UAT1_202_104a6bd3\UAT1_202_99813225_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="87"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.992"
+						timeRelativeToTestModuleStartTime="00:03.561"
+						timeWallClock="14:26:04"
+						time="00:03.992"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuiteEasyJetUAT2.NewScenario1' at 60;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/text[@caption='New _Scenario...']"
+							itempath="?/?/text[@caption='New _Scenario...']"
+							fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.NewScenario1"
+							id="077e9741a0234d1b85338828853457f5"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="91"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.910"
+						timeRelativeToTestModuleStartTime="00:04.478"
+						timeWallClock="14:26:05"
+						time="00:04.910"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewScenario' at 369;21.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']"
+							itempath="/form[@title='New Scenario']"
+							fullname="AtlasAutomationRepository.NewScenario.Self"
+							id="dc887175e7e84663bc83272b168c4ddd"
+							timeout="30000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="95"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.626"
+						timeRelativeToTestModuleStartTime="00:05.195"
+						timeWallClock="14:26:06"
+						time="00:05.626"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewScenario.SomeContainer.Scenario_Name' at 215;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']/indicator/container[2]/container[1]/text[@automationid='scNameTB']/text[@caption='']"
+							itempath="container[1]/text[@automationid='scNameTB']/text[@caption='']"
+							fullname="AtlasAutomationRepository.NewScenario.SomeContainer.Scenario_Name"
+							id="3dcbbc41abb646d8b9e2026068592014"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="99"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.299"
+						timeRelativeToTestModuleStartTime="00:05.868"
+						timeWallClock="14:26:06"
+						time="00:06.299"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'nafisaEval' with focus on 'NewScenario.SomeContainer.Scenario_Name'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']/indicator/container[2]/container[1]/text[@automationid='scNameTB']/text[@caption='']"
+							itempath="container[1]/text[@automationid='scNameTB']/text[@caption='']"
+							fullname="AtlasAutomationRepository.NewScenario.SomeContainer.Scenario_Name"
+							id="3dcbbc41abb646d8b9e2026068592014"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="103"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.816"
+						timeRelativeToTestModuleStartTime="00:06.385"
+						timeWallClock="14:26:07"
+						time="00:06.816"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewScenario.Job_Name' at 68;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']//text[@automationid='jbNameTB']/text[@caption='']"
+							itempath=".//text[@automationid='jbNameTB']/text[@caption='']"
+							fullname="AtlasAutomationRepository.NewScenario.Job_Name"
+							id="aa13d29aa9a5413982ac37411637c0cf"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="107"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.526"
+						timeRelativeToTestModuleStartTime="00:07.094"
+						timeWallClock="14:26:07"
+						time="00:07.526"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'eval1' with focus on 'NewScenario.Job_Name'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']//text[@automationid='jbNameTB']/text[@caption='']"
+							itempath=".//text[@automationid='jbNameTB']/text[@caption='']"
+							fullname="AtlasAutomationRepository.NewScenario.Job_Name"
+							id="aa13d29aa9a5413982ac37411637c0cf"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="111"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.971"
+						timeRelativeToTestModuleStartTime="00:07.540"
+						timeWallClock="14:26:08"
+						time="00:07.971"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewScenario.SomeContainer.Job_Type_Toggle' at 10;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']/indicator/container[2]/combobox[1]/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+							itempath="combobox[1]/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+							fullname="AtlasAutomationRepository.NewScenario.SomeContainer.Job_Type_Toggle"
+							id="152dbc02cd984d5e8307eaaf5ce6e012"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="115"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.593"
+						timeRelativeToTestModuleStartTime="00:08.162"
+						timeWallClock="14:26:09"
+						time="00:08.593"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuiteEasyJetUAT2.Optimization' at 82;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/listitem[@text='Optimization']"
+							itempath="?/?/listitem[@text='Optimization']"
+							fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.Optimization"
+							id="08341e9ca91f4d96994c805a3703af49"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="119"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.210"
+						timeRelativeToTestModuleStartTime="00:08.779"
+						timeWallClock="14:26:09"
+						time="00:09.210"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewScenario.SomeContainer.Job_Description' at 10;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']/indicator/container[2]/combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+							itempath="combobox[2]/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+							fullname="AtlasAutomationRepository.NewScenario.SomeContainer.Job_Description"
+							id="4a593ac881cf4d7f8fa36161f8b84c36"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="123"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.825"
+						timeRelativeToTestModuleStartTime="00:09.394"
+						timeWallClock="14:26:10"
+						time="00:09.825"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuiteEasyJetUAT2.Evaluation' at 264;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/listitem[@text='Evaluation']"
+							itempath="?/?/listitem[@text='Evaluation']"
+							fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.Evaluation"
+							id="4de1982938844024aa1355581d63f6cd"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="127"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.413"
+						timeRelativeToTestModuleStartTime="00:09.982"
+						timeWallClock="14:26:10"
+						time="00:10.413"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewScenario.SomeContainer.Job_Dates' at 131;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']/indicator/container[2]/picture[2]/?/?/text[@automationid='PART_TextBox']/text[@caption='']"
+							itempath="picture[2]/?/?/text[@automationid='PART_TextBox']/text[@caption='']"
+							fullname="AtlasAutomationRepository.NewScenario.SomeContainer.Job_Dates"
+							id="f7ed7cad5a994230b28fc909800dcc48"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="131"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.077"
+						timeRelativeToTestModuleStartTime="00:10.646"
+						timeWallClock="14:26:11"
+						time="00:11.077"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '18Sep2023 to 24Sep2023' with focus on 'NewScenario.SomeContainer.Job_Dates'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']/indicator/container[2]/picture[2]/?/?/text[@automationid='PART_TextBox']/text[@caption='']"
+							itempath="picture[2]/?/?/text[@automationid='PART_TextBox']/text[@caption='']"
+							fullname="AtlasAutomationRepository.NewScenario.SomeContainer.Job_Dates"
+							id="f7ed7cad5a994230b28fc909800dcc48"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="135"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.876"
+						timeRelativeToTestModuleStartTime="00:11.445"
+						timeWallClock="14:26:12"
+						time="00:11.876"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewScenario.Create' at 49;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Scenario']/container[@automationid='Footer']/?/?/button[@text='Create']"
+							itempath="container[@automationid='Footer']/?/?/button[@text='Create']"
+							fullname="AtlasAutomationRepository.NewScenario.Create"
+							id="b12162c850554547b5a56dda59c763ef"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="139"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.393"
+						timeRelativeToTestModuleStartTime="00:11.962"
+						timeWallClock="14:26:12"
+						time="00:12.393"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4' at 197;704.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']"
+							itempath="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']"
+							fullname="AtlasAutomationRepository.JobWindow4.Self"
+							id="fb2f31b3915b4825adcb8efb91998f32"
+							timeout="30000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Create_Scenario_4.cs"
+							codeline="143"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.58s"
+					durationms="2577"
+					type="test-module"
+					rid="13e6120d027144f0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Import_Build_4"
+					displayName="Import_Build_4"
+					moduleid="4eb26172-577d-40fc-8a90-43462b2c6baa"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.365"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="14:26:14"
+						time="00:14.365"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.Job_Window_4' at 310;669.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator"
+							itempath="?/?/tabpagelist[@automationid='TabControl']/indicator"
+							fullname="AtlasAutomationRepository.JobWindow4.Job_Window_4"
+							id="8792b6d4a9b84f75a101c5ff23d8939a"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Build_4.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.311"
+						timeRelativeToTestModuleStartTime="00:00.947"
+						timeWallClock="14:26:15"
+						time="00:15.311"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.JobIndicator.Industry_Build_Toggle' at 16;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+							itempath="button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+							fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.Industry_Build_Toggle"
+							id="848ea8db7c8b49b4b1610138588cf47b"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Build_4.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.261"
+						timeRelativeToTestModuleStartTime="00:01.897"
+						timeWallClock="14:26:16"
+						time="00:16.261"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuiteEasyJetUAT2.A1GlobalMinConnectionTime' at 242;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']/?/?/listitem[@index='0']"
+							itempath="button[@automationid='PART_HeaderExpander']/?/?/listitem[@index='0']"
+							fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.A1GlobalMinConnectionTime"
+							id="7ebc36352ecd4864bdfed4bfe92280e1"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Build_4.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="20.12s"
+					durationms="20115"
+					type="test-module"
+					rid="84f60a6bba6c97e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="ImportParameters_4"
+					displayName="ImportParameters_4"
+					moduleid="508f51ae-64c3-4d83-af45-cf6f6a43647c"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.954"
+						timeRelativeToTestModuleStartTime="00:00.010"
+						timeWallClock="14:26:17"
+						time="00:16.954"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.Job_Window_4' at 788;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator"
+							itempath="?/?/tabpagelist[@automationid='TabControl']/indicator"
+							fullname="AtlasAutomationRepository.JobWindow4.Job_Window_4"
+							id="8792b6d4a9b84f75a101c5ff23d8939a"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.059"
+						timeRelativeToTestModuleStartTime="00:01.115"
+						timeWallClock="14:26:18"
+						time="00:18.059"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.Import_Parameter_Toggle' at 40;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']"
+							itempath="?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[2]/tabpagelist[@automationid='tabControl']/button/container[4]/button[@automationid='PART_Toggle']"
+							fullname="AtlasAutomationRepository.JobWindow4.Import_Parameter_Toggle"
+							id="63495e5a81424ed184b03b2a466bb9e2"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.894"
+						timeRelativeToTestModuleStartTime="00:01.951"
+						timeWallClock="14:26:19"
+						time="00:18.894"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuiteEasyJetUAT2.File' at 23;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/list[@automationid='importParameters']/?/?/text[@caption='File']"
+							itempath="list[@automationid='importParameters']/?/?/text[@caption='File']"
+							fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.File"
+							id="d69bbdc6b17745d39737448eb935691b"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.480"
+						timeRelativeToTestModuleStartTime="00:02.536"
+						timeWallClock="14:26:19"
+						time="00:19.480"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open' at 73;802.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']"
+							itempath="/form[@title='Open']"
+							fullname="AtlasAutomationRepository.Open.Self"
+							id="3c49c9cd30494ec1924301ef667a47ca"
+							timeout="30000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.396"
+						timeRelativeToTestModuleStartTime="00:03.452"
+						timeWallClock="14:26:20"
+						time="00:20.396"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.Documents' at 46;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/treeitem[@text='Quick access']/treeitem[@text='Documents']"
+							itempath="element[@class='DUIViewWndClassName']/container/element[1]/?/?/tree[@controlid='100']/treeitem[@text='Quick access']/treeitem[@text='Documents']"
+							fullname="AtlasAutomationRepository.Open.Documents"
+							id="3f537e94c29841b0a90ff187be11f51c"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.242"
+						timeRelativeToTestModuleStartTime="00:04.298"
+						timeWallClock="14:26:21"
+						time="00:21.242"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.SearchEditBox' at 74;29.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/element[@class='WorkerW']/?/?/element[@class='UniversalSearchBand']/?/?/text[@accessiblename='SearchEditBox']"
+							itempath="element[@class='WorkerW']/?/?/element[@class='UniversalSearchBand']/?/?/text[@accessiblename='SearchEditBox']"
+							fullname="AtlasAutomationRepository.Open.SearchEditBox"
+							id="f3dd98dce4fe42089994232179bf3ef8"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.944"
+						timeRelativeToTestModuleStartTime="00:05.000"
+						timeWallClock="14:26:22"
+						time="00:21.944"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="6"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="106"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.305"
+						timeRelativeToTestModuleStartTime="00:05.361"
+						timeWallClock="14:26:22"
+						time="00:22.305"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'TC_04' with focus on 'Open'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']"
+							itempath="/form[@title='Open']"
+							fullname="AtlasAutomationRepository.Open.Self"
+							id="3c49c9cd30494ec1924301ef667a47ca"
+							timeout="30000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="109"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.651"
+						timeRelativeToTestModuleStartTime="00:05.707"
+						timeWallClock="14:26:23"
+						time="00:22.651"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 300ms.
+						</message>
+						<metainfo
+							itemindex="8"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="114"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.019"
+						timeRelativeToTestModuleStartTime="00:06.075"
+						timeWallClock="14:26:23"
+						time="00:23.019"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.ExecuteNow' at 26;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/element[@class='HostedApplicationBase']/?/?/button[@accessiblename='Execute now']"
+							itempath="element[@class='HostedApplicationBase']/?/?/button[@accessiblename='Execute now']"
+							fullname="AtlasAutomationRepository.Open.ExecuteNow"
+							id="d8d389c316b94456a917d03817998fd9"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="117"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.758"
+						timeRelativeToTestModuleStartTime="00:06.814"
+						timeWallClock="14:26:24"
+						time="00:23.758"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 10s.
+						</message>
+						<metainfo
+							itemindex="10"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="121"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.819"
+						timeRelativeToTestModuleStartTime="00:16.875"
+						timeWallClock="14:26:34"
+						time="00:33.819"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.ShellView.ListItem01' at 191;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='0']"
+							itempath="?/?/listitem[@automationid='0']"
+							fullname="AtlasAutomationRepository.Open.ShellView.ListItem01"
+							id="1a2104ae358f44cc967eeb8998c8238b"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="124"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.020"
+						timeRelativeToTestModuleStartTime="00:18.076"
+						timeWallClock="14:26:35"
+						time="00:35.020"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.ButtonOpen' at 73;21.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/button[@text='&amp;Open']"
+							itempath="button[@text='&amp;Open']"
+							fullname="AtlasAutomationRepository.Open.ButtonOpen"
+							id="0fe07d45cae1439097867d7281e3b4e2"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="128"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.543"
+						timeRelativeToTestModuleStartTime="00:18.599"
+						timeWallClock="14:26:35"
+						time="00:35.543"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ImportParameters' at 373;186.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Import Parameters']"
+							itempath="/form[@title='Import Parameters']"
+							fullname="AtlasAutomationRepository.ImportParameters.Self"
+							id="eb9a8c3bc16142fabbc2a29dce20340c"
+							timeout="30000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="132"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:36.393"
+						timeRelativeToTestModuleStartTime="00:19.449"
+						timeWallClock="14:26:36"
+						time="00:36.393"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ImportParameters.ButtonOK' at 4;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Import Parameters']/?/?/button[@text='OK']"
+							itempath="?/?/button[@text='OK']"
+							fullname="AtlasAutomationRepository.ImportParameters.ButtonOK"
+							id="576ae6a6dc524481b97920e4b6ed15f9"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters_4.cs"
+							codeline="136"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="11.37s"
+					durationms="11369"
+					type="test-module"
+					rid="1becc128bdb13bba"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Input_Schedule_4"
+					displayName="Input_Schedule_4"
+					moduleid="61f09ac2-e62d-46e6-95b1-84c90aaf86df"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.066"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="14:26:37"
+						time="00:37.066"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.JobIndicator.JobInputsBusyIndicator' at 769;36.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+							itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+							fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.JobInputsBusyIndicator"
+							id="9990d6f5a80e4e44b80fc926daf100cd"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.259"
+						timeRelativeToTestModuleStartTime="00:01.195"
+						timeWallClock="14:26:38"
+						time="00:38.259"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.JobIndicator.Show_Toggle' at 15;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//combobox/button[@automationid='toggleButton']"
+							itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//combobox/button[@automationid='toggleButton']"
+							fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.Show_Toggle"
+							id="fd7bb1bd27b043d5940eaa0f7b227025"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:39.191"
+						timeRelativeToTestModuleStartTime="00:02.128"
+						timeWallClock="14:26:39"
+						time="00:39.191"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuiteEasyJetUAT2.Required' at 110;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/listitem[@text='Required']"
+							itempath="?/?/listitem[@text='Required']"
+							fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.Required"
+							id="22c39298907b4f08b39bd4f484770814"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:39.794"
+						timeRelativeToTestModuleStartTime="00:02.731"
+						timeWallClock="14:26:40"
+						time="00:39.794"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.JobIndicator.Schedule_Expand' at 18;22.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+							itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+							fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.Schedule_Expand"
+							id="5a1ab9fa53f64dab8f563d78a31e377b"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.776"
+						timeRelativeToTestModuleStartTime="00:04.713"
+						timeWallClock="14:26:42"
+						time="00:41.776"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 1s.
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="98"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:42.837"
+						timeRelativeToTestModuleStartTime="00:05.774"
+						timeWallClock="14:26:43"
+						time="00:42.837"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.JobIndicator.Host_Schedule_Row' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]"
+							itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]"
+							fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.Host_Schedule_Row"
+							id="db39f322bdfd4401b6de7a09e55dd2f3"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="101"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:43.976"
+						timeRelativeToTestModuleStartTime="00:06.913"
+						timeWallClock="14:26:44"
+						time="00:43.976"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.JobIndicator.ToggleButton6' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='CellElement_1_1']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+							itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='CellElement_1_1']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+							fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.ToggleButton6"
+							id="6e173acf759d48ebb731c4863fbe181a"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="105"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:45.260"
+						timeRelativeToTestModuleStartTime="00:08.196"
+						timeWallClock="14:26:45"
+						time="00:45.260"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 100ms.
+						</message>
+						<metainfo
+							itemindex="7"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="109"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:45.420"
+						timeRelativeToTestModuleStartTime="00:08.357"
+						timeWallClock="14:26:45"
+						time="00:45.420"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SomeContextMenu.S23AmadeusSampleNew' at 67;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu/button/?/?/listitem[@text='S23_AmadeusSample_New']"
+							itempath="button/?/?/listitem[@text='S23_AmadeusSample_New']"
+							fullname="AtlasAutomationRepository.SomeContextMenu.S23AmadeusSampleNew"
+							id="b17d774e1e41423b8a4c1795a3086c35"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="112"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.059"
+						timeRelativeToTestModuleStartTime="00:08.996"
+						timeWallClock="14:26:46"
+						time="00:46.059"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 100ms.
+						</message>
+						<metainfo
+							itemindex="9"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="116"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.227"
+						timeRelativeToTestModuleStartTime="00:09.164"
+						timeWallClock="14:26:46"
+						time="00:46.227"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'JobWindow4.JobIndicator.Schedule_Expand' at 20;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+							itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+							fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.Schedule_Expand"
+							id="5a1ab9fa53f64dab8f563d78a31e377b"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="119"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.260"
+						timeRelativeToTestModuleStartTime="00:11.197"
+						timeWallClock="14:26:48"
+						time="00:48.260"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 100ms.
+						</message>
+						<metainfo
+							itemindex="11"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+							codeline="123"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="757ms"
+					durationms="757"
+					type="test-module"
+					rid="2c5066fe332b868"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Input_Aircraft_4"
+					displayName="Input_Aircraft_4"
+					moduleid="afefea4a-4f5d-4579-8538-e0a240c851c5"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Element is not visible in the UI and thus click can't be perfomed.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.439"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="14:26:48"
+						time="00:48.439"
+						level="Info"
+						category="Mouse"
+						errimg="images_UAT1_202_104a6bd3\UAT1_202_104a6bd3_7808b365_trace.jpg"
+						errthumb="images_UAT1_202_104a6bd3\UAT1_202_104a6bd3_7808b365_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'JobWindow4.JobIndicator.PARTExpandButton' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='nafisaEval(3) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']"
+							itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/button[@automationid='PART_ExpandButton']"
+							fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.PARTExpandButton"
+							id="5fdd129dff4d41e88649f37f6ec651b4"
+							timeout="90000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft_4.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.084"
+						timeRelativeToTestModuleStartTime="00:00.648"
+						timeWallClock="14:26:49"
+						time="00:49.084"
+						level="Error"
+						category="Module"
+						errimg="images_UAT1_202_104a6bd3\UAT1_202_104a6bd3_74e7d4f0_trace.jpg"
+						errthumb="images_UAT1_202_104a6bd3\UAT1_202_104a6bd3_74e7d4f0_trace_thumb.jpg">
+						<message>
+							Element is not visible in the UI and thus click can't be perfomed.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click()
+   at AtlasAutomation.Input_Aircraft_4.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft_4.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft_4.cs"
+							codeline="83"
+							loglvl="Error"
+							itemindex="0">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

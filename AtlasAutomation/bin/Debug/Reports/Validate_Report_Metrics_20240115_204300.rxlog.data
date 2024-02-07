@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="74694"
+		type="root"
+		rid="2094e641af98146"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="15/01/2024 20:43:02"
+		timestampiso="2024-01-15T20:43:02"
+		endtime="15/01/2024 20:44:17"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Validate_Report_Metrics">
+		<detail>
+			Validate_Report_Metrics
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule' does not match the specified value (Failed to find item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule'. Please check that your whitelist allows Ranorex to access the process. No element found for path './/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']' at step 'descendant-or-self::button[@automationid='PART_HeaderExpander']' after 13 attempts within 1m.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.461"
+			timeRelativeToTestModuleStartTime="00:03.461"
+			timeWallClock="20:43:06"
+			time="00:03.461"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>JbWindow_Title
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.490"
+			timeRelativeToTestModuleStartTime="00:03.490"
+			timeWallClock="20:43:06"
+			time="00:03.490"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1.PARTGridViewVirtualizingPanel.Flight_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']"
+				itempath="row[2]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Flight_Expand"
+				id="de8076a819d94b5990368ae1533cd0f9"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.202"
+			timeRelativeToTestModuleStartTime="00:09.202"
+			timeWallClock="20:43:12"
+			time="00:09.202"
+			level="Info"
+			category="Validation"
+			errimg="images_Validate_ffa5847b\Validate_ffa5847b_361d1975_trace.jpg"
+			errthumb="images_Validate_ffa5847b\Validate_ffa5847b_361d1975_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Flight Count - Schedule') on item 'JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule"
+				id="773b2e794ac7405cbed6d1f0018bbda0"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.554"
+			timeRelativeToTestModuleStartTime="01:14.554"
+			timeWallClock="20:44:17"
+			time="01:14.554"
+			level="Failure"
+			category="Validation"
+			errimg="images_Validate_ffa5847b\Validate_ffa5847b_aeca33db_trace.jpg"
+			errthumb="images_Validate_ffa5847b\Validate_ffa5847b_aeca33db_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule' does not match the specified value (Failed to find item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule'. Please check that your whitelist allows Ranorex to access the process. No element found for path './/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']' at step 'descendant-or-self::button[@automationid='PART_HeaderExpander']' after 13 attempts within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule"
+				id="773b2e794ac7405cbed6d1f0018bbda0"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="97"
+				failedStep="descendant-or-self::button[@automationid='PART_HeaderExpander']"
+				bestPathPrefix=""
+				loglvl="Failure"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.558"
+			timeRelativeToTestModuleStartTime="01:14.558"
+			timeWallClock="20:44:17"
+			time="01:14.558"
+			level="Error"
+			category="Module"
+			errimg="images_Validate_ffa5847b\Validate_ffa5847b_aeca33db_trace.jpg"
+			errthumb="images_Validate_ffa5847b\Validate_ffa5847b_aeca33db_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule' does not match the specified value (Failed to find item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule'. Please check that your whitelist allows Ranorex to access the process. No element found for path './/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']' at step 'descendant-or-self::button[@automationid='PART_HeaderExpander']' after 13 attempts within 1m.).<br/>Failed to find item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path './/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']' at step 'descendant-or-self::button[@automationid='PART_HeaderExpander']' after 13 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at AtlasAutomation.Validate_Report_Metrics.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs:line 97
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="97"
+				type="repoitem"
+				path="/form[@name='Root' and @title='IB_Jobs -- TC-01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule"
+				id="773b2e794ac7405cbed6d1f0018bbda0"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

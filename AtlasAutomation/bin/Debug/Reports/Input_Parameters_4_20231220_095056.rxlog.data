@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.73s"
+		durationms="5727"
+		type="root"
+		rid="aa906a832a2c4d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="20/12/2023 09:50:59"
+		timestampiso="2023-12-20T09:50:59"
+		endtime="20/12/2023 09:51:04"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Parameters_4">
+		<detail>
+			Input_Parameters_4
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.718"
+			timeRelativeToTestModuleStartTime="00:03.718"
+			timeWallClock="09:51:02"
+			time="00:03.718"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow4.JobIndicator.PARTExpandButton1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.PARTExpandButton1"
+				id="697c54179ca8443bb2965dece9c57e14"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Parameters_4.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.723"
+			timeRelativeToTestModuleStartTime="00:05.723"
+			timeWallClock="09:51:04"
+			time="00:05.723"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

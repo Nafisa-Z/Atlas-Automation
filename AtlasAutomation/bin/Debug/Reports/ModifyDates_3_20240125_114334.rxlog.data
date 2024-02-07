@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.54s"
+		durationms="10535"
+		type="root"
+		rid="cf123febb282e96"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 11:43:38"
+		timestampiso="2024-01-25T11:43:38"
+		endtime="25/01/2024 11:43:48"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ModifyDates_3">
+		<detail>
+			ModifyDates_3
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.585"
+			timeRelativeToTestModuleStartTime="00:04.585"
+			timeWallClock="11:43:42"
+			time="00:04.585"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Dates_Low
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.620"
+			timeRelativeToTestModuleStartTime="00:04.620"
+			timeWallClock="11:43:42"
+			time="00:04.620"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Indicator' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow.Indicator"
+				id="a20402e01bb147709a57dd3cd323485f"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifyDates_3.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.800"
+			timeRelativeToTestModuleStartTime="00:07.800"
+			timeWallClock="11:43:45"
+			time="00:07.800"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Job_Details.Planning_Period' at 211;275.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				itempath="indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Details.Planning_Period"
+				id="2ac3e3edee3544438822be6d0f01c310"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifyDates_3.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.737"
+			timeRelativeToTestModuleStartTime="00:08.737"
+			timeWallClock="11:43:46"
+			time="00:08.737"
+			level="Warn"
+			category="Click"
+			errimg="images_ModifyDa_d0b7ac36\ModifyDa_1fc16274_rxlog.jpg"
+			errthumb="images_ModifyDa_d0b7ac36\ModifyDa_1fc16274_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifyDates_3.cs"
+				codeline="100"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.148"
+			timeRelativeToTestModuleStartTime="00:09.148"
+			timeWallClock="11:43:47"
+			time="00:09.148"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Dates_Low' with focus on 'JobWindow.Job_Details.Planning_Period'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				itempath="indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Details.Planning_Period"
+				id="2ac3e3edee3544438822be6d0f01c310"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifyDates_3.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3m"
+		durationms="182447"
+		type="root"
+		rid="8f49d6b0fd14cf9"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="20/12/2023 13:24:37"
+		timestampiso="2023-12-20T13:24:37"
+		endtime="20/12/2023 13:27:40"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Parameters_4">
+		<detail>
+			Input_Parameters_4
+		</detail>
+		<errormessage>
+			Failed to find item 'AtlasAutomationRepository.JobWindow4.JobIndicator.PARTExpandButton1'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.016"
+			timeRelativeToTestModuleStartTime="00:06.016"
+			timeWallClock="13:24:43"
+			time="00:06.016"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Pa_f97a5fea\Input_Pa_f97a5fea_9b3fd628_trace.jpg"
+			errthumb="images_Input_Pa_f97a5fea\Input_Pa_f97a5fea_9b3fd628_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWindow4.JobIndicator.PARTExpandButton1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.PARTExpandButton1"
+				id="697c54179ca8443bb2965dece9c57e14"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Parameters_4.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.754"
+			timeRelativeToTestModuleStartTime="00:37.754"
+			timeWallClock="13:25:14"
+			time="00:37.754"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:55.439"
+			timeRelativeToTestModuleStartTime="01:55.439"
+			timeWallClock="13:26:32"
+			time="01:55.439"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Pa_f97a5fea\Input_Pa_f97a5fea_2f2c6a15_trace.jpg"
+			errthumb="images_Input_Pa_f97a5fea\Input_Pa_f97a5fea_2f2c6a15_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AtlasAutomationRepository.JobWindow4.JobIndicator.PARTExpandButton1'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']' at step 'row[17]' after 10 attempts within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.JobIndicatorFolder1.get_PARTExpandButton1() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 77570&#13;&#10;   at AtlasAutomation.Input_Parameters_4.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Parameters_4.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Parameters_4.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.PARTExpandButton1"
+				id="697c54179ca8443bb2965dece9c57e14"
+				timeout="90000"
+				failedStep="row[17]"
+				bestPathPrefix="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']/descendant-or-self::table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

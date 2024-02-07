@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="12.56s"
+		durationms="12559"
+		type="root"
+		rid="9a08327d32e2edb"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="22/12/2023 15:04:57"
+		timestampiso="2023-12-22T15:04:57"
+		endtime="22/12/2023 15:05:09"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="8.91s"
+			durationms="8908"
+			type="test-suite"
+			rid="86e355b21bc7b22"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="UAT1"
+			headertext="UAT1"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="8.83s"
+				durationms="8834"
+				type="test-case"
+				rid="987e931ed908cfd"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC_01"
+				testcontainerid="41de33c0-a368-4a1b-8505-acab10a3d1c7"
+				headertext="TC_01"
+				displayName="TC_01"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="8.64s"
+					durationms="8642"
+					type="test-module"
+					rid="2db1101375f3aaf2"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Creat_Workbench_Folder"
+					displayName="Creat_Workbench_Folder"
+					moduleid="034b6de2-17c9-438c-a624-50b10a3aedb0"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Element is not visible in the UI and thus click can't be perfomed.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.284"
+						timeRelativeToTestModuleStartTime="00:00.023"
+						timeWallClock="15:05:01"
+						time="00:00.284"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuite' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@name='Root']"
+							itempath="/form[@name='Root']"
+							fullname="AtlasAutomationRepository.SkySuite.Self"
+							id="12f9a8e2bf2141d6a2223baa984f5626"
+							timeout="30000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.206"
+						timeRelativeToTestModuleStartTime="00:01.946"
+						timeWallClock="15:05:03"
+						time="00:02.206"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuite.WorkbenchButton' at 80;31.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@name='Root']/?/?/list[@automationid='LeftPanelMainList']/listitem[@index='1']/radiobutton"
+							itempath="?/?/list[@automationid='LeftPanelMainList']/listitem[@index='1']/radiobutton"
+							fullname="AtlasAutomationRepository.SkySuite.WorkbenchButton"
+							id="30857447b3944b30b92b5627caff8e46"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.453"
+						timeRelativeToTestModuleStartTime="00:03.193"
+						timeWallClock="15:05:04"
+						time="00:03.453"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuite.WorkbenchView' at 623;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@name='Root']/tabpagelist"
+							itempath="tabpagelist"
+							fullname="AtlasAutomationRepository.SkySuite.WorkbenchView"
+							id="21946c2867214c46a856e8df5bca7cbc"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.236"
+						timeRelativeToTestModuleStartTime="00:03.976"
+						timeWallClock="15:05:05"
+						time="00:04.236"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuite.WorkbenchFolderList' at 287;941.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@name='Root']/tabpagelist/indicator[1]"
+							itempath="tabpagelist/indicator[1]"
+							fullname="AtlasAutomationRepository.SkySuite.WorkbenchFolderList"
+							id="4fa9f3adea084ec5938ffb3870407a1c"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.950"
+						timeRelativeToTestModuleStartTime="00:04.689"
+						timeWallClock="15:05:05"
+						time="00:04.950"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'SkySuite.WorkbenchToolbarNewFolderButton' at 23;22.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/button[@automationid='WorkbenchToolbar_NewFolderButton']"
+							itempath=".//toolbar[@automationid='WorkbenchToolbar']/button[@automationid='WorkbenchToolbar_NewFolderButton']"
+							fullname="AtlasAutomationRepository.SkySuite.WorkbenchToolbarNewFolderButton"
+							id="9c6089f07a554f77b6f6166b2a0461fc"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.186"
+						timeRelativeToTestModuleStartTime="00:05.926"
+						timeWallClock="15:05:07"
+						time="00:06.186"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WorkbenchFolder' at 332;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Folder']"
+							itempath="/form[@title='New Folder']"
+							fullname="AtlasAutomationRepository.WorkbenchFolder.Self"
+							id="f0bc859f0c5b4391b7fe9a4a50bc6c96"
+							timeout="30000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.821"
+						timeRelativeToTestModuleStartTime="00:06.561"
+						timeWallClock="15:05:07"
+						time="00:06.821"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WorkbenchFolder.FolderName' at 73;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Folder']//text[@automationid='NameTextBox']/text[@caption='']"
+							itempath=".//text[@automationid='NameTextBox']/text[@caption='']"
+							fullname="AtlasAutomationRepository.WorkbenchFolder.FolderName"
+							id="b14633d43d9e4038add8e6e2eb979215"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.620"
+						timeRelativeToTestModuleStartTime="00:07.359"
+						timeWallClock="15:05:08"
+						time="00:07.620"
+						level="Info"
+						category="Keyboard"
+						errimg="images_UAT1_202_a3a96b93\UAT1_202_a3a96b93_1b904afe_trace.jpg"
+						errthumb="images_UAT1_202_a3a96b93\UAT1_202_a3a96b93_1b904afe_trace_thumb.jpg">
+						<message>
+							Key sequence 'NafisaAutomation' with focus on 'WorkbenchFolder.FolderName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Folder']//text[@automationid='NameTextBox']/text[@caption='']"
+							itempath=".//text[@automationid='NameTextBox']/text[@caption='']"
+							fullname="AtlasAutomationRepository.WorkbenchFolder.FolderName"
+							id="b14633d43d9e4038add8e6e2eb979215"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.346"
+						timeRelativeToTestModuleStartTime="00:08.086"
+						timeWallClock="15:05:09"
+						time="00:08.346"
+						level="Info"
+						category="Mouse"
+						errimg="images_UAT1_202_a3a96b93\UAT1_202_a3a96b93_6a42cbbb_trace.jpg"
+						errthumb="images_UAT1_202_a3a96b93\UAT1_202_a3a96b93_6a42cbbb_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'WorkbenchFolder.SetToTopLevelButton' at 31;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='New Folder']/indicator//container[@automationid='SelectWorkspaceField']/button[@automationid='SetToTopLevelButton']"
+							itempath="indicator//container[@automationid='SelectWorkspaceField']/button[@automationid='SetToTopLevelButton']"
+							fullname="AtlasAutomationRepository.WorkbenchFolder.SetToTopLevelButton"
+							id="adcf3b244078459d867f50442b142f63"
+							timeout="60000"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.659"
+						timeRelativeToTestModuleStartTime="00:08.399"
+						timeWallClock="15:05:09"
+						time="00:08.659"
+						level="Warn"
+						category="Click">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+						</message>
+						<metainfo
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="115"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.687"
+						timeRelativeToTestModuleStartTime="00:08.427"
+						timeWallClock="15:05:09"
+						time="00:08.687"
+						level="Error"
+						category="Module"
+						errimg="images_UAT1_202_a3a96b93\UAT1_202_a3a96b93_11dc73c1_trace.jpg"
+						errthumb="images_UAT1_202_a3a96b93\UAT1_202_a3a96b93_11dc73c1_trace_thumb.jpg">
+						<message>
+							Element is not visible in the UI and thus click can't be perfomed.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at AtlasAutomation.Creat_Workbench_Folder.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs:line 115
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+							codeline="115"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

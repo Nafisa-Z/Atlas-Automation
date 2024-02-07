@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="49.09s"
+		durationms="49085"
+		type="root"
+		rid="fea699ec1123d50"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="22/12/2023 09:31:55"
+		timestampiso="2023-12-22T09:31:55"
+		endtime="22/12/2023 09:32:44"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ImportParameters">
+		<detail>
+			ImportParameters
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.976"
+			timeRelativeToTestModuleStartTime="00:07.976"
+			timeWallClock="09:32:03"
+			time="00:07.976"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>TC_01_PreCalibration_IB_Med
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.061"
+			timeRelativeToTestModuleStartTime="00:08.061"
+			timeWallClock="09:32:03"
+			time="00:08.061"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1' at 841;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']"
+				itempath="/form[@name='Root']"
+				fullname="AtlasAutomationRepository.JobWindow1.Self"
+				id="9b1dbb10898048959d6f83c6c02b6d53"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.240"
+			timeRelativeToTestModuleStartTime="00:12.240"
+			timeWallClock="09:32:07"
+			time="00:12.240"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1.SomeIndicator' at 42;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeIndicator"
+				id="88cf8c2d262742838098b4ac94ca92a2"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.820"
+			timeRelativeToTestModuleStartTime="00:12.820"
+			timeWallClock="09:32:07"
+			time="00:12.820"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.File' at 17;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/list[@automationid='importParameters']/?/?/text[@caption='File']"
+				itempath="list[@automationid='importParameters']/?/?/text[@caption='File']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.File"
+				id="d69bbdc6b17745d39737448eb935691b"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\ImportParameters.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.082"
+			timeRelativeToTestModuleStartTime="00:49.082"
+			timeWallClock="09:32:44"
+			time="00:49.082"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

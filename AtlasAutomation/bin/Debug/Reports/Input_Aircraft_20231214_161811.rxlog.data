@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="15.75s"
+		durationms="15750"
+		type="root"
+		rid="156f9fa4738f34dc"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="14/12/2023 16:18:15"
+		timestampiso="2023-12-14T16:18:15"
+		endtime="14/12/2023 16:18:31"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Aircraft">
+		<detail>
+			Input_Aircraft
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.920"
+			timeRelativeToTestModuleStartTime="00:05.920"
+			timeWallClock="16:18:21"
+			time="00:05.920"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TabControl.ShowDropDown' at 11;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//combobox/button[@automationid='toggleButton']"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//combobox/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow.TabControl.ShowDropDown"
+				id="c2fd7d63558f44e29750750f478bfe97"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.786"
+			timeRelativeToTestModuleStartTime="00:10.786"
+			timeWallClock="16:18:26"
+			time="00:10.786"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.Required' at 222;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/listitem[@text='Required']"
+				itempath="?/?/listitem[@text='Required']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.Required"
+				id="22c39298907b4f08b39bd4f484770814"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.429"
+			timeRelativeToTestModuleStartTime="00:11.429"
+			timeWallClock="16:18:27"
+			time="00:11.429"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.439"
+			timeRelativeToTestModuleStartTime="00:12.439"
+			timeWallClock="16:18:28"
+			time="00:12.439"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Ai_eadc7f02\Input_Ai_eadc7f02_08ba4cb0_trace.jpg"
+			errthumb="images_Input_Ai_eadc7f02\Input_Ai_eadc7f02_08ba4cb0_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWindow.TabControl.AircraftExpand' at 21;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/button[@automationid='PART_ExpandButton' and @text=null()]"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/button[@automationid='PART_ExpandButton' and @text=null()]"
+				fullname="AtlasAutomationRepository.JobWindow.TabControl.AircraftExpand"
+				id="4d30c06861864f9d91bf79c2ae8dcd9e"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.997"
+			timeRelativeToTestModuleStartTime="00:13.997"
+			timeWallClock="16:18:29"
+			time="00:13.997"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Ai_eadc7f02\Input_Ai_eadc7f02_b096a53c_trace.jpg"
+			errthumb="images_Input_Ai_eadc7f02\Input_Ai_eadc7f02_b096a53c_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWindow.TabControl.Aircraft_Seat_Row' at 21;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]"
+				fullname="AtlasAutomationRepository.JobWindow.TabControl.Aircraft_Seat_Row"
+				id="2660568d2a944213b67e018e5dff57de"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.525"
+			timeRelativeToTestModuleStartTime="00:15.525"
+			timeWallClock="16:18:31"
+			time="00:15.525"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="98"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.542"
+			timeRelativeToTestModuleStartTime="00:15.542"
+			timeWallClock="16:18:31"
+			time="00:15.542"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Ai_eadc7f02\Input_Ai_eadc7f02_c39a86d5_trace.jpg"
+			errthumb="images_Input_Ai_eadc7f02\Input_Ai_eadc7f02_c39a86d5_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at AtlasAutomation.Input_Aircraft.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs:line 98
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Aircraft.cs"
+				codeline="98"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

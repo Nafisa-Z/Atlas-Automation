@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="25.48s"
+		durationms="25480"
+		type="root"
+		rid="abb0797fbb2cb90"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="11/01/2024 15:55:06"
+		timestampiso="2024-01-11T15:55:06"
+		endtime="11/01/2024 15:55:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Validate_Report_Metrics">
+		<detail>
+			Validate_Report_Metrics
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.731"
+			timeRelativeToTestModuleStartTime="00:03.731"
+			timeWallClock="15:55:10"
+			time="00:03.731"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1.PARTGridViewVirtualizingPanel.Flight_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']"
+				itempath="row[2]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Flight_Expand"
+				id="de8076a819d94b5990368ae1533cd0f9"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.695"
+			timeRelativeToTestModuleStartTime="00:09.695"
+			timeWallClock="15:55:16"
+			time="00:09.695"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Flight Count - Schedule') on item 'JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//list[@automationid='PART_DataCellsPresenter']/?/?/text[@automationid='CellElement_2_0' and @text='Flight Count - Schedule']"
+				itempath=".//list[@automationid='PART_DataCellsPresenter']/?/?/text[@automationid='CellElement_2_0' and @text='Flight Count - Schedule']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule"
+				id="773b2e794ac7405cbed6d1f0018bbda0"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.611"
+			timeRelativeToTestModuleStartTime="00:16.611"
+			timeWallClock="15:55:23"
+			time="00:16.611"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']//list[@automationid='PART_DataCellsPresenter']/?/?/text[@automationid='CellElement_2_0' and @text='Flight Count - Schedule']"
+				itempath=".//list[@automationid='PART_DataCellsPresenter']/?/?/text[@automationid='CellElement_2_0' and @text='Flight Count - Schedule']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.FlightCountSchedule"
+				id="773b2e794ac7405cbed6d1f0018bbda0"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.719"
+			timeRelativeToTestModuleStartTime="00:16.719"
+			timeWallClock="15:55:23"
+			time="00:16.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow1.PARTGridViewVirtualizingPanel.Traffic_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']"
+				itempath="row[11]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic_Expand"
+				id="04550c4999564ecbbf5c3517c1e9ab4c"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.694"
+			timeRelativeToTestModuleStartTime="00:18.694"
+			timeWallClock="15:55:25"
+			time="00:18.694"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Traffic') on item 'JobWindow1.PARTGridViewVirtualizingPanel.Traffic'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']"
+				itempath="row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']"
+				fullname="AtlasAutomationRepository.JobWindow1.PARTGridViewVirtualizingPanel.Traffic"
+				id="ccd479d8218140ee8fea8d8d8bf28020"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Validate_Report_Metrics.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.477"
+			timeRelativeToTestModuleStartTime="00:25.477"
+			timeWallClock="15:55:32"
+			time="00:25.477"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

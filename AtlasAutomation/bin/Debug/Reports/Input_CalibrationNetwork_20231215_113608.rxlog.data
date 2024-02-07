@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.5m"
+		durationms="92923"
+		type="root"
+		rid="5eeeef4aeb07442"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="15/12/2023 11:36:10"
+		timestampiso="2023-12-15T11:36:10"
+		endtime="15/12/2023 11:37:43"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_CalibrationNetwork">
+		<detail>
+			Input_CalibrationNetwork
+		</detail>
+		<errormessage>
+			Failed to find item 'AtlasAutomationRepository.SkySuiteEasyJetUAT2.A1GlobalCombinedCircuity'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.860"
+			timeRelativeToTestModuleStartTime="00:02.860"
+			timeWallClock="11:36:13"
+			time="00:02.860"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TabControl.JobInputsBusyIndicator' at 616;44.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				fullname="AtlasAutomationRepository.JobWindow.TabControl.JobInputsBusyIndicator"
+				id="1f58921ea9544f47a600c1e152721165"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.084"
+			timeRelativeToTestModuleStartTime="00:05.084"
+			timeWallClock="11:36:15"
+			time="00:05.084"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Calibration_Network_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist[@automationid='TabControl']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Calibration_Network_Expand"
+				id="98703449d2e34d39bd659b219e89709f"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.586"
+			timeRelativeToTestModuleStartTime="00:22.586"
+			timeWallClock="11:36:33"
+			time="00:22.586"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Calibration_Network_Expand' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="87"
+				loglvl="Info"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.982"
+			timeRelativeToTestModuleStartTime="00:22.982"
+			timeWallClock="11:36:33"
+			time="00:22.982"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Circuity.Circuity_Row' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[14]"
+				itempath=""
+				fullname="AtlasAutomationRepository.JobWindow.Circuity.Circuity_Row"
+				id="9b9cf579399e44569ea10d6da98783cd"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.413"
+			timeRelativeToTestModuleStartTime="00:24.413"
+			timeWallClock="11:36:35"
+			time="00:24.413"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.CellElement1111.Circuity_Dropdown' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[14]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='CellElement_11_1']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				itempath="combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow.CellElement1111.Circuity_Dropdown"
+				id="c57e22183bed495d99eea0e1d9a726bf"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.781"
+			timeRelativeToTestModuleStartTime="00:31.781"
+			timeWallClock="11:36:42"
+			time="00:31.781"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 100ms.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.890"
+			timeRelativeToTestModuleStartTime="00:31.890"
+			timeWallClock="11:36:42"
+			time="00:31.890"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Ca_6302e0dc\Input_Ca_6302e0dc_ec87281d_trace.jpg"
+			errthumb="images_Input_Ca_6302e0dc\Input_Ca_6302e0dc_ec87281d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.A1GlobalCombinedCircuity' at 50;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']/?/?/listitem[@text>'A1_Global_combined_circui']"
+				itempath="button[@automationid='PART_HeaderExpander']/?/?/listitem[@text>'A1_Global_combined_circui']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.A1GlobalCombinedCircuity"
+				id="3088a9f4264048d38f51a84a316a76b2"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:31.996"
+			timeRelativeToTestModuleStartTime="01:31.996"
+			timeWallClock="11:37:42"
+			time="01:31.996"
+			level="Info"
+			category="User"
+			errimg="images_Input_Ca_6302e0dc\Input_Ca_6302e0dc_cbfd05b8_trace.jpg"
+			errthumb="images_Input_Ca_6302e0dc\Input_Ca_6302e0dc_cbfd05b8_trace_thumb.jpg">
+			<message>
+				Item 'A1GlobalCombinedCircuity' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="102"
+				loglvl="Info"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:32.789"
+			timeRelativeToTestModuleStartTime="01:32.789"
+			timeWallClock="11:37:43"
+			time="01:32.789"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Ca_6302e0dc\Input_Ca_6302e0dc_02776150_trace.jpg"
+			errthumb="images_Input_Ca_6302e0dc\Input_Ca_6302e0dc_02776150_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AtlasAutomationRepository.SkySuiteEasyJetUAT2.A1GlobalCombinedCircuity'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']/?/?/listitem[@text&gt;'A1_Global_combined_circui']' at step 'contextmenu[@processname='Sky.Suite.EasyJet UAT2']' after 69 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.SkySuiteEasyJetUAT2AppFolder.get_A1GlobalCombinedCircuity() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 2433&#13;&#10;   at AtlasAutomation.Input_CalibrationNetwork.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs:line 102&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="102"
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']/?/?/listitem[@text>'A1_Global_combined_circui']"
+				itempath="button[@automationid='PART_HeaderExpander']/?/?/listitem[@text>'A1_Global_combined_circui']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.A1GlobalCombinedCircuity"
+				id="3088a9f4264048d38f51a84a316a76b2"
+				timeout="60000"
+				failedStep="contextmenu[@processname='Sky.Suite.EasyJet UAT2']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

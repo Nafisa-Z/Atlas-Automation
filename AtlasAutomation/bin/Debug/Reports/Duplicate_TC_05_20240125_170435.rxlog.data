@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="24.86s"
+		durationms="24864"
+		type="root"
+		rid="db0d1871a6c2114"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 17:04:37"
+		timestampiso="2024-01-25T17:04:37"
+		endtime="25/01/2024 17:05:02"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Duplicate_TC_05">
+		<detail>
+			Duplicate_TC_05
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.326"
+			timeRelativeToTestModuleStartTime="00:03.326"
+			timeWallClock="17:04:41"
+			time="00:03.326"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Jb8_Name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.352"
+			timeRelativeToTestModuleStartTime="00:03.352"
+			timeWallClock="17:04:41"
+			time="00:03.352"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'SkySuite.Eval_Peak' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root']//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				itempath=".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+				fullname="AtlasAutomationRepository.SkySuite.Eval_Peak"
+				id="e886293ca33145458164b7df47c8f2e0"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.963"
+			timeRelativeToTestModuleStartTime="00:07.963"
+			timeWallClock="17:04:45"
+			time="00:07.963"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.DUplicate' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/menuitem[@text='D_uplicate']"
+				itempath="menuitem[@text='D_uplicate']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.DUplicate"
+				id="70637a2275944c15a6d3a8691329afe0"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.726"
+			timeRelativeToTestModuleStartTime="00:08.726"
+			timeWallClock="17:04:46"
+			time="00:08.726"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.ToCurrentScenario' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/menuitem[@text='To current scenario...']"
+				itempath="?/?/menuitem[@text='To current scenario...']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.ToCurrentScenario"
+				id="fe44949b81e648d888e87f282af5a9c6"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.026"
+			timeRelativeToTestModuleStartTime="00:10.026"
+			timeWallClock="17:04:47"
+			time="00:10.026"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'DuplicateJobToCurrentScenario'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Duplicate job to current']"
+				itempath="/form[@title>'Duplicate job to current']"
+				fullname="AtlasAutomationRepository.DuplicateJobToCurrentScenario.Self"
+				id="b2f78937b92a49a28f1c3c5b3ac12a2d"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.449"
+			timeRelativeToTestModuleStartTime="00:10.449"
+			timeWallClock="17:04:48"
+			time="00:10.449"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Self' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Duplicate job to current']"
+				itempath="/form[@title>'Duplicate job to current']"
+				fullname="AtlasAutomationRepository.DuplicateJobToCurrentScenario.Self"
+				id="b2f78937b92a49a28f1c3c5b3ac12a2d"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="108"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.577"
+			timeRelativeToTestModuleStartTime="00:10.577"
+			timeWallClock="17:04:48"
+			time="00:10.577"
+			level="Info"
+			category="User"
+			errimg="images_Duplicat_bacf4454\Duplicat_767b33a_rxlog.jpg"
+			errthumb="images_Duplicat_bacf4454\Duplicat_767b33a_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="111"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.581"
+			timeRelativeToTestModuleStartTime="00:10.581"
+			timeWallClock="17:04:48"
+			time="00:10.581"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DuplicateJobToCurrentScenario.Job_Name' at CenterRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Duplicate job to current']//text[@automationid='jbNameTB']/text[@caption='']"
+				itempath=".//text[@automationid='jbNameTB']/text[@caption='']"
+				fullname="AtlasAutomationRepository.DuplicateJobToCurrentScenario.Job_Name"
+				id="ac7ca5745c7b46568c2d1fa71056e91c"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="113"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.409"
+			timeRelativeToTestModuleStartTime="00:11.409"
+			timeWallClock="17:04:49"
+			time="00:11.409"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back 70}' with focus on 'DuplicateJobToCurrentScenario.Job_Name'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Duplicate job to current']//text[@automationid='jbNameTB']/text[@caption='']"
+				itempath=".//text[@automationid='jbNameTB']/text[@caption='']"
+				fullname="AtlasAutomationRepository.DuplicateJobToCurrentScenario.Job_Name"
+				id="ac7ca5745c7b46568c2d1fa71056e91c"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="117"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.420"
+			timeRelativeToTestModuleStartTime="00:13.420"
+			timeWallClock="17:04:51"
+			time="00:13.420"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Jb8_Name' with focus on 'DuplicateJobToCurrentScenario.Job_Name'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Duplicate job to current']//text[@automationid='jbNameTB']/text[@caption='']"
+				itempath=".//text[@automationid='jbNameTB']/text[@caption='']"
+				fullname="AtlasAutomationRepository.DuplicateJobToCurrentScenario.Job_Name"
+				id="ac7ca5745c7b46568c2d1fa71056e91c"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="121"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.081"
+			timeRelativeToTestModuleStartTime="00:14.081"
+			timeWallClock="17:04:51"
+			time="00:14.081"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DuplicateJobToCurrentScenario.Create' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Duplicate job to current']/container[@automationid='Footer']//text[@caption='Create']"
+				itempath="container[@automationid='Footer']//text[@caption='Create']"
+				fullname="AtlasAutomationRepository.DuplicateJobToCurrentScenario.Create"
+				id="c84f9bfa1b004da0ac81d904df23a46e"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="125"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.659"
+			timeRelativeToTestModuleStartTime="00:14.659"
+			timeWallClock="17:04:52"
+			time="00:14.659"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="129"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.808"
+			timeRelativeToTestModuleStartTime="00:24.808"
+			timeWallClock="17:05:02"
+			time="00:24.808"
+			level="Info"
+			category="User"
+			errimg="images_Duplicat_bacf4454\Duplicat_767b33b_rxlog.jpg"
+			errthumb="images_Duplicat_bacf4454\Duplicat_767b33b_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="132"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.812"
+			timeRelativeToTestModuleStartTime="00:24.812"
+			timeWallClock="17:05:02"
+			time="00:24.812"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'JobWindow'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']"
+				itempath="/form[@name='Root' and @title~'Jobs']"
+				fullname="AtlasAutomationRepository.JobWindow.Self"
+				id="eb490fa6ec4d43a997ad7d9eb3a19e0c"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="134"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.862"
+			timeRelativeToTestModuleStartTime="00:24.862"
+			timeWallClock="17:05:02"
+			time="00:24.862"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Self' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']"
+				itempath="/form[@name='Root' and @title~'Jobs']"
+				fullname="AtlasAutomationRepository.JobWindow.Self"
+				id="eb490fa6ec4d43a997ad7d9eb3a19e0c"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Duplicate_TC_05.cs"
+				codeline="135"
+				loglvl="Success"
+				itemindex="11">
+			</metainfo>
+		</item>
+	</activity>
+</report>

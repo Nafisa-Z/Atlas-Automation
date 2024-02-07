@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="13.1s"
+		durationms="13103"
+		type="root"
+		rid="bac2cf17e9d9f48"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="18/12/2023 13:59:37"
+		timestampiso="2023-12-18T13:59:37"
+		endtime="18/12/2023 13:59:50"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputMarketGrowth">
+		<detail>
+			InputMarketGrowth
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.196"
+			timeRelativeToTestModuleStartTime="00:06.196"
+			timeWallClock="13:59:43"
+			time="00:06.196"
+			level="Info"
+			category="Mouse"
+			errimg="images_InputMar_bb6a9bcb\InputMar_bb6a9bcb_56a09cc7_trace.jpg"
+			errthumb="images_InputMar_bb6a9bcb\InputMar_bb6a9bcb_56a09cc7_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWIndow2.PARTGridViewVirtualizingPanel.Market_Expand' at 18;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisa(8) -- nafisa2 (FOR)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[15]/button[@automationid='PART_ExpandButton']"
+				itempath="row[15]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWIndow2.PARTGridViewVirtualizingPanel.Market_Expand"
+				id="2588215428fd4045bd74324498cc1c96"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputMarketGrowth.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.360"
+			timeRelativeToTestModuleStartTime="00:11.360"
+			timeWallClock="13:59:49"
+			time="00:11.360"
+			level="Info"
+			category="Mouse"
+			errimg="images_InputMar_bb6a9bcb\InputMar_bb6a9bcb_b873e92b_trace.jpg"
+			errthumb="images_InputMar_bb6a9bcb\InputMar_bb6a9bcb_b873e92b_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWIndow2.PARTGridViewVirtualizingPanel.Market_Growth_Row' at 10;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisa(8) -- nafisa2 (FOR)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[18]"
+				itempath="row[18]"
+				fullname="AtlasAutomationRepository.JobWIndow2.PARTGridViewVirtualizingPanel.Market_Growth_Row"
+				id="ab245071de6e42b0890fde31470a9e51"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputMarketGrowth.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.857"
+			timeRelativeToTestModuleStartTime="00:12.857"
+			timeWallClock="13:59:50"
+			time="00:12.857"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputMarketGrowth.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.876"
+			timeRelativeToTestModuleStartTime="00:12.876"
+			timeWallClock="13:59:50"
+			time="00:12.876"
+			level="Error"
+			category="Module"
+			errimg="images_InputMar_bb6a9bcb\InputMar_bb6a9bcb_895bbd60_trace.jpg"
+			errthumb="images_InputMar_bb6a9bcb\InputMar_bb6a9bcb_895bbd60_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at AtlasAutomation.InputMarketGrowth.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputMarketGrowth.cs:line 87
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\InputMarketGrowth.cs"
+				codeline="87"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

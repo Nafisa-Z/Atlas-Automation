@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.68s"
+		durationms="6677"
+		type="root"
+		rid="2fedb8c1dddba806"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="19/01/2024 15:48:49"
+		timestampiso="2024-01-19T15:48:49"
+		endtime="19/01/2024 15:48:56"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.559"
+			timeRelativeToTestModuleStartTime="00:06.559"
+			timeWallClock="15:48:56"
+			time="00:06.559"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Failed to load Excel data. Excel cannot open the file ’FolderCreationData.xlsx’ because the file format or file extension is not valid. Verify that the file has not been corrupted and that the file extension matches the format of the file.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Data.ExcelDataConnector.LoadDataInternal(Boolean loadRowData, ColumnCollection&amp; columns, RowCollection&amp; rows, Int32&amp; rowCount)&#13;&#10;   at Ranorex.Core.Data.ExcelDataConnector.LoadDataImpl(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   at Ranorex.Core.Data.DataConnector.LoadData(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   at Ranorex.Core.Data.DataCache.LoadInternal()&#13;&#10;   at Ranorex.Core.Testing.TestCaseNode.GetRangedDataRowCount()&#13;&#10;   at Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.CollectDescendantIterations(TestCaseNode testCaseNode)&#13;&#10;   at Ranorex.Core.Monitoring.TestSuiteMonitor.SingleTestCaseExecuted(TestCaseNode testCaseNode)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.TryRunTestCase(RunParams rp, TestSuite testSuite)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.&lt;>c__DisplayClass13_1.&lt;RunInternal>b__4()&#13;&#10;   at Ranorex.Common.Types.OptCombinators.OrElse[T](Opt`1 self, Func`1 defaultInstanceCreator)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

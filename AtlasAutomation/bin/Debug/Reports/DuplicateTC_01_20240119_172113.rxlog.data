@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="34.83s"
+		durationms="34826"
+		type="root"
+		rid="25108dfb3e5a6198"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="19/01/2024 17:21:17"
+		timestampiso="2024-01-19T17:21:17"
+		endtime="19/01/2024 17:21:52"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="DuplicateTC_01">
+		<detail>
+			DuplicateTC_01
+		</detail>
+		<errormessage>
+			Failed to find item 'AtlasAutomationRepository.JobWIndow2.Self'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.388"
+			timeRelativeToTestModuleStartTime="00:04.388"
+			timeWallClock="17:21:22"
+			time="00:04.388"
+			level="Warn"
+			category="Data"
+			errimg="images_Duplicat_1886a425\Duplicat_1886a425_6970fb46_trace.jpg"
+			errthumb="images_Duplicat_1886a425\Duplicat_1886a425_6970fb46_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>Jb2_Name, JbWindow_Title, Jb2Window_Title
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.433"
+			timeRelativeToTestModuleStartTime="00:04.433"
+			timeWallClock="17:21:22"
+			time="00:04.433"
+			level="Info"
+			category="Mouse"
+			errimg="images_Duplicat_1886a425\Duplicat_1886a425_6970fb46_trace.jpg"
+			errthumb="images_Duplicat_1886a425\Duplicat_1886a425_6970fb46_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWIndow2' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='TC_02' and @name='Root']"
+				itempath="/form[@title=$Jb2Window_Title and @name='Root']"
+				fullname="AtlasAutomationRepository.JobWIndow2.Self"
+				id="847e627077f34f89a526c9f8f0a356cc"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\DuplicateTC_01.cs"
+				codeline="115"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.607"
+			timeRelativeToTestModuleStartTime="00:34.607"
+			timeWallClock="17:21:52"
+			time="00:34.607"
+			level="Error"
+			category="Module"
+			errimg="images_Duplicat_1886a425\Duplicat_1886a425_9267d961_trace.jpg"
+			errthumb="images_Duplicat_1886a425\Duplicat_1886a425_9267d961_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AtlasAutomationRepository.JobWIndow2.Self'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@title='TC_02' and @name='Root']' at step 'form[@title='TC_02' and @name='Root']' after 193 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.JobWIndow2AppFolder.get_Self() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 5751&#13;&#10;   at AtlasAutomation.DuplicateTC_01.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\DuplicateTC_01.cs:line 116&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\DuplicateTC_01.cs"
+				codeline="116"
+				type="repoitem"
+				path="/form[@title='TC_02' and @name='Root']"
+				itempath="/form[@title=$Jb2Window_Title and @name='Root']"
+				fullname="AtlasAutomationRepository.JobWIndow2.Self"
+				id="847e627077f34f89a526c9f8f0a356cc"
+				timeout="30000"
+				failedStep="form[@title=$Jb2Window_Title and @name='Root']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="14">
+			</metainfo>
+		</item>
+	</activity>
+</report>

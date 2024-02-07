@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="23.91s"
+		durationms="23910"
+		type="root"
+		rid="7a0ec3a141bc41"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="15/12/2023 11:32:47"
+		timestampiso="2023-12-15T11:32:47"
+		endtime="15/12/2023 11:33:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_CalibrationNetwork">
+		<detail>
+			Input_CalibrationNetwork
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.640"
+			timeRelativeToTestModuleStartTime="00:03.640"
+			timeWallClock="11:32:50"
+			time="00:03.640"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TabControl.JobInputsBusyIndicator' at 616;44.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				itempath="indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				fullname="AtlasAutomationRepository.JobWindow.TabControl.JobInputsBusyIndicator"
+				id="1f58921ea9544f47a600c1e152721165"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.416"
+			timeRelativeToTestModuleStartTime="00:06.416"
+			timeWallClock="11:32:53"
+			time="00:06.416"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.TabControl.Calibration_Network_Row.Calibration_Network_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(8) -- nafisa (FOR)']/?/?/tabpagelist[@automationid='TabControl']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']"
+				itempath="button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.TabControl.Calibration_Network_Row.Calibration_Network_Expand"
+				id="98703449d2e34d39bd659b219e89709f"
+				timeout="120000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_CalibrationNetwork.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.904"
+			timeRelativeToTestModuleStartTime="00:23.904"
+			timeWallClock="11:33:11"
+			time="00:23.904"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

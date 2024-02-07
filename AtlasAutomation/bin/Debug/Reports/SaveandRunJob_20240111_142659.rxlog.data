@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.86s"
+		durationms="7860"
+		type="root"
+		rid="8d83620cd5337d6"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="11/01/2024 14:27:03"
+		timestampiso="2024-01-11T14:27:03"
+		endtime="11/01/2024 14:27:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SaveandRunJob">
+		<detail>
+			SaveandRunJob
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.352"
+			timeRelativeToTestModuleStartTime="00:04.352"
+			timeWallClock="14:27:08"
+			time="00:04.352"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=2254,Height=1400}) on item 'JobWindow1.SomeIndicator'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeIndicator"
+				id="88cf8c2d262742838098b4ac94ca92a2"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRunJob.cs"
+				codeline="82"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.847"
+			timeRelativeToTestModuleStartTime="00:07.847"
+			timeWallClock="14:27:11"
+			time="00:07.847"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'AtlasAutomationRepository.JobWindow1.SomeIndicator' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRunJob.cs"
+				codeline="83"
+				loglvl="Success"
+				id="88cf8c2d262742838098b4ac94ca92a2"
+				path="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']/indicator"
+				fullname="AtlasAutomationRepository.JobWindow1.SomeIndicator"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

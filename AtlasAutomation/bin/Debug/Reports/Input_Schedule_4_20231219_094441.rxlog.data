@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="32.23s"
+		durationms="32232"
+		type="root"
+		rid="7d71f473bbb2fcc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="19/12/2023 09:44:45"
+		timestampiso="2023-12-19T09:44:45"
+		endtime="19/12/2023 09:45:17"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Input_Schedule_4">
+		<detail>
+			Input_Schedule_4
+		</detail>
+		<errormessage>
+			Item 'AtlasAutomationRepository.JobWindow4.Host_Schedule_Toggle' is no Button.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.886"
+			timeRelativeToTestModuleStartTime="00:04.886"
+			timeWallClock="09:44:50"
+			time="00:04.886"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow4.JobIndicator.JobInputsBusyIndicator' at 769;36.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']"
+				fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.JobInputsBusyIndicator"
+				id="9990d6f5a80e4e44b80fc926daf100cd"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.896"
+			timeRelativeToTestModuleStartTime="00:06.896"
+			timeWallClock="09:44:52"
+			time="00:06.896"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow4.JobIndicator.Show_Toggle' at 15;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//combobox/button[@automationid='toggleButton']"
+				itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//combobox/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.Show_Toggle"
+				id="fd7bb1bd27b043d5940eaa0f7b227025"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.064"
+			timeRelativeToTestModuleStartTime="00:08.064"
+			timeWallClock="09:44:53"
+			time="00:08.064"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.Required' at 110;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/listitem[@text='Required']"
+				itempath="?/?/listitem[@text='Required']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.Required"
+				id="22c39298907b4f08b39bd4f484770814"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.763"
+			timeRelativeToTestModuleStartTime="00:08.763"
+			timeWallClock="09:44:54"
+			time="00:08.763"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow4.JobIndicator.Schedule_Expand' at 18;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+				itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.Schedule_Expand"
+				id="5a1ab9fa53f64dab8f563d78a31e377b"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.277"
+			timeRelativeToTestModuleStartTime="00:11.277"
+			timeWallClock="09:44:56"
+			time="00:11.277"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow4.JobIndicator.Host_Schedule_Row' at 23;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]"
+				itempath="button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]"
+				fullname="AtlasAutomationRepository.JobWindow4.JobIndicator.Host_Schedule_Row"
+				id="f06314ebd1c8466a99456a55b7fa0465"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.794"
+			timeRelativeToTestModuleStartTime="00:12.794"
+			timeWallClock="09:44:58"
+			time="00:12.794"
+			level="Info"
+			category="Mouse"
+			errimg="images_Input_Sc_2942a7a9\Input_Sc_2942a7a9_6baf1dea_trace.jpg"
+			errthumb="images_Input_Sc_2942a7a9\Input_Sc_2942a7a9_6baf1dea_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWindow4.Host_Schedule_Toggle' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='CellElement_1_1']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='CellElement_1_1']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow4.Host_Schedule_Toggle"
+				id="c1a241b958a342dabc03a7ab51c7ffb3"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.005"
+			timeRelativeToTestModuleStartTime="00:32.005"
+			timeWallClock="09:45:17"
+			time="00:32.005"
+			level="Info"
+			category="User"
+			errimg="images_Input_Sc_2942a7a9\Input_Sc_2942a7a9_8ec68366_trace.jpg"
+			errthumb="images_Input_Sc_2942a7a9\Input_Sc_2942a7a9_8ec68366_trace_thumb.jpg">
+			<message>
+				Item 'Host_Schedule_Toggle' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+				codeline="103"
+				loglvl="Info"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.013"
+			timeRelativeToTestModuleStartTime="00:32.013"
+			timeWallClock="09:45:17"
+			time="00:32.013"
+			level="Error"
+			category="Module"
+			errimg="images_Input_Sc_2942a7a9\Input_Sc_2942a7a9_8ec68366_trace.jpg"
+			errthumb="images_Input_Sc_2942a7a9\Input_Sc_2942a7a9_8ec68366_trace_thumb.jpg">
+			<message>
+				Item 'AtlasAutomationRepository.JobWindow4.Host_Schedule_Toggle' is no Button.<br/>The element does not support the required capability 'button'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.JobWindow4AppFolder.get_Host_Schedule_Toggle() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 70656&#13;&#10;   at AtlasAutomation.Input_Schedule_4.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs:line 103&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Input_Schedule_4.cs"
+				codeline="103"
+				loglvl="Error"
+				id="c1a241b958a342dabc03a7ab51c7ffb3"
+				path="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='CellElement_1_1']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow4.Host_Schedule_Toggle"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

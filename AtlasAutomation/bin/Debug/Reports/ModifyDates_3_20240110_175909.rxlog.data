@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.55s"
+		durationms="14554"
+		type="root"
+		rid="2f6d9c58ae2eea84"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="10/01/2024 17:59:11"
+		timestampiso="2024-01-10T17:59:11"
+		endtime="10/01/2024 17:59:26"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ModifyDates_3">
+		<detail>
+			ModifyDates_3
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.818"
+			timeRelativeToTestModuleStartTime="00:02.818"
+			timeWallClock="17:59:14"
+			time="00:02.818"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow5.SomeIndicator' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='Demo_Eval(2) -- Eval_Peak (OPT)']/?/?/tabpagelist[@automationid='TabControl']/indicator"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/indicator"
+				fullname="AtlasAutomationRepository.JobWindow5.SomeIndicator"
+				id="170512bf9e6245889f333edda3842860"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifyDates_3.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.135"
+			timeRelativeToTestModuleStartTime="00:05.135"
+			timeWallClock="17:59:16"
+			time="00:05.135"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWIndow3.Planning_Period' at 211;275.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Demo_IB(2) -- Demo_Low (FOR)' and @name='Root']/indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				itempath="indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				fullname="AtlasAutomationRepository.JobWIndow3.Planning_Period"
+				id="3697024fffb842038fa2f76282bbe8cd"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ModifyDates_3.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.552"
+			timeRelativeToTestModuleStartTime="00:14.552"
+			timeWallClock="17:59:26"
+			time="00:14.552"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

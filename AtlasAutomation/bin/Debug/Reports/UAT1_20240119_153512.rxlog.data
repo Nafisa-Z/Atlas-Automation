@@ -1,0 +1,1060 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="52.04s"
+		durationms="52039"
+		type="root"
+		rid="b938cacd46ae9bc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="19/01/2024 15:35:12"
+		timestampiso="2024-01-19T15:35:12"
+		endtime="19/01/2024 15:36:04"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="44.34s"
+			durationms="44335"
+			type="test-suite"
+			rid="22a8c830c9f2284d"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="UAT1"
+			headertext="UAT1"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="42.27s"
+				durationms="42272"
+				type="iteration-container"
+				rid="91e28e0f1a2cc0d"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="TC_01_pt1"
+				headertext="TC_01_pt1"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="41de33c0-a368-4a1b-8505-acab10a3d1c7"
+				datasource="FolderCreationData"
+				dataiterationcount="1">
+				<activity
+					result="Failed"
+					duration="42.25s"
+					durationms="42254"
+					type="test-case"
+					rid="f96a778d55a7ae9"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="TC_01_pt1"
+					testcontainerid="41de33c0-a368-4a1b-8505-acab10a3d1c7"
+					headertext="TC_01_pt1"
+					displayName="TC_01_pt1"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Workbench">
+							AtlasDemo 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Workspace_Name">
+							Demo_Cycle1 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Planning_Period">
+							3/26/2023 to 10/28/2023
+						</field>
+						<field
+							name="Sch_Search">
+							S23_AmadeusSample_New
+						</field>
+						<field
+							name="ScNameIB">
+							IB_Jobs 2024-01-19 15
+						</field>
+						<field
+							name="Jb1_Name">
+							TC-01 2024-01-19 15
+						</field>
+						<field
+							name="Dates_Med">
+							18Sep2023 to 24Sep2023
+						</field>
+						<field
+							name="Jb1Window_Title">
+							IB_Jobs 2024-01-19 15 -- TC-01 2024-01-19 15 (FOR)
+						</field>
+						<field
+							name="Param_Search_1">
+							TC_01_PreCalibration_IB_Med_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="Jb2_Name">
+							TC-02 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Jb2Window_Title">
+							IB_Jobs 2024-01-19 15 -- TC-02 2024-01-19 15-35-21 (FOR)
+						</field>
+						<field
+							name="Dates_Peak">
+							21Aug2023 to 27Aug2023
+						</field>
+						<field
+							name="Jb3_Name">
+							TC-02 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Jb3Window_Title">
+							IB_Jobs 2024-01-19 15 -- TC-02 2024-01-19 15-35-21 (FOR)
+						</field>
+						<field
+							name="Dates_Low">
+							15May2023 to 21May2023
+						</field>
+						<field
+							name="Param_Search_3">
+							TC_03_PreCalibration_IB_Low_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="ScNameEval">
+							Eval_Jobs 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Jb4_Name">
+							TC-04 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Jb4Window_Title">
+							IB_Jobs 2024-01-19 15 -- TC-04 2024-01-19 15-35-21 (OPT)
+						</field>
+						<field
+							name="Param_Search_4">
+							TC_04_Eval_Med_OPT_Evaluation_Def_Param
+						</field>
+						<field
+							name="Jb5_Name">
+							TC-05 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Jb5Window_Title">
+							IB_Jobs 2024-01-19 15 -- TC-05 2024-01-19 15-35-21 (OPT)
+						</field>
+						<field
+							name="Jb6_Name">
+							TC-06 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Jb6Window_Title">
+							IB_Jobs 2024-01-19 15 -- TC-06 2024-01-19 15-35-21 (OPT)
+						</field>
+						<field
+							name="Jb7_Name">
+							TC-07 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Jb7Window_Title">
+							IB_Jobs 2024-01-19 15 -- TC-07 2024-01-19 15-35-21 (OPT)
+						</field>
+						<field
+							name="Param_Search7">
+							TC_07_Adapt_Med_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="Jb8_Name">
+							TC-08 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Jb8Window_Title">
+							IB_Jobs 2024-01-19 15 -- TC-08 2024-01-19 15-35-21 (OPT)
+						</field>
+						<field
+							name="Param_Search8">
+							TC_08_Adapt_Peak_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="Jb9_Name">
+							TC-09 2024-01-19 15-35-21
+						</field>
+						<field
+							name="Jb9Window_Title">
+							IB_Jobs 2024-01-19 15 -- TC-09 2024-01-19 15-35-21 (OPT)
+						</field>
+						<field
+							name="Param_Search9">
+							TC_09_Adapt_Low_OPT_Adapt_Def_Param
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="22.49s"
+						durationms="22485"
+						type="test-module"
+						rid="65827b4190f58ae"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Creat_Workbench_Folder"
+						displayName="Creat_Workbench_Folder"
+						moduleid="034b6de2-17c9-438c-a624-50b10a3aedb0"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="FolderName"
+								value="AtlasDemo 2024-01-19 15-35-21">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.161"
+							timeRelativeToTestModuleStartTime="00:00.016"
+							timeWallClock="15:35:21"
+							time="00:02.161"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$FolderName = 'AtlasDemo 2024-01-19 15-35-21'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.284"
+							timeRelativeToTestModuleStartTime="00:00.139"
+							timeWallClock="15:35:22"
+							time="00:02.284"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']"
+								itempath="/form[@name='Root']"
+								fullname="AtlasAutomationRepository.SkySuite.Self"
+								id="12f9a8e2bf2141d6a2223baa984f5626"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="93"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.629"
+							timeRelativeToTestModuleStartTime="00:04.485"
+							timeWallClock="15:35:26"
+							time="00:06.629"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite.WorkbenchButton' at 80;31.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']/?/?/list[@automationid='LeftPanelMainList']/listitem[@index='1']/radiobutton"
+								itempath="?/?/list[@automationid='LeftPanelMainList']/listitem[@index='1']/radiobutton"
+								fullname="AtlasAutomationRepository.SkySuite.WorkbenchButton"
+								id="30857447b3944b30b92b5627caff8e46"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="97"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.893"
+							timeRelativeToTestModuleStartTime="00:05.749"
+							timeWallClock="15:35:27"
+							time="00:07.893"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite.WorkbenchView' at 623;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']/tabpagelist"
+								itempath="tabpagelist"
+								fullname="AtlasAutomationRepository.SkySuite.WorkbenchView"
+								id="21946c2867214c46a856e8df5bca7cbc"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="101"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.478"
+							timeRelativeToTestModuleStartTime="00:06.334"
+							timeWallClock="15:35:28"
+							time="00:08.478"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite.WorkbenchFolderList' at 287;941.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']/tabpagelist/indicator[1]"
+								itempath="tabpagelist/indicator[1]"
+								fullname="AtlasAutomationRepository.SkySuite.WorkbenchFolderList"
+								id="4fa9f3adea084ec5938ffb3870407a1c"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="105"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.161"
+							timeRelativeToTestModuleStartTime="00:07.016"
+							timeWallClock="15:35:28"
+							time="00:09.161"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite.WorkbenchToolbarNewFolderButton' at 23;22.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/button[@automationid='WorkbenchToolbar_NewFolderButton']"
+								itempath=".//toolbar[@automationid='WorkbenchToolbar']/button[@automationid='WorkbenchToolbar_NewFolderButton']"
+								fullname="AtlasAutomationRepository.SkySuite.WorkbenchToolbarNewFolderButton"
+								id="9c6089f07a554f77b6f6166b2a0461fc"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="109"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.461"
+							timeRelativeToTestModuleStartTime="00:08.317"
+							timeWallClock="15:35:30"
+							time="00:10.461"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'WorkbenchFolder'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']"
+								itempath="/form[@title='New Folder']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.Self"
+								id="f0bc859f0c5b4391b7fe9a4a50bc6c96"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="113"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.710"
+							timeRelativeToTestModuleStartTime="00:08.566"
+							timeWallClock="15:35:30"
+							time="00:10.710"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'Self' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']"
+								itempath="/form[@title='New Folder']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.Self"
+								id="f0bc859f0c5b4391b7fe9a4a50bc6c96"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="114"
+								loglvl="Success"
+								itemindex="5">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.799"
+							timeRelativeToTestModuleStartTime="00:08.655"
+							timeWallClock="15:35:30"
+							time="00:10.799"
+							level="Info"
+							category="User"
+							errimg="images_UAT1_202_71c93163\UAT1_202_7b3c1eeb_rxlog.jpg"
+							errthumb="images_UAT1_202_71c93163\UAT1_202_7b3c1eeb_rxlog_thumb.jpg">
+							<message>
+								New Folder pop-up appeared<br/>
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="117"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.803"
+							timeRelativeToTestModuleStartTime="00:08.658"
+							timeWallClock="15:35:30"
+							time="00:10.803"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WorkbenchFolder' at 332;16.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']"
+								itempath="/form[@title='New Folder']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.Self"
+								id="f0bc859f0c5b4391b7fe9a4a50bc6c96"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="119"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.295"
+							timeRelativeToTestModuleStartTime="00:09.150"
+							timeWallClock="15:35:31"
+							time="00:11.295"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WorkbenchFolder.FolderName' at 73;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']//text[@automationid='NameTextBox']/text[@caption='']"
+								itempath=".//text[@automationid='NameTextBox']/text[@caption='']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.FolderName"
+								id="b14633d43d9e4038add8e6e2eb979215"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="123"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.043"
+							timeRelativeToTestModuleStartTime="00:09.899"
+							timeWallClock="15:35:31"
+							time="00:12.043"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$FolderName' with focus on 'WorkbenchFolder.FolderName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']//text[@automationid='NameTextBox']/text[@caption='']"
+								itempath=".//text[@automationid='NameTextBox']/text[@caption='']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.FolderName"
+								id="b14633d43d9e4038add8e6e2eb979215"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="127"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.132"
+							timeRelativeToTestModuleStartTime="00:10.988"
+							timeWallClock="15:35:32"
+							time="00:13.132"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 1s.
+							</message>
+							<metainfo
+								itemindex="10"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="131"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.222"
+							timeRelativeToTestModuleStartTime="00:12.077"
+							timeWallClock="15:35:33"
+							time="00:14.222"
+							level="Info"
+							category="Mouse">
+							<message>
+								(Optional Action)<br/>Mouse Left Click item 'WorkbenchFolder.SetToTopLevelButton' at 31;17.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']/indicator//container[@automationid='SelectWorkspaceField']/button[@automationid='SetToTopLevelButton']"
+								itempath="indicator//container[@automationid='SelectWorkspaceField']/button[@automationid='SetToTopLevelButton']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.SetToTopLevelButton"
+								id="adcf3b244078459d867f50442b142f63"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="135"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.926"
+							timeRelativeToTestModuleStartTime="00:12.781"
+							timeWallClock="15:35:34"
+							time="00:14.926"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WorkbenchFolder.CreateButton' at 85;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Folder']/container[@automationid='Footer']/?/?/button[@automationid='CreateButton']"
+								itempath="container[@automationid='Footer']/?/?/button[@automationid='CreateButton']"
+								fullname="AtlasAutomationRepository.WorkbenchFolder.CreateButton"
+								id="ea9b5fc6044b44978fbf24925acb784f"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="140"
+								itemindex="12"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.508"
+							timeRelativeToTestModuleStartTime="00:13.364"
+							timeWallClock="15:35:35"
+							time="00:15.508"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 5s to exist. Associated repository item: 'SkySuite.NewlyCreatedFolder'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text='AtlasDemo 2024-01-19 15-35-21']"
+								itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text=$FolderName]"
+								fullname="AtlasAutomationRepository.SkySuite.NewlyCreatedFolder"
+								id="c19dfd4a9b464bcbbf5179c27d05ca90"
+								timeout="5000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="144"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.025"
+							timeRelativeToTestModuleStartTime="00:16.880"
+							timeWallClock="15:35:38"
+							time="00:19.025"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'SkySuite.NewlyCreatedFolder'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text='AtlasDemo 2024-01-19 15-35-21']"
+								itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text=$FolderName]"
+								fullname="AtlasAutomationRepository.SkySuite.NewlyCreatedFolder"
+								id="c19dfd4a9b464bcbbf5179c27d05ca90"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="147"
+								itemindex="14"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.792"
+							timeRelativeToTestModuleStartTime="00:19.648"
+							timeWallClock="15:35:41"
+							time="00:21.792"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'NewlyCreatedFolder' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text='AtlasDemo 2024-01-19 15-35-21']"
+								itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text=$FolderName]"
+								fullname="AtlasAutomationRepository.SkySuite.NewlyCreatedFolder"
+								id="c19dfd4a9b464bcbbf5179c27d05ca90"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="148"
+								loglvl="Success"
+								itemindex="14">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.625"
+							timeRelativeToTestModuleStartTime="00:22.481"
+							timeWallClock="15:35:44"
+							time="00:24.625"
+							level="Info"
+							category="User"
+							errimg="images_UAT1_202_71c93163\UAT1_202_7b3b1eeb_rxlog.jpg"
+							errthumb="images_UAT1_202_71c93163\UAT1_202_7b3b1eeb_rxlog_thumb.jpg">
+							<message>
+								New Folder successfully created<br/>
+							</message>
+							<metainfo
+								itemindex="15"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Creat_Workbench_Folder.cs"
+								codeline="151"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="19.7s"
+						durationms="19696"
+						type="test-module"
+						rid="9eaeb864697acf0"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Create_Workspace"
+						displayName="Create_Workspace"
+						moduleid="a197f43b-fb20-4534-b03b-84e096df5644"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Failed to wait for item to exist.
+						</errormessage>
+						<varbindings>
+							<varbinding
+								name="Workspace_Name"
+								value="Demo_Cycle1 2024-01-19 15-35-21">
+							</varbinding>
+							<varbinding
+								name="Planning_Period"
+								value="3/26/2023 to 10/28/2023">
+							</varbinding>
+							<varbinding
+								name="FolderName"
+								value="AtlasDemo 2024-01-19 15-35-21">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.633"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="15:35:44"
+							time="00:24.633"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$Workspace_Name = 'Demo_Cycle1 2024-01-19 15-35-21', $Planning_Period = '3/26/2023 to 10/28/2023', $FolderName = 'AtlasDemo 2024-01-19 15-35-21'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.764"
+							timeRelativeToTestModuleStartTime="00:00.130"
+							timeWallClock="15:35:44"
+							time="00:24.764"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Right Click item 'SkySuite.NewlyCreatedFolder' at 243;19.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text='AtlasDemo 2024-01-19 15-35-21']"
+								itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/picture[@automationid='icon']/?/?/text[@automationid='nodeText' and @text=$FolderName]"
+								fullname="AtlasAutomationRepository.SkySuite.NewlyCreatedFolder"
+								id="c19dfd4a9b464bcbbf5179c27d05ca90"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="116"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:27.979"
+							timeRelativeToTestModuleStartTime="00:03.345"
+							timeWallClock="15:35:47"
+							time="00:27.979"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuiteEasyJetUAT2.NewWorkspace' at 216;20.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/menuitem[@text='New _Workspace...']"
+								itempath="menuitem[@text='New _Workspace...']"
+								fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.NewWorkspace"
+								id="c9b6a775b0e440fc86830deb1ceda385"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="120"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.742"
+							timeRelativeToTestModuleStartTime="00:04.109"
+							timeWallClock="15:35:48"
+							time="00:28.742"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'NewWorkspace'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Workspace']"
+								itempath="/form[@title='New Workspace']"
+								fullname="AtlasAutomationRepository.NewWorkspace.Self"
+								id="24faba036968493da8b57369d3b8565d"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="124"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.090"
+							timeRelativeToTestModuleStartTime="00:04.456"
+							timeWallClock="15:35:48"
+							time="00:29.090"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'Self' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Workspace']"
+								itempath="/form[@title='New Workspace']"
+								fullname="AtlasAutomationRepository.NewWorkspace.Self"
+								id="24faba036968493da8b57369d3b8565d"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="125"
+								loglvl="Success"
+								itemindex="2">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.187"
+							timeRelativeToTestModuleStartTime="00:04.553"
+							timeWallClock="15:35:48"
+							time="00:29.187"
+							level="Info"
+							category="User"
+							errimg="images_UAT1_202_71c93163\UAT1_202_7b3e1eeb_rxlog.jpg"
+							errthumb="images_UAT1_202_71c93163\UAT1_202_7b3e1eeb_rxlog_thumb.jpg">
+							<message>
+								New workspace pop-up<br/>
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="128"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.192"
+							timeRelativeToTestModuleStartTime="00:04.558"
+							timeWallClock="15:35:48"
+							time="00:29.192"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewWorkspace' at 226;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Workspace']"
+								itempath="/form[@title='New Workspace']"
+								fullname="AtlasAutomationRepository.NewWorkspace.Self"
+								id="24faba036968493da8b57369d3b8565d"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="130"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.661"
+							timeRelativeToTestModuleStartTime="00:05.027"
+							timeWallClock="15:35:49"
+							time="00:29.661"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewWorkspace.NameTextBox' at 268;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Workspace']/indicator/?/?/text[@automationid='NameTextBox']"
+								itempath="indicator/?/?/text[@automationid='NameTextBox']"
+								fullname="AtlasAutomationRepository.NewWorkspace.NameTextBox"
+								id="1e0e4dd60b9140feb42479f0e16ef294"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="134"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.427"
+							timeRelativeToTestModuleStartTime="00:05.793"
+							timeWallClock="15:35:50"
+							time="00:30.427"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$Workspace_Name' with focus on 'NewWorkspace.NameTextBox'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Workspace']/indicator/?/?/text[@automationid='NameTextBox']"
+								itempath="indicator/?/?/text[@automationid='NameTextBox']"
+								fullname="AtlasAutomationRepository.NewWorkspace.NameTextBox"
+								id="1e0e4dd60b9140feb42479f0e16ef294"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="138"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.542"
+							timeRelativeToTestModuleStartTime="00:06.908"
+							timeWallClock="15:35:51"
+							time="00:31.542"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'NewWorkspace.PlanningPeriod' at 68;3.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Workspace']/indicator//text[@automationid='PART_TextBox']"
+								itempath="indicator//text[@automationid='PART_TextBox']"
+								fullname="AtlasAutomationRepository.NewWorkspace.PlanningPeriod"
+								id="c219706be63a480b9aaa21d2b7e60595"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="142"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:32.292"
+							timeRelativeToTestModuleStartTime="00:07.658"
+							timeWallClock="15:35:52"
+							time="00:32.292"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$Planning_Period' with focus on 'NewWorkspace.PlanningPeriod'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Workspace']/indicator//text[@automationid='PART_TextBox']"
+								itempath="indicator//text[@automationid='PART_TextBox']"
+								fullname="AtlasAutomationRepository.NewWorkspace.PlanningPeriod"
+								id="c219706be63a480b9aaa21d2b7e60595"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="146"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.276"
+							timeRelativeToTestModuleStartTime="00:08.643"
+							timeWallClock="15:35:53"
+							time="00:33.276"
+							level="Info"
+							category="Mouse"
+							errimg="images_UAT1_202_71c93163\UAT1_202_71c93163_d998a2e7_trace.jpg"
+							errthumb="images_UAT1_202_71c93163\UAT1_202_71c93163_d998a2e7_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'NewWorkspace.Create' at 5;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='New Workspace']/container[@automationid='Footer']//text[@caption='Create']"
+								itempath="container[@automationid='Footer']//text[@caption='Create']"
+								fullname="AtlasAutomationRepository.NewWorkspace.Create"
+								id="258c675aac1b492a85b6ce2ef77c11d8"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="150"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.878"
+							timeRelativeToTestModuleStartTime="00:09.244"
+							timeWallClock="15:35:53"
+							time="00:33.878"
+							level="Info"
+							category="Wait"
+							errimg="images_UAT1_202_71c93163\UAT1_202_71c93163_ec7e5471_trace.jpg"
+							errthumb="images_UAT1_202_71c93163\UAT1_202_71c93163_ec7e5471_trace_thumb.jpg">
+							<message>
+								Waiting 5s to exist. Associated repository item: 'SkySuite.Workspace'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text='Demo_Cycle1 2024-01-19 15-35-21']"
+								itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text=$Workspace_Name]"
+								fullname="AtlasAutomationRepository.SkySuite.Workspace"
+								id="bc7686781a3a4600a47f34794c90c691"
+								timeout="5000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="154"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.126"
+							timeRelativeToTestModuleStartTime="00:19.493"
+							timeWallClock="15:36:03"
+							time="00:44.126"
+							level="Error"
+							category="Module"
+							errimg="images_UAT1_202_71c93163\UAT1_202_71c93163_329aac03_trace.jpg"
+							errthumb="images_UAT1_202_71c93163\UAT1_202_71c93163_329aac03_trace_thumb.jpg">
+							<message>
+								Failed to wait for item to exist.<br/>Failed to find item 'AtlasAutomationRepository.SkySuite.Workspace'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path './/toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text='Demo_Cycle1 2024-01-19 15-35-21']' at step '' after 1 attempts within 5s.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at AtlasAutomation.Create_Workspace.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs:line 155
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Create_Workspace.cs"
+								codeline="155"
+								loglvl="Error"
+								id="bc7686781a3a4600a47f34794c90c691"
+								path="/form[@name='Root']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text='Demo_Cycle1 2024-01-19 15-35-21']"
+								fullname="AtlasAutomationRepository.SkySuite.Workspace"
+								itemindex="10">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

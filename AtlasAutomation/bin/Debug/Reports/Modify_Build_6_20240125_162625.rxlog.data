@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.47s"
+		durationms="8471"
+		type="root"
+		rid="b74a7b300f9fd00"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="25/01/2024 16:26:28"
+		timestampiso="2024-01-25T16:26:28"
+		endtime="25/01/2024 16:26:36"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Modify_Build_6">
+		<detail>
+			Modify_Build_6
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.770"
+			timeRelativeToTestModuleStartTime="00:02.770"
+			timeWallClock="16:26:31"
+			time="00:02.770"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Dates_Low
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.794"
+			timeRelativeToTestModuleStartTime="00:02.794"
+			timeWallClock="16:26:31"
+			time="00:02.794"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Job_Details.Import_Build_Toggle' at 12;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]/container[2]/container[@caption='']/container[@caption='']/container[@caption='']/combobox/container[@automationid='templateRoot']/button[@automationid='toggleButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Details.Import_Build_Toggle"
+				id="598f9fa976ef4c9dbc498c9972fd0abb"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Modify_Build_6.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.323"
+			timeRelativeToTestModuleStartTime="00:05.323"
+			timeWallClock="16:26:33"
+			time="00:05.323"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.TC03PreCalibrationIBLow' at 205;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']/?/?/listitem[@index='2']"
+				itempath="button[@automationid='PART_HeaderExpander']/?/?/listitem[@index='2']"
+				fullname="AtlasAutomationRepository.SkySuiteEasyJetUAT2.TC03PreCalibrationIBLow"
+				id="0793a4ab37044238ac989f9c2ece7aca"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Modify_Build_6.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.038"
+			timeRelativeToTestModuleStartTime="00:06.038"
+			timeWallClock="16:26:34"
+			time="00:06.038"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Job_Details.Planning_Period' at 192;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				itempath="indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Details.Planning_Period"
+				id="2ac3e3edee3544438822be6d0f01c310"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Modify_Build_6.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.419"
+			timeRelativeToTestModuleStartTime="00:07.419"
+			timeWallClock="16:26:35"
+			time="00:07.419"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Dates_Low' with focus on 'JobWindow.Job_Details.Planning_Period'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				itempath="indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']"
+				fullname="AtlasAutomationRepository.JobWindow.Job_Details.Planning_Period"
+				id="2ac3e3edee3544438822be6d0f01c310"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\Modify_Build_6.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

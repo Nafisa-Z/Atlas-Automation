@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="70129"
+		type="root"
+		rid="23c29e91c31c80f"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="13/12/2023 16:33:49"
+		timestampiso="2023-12-13T16:33:49"
+		endtime="13/12/2023 16:35:00"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Import_Schedule">
+		<detail>
+			Import_Schedule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.429"
+			timeRelativeToTestModuleStartTime="00:05.429"
+			timeWallClock="16:33:55"
+			time="00:05.429"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.SomeTreeItem' at 215;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(7) -- nafisa (FOR)']//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/?/treeitem"
+				itempath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/?/treeitem"
+				fullname="AtlasAutomationRepository.SkySuite.SomeTreeItem"
+				id="bd7b72dc91064e0d98556d870ee760cf"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Schedule.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.571"
+			timeRelativeToTestModuleStartTime="00:44.571"
+			timeWallClock="16:34:34"
+			time="00:44.571"
+			level="Info"
+			category="User">
+			<message>
+				Item 'SomeTreeItem' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Schedule.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.590"
+			timeRelativeToTestModuleStartTime="00:44.590"
+			timeWallClock="16:34:34"
+			time="00:44.590"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'AtlasAutomationRepository.SkySuite'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']/?/?/treeitem"
+				invertedPath="self::treeitem/parent::?/parent::?/parent::tree[@automationid='workbenchTreeView']/parent::toolbar[@automationid='WorkbenchToolbar']/ancestor-or-self::*"
+				basePathToCachedFolder="/form[@name='Root' and @title='nafisa(7) -- nafisa (FOR)']"
+				invertedBasePath="self::form[@name='Root' and @title='nafisa(7) -- nafisa (FOR)']/parent::host/self::*"
+				AbsoluteBasePath="/form[@name='Root' and @title='nafisa(7) -- nafisa (FOR)']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="5"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Schedule.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.120"
+			timeRelativeToTestModuleStartTime="00:45.120"
+			timeWallClock="16:34:35"
+			time="00:45.120"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuite.ScheduLes' at 30;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title='nafisa(7) -- nafisa (FOR)']//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/?/?/text[@caption='Schedu_les']"
+				itempath=".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/?/?/text[@caption='Schedu_les']"
+				fullname="AtlasAutomationRepository.SkySuite.ScheduLes"
+				id="9087996b9b6c41829442e6416580a240"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\OneDrive - easyJet\Documents\Ranorex\RanorexStudio Projects\AtlasAutomation\AtlasAutomation\Import_Schedule.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.122"
+			timeRelativeToTestModuleStartTime="01:10.122"
+			timeWallClock="16:35:00"
+			time="01:10.122"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

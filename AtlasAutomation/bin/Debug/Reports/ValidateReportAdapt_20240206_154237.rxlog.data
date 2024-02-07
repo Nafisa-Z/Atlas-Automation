@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="63209"
+		type="root"
+		rid="1364dd82563c080"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="06/02/2024 15:42:40"
+		timestampiso="2024-02-06T15:42:40"
+		endtime="06/02/2024 15:43:43"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ValidateReportAdapt">
+		<detail>
+			ValidateReportAdapt
+		</detail>
+		<errormessage>
+			Failed to find item 'AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.935"
+			timeRelativeToTestModuleStartTime="00:02.935"
+			timeWallClock="15:42:42"
+			time="00:02.935"
+			level="Info"
+			category="Mouse"
+			errimg="images_Validate_567005fd\Validate_567005fd_a6a7f837_trace.jpg"
+			errthumb="images_Validate_567005fd\Validate_567005fd_a6a7f837_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'JobWindow.Report_Tab.Report_Page' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page"
+				id="8008f399f0774af8b690a795f9671eae"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ValidateReportAdapt.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.073"
+			timeRelativeToTestModuleStartTime="01:03.073"
+			timeWallClock="15:43:43"
+			time="01:03.073"
+			level="Error"
+			category="Module"
+			errimg="images_Validate_567005fd\Validate_567005fd_b8bc998a_trace.jpg"
+			errthumb="images_Validate_567005fd\Validate_567005fd_b8bc998a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@name='Root' and @title~'Jobs']/indicator' at step 'form[@name='Root' and @title~'Jobs']' after 556 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at AtlasAutomation.AtlasAutomationRepositoryFolders.Report_TabFolder.get_Report_Page() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\AtlasAutomationRepository.cs:line 4970&#13;&#10;   at AtlasAutomation.ValidateReportAdapt.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ValidateReportAdapt.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ValidateReportAdapt.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page"
+				id="8008f399f0774af8b690a795f9671eae"
+				timeout="60000"
+				failedStep="form[@name='Root' and @title~'Jobs']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

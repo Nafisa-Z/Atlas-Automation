@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.4s"
+		durationms="8398"
+		type="root"
+		rid="2309b6197f36bd7c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="06/02/2024 16:14:23"
+		timestampiso="2024-02-06T16:14:23"
+		endtime="06/02/2024 16:14:31"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AdaptReportValidationUAT2">
+		<detail>
+			AdaptReportValidationUAT2
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow.Report_Tab.AdaptMedSchedule' does not match the specified value (actual='C2_ADP_BN_TC_07_Adapt_Med', expected='C2').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.742"
+			timeRelativeToTestModuleStartTime="00:02.742"
+			timeWallClock="16:14:25"
+			time="00:02.742"
+			level="Info"
+			category="Validation"
+			errimg="images_AdaptRep_44e40c4b\AdaptRep_44e40c4b_a5b0ed8d_trace.jpg"
+			errthumb="images_AdaptRep_44e40c4b\AdaptRep_44e40c4b_a5b0ed8d_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='C2') on item 'JobWindow.Report_Tab.AdaptMedSchedule'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C2']"
+				itempath=".//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C2']"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.AdaptMedSchedule"
+				id="1033091f558b42428de2e623c2f1b35a"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.250"
+			timeRelativeToTestModuleStartTime="00:08.250"
+			timeWallClock="16:14:31"
+			time="00:08.250"
+			level="Failure"
+			category="Validation"
+			errimg="images_AdaptRep_44e40c4b\AdaptRep_44e40c4b_5cf1b80d_trace.jpg"
+			errthumb="images_AdaptRep_44e40c4b\AdaptRep_44e40c4b_5cf1b80d_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow.Report_Tab.AdaptMedSchedule' does not match the specified value (actual='C2_ADP_BN_TC_07_Adapt_Med', expected='C2').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C2']"
+				itempath=".//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C2']"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.AdaptMedSchedule"
+				id="1033091f558b42428de2e623c2f1b35a"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.258"
+			timeRelativeToTestModuleStartTime="00:08.258"
+			timeWallClock="16:14:31"
+			time="00:08.258"
+			level="Error"
+			category="Module"
+			errimg="images_AdaptRep_44e40c4b\AdaptRep_44e40c4b_5cf1b80d_trace.jpg"
+			errthumb="images_AdaptRep_44e40c4b\AdaptRep_44e40c4b_5cf1b80d_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'AtlasAutomationRepository.JobWindow.Report_Tab.AdaptMedSchedule' does not match the specified value (actual='C2_ADP_BN_TC_07_Adapt_Med', expected='C2').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at UAT2.Modules.AdaptReportValidationUAT2.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C2']"
+				itempath=".//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C2']"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.AdaptMedSchedule"
+				id="1033091f558b42428de2e623c2f1b35a"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>
