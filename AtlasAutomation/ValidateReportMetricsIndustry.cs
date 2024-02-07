@@ -86,25 +86,25 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Forcast_Report_Metrics.Flight_Expand' at Center.", repo.JobWindow.Forcast_Report_Metrics.Flight_ExpandInfo, new RecordItemIndex(2));
-            repo.JobWindow.Forcast_Report_Metrics.Flight_Expand.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Report_Tab.Forcast_Report_Metrics.Flight_Expand' at Center.", repo.JobWindow.Report_Tab.Forcast_Report_Metrics.Flight_ExpandInfo, new RecordItemIndex(2));
+            repo.JobWindow.Report_Tab.Forcast_Report_Metrics.Flight_Expand.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'JobWindow.Forcast_Report_Metrics.Flight_Count'.", repo.JobWindow.Forcast_Report_Metrics.Flight_CountInfo, new RecordItemIndex(3));
-            Validate.Exists(repo.JobWindow.Forcast_Report_Metrics.Flight_CountInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'JobWindow.Report_Tab.Forcast_Report_Metrics.Flight_Count'.", repo.JobWindow.Report_Tab.Forcast_Report_Metrics.Flight_CountInfo, new RecordItemIndex(3));
+            Validate.Exists(repo.JobWindow.Report_Tab.Forcast_Report_Metrics.Flight_CountInfo);
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "Flight Count Metric", repo.JobWindow.Forcast_Report_Metrics.Flight_Count_Row, false, new RecordItemIndex(4));
+            Report.Screenshot(ReportLevel.Info, "User", "Flight Count Metric", repo.JobWindow.Report_Tab.Forcast_Report_Metrics.Flight_Count_Row, false, new RecordItemIndex(4));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Forcast_Report_Metrics.Traffic_Expand' at Center.", repo.JobWindow.Forcast_Report_Metrics.Traffic_ExpandInfo, new RecordItemIndex(5));
-            repo.JobWindow.Forcast_Report_Metrics.Traffic_Expand.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Report_Tab.Forcast_Report_Metrics.Traffic_Expand' at Center.", repo.JobWindow.Report_Tab.Forcast_Report_Metrics.Traffic_ExpandInfo, new RecordItemIndex(5));
+            repo.JobWindow.Report_Tab.Forcast_Report_Metrics.Traffic_Expand.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'JobWindow.Forcast_Report_Metrics.Traffic'.", repo.JobWindow.Forcast_Report_Metrics.TrafficInfo, new RecordItemIndex(6));
-            Validate.Exists(repo.JobWindow.Forcast_Report_Metrics.TrafficInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'JobWindow.Report_Tab.Forcast_Report_Metrics.Traffic'.", repo.JobWindow.Report_Tab.Forcast_Report_Metrics.TrafficInfo, new RecordItemIndex(6));
+            Validate.Exists(repo.JobWindow.Report_Tab.Forcast_Report_Metrics.TrafficInfo);
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "Traffic Metric", repo.JobWindow.Forcast_Report_Metrics.Traffic_Row, false, new RecordItemIndex(7));
+            Report.Screenshot(ReportLevel.Info, "User", "Traffic Metric", repo.JobWindow.Report_Tab.Forcast_Report_Metrics.Traffic_Row, false, new RecordItemIndex(7));
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Close_Window' at Center.", repo.JobWindow.Close_WindowInfo, new RecordItemIndex(8));
             repo.JobWindow.Close_Window.Click();

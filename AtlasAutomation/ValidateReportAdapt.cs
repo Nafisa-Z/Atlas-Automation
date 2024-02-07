@@ -86,15 +86,15 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Adapt_Report_Metrics.Flight_Expand' at Center.", repo.JobWindow.Adapt_Report_Metrics.Flight_ExpandInfo, new RecordItemIndex(2));
-            repo.JobWindow.Adapt_Report_Metrics.Flight_Expand.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Report_Tab.Adapt_Report_Metrics.Flight_Expand' at Center.", repo.JobWindow.Report_Tab.Adapt_Report_Metrics.Flight_ExpandInfo, new RecordItemIndex(2));
+            repo.JobWindow.Report_Tab.Adapt_Report_Metrics.Flight_Expand.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Total Flights') on item 'JobWindow.Adapt_Report_Metrics.Total_Flights'.", repo.JobWindow.Adapt_Report_Metrics.Total_FlightsInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.JobWindow.Adapt_Report_Metrics.Total_FlightsInfo, "Text", "Total Flights");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Total Flights') on item 'JobWindow.Report_Tab.Adapt_Report_Metrics.Total_Flights'.", repo.JobWindow.Report_Tab.Adapt_Report_Metrics.Total_FlightsInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.JobWindow.Report_Tab.Adapt_Report_Metrics.Total_FlightsInfo, "Text", "Total Flights");
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "Flight Count", repo.JobWindow.Adapt_Report_Metrics.Total_Flights_Row, false, new RecordItemIndex(4));
+            Report.Screenshot(ReportLevel.Info, "User", "Flight Count", repo.JobWindow.Report_Tab.Adapt_Report_Metrics.Total_Flights_Row, false, new RecordItemIndex(4));
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Close_Window' at Center.", repo.JobWindow.Close_WindowInfo, new RecordItemIndex(5));
             repo.JobWindow.Close_Window.Click();

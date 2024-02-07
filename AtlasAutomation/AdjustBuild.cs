@@ -103,14 +103,6 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(2));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Job_Details.Planning_Period' at Center.", repo.JobWindow.Job_Details.Planning_PeriodInfo, new RecordItemIndex(3));
-            repo.JobWindow.Job_Details.Planning_Period.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesLow' with focus on 'JobWindow.Job_Details.Planning_Period'.", repo.JobWindow.Job_Details.Planning_PeriodInfo, new RecordItemIndex(4));
-            repo.JobWindow.Job_Details.Planning_Period.PressKeys(datesLow);
-            Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{8D4FA8D2-71D8-41BE-8F21-FD754B26C6F8}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>UAT2</RootNamespace>
+    <AssemblyName>UAT2</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>ffe4ce7b-8037-401d-b34a-533d99bdfe88</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>d58b1e29-1796-4168-a5c1-f009a424adae</id>
+    </Compile>
+    <Compile Include="AtlasAutomationRepository.cs">
+      <DependentUpon>AtlasAutomationRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>adee8297-3477-457c-abf3-557a47ef2b67</id>
+      <BoundTo>b511bfd3-5a73-42be-b076-97ce440546e4</BoundTo>
+    </Compile>
+    <Compile Include="Modules\AdaptReportValidationUAT2.cs">
+      <BoundTo>63bf23eb-1474-4879-b315-a864e5b660ed</BoundTo>
+      <DependentUpon>AdaptReportValidationUAT2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5fd3d810-08f9-4cae-9936-72e3c50dcdbc</id>
+    </Compile>
+    <Compile Include="Modules\AdaptReportValidationUAT2.UserCode.cs">
+      <BoundTo>63bf23eb-1474-4879-b315-a864e5b660ed</BoundTo>
+      <DependentUpon>AdaptReportValidationUAT2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>23d7c0dc-d7ac-491a-83a5-b2fb3ac3e07b</id>
+    </Compile>
+    <Compile Include="Modules\ExportSchedule.cs">
+      <BoundTo>15108f37-a291-40de-9254-75828f084202</BoundTo>
+      <DependentUpon>ExportSchedule.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>56024eae-874b-49df-ba6e-b5ad27948b46</id>
+    </Compile>
+    <Compile Include="Modules\ExportSchedule.UserCode.cs">
+      <BoundTo>15108f37-a291-40de-9254-75828f084202</BoundTo>
+      <DependentUpon>ExportSchedule.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c02edb73-757c-4650-9737-758b132a7df5</id>
+    </Compile>
+    <Compile Include="Modules\Login.cs">
+      <BoundTo>b09592d9-53c9-48bb-99d5-b4bc43c9e611</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3a36ced2-7719-4911-bc33-9ee0b4d92803</id>
+    </Compile>
+    <Compile Include="Modules\Login.UserCode.cs">
+      <BoundTo>b09592d9-53c9-48bb-99d5-b4bc43c9e611</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>40d240e7-2223-493d-8790-7dcd05361010</id>
+    </Compile>
+    <Compile Include="Modules\SearchSkySuiteApp.cs">
+      <BoundTo>932e3c79-afac-41a8-b753-9861311b3663</BoundTo>
+      <DependentUpon>SearchSkySuiteApp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ffecb34d-5caa-40c0-8205-e5460ef16567</id>
+    </Compile>
+    <Compile Include="Modules\SearchSkySuiteApp.UserCode.cs">
+      <BoundTo>932e3c79-afac-41a8-b753-9861311b3663</BoundTo>
+      <DependentUpon>SearchSkySuiteApp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f36995ce-6169-4f22-99af-acd6657fa367</id>
+    </Compile>
+    <Compile Include="Modules\SelectNewFolderButton.cs">
+      <DependentUpon>SelectNewFolderButton.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>54fd6387-be35-4fb2-81b3-34d9b1727b0c</id>
+      <BoundTo>379a8e6b-42a6-45e2-a584-067dee1e18e7</BoundTo>
+    </Compile>
+    <Compile Include="Modules\SelectNewFolderButton.UserCode.cs">
+      <DependentUpon>SelectNewFolderButton.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>03cde2be-43c8-4e52-a52b-dc4ea120097c</id>
+      <BoundTo>379a8e6b-42a6-45e2-a584-067dee1e18e7</BoundTo>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>190f5691-f3e5-4c7e-b67d-90625899aed3</id>
+    </Compile>
+    <Compile Include="UAT2Repository.cs">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <DependentUpon>UAT2Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>eaf1905c-b6c8-4f69-8e4e-7d7735e5470f</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\AtlasAutomation\AtlasAutomationRepository.rximg">
+      <DependentUpon>AtlasAutomationRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>5adb45b7-e9d4-45ad-8662-625c18bb3cfa</id>
+      <Link>AtlasAutomationRepository.rximg</Link>
+      <BoundTo>b511bfd3-5a73-42be-b076-97ce440546e4</BoundTo>
+    </None>
+    <None Include="..\AtlasAutomation\AtlasAutomationRepository.rxrep">
+      <id>b511bfd3-5a73-42be-b076-97ce440546e4</id>
+      <repoid>42cdd5ff-5eb1-4664-9973-a59e1ff290a7</repoid>
+      <reporootid>3edb66b5-6f9c-45cd-af09-b10d23d5f5aa</reporootid>
+      <Link>AtlasAutomationRepository.rxrep</Link>
+    </None>
+    <None Include="app.config">
+      <id>4c46bf00-2fe8-472d-8c79-e5c76c651e12</id>
+    </None>
+    <None Include="Modules\AdaptReportValidationUAT2.rxrec">
+      <id>63bf23eb-1474-4879-b315-a864e5b660ed</id>
+      <BoundTo>b511bfd3-5a73-42be-b076-97ce440546e4</BoundTo>
+      <recordtableid>0ddd72ec-3d91-4f2f-a45a-060cf5bcfe06</recordtableid>
+    </None>
+    <None Include="Modules\ExportSchedule.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>15108f37-a291-40de-9254-75828f084202</id>
+      <recordtableid>0e0848a0-3ef0-4a2a-ad96-3159fbd83efa</recordtableid>
+    </None>
+    <None Include="Modules\Login.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>b09592d9-53c9-48bb-99d5-b4bc43c9e611</id>
+      <recordtableid>9ca68fc5-322d-43a3-bd19-76700a8b792b</recordtableid>
+    </None>
+    <None Include="Modules\SearchSkySuiteApp.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>932e3c79-afac-41a8-b753-9861311b3663</id>
+      <recordtableid>fdc8a3fd-33a3-4930-bc93-6e54d869d2bc</recordtableid>
+    </None>
+    <None Include="Modules\SelectNewFolderButton.rxrec">
+      <BoundTo>b511bfd3-5a73-42be-b076-97ce440546e4</BoundTo>
+      <id>379a8e6b-42a6-45e2-a584-067dee1e18e7</id>
+      <recordtableid>09a8f96c-ddec-4f73-ad2c-8cf0e32f8438</recordtableid>
+    </None>
+    <None Include="UAT2Repository.rximg">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <DependentUpon>UAT2Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>04671cc3-d6ec-49da-b5af-586d712ff80a</id>
+    </None>
+    <None Include="UAT2Repository.rxrep">
+      <id>ffe4ce7b-8037-401d-b34a-533d99bdfe88</id>
+      <repoid>64fc02e8-9723-4209-8d63-a4e19b62cc9f</repoid>
+      <reporootid>9505266f-6035-48d9-adbe-ca340c1d2ea7</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UAT2.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6d6a237d-c7bc-48ca-9491-822232933df1</id>
+    </Content>
+    <Content Include="UAT2.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c3e1dd48-a5dd-4f3b-846d-d0a2b7c5f5d2</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules">
+      <id>ec3df934-5cac-49e1-8434-d6c16755d0d9</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AtlasAutomation\UAT1.csproj">
+      <Project>{5E7E6727-1CF6-43D4-981D-74FC55256603}</Project>
+      <Name>UAT1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

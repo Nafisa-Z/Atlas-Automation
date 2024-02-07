@@ -644,57 +644,6 @@ ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAAdKKKKAP/Z
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="a56b7646-7cc6-4478-8720-05000605c443"
-		sx="168"
-		sy="451"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="2ac3e3ed-ee35-4443-8822-be6d0f01c310"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@name='Root' and @title~'Jobs']/indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
-		<keysequenceitem
-		KeySequence="15May2023 to 21May2023"
-		duration="20ms"
-		enabled="True"
-		optional="False"
-		presstime="20ms"
-		searchpropertyid="4651d989-1bf3-4434-8ecc-be6c25039dd3">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="KeySequence"
-				variable="datesLow">
-				</binding>
-			</bindings>
-			<info
-			id="2ac3e3ed-ee35-4443-8822-be6d0f01c310"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@name='Root' and @title~'Jobs']/indicator/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']/button[1]//text[@automationid='PART_FieldLabel']/picture/?/?/text[@automationid='PART_TextBox']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</keysequenceitem>
 	</recorditems>
 	<repository
 	id="42cdd5ff-5eb1-4664-9973-a59e1ff290a7"

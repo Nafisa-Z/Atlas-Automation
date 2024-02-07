@@ -86,7 +86,7 @@ namespace AtlasAutomation
             Validate.Exists(repo.JobWindow.SelfInfo);
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "TC_01 Created", repo.JobWindow.Self, false, new RecordItemIndex(2));
+            Report.Screenshot(ReportLevel.Info, "User", "Job Created", repo.JobWindow.Self, false, new RecordItemIndex(2));
             
         }
 

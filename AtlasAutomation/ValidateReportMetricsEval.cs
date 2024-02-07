@@ -86,31 +86,31 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Eval_Report_Metrics.Financial_Expand' at Center.", repo.JobWindow.Eval_Report_Metrics.Financial_ExpandInfo, new RecordItemIndex(2));
-            repo.JobWindow.Eval_Report_Metrics.Financial_Expand.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Report_Tab.Eval_Report_Metrics.Financial_Expand' at Center.", repo.JobWindow.Report_Tab.Eval_Report_Metrics.Financial_ExpandInfo, new RecordItemIndex(2));
+            repo.JobWindow.Report_Tab.Eval_Report_Metrics.Financial_Expand.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Total Revenue') on item 'JobWindow.Eval_Report_Metrics.TotalRevenue'.", repo.JobWindow.Eval_Report_Metrics.TotalRevenueInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.JobWindow.Eval_Report_Metrics.TotalRevenueInfo, "Text", "Total Revenue");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Total Revenue') on item 'JobWindow.Report_Tab.Eval_Report_Metrics.TotalRevenue'.", repo.JobWindow.Report_Tab.Eval_Report_Metrics.TotalRevenueInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.JobWindow.Report_Tab.Eval_Report_Metrics.TotalRevenueInfo, "Text", "Total Revenue");
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "Revenue", repo.JobWindow.Eval_Report_Metrics.Revenue_Row, false, new RecordItemIndex(4));
+            Report.Screenshot(ReportLevel.Info, "User", "Revenue", repo.JobWindow.Report_Tab.Eval_Report_Metrics.Revenue_Row, false, new RecordItemIndex(4));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Load Factor (%)') on item 'JobWindow.Eval_Report_Metrics.LoadFactorPercent'.", repo.JobWindow.Eval_Report_Metrics.LoadFactorPercentInfo, new RecordItemIndex(5));
-            Validate.AttributeEqual(repo.JobWindow.Eval_Report_Metrics.LoadFactorPercentInfo, "Text", "Load Factor (%)");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Load Factor (%)') on item 'JobWindow.Report_Tab.Eval_Report_Metrics.LoadFactorPercent'.", repo.JobWindow.Report_Tab.Eval_Report_Metrics.LoadFactorPercentInfo, new RecordItemIndex(5));
+            Validate.AttributeEqual(repo.JobWindow.Report_Tab.Eval_Report_Metrics.LoadFactorPercentInfo, "Text", "Load Factor (%)");
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "Load Factor", repo.JobWindow.Eval_Report_Metrics.Load_Factor_Row, false, new RecordItemIndex(6));
+            Report.Screenshot(ReportLevel.Info, "User", "Load Factor", repo.JobWindow.Report_Tab.Eval_Report_Metrics.Load_Factor_Row, false, new RecordItemIndex(6));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Eval_Report_Metrics.Flights_Expand' at Center.", repo.JobWindow.Eval_Report_Metrics.Flights_ExpandInfo, new RecordItemIndex(7));
-            repo.JobWindow.Eval_Report_Metrics.Flights_Expand.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Report_Tab.Eval_Report_Metrics.Flights_Expand' at Center.", repo.JobWindow.Report_Tab.Eval_Report_Metrics.Flights_ExpandInfo, new RecordItemIndex(7));
+            repo.JobWindow.Report_Tab.Eval_Report_Metrics.Flights_Expand.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Total Flights') on item 'JobWindow.Eval_Report_Metrics.TotalFlights'.", repo.JobWindow.Eval_Report_Metrics.TotalFlightsInfo, new RecordItemIndex(8));
-            Validate.AttributeEqual(repo.JobWindow.Eval_Report_Metrics.TotalFlightsInfo, "Text", "Total Flights");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Total Flights') on item 'JobWindow.Report_Tab.Eval_Report_Metrics.TotalFlights'.", repo.JobWindow.Report_Tab.Eval_Report_Metrics.TotalFlightsInfo, new RecordItemIndex(8));
+            Validate.AttributeEqual(repo.JobWindow.Report_Tab.Eval_Report_Metrics.TotalFlightsInfo, "Text", "Total Flights");
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "Flight Count", repo.JobWindow.Eval_Report_Metrics.Flights_Row, false, new RecordItemIndex(9));
+            Report.Screenshot(ReportLevel.Info, "User", "Flight Count", repo.JobWindow.Report_Tab.Eval_Report_Metrics.Flights_Row, false, new RecordItemIndex(9));
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Close_Window' at Center.", repo.JobWindow.Close_WindowInfo, new RecordItemIndex(10));
             repo.JobWindow.Close_Window.Click();

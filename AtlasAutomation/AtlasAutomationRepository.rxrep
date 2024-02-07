@@ -205,6 +205,28 @@ name="AtlasAutomationRepository">
 			searchtimeout="30000ms">
 				/form[@name='Root']//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]
 			</item>
+			<item
+			addcaps="cell,wpfelement,wpfgroupelement"
+			capname="cell"
+			id="73f62101-dbe6-496a-8fc5-359d361b9643"
+			name="ExistingScenario"
+			refimgid="373830c6-0819-4336-aba7-c56c563e3fdd"
+			refpath="/form[@name='Root']/tabpagelist/indicator[1]/tabpagelist[@automationid='workbenchTabControl']/indicator[1]/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+			robustPath="/form[@name='Root']//container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/list[@automationid='PART_DataCellsPresenter']/cell[1]"
+			searchtimeout="30000ms">
+				/form[@name='Root']//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/list[@automationid='PART_DataCellsPresenter']/cell[1]
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="d829dfd7-eb33-463d-824d-58f414b5f6d2"
+			name="Export_Button"
+			refimgid="32468e63-c9ea-4675-ad64-ef0fedcbe199"
+			refpath="/form[@name='Root']/tabpagelist/indicator[1]/tabpagelist/toolbar/container/button[@automationid='PART_Toggle']"
+			robustPath="/form[@name='Root']//container[@automationid='ScenariosTabToolbar_ExportScenarioButtons']/button[@automationid='PART_Toggle']"
+			searchtimeout="30000ms">
+				/form[@name='Root']//toolbar[@automationid='ScenariosTabToolbar']/container/button[@automationid='PART_Toggle']
+			</item>
 			<basepath>
 				/form[@name='Root']
 			</basepath>
@@ -802,6 +824,39 @@ TkSuQmCC
 			searchtimeout="30000ms">
 				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@index='0']
 			</item>
+			<item
+			addcaps="menuitem,wpfelement,wpfgroupelement"
+			capname="menuitem"
+			id="b03f8446-f307-4afd-a2e5-15764b67bb83"
+			name="NewJob"
+			refimgid="83d4b133-4fb4-4299-94b3-2492a53b72f6"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/menuitem[@text='New _Job...']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/menuitem[@text='New _Job...']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/menuitem[@text='New _Job...']
+			</item>
+			<item
+			addcaps="menuitem,wpfelement,wpfgroupelement"
+			capname="menuitem"
+			id="b766e374-1a83-4a2d-a8f9-46b0d0b3b8a9"
+			name="ScenariosTabToolbarSetupMenuItem"
+			refimgid="cb6c5267-ae56-4081-b0ca-43ce611ba5bf"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/menubar[1]/menuitem[@automationid='ScenariosTabToolbar_SetupMenuItem']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/menuitem[@automationid='ScenariosTabToolbar_SetupMenuItem']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/menuitem[@automationid='ScenariosTabToolbar_SetupMenuItem']
+			</item>
+			<item
+			addcaps="menuitem,wpfelement,wpfgroupelement"
+			capname="menuitem"
+			id="83343ef7-4484-4fe1-a566-db01798ebf37"
+			name="ScenariosTabToolbarLogsMenuItem"
+			refimgid="c2487f85-70d8-4b96-9539-a9ac3c18a8d9"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/menubar[1]/menuitem[@automationid='ScenariosTabToolbar_LogsMenuItem']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/menuitem[@automationid='ScenariosTabToolbar_LogsMenuItem']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/menuitem[@automationid='ScenariosTabToolbar_LogsMenuItem']
+			</item>
 			<basepath>
 				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']
 			</basepath>
@@ -928,7 +983,7 @@ TkSuQmCC
 		id="dc887175-e7e8-4663-bc83-272b168c4ddd"
 		isrooted="True"
 		name="NewScenario"
-		refimgid="f6aec14a-04ee-45fa-aaf2-73bbc30dbf3f"
+		refimgid="fb3f5464-e4e1-4d61-b74c-28c8f492b2a8"
 		refpath="/form[@title='New Scenario']"
 		searchtimeout="30000ms"
 		usecache="False">
@@ -1055,8 +1110,92 @@ TkSuQmCC
 			searchtimeout="30000ms">
 				/form[@title='New Scenario']//text[@automationid='jbNameTB']/text[@caption='']
 			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="28234506-be3a-4ede-832e-5172116f7844"
+			name="Cancel"
+			refimgid="f9cf557d-8570-40d6-a238-95058e7d19a0"
+			refpath="/form[@title='New Scenario']/container[@automationid='Footer']/container[@caption='']/button[@text='Cancel']"
+			robustPath="/form[@title='New Scenario']//button[@text='Cancel']"
+			searchtimeout="30000ms">
+				/form[@title='New Scenario']//button[@text='Cancel']
+			</item>
 			<basepath>
 				/form[@title='New Scenario']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJHSURBVDhPY6ANSNqsw5B92IGh6roJQ/19Dqgo
+ESB6sQNDypb3QPyfoezyf4aKGxBcfj0BqgIHiJ/PwRA+u4EhdvlnsOas/QjNEPwbiHcw1N+SgepA
+A2GzChjC5/xnSFj7H2xAwSl0AyC4/NoMqA40ED77AtiAlM0QA0ouYDeg4sZ7oHcUoLqgIHSWAVhz
+5HyIZvwGAMPmxgSoTigInZMBNiBiLtwFjNkH/jMUnf3PWHj6P2Pusf+Mxef/MwI1M1ZcB4qduaUc
+WOFnl9UdxmmfAgyTUGDggQwA4bhVEBckbwLy5/43LVr4v3zx0f/84ZP+M8Sv/M+Yseu/c83K32de
+/vp36f3//5kT100E+n+uJ9wAkCuil/xnjF7837R40f/V5578Byk8+fzn/4k7r/7v234FzAfho4+/
+/kvtWd3PwGMcKcIZMeMNQ9hsiCEwHDbrP39o3//m1SfgmmB41623v3Ui6+cwmMZLMIhqhfJop0ze
+xhg4EagJYQgjCIdM/8/n3/x/0+UXYI1Ap/+fsv3cY8+SadkMWlk8DP//M4KCkVE7tj6ocvHBH/xh
+E/4zADUxhs78zxQ0+b9+9qz/R598hdtcMGPrYTbzZE0Ge3sWcATAgLheDLd6SEVi7vQtF8uWHP5b
+vuTI/+l7rwM1fwNrXHLs9rOY5iVNHJZJ8gz19UxQbaigHighYBglz2QcVxjXvuxIxbydD7ImrT8n
+5lEwmdUy1tAe3VZs4D8D0E/29SzCVkm8PDa5ogzGafxaWqFsOG1lYGAAAMzHeM42ohNUAAAAAElF
+TkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="2de3e64b-638c-4467-aa22-f421287e5d18"
+		isrooted="True"
+		name="NewJob"
+		refimgid="306960f1-3293-4185-88e3-f6518d979cc2"
+		refpath="/form[@title='New Job']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="104e40fc-d98f-4c01-8376-99c839472d66"
+			name="JobNameTextBox"
+			refimgid="ebe92dfa-9b63-4f59-b4ac-94cf12b297d9"
+			refpath="/form[@title='New Job']/indicator/container[2]/text[@automationid='jbNameTB']/text[@caption='']"
+			robustPath="/form[@title='New Job']//text[@automationid='jbNameTB']/text[@caption='']"
+			searchtimeout="30000ms">
+				/form[@title='New Job']//text[@automationid='jbNameTB']/text[@caption='']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="6d892b19-9a01-47a5-a21a-4ad643df25d0"
+			name="JobTypeToggle"
+			refimgid="1e0f19ba-4b95-4a6f-828f-25a9eec11585"
+			refpath="/form[@title='New Job']/indicator/container[2]/combobox[1]/container/button[@automationid='toggleButton']"
+			robustPath="/form[@title='New Job']//button[@automationid='toggleButton']"
+			searchtimeout="30000ms">
+				/form[@title='New Job']//container[@automationid='templateRoot']/button[@automationid='toggleButton']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="7db16e77-ecf9-40be-ae5d-d2c28ce83eca"
+			name="JobDates"
+			refimgid="b7e7efc8-5a1b-4627-81e8-c17cca02f6d5"
+			refpath="/form[@title='New Job']/indicator/container[2]/picture[2]/container/text/text[@caption='']"
+			robustPath="/form[@title='New Job']/indicator/container[2]/picture[2]/container[@caption='']/text[@automationid='PART_TextBox']/text[@caption='']"
+			searchtimeout="30000ms">
+				/form[@title='New Job']/indicator/container[2]/picture[2]/container[@caption='']/text[@automationid='PART_TextBox']/text[@caption='']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="8c16c8d1-dd2f-4daa-84b7-f90f256c2049"
+			name="Cancel"
+			refimgid="3d9e836d-c4d4-411c-afe3-0f04e96bc4ae"
+			refpath="/form[@title='New Job']/container[@automationid='Footer']/container[@caption='']/button[@text='Cancel']"
+			robustPath="/form[@title='New Job']//button[@text='Cancel']"
+			searchtimeout="30000ms">
+				/form[@title='New Job']//button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='New Job']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
@@ -1636,208 +1775,51 @@ TkSuQmCC
 			</folder>
 			<folder
 			capname="unknown"
-			id="e4843c97-3d36-44ba-87ba-a4ee632107f3"
-			isrooted="False"
-			name="Eval_Report_Metrics"
-			searchtimeout="0ms">
-				<item
-				addcaps="button,wpfelement,wpfgroupelement"
-				capname="button"
-				id="30f8ad56-c6ef-4842-a75c-02f022a8d33e"
-				name="Flights_Expand"
-				refimgid="ab6982b5-da19-4615-a5da-81a178ce1f8c"
-				robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[20]/button[@automationid='PART_ExpandButton']
-				</item>
-				<item
-				addcaps="text,wpfelement"
-				capname="text"
-				id="0e1eb807-87a6-4ec8-bc54-2a4a7fcf600a"
-				name="TotalFlights"
-				refimgid="3794e511-afb3-426b-be28-3edf6a8feb2d"
-				robustPath=""
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[30]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']
-				</item>
-				<item
-				addcaps="cell,wpfelement,wpfgroupelement"
-				capname="row"
-				id="70b75ac2-8160-403d-b55e-91c8ab3e05fe"
-				name="Flights_Row"
-				refimgid="07a9f126-1886-4b2f-8dcc-8d36004914a1"
-				robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[30]
-				</item>
-				<item
-				addcaps="text,wpfelement"
-				capname="text"
-				id="c945eb25-625b-4ccb-94f1-fbf6d788353c"
-				name="TotalRevenue"
-				refimgid="ce2f5098-4d77-4960-a24f-790fa0555824"
-				robustPath="/form[@name='Root']//text[@caption='Total Revenue']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Revenue']
-				</item>
-				<item
-				addcaps="text,wpfelement"
-				capname="row"
-				id="99423633-177b-4651-84a9-f634f5fb162e"
-				name="Revenue_Row"
-				refimgid="0d533b8d-21c1-4251-9446-397475d73542"
-				robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]
-				</item>
-				<item
-				addcaps="button,wpfelement,wpfgroupelement"
-				capname="button"
-				id="2d6eca82-62dd-490e-9f2a-3ffd87053681"
-				name="Financial_Expand"
-				refimgid="2872dd5d-acaa-408a-be22-be5a45fcb104"
-				refpath="/form[@name='Root' and @title='Eval_Jobs_ -- eval1 (OPT)']/indicator/tabpagelist/tabpagelist/indicator/grip/button/table/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']"
-				robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_ExpandButton']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']//button[@automationid='PART_ExpandButton']
-				</item>
-				<item
-				addcaps="text,wpfelement"
-				capname="text"
-				id="a3f46167-9ca8-4e82-a55f-fe000c7c9fa6"
-				name="LoadFactorPercent"
-				refimgid="599dec45-07f8-4975-964a-0f199b9c2535"
-				robustPath="/form[@name='Root']//text[@caption='Load Factor (%)']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Load Factor (%)']
-				</item>
-				<item
-				addcaps="text,wpfelement"
-				capname="row"
-				id="246bfa52-db0c-4edf-aeb1-ffec1dce0158"
-				name="Load_Factor_Row"
-				refimgid="599dec45-07f8-4975-964a-0f199b9c2535"
-				robustPath="/form[@name='Root']//text[@caption='Load Factor (%)']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]
-				</item>
-			</folder>
-			<folder
-			capname="unknown"
-			id="21de8e75-3e94-457c-be00-9a83778bb63c"
-			isrooted="False"
-			name="Forcast_Report_Metrics"
-			searchtimeout="0ms">
-				<item
-				addcaps="button,wpfelement,wpfgroupelement"
-				capname="button"
-				id="37379e36-7e02-4adb-b898-4af61fc9fc9d"
-				name="Traffic_Expand"
-				refimgid="9c30c9d1-a753-4d46-a41d-4669579b8375"
-				robustPath="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']
-				</item>
-				<item
-				addcaps="text,wpfelement"
-				capname="text"
-				id="05c9575c-5908-41a4-9665-24be4d60f09e"
-				name="Traffic"
-				refimgid="3cba54db-1774-4041-a693-1379d04f2a71"
-				robustPath="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']
-				</item>
-				<item
-				addcaps="text,wpfelement"
-				capname="row"
-				id="6a2cd5c7-d6df-4635-86e6-45994d4d7bfd"
-				name="Traffic_Row"
-				refimgid="3cba54db-1774-4041-a693-1379d04f2a71"
-				robustPath="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]
-				</item>
-				<item
-				addcaps="button,wpfelement,wpfgroupelement"
-				capname="button"
-				id="c4626a5f-9055-43d1-aecb-b4a9c2ff4c77"
-				name="Flight_Expand"
-				refimgid="798f7449-3498-436c-bd84-2d34119a934c"
-				robustPath="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']
-				</item>
-				<item
-				addcaps="row,wpfelement,wpfgroupelement"
-				capname="text"
-				id="8d35cf58-6ad7-4c9a-b53e-d5816c02ac7a"
-				name="Flight_Count"
-				refimgid="1fb5bf28-f472-4454-9628-124703f49b98"
-				robustPath="/form[@name='Root' and @title~'Job']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']
-				</item>
-				<item
-				addcaps="row,wpfelement,wpfgroupelement"
-				capname="row"
-				id="eabe4eef-6345-4dde-af5a-41eb7cb78f98"
-				name="Flight_Count_Row"
-				refimgid="1fb5bf28-f472-4454-9628-124703f49b98"
-				robustPath="/form[@name='Root' and @title~'Job']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]
-				</item>
-			</folder>
-			<folder
-			capname="unknown"
-			id="4f4a4959-ebe6-4187-a74e-7a10b2dffe8f"
-			isrooted="False"
-			name="Adapt_Report_Metrics"
-			searchtimeout="0ms">
-				<item
-				addcaps="button,wpfelement,wpfgroupelement"
-				capname="button"
-				id="784bada5-9318-47df-bb3f-5011d0b0f754"
-				name="Flight_Expand"
-				refimgid="cad85006-8198-4b91-97e3-b9f97fb84c89"
-				robustPath=""
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']
-				</item>
-				<item
-				addcaps="text,wpfelement"
-				capname="text"
-				id="1c996bf1-cc6e-4872-b3b7-cc291bbbbe40"
-				name="Total_Flights"
-				refimgid="13b4ad06-bf40-4c1f-8441-988bc989fb23"
-				robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']
-				</item>
-				<item
-				addcaps="text,wpfelement"
-				capname="row"
-				id="f298ad82-827c-4ea1-954f-7ad71bcafb79"
-				name="Total_Flights_Row"
-				refimgid="13b4ad06-bf40-4c1f-8441-988bc989fb23"
-				robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
-				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]
-				</item>
-			</folder>
-			<folder
-			capname="unknown"
 			id="5baa2a1c-aa54-48f0-9eef-d6dda50cab06"
 			isrooted="False"
 			name="Report_Tab"
 			searchtimeout="0ms">
+				<image
+				guid="87a21e71-a0f8-4bdb-931e-fca9b66489ef"
+				name="Screenshot11">
+					iVBORw0KGgoAAAANSUhEUgAAACoAAAAkCAYAAAD/yagrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAW5JREFUWEft17FLQlEUx3GHl6aBQmMkDUmCNLQINRXRUFMRRBC51CZE
+TtIQrUEQReASRINEU39FEG0RLv43x34vbvgu572udu4t4w5feHjPfX64PBVThakSjUIeKp2HSve/
+oG/vnaG6bt3SZLHM3nPQjKH37Uc6bp4ah3lJrDEUb86txYV5yZO1Dj2sN0Sw1qG4lsA6gSJgn19e
+6fzyhsoLS5FZk5w8o3o4WW5PUtagy+tb4R499W3A7UnKGjQu3MdDJaHqkeDWknIOHTYP/a6J6i7l
+FmtUmJ5j1/V+BZpdbVDqpBuW3mmxM3ruocUK5WfmKTh4+sKyc1pOoZnNixAIqMIGtQd2Vs8ZFEh1
+gv1YxM3rOYEq5NjeHQX77fAar3GzcVmH9iPH15qRE+Xm47IKlUIia9DsypEYEhlDTf7c4Xdc7cls
+nH3iPj7VP0UiY6hJwKo9CorS21eUn61G7jloRtC/kIdK56HSjQi0RD0v+qeZsyVyxAAAAABJRU5E
+rkJggg==
+				</image>
+				<image
+				guid="6765e0f3-5d08-45de-91e7-1a3c0170be00"
+				name="Screenshot12">
+					iVBORw0KGgoAAAANSUhEUgAAACoAAAAkCAYAAAD/yagrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAQ1JREFUWEft0r0KwjAQwPEqfiAturvaTRAd3HTsICKio5uTCIKDIA7i
+K/gIHRwcfAUnBxEcVFx8m5MTupSrTUwaWsnwJy3XhB+hRqlsQxLSUNlpqOz+C3p7PEM7X67Qcnrk
+fhkxQ93dHubLdWBRY5mhiKFmXlHfrDRo1AlDzcYA8p1NaFatS+5nTRiKCGP1Ci09O0GhPSHPYEka
+lJp5ed+IYNVCp0dILe5g1vvkd99SCi1Wmj9jlULx2ao6kB253L+BUiiuWG64/bzz3KxSKBViqT3+
+lECD4tmroSxpKDXTUF/MUCqcxQqKt0mFs1hBv6WhvqRBceUtMz6oh4pEnetPGKoqDZWdhsouIVAb
+3kkFiW7e6+k/AAAAAElFTkSuQmCC
+				</image>
+				<image
+				guid="c4c473aa-1fdf-4993-a75e-98646eeca4ca"
+				name="Screenshot13">
+					iVBORw0KGgoAAAANSUhEUgAAACoAAAAkCAYAAAD/yagrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAQ1JREFUWEdj4JdS+T8U8KhDqY1HHUptPLwcev7iZbLxsROn/9u4+mI1
+lxRMtEPnL17+P7+shmRMLccS7VCQpdjkCGFqhSxdHNrY3vN/45YdFDmWLg4F6VXUNqHIsXRzKIht
+bOP6f/KMOf+379r7PzwuFUMtPky3NIqOQSFr6eSNVQ82THOHgvRhw6SaSXOH4sKjDh11KBY5bHjA
+HEoqpqtD2T3r/nMbBmKVI4Tp6lCGihtgx2KTI4RHHYoNjzoUhslxKMhBIIcRg7HpR8c0cygod4Mc
+i4xBjmJJXI0hjk0/Oh5+UU8KxmYGCNPcoaDQJAVjMwOEae5QauEh41BK8KhDqY1HHUptPEQcqvIf
+AIn+qGa4nLzWAAAAAElFTkSuQmCC
+				</image>
 				<item
 				addcaps="indicator,wpfelement,wpfgroupelement"
 				capname="indicator"
 				id="8008f399-f077-4af8-b690-a795f9671eae"
 				name="Report_Page"
-				refimgid="f0e7d99a-cc00-4a6c-ba66-cd05d160507c"
+				refimgid="2dcc6208-9a37-4418-bcdc-11539a2d7357"
 				robustPath="/form[@name='Root']/indicator"
 				searchtimeout="30000ms">
 					<image
@@ -3057,6 +3039,283 @@ AAAAAElFTkSuQmCC
 					</image>
 					/form[@name='Root' and @title~'Jobs']/indicator
 				</item>
+				<folder
+				capname="unknown"
+				id="e4843c97-3d36-44ba-87ba-a4ee632107f3"
+				isrooted="False"
+				name="Eval_Report_Metrics"
+				searchtimeout="0ms">
+					<item
+					addcaps="button,wpfelement,wpfgroupelement"
+					capname="button"
+					id="30f8ad56-c6ef-4842-a75c-02f022a8d33e"
+					name="Flights_Expand"
+					refimgid="ab6982b5-da19-4615-a5da-81a178ce1f8c"
+					robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[20]/button[@automationid='PART_ExpandButton']
+					</item>
+					<item
+					addcaps="text,wpfelement"
+					capname="text"
+					id="0e1eb807-87a6-4ec8-bc54-2a4a7fcf600a"
+					name="TotalFlights"
+					refimgid="3794e511-afb3-426b-be28-3edf6a8feb2d"
+					robustPath=""
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[30]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']
+					</item>
+					<item
+					addcaps="cell,wpfelement,wpfgroupelement"
+					capname="row"
+					id="70b75ac2-8160-403d-b55e-91c8ab3e05fe"
+					name="Flights_Row"
+					refimgid="07a9f126-1886-4b2f-8dcc-8d36004914a1"
+					robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[30]
+					</item>
+					<item
+					addcaps="text,wpfelement"
+					capname="text"
+					id="c945eb25-625b-4ccb-94f1-fbf6d788353c"
+					name="TotalRevenue"
+					refimgid="ce2f5098-4d77-4960-a24f-790fa0555824"
+					robustPath="/form[@name='Root']//text[@caption='Total Revenue']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Revenue']
+					</item>
+					<item
+					addcaps="text,wpfelement"
+					capname="row"
+					id="99423633-177b-4651-84a9-f634f5fb162e"
+					name="Revenue_Row"
+					refimgid="0d533b8d-21c1-4251-9446-397475d73542"
+					robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]
+					</item>
+					<item
+					addcaps="button,wpfelement,wpfgroupelement"
+					capname="button"
+					id="2d6eca82-62dd-490e-9f2a-3ffd87053681"
+					name="Financial_Expand"
+					refimgid="2872dd5d-acaa-408a-be22-be5a45fcb104"
+					refpath="/form[@name='Root' and @title='Eval_Jobs_ -- eval1 (OPT)']/indicator/tabpagelist/tabpagelist/indicator/grip/button/table/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']"
+					robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_ExpandButton']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']//button[@automationid='PART_ExpandButton']
+					</item>
+					<item
+					addcaps="text,wpfelement"
+					capname="text"
+					id="a3f46167-9ca8-4e82-a55f-fe000c7c9fa6"
+					name="LoadFactorPercent"
+					refimgid="599dec45-07f8-4975-964a-0f199b9c2535"
+					robustPath="/form[@name='Root']//text[@caption='Load Factor (%)']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Load Factor (%)']
+					</item>
+					<item
+					addcaps="text,wpfelement"
+					capname="row"
+					id="246bfa52-db0c-4edf-aeb1-ffec1dce0158"
+					name="Load_Factor_Row"
+					refimgid="599dec45-07f8-4975-964a-0f199b9c2535"
+					robustPath="/form[@name='Root']//text[@caption='Load Factor (%)']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[8]
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="21de8e75-3e94-457c-be00-9a83778bb63c"
+				isrooted="False"
+				name="Forcast_Report_Metrics"
+				searchtimeout="0ms">
+					<item
+					addcaps="button,wpfelement,wpfgroupelement"
+					capname="button"
+					id="37379e36-7e02-4adb-b898-4af61fc9fc9d"
+					name="Traffic_Expand"
+					refimgid="9c30c9d1-a753-4d46-a41d-4669579b8375"
+					robustPath="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']
+					</item>
+					<item
+					addcaps="text,wpfelement"
+					capname="text"
+					id="05c9575c-5908-41a4-9665-24be4d60f09e"
+					name="Traffic"
+					refimgid="3cba54db-1774-4041-a693-1379d04f2a71"
+					robustPath="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']
+					</item>
+					<item
+					addcaps="text,wpfelement"
+					capname="row"
+					id="6a2cd5c7-d6df-4635-86e6-45994d4d7bfd"
+					name="Traffic_Row"
+					refimgid="3cba54db-1774-4041-a693-1379d04f2a71"
+					robustPath="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]
+					</item>
+					<item
+					addcaps="button,wpfelement,wpfgroupelement"
+					capname="button"
+					id="c4626a5f-9055-43d1-aecb-b4a9c2ff4c77"
+					name="Flight_Expand"
+					refimgid="798f7449-3498-436c-bd84-2d34119a934c"
+					robustPath="/form[@name='Root' and @title='Demo_IB(4) -- TC_01 (FOR)']//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']
+					</item>
+					<item
+					addcaps="row,wpfelement,wpfgroupelement"
+					capname="text"
+					id="8d35cf58-6ad7-4c9a-b53e-d5816c02ac7a"
+					name="Flight_Count"
+					refimgid="1fb5bf28-f472-4454-9628-124703f49b98"
+					robustPath="/form[@name='Root' and @title~'Job']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']
+					</item>
+					<item
+					addcaps="row,wpfelement,wpfgroupelement"
+					capname="row"
+					id="eabe4eef-6345-4dde-af5a-41eb7cb78f98"
+					name="Flight_Count_Row"
+					refimgid="1fb5bf28-f472-4454-9628-124703f49b98"
+					robustPath="/form[@name='Root' and @title~'Job']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="4f4a4959-ebe6-4187-a74e-7a10b2dffe8f"
+				isrooted="False"
+				name="Adapt_Report_Metrics"
+				searchtimeout="0ms">
+					<item
+					addcaps="button,wpfelement,wpfgroupelement"
+					capname="button"
+					id="784bada5-9318-47df-bb3f-5011d0b0f754"
+					name="Flight_Expand"
+					refimgid="cad85006-8198-4b91-97e3-b9f97fb84c89"
+					robustPath=""
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']
+					</item>
+					<item
+					addcaps="text,wpfelement"
+					capname="text"
+					id="1c996bf1-cc6e-4872-b3b7-cc291bbbbe40"
+					name="Total_Flights"
+					refimgid="13b4ad06-bf40-4c1f-8441-988bc989fb23"
+					robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']
+					</item>
+					<item
+					addcaps="text,wpfelement"
+					capname="row"
+					id="f298ad82-827c-4ea1-954f-7ad71bcafb79"
+					name="Total_Flights_Row"
+					refimgid="13b4ad06-bf40-4c1f-8441-988bc989fb23"
+					robustPath="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']"
+					searchtimeout="30000ms">
+						/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]
+					</item>
+				</folder>
+				<item
+				addcaps="text,wpfelement,wpfgroupelement"
+				capname="text"
+				id="1033091f-558b-4242-8de2-e623c2f1b35a"
+				name="AdaptMedSchedule"
+				refimgid="04219732-c194-4fe6-980c-5a649160316e"
+				robustPath="/form[@name='Root']//text[@caption='C2_ADP_BN_TC_07_Adapt_Med']"
+				searchtimeout="30000ms">
+					/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C2']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="be96a7c4-97dc-4f5d-90a6-b8c5d7f1b1cd"
+				name="ExportJobReportButton"
+				refimgid="675d5326-59c2-48f8-b197-0be21ff58052"
+				robustPath="/form[@name='Root']//container[@automationid='tabWhitespaceContent']/button[1]"
+				searchtimeout="30000ms">
+					/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[1]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="916d7484-ec4e-420f-a910-648275a554e5"
+				name="EditJob"
+				refimgid="1025c400-2ec0-4477-8d3e-34d49a540720"
+				robustPath="/form[@name='Root']//container[@automationid='tabWhitespaceContent']/button[2]"
+				searchtimeout="30000ms">
+					<image
+					guid="87a21e71-a0f8-4bdb-931e-fca9b66489ef"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAACoAAAAkCAYAAAD/yagrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAW5JREFUWEft17FLQlEUx3GHl6aBQmMkDUmCNLQINRXRUFMRRBC51CZE
+TtIQrUEQReASRINEU39FEG0RLv43x34vbvgu572udu4t4w5feHjPfX64PBVThakSjUIeKp2HSve/
+oG/vnaG6bt3SZLHM3nPQjKH37Uc6bp4ah3lJrDEUb86txYV5yZO1Dj2sN0Sw1qG4lsA6gSJgn19e
+6fzyhsoLS5FZk5w8o3o4WW5PUtagy+tb4R499W3A7UnKGjQu3MdDJaHqkeDWknIOHTYP/a6J6i7l
+FmtUmJ5j1/V+BZpdbVDqpBuW3mmxM3ruocUK5WfmKTh4+sKyc1pOoZnNixAIqMIGtQd2Vs8ZFEh1
+gv1YxM3rOYEq5NjeHQX77fAar3GzcVmH9iPH15qRE+Xm47IKlUIia9DsypEYEhlDTf7c4Xdc7cls
+nH3iPj7VP0UiY6hJwKo9CorS21eUn61G7jloRtC/kIdK56HSjQi0RD0v+qeZsyVyxAAAAABJRU5E
+rkJggg==
+					</image>
+					/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[2]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="1f53193a-ee6d-4909-86ec-7eaa77540242"
+				name="Duplicate_Job_Button"
+				refimgid="616fe840-57ad-4108-81b7-0518e26fd5b7"
+				robustPath="/form[@name='Root']//button[@automationid='PART_Button']"
+				searchtimeout="30000ms">
+					<image
+					guid="6765e0f3-5d08-45de-91e7-1a3c0170be00"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAACoAAAAkCAYAAAD/yagrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAQ1JREFUWEft0r0KwjAQwPEqfiAturvaTRAd3HTsICKio5uTCIKDIA7i
+K/gIHRwcfAUnBxEcVFx8m5MTupSrTUwaWsnwJy3XhB+hRqlsQxLSUNlpqOz+C3p7PEM7X67Qcnrk
+fhkxQ93dHubLdWBRY5mhiKFmXlHfrDRo1AlDzcYA8p1NaFatS+5nTRiKCGP1Ci09O0GhPSHPYEka
+lJp5ed+IYNVCp0dILe5g1vvkd99SCi1Wmj9jlULx2ao6kB253L+BUiiuWG64/bzz3KxSKBViqT3+
+lECD4tmroSxpKDXTUF/MUCqcxQqKt0mFs1hBv6WhvqRBceUtMz6oh4pEnetPGKoqDZWdhsouIVAb
+3kkFiW7e6+k/AAAAAElFTkSuQmCC
+					</image>
+					/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/form[@automationid='PART_Popup']/button[@automationid='PART_Button']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="b30be814-6ee7-4261-a82d-2ec557124fc9"
+				name="NewJobButton"
+				refimgid="6ca17649-df9f-4d88-b46a-d0bd876e5065"
+				robustPath="/form[@name='Root']//container[@automationid='tabWhitespaceContent']/button[4]"
+				searchtimeout="30000ms">
+					<image
+					guid="c4c473aa-1fdf-4993-a75e-98646eeca4ca"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAACoAAAAkCAYAAAD/yagrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAQ1JREFUWEdj4JdS+T8U8KhDqY1HHUptPLwcev7iZbLxsROn/9u4+mI1
+lxRMtEPnL17+P7+shmRMLccS7VCQpdjkCGFqhSxdHNrY3vN/45YdFDmWLg4F6VXUNqHIsXRzKIht
+bOP6f/KMOf+379r7PzwuFUMtPky3NIqOQSFr6eSNVQ82THOHgvRhw6SaSXOH4sKjDh11KBY5bHjA
+HEoqpqtD2T3r/nMbBmKVI4Tp6lCGihtgx2KTI4RHHYoNjzoUhslxKMhBIIcRg7HpR8c0cygod4Mc
+i4xBjmJJXI0hjk0/Oh5+UU8KxmYGCNPcoaDQJAVjMwOEae5QauEh41BK8KhDqY1HHUptPEQcqvIf
+AIn+qGa4nLzWAAAAAElFTkSuQmCC
+					</image>
+					/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[4]
+				</item>
 			</folder>
 			<folder
 			addcaps="container,wpfelement,wpfgroupelement"
@@ -3799,6 +4058,129 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 			</folder>
 			<basepath>
 				/form[@name='Root' and @title~'Jobs']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJHSURBVDhPY6ANSNqsw5B92IGh6roJQ/19Dqgo
+ESB6sQNDypb3QPyfoezyf4aKGxBcfj0BqgIHiJ/PwRA+u4EhdvlnsOas/QjNEPwbiHcw1N+SgepA
+A2GzChjC5/xnSFj7H2xAwSl0AyC4/NoMqA40ED77AtiAlM0QA0ouYDeg4sZ7oHcUoLqgIHSWAVhz
+5HyIZvwGAMPmxgSoTigInZMBNiBiLtwFjNkH/jMUnf3PWHj6P2Pusf+Mxef/MwI1M1ZcB4qduaUc
+WOFnl9UdxmmfAgyTUGDggQwA4bhVEBckbwLy5/43LVr4v3zx0f/84ZP+M8Sv/M+Yseu/c83K32de
+/vp36f3//5kT100E+n+uJ9wAkCuil/xnjF7837R40f/V5578Byk8+fzn/4k7r/7v234FzAfho4+/
+/kvtWd3PwGMcKcIZMeMNQ9hsiCEwHDbrP39o3//m1SfgmmB41623v3Ui6+cwmMZLMIhqhfJop0ze
+xhg4EagJYQgjCIdM/8/n3/x/0+UXYI1Ap/+fsv3cY8+SadkMWlk8DP//M4KCkVE7tj6ocvHBH/xh
+E/4zADUxhs78zxQ0+b9+9qz/R598hdtcMGPrYTbzZE0Ge3sWcATAgLheDLd6SEVi7vQtF8uWHP5b
+vuTI/+l7rwM1fwNrXHLs9rOY5iVNHJZJ8gz19UxQbaigHighYBglz2QcVxjXvuxIxbydD7ImrT8n
+5lEwmdUy1tAe3VZs4D8D0E/29SzCVkm8PDa5ogzGafxaWqFsOG1lYGAAAMzHeM42ohNUAAAAAElF
+TkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="5bf716dc-196c-48b3-aced-11c1ee324532"
+		isrooted="True"
+		name="ExportJobSetup"
+		refimgid="12149636-17ca-49cc-a4cd-8192081f8b9b"
+		refpath="/form[@title='Export Job Setup']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="checkbox,wpfelement,wpfgroupelement"
+			capname="checkbox"
+			id="4eb361b2-ed02-45c6-a991-cb11fe39bd9c"
+			name="JobSetupAndParameterFiles"
+			refimgid="0319ba2d-b24f-419c-a43d-bdfe26e99040"
+			refpath="/form[@title='Export Job Setup']/indicator/container[@caption='']/container[1]/container/checkbox[@text>'Job Setup and Parameter F']"
+			robustPath="/form[@title='Export Job Setup']//checkbox[@text>'Job Setup and Parameter F']"
+			searchtimeout="30000ms">
+				/form[@title='Export Job Setup']/indicator//checkbox[@text&gt;'Job Setup and Parameter F']
+			</item>
+			<item
+			addcaps="checkbox,wpfelement,wpfgroupelement"
+			capname="checkbox"
+			id="f9e68166-2d12-45f1-a0ae-f8218fb81033"
+			name="DatasetInputFiles"
+			refimgid="71bafbb3-94c3-4987-aef8-0c24ba16ffee"
+			refpath="/form[@title='Export Job Setup']/indicator/container[@caption='']/container[1]/container/checkbox[@text='Dataset Input Files']"
+			robustPath="/form[@title='Export Job Setup']//checkbox[@text='Dataset Input Files']"
+			searchtimeout="30000ms">
+				/form[@title='Export Job Setup']/indicator//checkbox[@text='Dataset Input Files']
+			</item>
+			<item
+			addcaps="checkbox,wpfelement,wpfgroupelement"
+			capname="checkbox"
+			id="d1bb63c2-e863-4a23-84a7-fe2126b3c3a4"
+			name="SaveAsZip"
+			refimgid="0ea463f0-6704-4cea-b6bb-70da228b0281"
+			refpath="/form[@title='Export Job Setup']/indicator/container[@caption='']/container[3]/container/checkbox[@text='Save as .zip']"
+			robustPath="/form[@title='Export Job Setup']//checkbox[@text='Save as .zip']"
+			searchtimeout="30000ms">
+				/form[@title='Export Job Setup']/indicator//checkbox[@text='Save as .zip']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="d738e1b6-14bd-4ee4-b9f8-cce596701568"
+			name="Export"
+			refimgid="603e9ada-01a0-4503-bf61-0a913c9136df"
+			refpath="/form[@title='Export Job Setup']/container[@automationid='Footer']/container[@caption='']/button[@text='Export']"
+			robustPath="/form[@title='Export Job Setup']//button[@text='Export']"
+			searchtimeout="30000ms">
+				/form[@title='Export Job Setup']//button[@text='Export']
+			</item>
+			<basepath>
+				/form[@title='Export Job Setup']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJHSURBVDhPY6ANSNqsw5B92IGh6roJQ/19Dqgo
+ESB6sQNDypb3QPyfoezyf4aKGxBcfj0BqgIHiJ/PwRA+u4EhdvlnsOas/QjNEPwbiHcw1N+SgepA
+A2GzChjC5/xnSFj7H2xAwSl0AyC4/NoMqA40ED77AtiAlM0QA0ouYDeg4sZ7oHcUoLqgIHSWAVhz
+5HyIZvwGAMPmxgSoTigInZMBNiBiLtwFjNkH/jMUnf3PWHj6P2Pusf+Mxef/MwI1M1ZcB4qduaUc
+WOFnl9UdxmmfAgyTUGDggQwA4bhVEBckbwLy5/43LVr4v3zx0f/84ZP+M8Sv/M+Yseu/c83K32de
+/vp36f3//5kT100E+n+uJ9wAkCuil/xnjF7837R40f/V5578Byk8+fzn/4k7r/7v234FzAfho4+/
+/kvtWd3PwGMcKcIZMeMNQ9hsiCEwHDbrP39o3//m1SfgmmB41623v3Ui6+cwmMZLMIhqhfJop0ze
+xhg4EagJYQgjCIdM/8/n3/x/0+UXYI1Ap/+fsv3cY8+SadkMWlk8DP//M4KCkVE7tj6ocvHBH/xh
+E/4zADUxhs78zxQ0+b9+9qz/R598hdtcMGPrYTbzZE0Ge3sWcATAgLheDLd6SEVi7vQtF8uWHP5b
+vuTI/+l7rwM1fwNrXHLs9rOY5iVNHJZJ8gz19UxQbaigHighYBglz2QcVxjXvuxIxbydD7ImrT8n
+5lEwmdUy1tAe3VZs4D8D0E/29SzCVkm8PDa5ogzGafxaWqFsOG1lYGAAAMzHeM42ohNUAAAAAElF
+TkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="b05a8b82-6a59-46c7-a4bd-c30515734519"
+		isrooted="True"
+		name="ExportLogs"
+		refpath="/form[@title='Export Logs']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="checkbox,wpfelement,wpfgroupelement"
+			capname="checkbox"
+			id="2acbbe72-b953-49f0-9192-37dd937cf62b"
+			name="SaveAsZip"
+			refimgid="873e6068-63d7-4c80-806c-b8fd294dcd07"
+			refpath="/form[@title='Export Logs']/container[1]/container/container[2]/container/checkbox[@text='Save as .zip']"
+			robustPath="/form[@title='Export Logs']//checkbox[@text='Save as .zip']"
+			searchtimeout="30000ms">
+				/form[@title='Export Logs']/container[1]//checkbox[@text='Save as .zip']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="28f855d0-b4df-4511-b0e3-c845507ad0f0"
+			name="Export"
+			refimgid="3dda4ca9-4ffd-45bc-80f6-a8e69d93a70f"
+			refpath="/form[@title='Export Logs']/container[@automationid='Footer']/container[@caption='']/button[@text='Export']"
+			robustPath="/form[@title='Export Logs']//button[@text='Export']"
+			searchtimeout="30000ms">
+				/form[@title='Export Logs']//button[@text='Export']
+			</item>
+			<basepath>
+				/form[@title='Export Logs']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
