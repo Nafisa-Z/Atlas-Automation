@@ -93,28 +93,28 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.LoadFromDatabase' at Center.", repo.SkySuiteEasyJetUAT2.LoadFromDatabaseInfo, new RecordItemIndex(4));
-            repo.SkySuiteEasyJetUAT2.LoadFromDatabase.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddDatasetFromDatabase' at Center.", repo.AddDatasetFromDatabase.SelfInfo, new RecordItemIndex(5));
-            repo.AddDatasetFromDatabase.Self.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddDatasetFromDatabase.AnyPeriod' at Center.", repo.AddDatasetFromDatabase.AnyPeriodInfo, new RecordItemIndex(6));
-            repo.AddDatasetFromDatabase.AnyPeriod.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
-            Delay.Duration(1000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddDatasetFromDatabase.LOWFleetSizeV1V1' at Center.", repo.AddDatasetFromDatabase.LOWFleetSizeV1V1Info, new RecordItemIndex(8));
-            repo.AddDatasetFromDatabase.LOWFleetSizeV1V1.DoubleClick();
-            Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.LOWFleetSizeV1V1' at Center.", repo.SkySuiteEasyJetUAT2.LOWFleetSizeV1V1Info, new RecordItemIndex(9));
-            //repo.SkySuiteEasyJetUAT2.LOWFleetSizeV1V1.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.LoadFromDatabase' at Center.", repo.SkySuiteEasyJetUAT2.LoadFromDatabaseInfo, new RecordItemIndex(4));
+            //repo.SkySuiteEasyJetUAT2.LoadFromDatabase.Click();
             //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddDatasetFromDatabase' at Center.", repo.AddDatasetFromDatabase.SelfInfo, new RecordItemIndex(5));
+            //repo.AddDatasetFromDatabase.Self.Click();
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddDatasetFromDatabase.AnyPeriod' at Center.", repo.AddDatasetFromDatabase.AnyPeriodInfo, new RecordItemIndex(6));
+            //repo.AddDatasetFromDatabase.AnyPeriod.Click();
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
+            //Delay.Duration(1000, false);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddDatasetFromDatabase.LOWFleetSizeV1V1' at Center.", repo.AddDatasetFromDatabase.LOWFleetSizeV1V1Info, new RecordItemIndex(8));
+            //repo.AddDatasetFromDatabase.LOWFleetSizeV1V1.DoubleClick();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.FleetSize1AS23TC09020524' at Center.", repo.SkySuiteEasyJetUAT2.FleetSize1AS23TC09020524Info, new RecordItemIndex(9));
+            repo.SkySuiteEasyJetUAT2.FleetSize1AS23TC09020524.Click();
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(10));
             Delay.Duration(1000, false);

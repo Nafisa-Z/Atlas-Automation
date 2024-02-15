@@ -93,14 +93,18 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.PEAKRONBalanceV1' at 43;7.", repo.SkySuiteEasyJetUAT2.PEAKRONBalanceV1Info, new RecordItemIndex(4));
-            repo.SkySuiteEasyJetUAT2.PEAKRONBalanceV1.Click("43;7");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.PEAKRONBalanceV1' at 43;7.", repo.SkySuiteEasyJetUAT2.PEAKRONBalanceV1Info, new RecordItemIndex(4));
+            //repo.SkySuiteEasyJetUAT2.PEAKRONBalanceV1.Click("43;7");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.RONBalance1AS23TC08020524' at Center.", repo.SkySuiteEasyJetUAT2.RONBalance1AS23TC08020524Info, new RecordItemIndex(5));
+            repo.SkySuiteEasyJetUAT2.RONBalance1AS23TC08020524.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(6));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_05.Airport_Expand' at 17;23.", repo.JobWindow.TC_05.Airport_ExpandInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_05.Airport_Expand' at 17;23.", repo.JobWindow.TC_05.Airport_ExpandInfo, new RecordItemIndex(7));
             repo.JobWindow.TC_05.Airport_Expand.Click("17;23");
             Delay.Milliseconds(0);
             

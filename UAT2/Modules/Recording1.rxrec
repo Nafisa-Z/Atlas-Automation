@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="43256216-d3ca-4a74-926a-97e3330c149d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="UAT2.Modules">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="64fc02e8-9723-4209-8d63-a4e19b62cc9f"
+	name="UAT2Repository"
+	relativepath="..\UAT2Repository.rxrep">
+		<codegen
+		classname="UAT2Repository"
+		namespace="UAT2">
+		</codegen>
+		<rootfolder
+		id="9505266f-6035-48d9-adbe-ca340c1d2ea7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

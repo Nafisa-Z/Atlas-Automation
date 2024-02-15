@@ -93,18 +93,22 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.LOWRONBalanceV2V1' at 98;17.", repo.SkySuiteEasyJetUAT2.LOWRONBalanceV2V1Info, new RecordItemIndex(4));
-            repo.SkySuiteEasyJetUAT2.LOWRONBalanceV2V1.Click("98;17");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.LOWRONBalanceV2V1' at 98;17.", repo.SkySuiteEasyJetUAT2.LOWRONBalanceV2V1Info, new RecordItemIndex(4));
+            //repo.SkySuiteEasyJetUAT2.LOWRONBalanceV2V1.Click("98;17");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.RONBalance1AS23TC09020524' at Center.", repo.SkySuiteEasyJetUAT2.RONBalance1AS23TC09020524Info, new RecordItemIndex(5));
+            repo.SkySuiteEasyJetUAT2.RONBalance1AS23TC09020524.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(6));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_06.Airport_Expand' at 18;23.", repo.JobWindow.TC_06.Airport_ExpandInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_06.Airport_Expand' at 18;23.", repo.JobWindow.TC_06.Airport_ExpandInfo, new RecordItemIndex(7));
             repo.JobWindow.TC_06.Airport_Expand.Click("18;23");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(8));
             Delay.Duration(1000, false);
             
         }

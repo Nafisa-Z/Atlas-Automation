@@ -30,6 +30,7 @@ namespace UAT2
         UAT2RepositoryFolders.SkySuiteAppFolder _skysuite;
         UAT2RepositoryFolders.ExportScheduleAppFolder _exportschedule;
         UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder _skysuiteeasyjetuat2;
+        UAT2RepositoryFolders.JobWindowAppFolder _jobwindow;
 
         /// <summary>
         /// Gets the singleton class instance representing the UAT2Repository element repository.
@@ -49,6 +50,7 @@ namespace UAT2
             _skysuite = new UAT2RepositoryFolders.SkySuiteAppFolder(this);
             _exportschedule = new UAT2RepositoryFolders.ExportScheduleAppFolder(this);
             _skysuiteeasyjetuat2 = new UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder(this);
+            _jobwindow = new UAT2RepositoryFolders.JobWindowAppFolder(this);
         }
 
 #region Variables
@@ -92,6 +94,15 @@ namespace UAT2
         public virtual UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder SkySuiteEasyJetUAT2
         {
             get { return _skysuiteeasyjetuat2; }
+        }
+
+        /// <summary>
+        /// The JobWindow folder.
+        /// </summary>
+        [RepositoryFolder("b98a70ba-2c3b-491e-96af-a80fd0669a29")]
+        public virtual UAT2RepositoryFolders.JobWindowAppFolder JobWindow
+        {
+            get { return _jobwindow; }
         }
     }
 
@@ -347,6 +358,523 @@ namespace UAT2
                 get
                 {
                     return _notification_itemInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The JobWindowAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("b98a70ba-2c3b-491e-96af-a80fd0669a29")]
+        public partial class JobWindowAppFolder : RepoGenBaseFolder
+        {
+            UAT2RepositoryFolders.Report_TabFolder _report_tab;
+            RepoItemInfo _close_windowInfo;
+            RepoItemInfo _flight_expandInfo;
+            RepoItemInfo _flight_countInfo;
+            RepoItemInfo _flight_count_rowInfo;
+            RepoItemInfo _traffic_expandInfo;
+            RepoItemInfo _trafficInfo;
+            RepoItemInfo _traffic_rowInfo;
+
+            /// <summary>
+            /// Creates a new JobWindow  folder.
+            /// </summary>
+            public JobWindowAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("JobWindow", "/form[@name='Root' and @title~'Jobs']", parentFolder, 30000, null, false, "b98a70ba-2c3b-491e-96af-a80fd0669a29", "")
+            {
+                _report_tab = new UAT2RepositoryFolders.Report_TabFolder(this);
+                _close_windowInfo = new RepoItemInfo(this, "Close_Window", "?/?/button[@automationid='PART_CloseButton']", "?/button[@automationid='PART_CloseButton']", 30000, null, "2a8d4ac5-bacf-459f-bb54-13a533c31e5b");
+                _flight_expandInfo = new RepoItemInfo(this, "Flight_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", 30000, null, "2858bf1c-9213-470a-b604-f7d635297ba5");
+                _flight_countInfo = new RepoItemInfo(this, "Flight_Count", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "c93729ed-9097-46ce-b88d-11e69bb1b49c");
+                _flight_count_rowInfo = new RepoItemInfo(this, "Flight_Count_Row", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "66ebd1ec-e6b9-4a8d-8189-d6ec8bcbabec");
+                _traffic_expandInfo = new RepoItemInfo(this, "Traffic_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']", 30000, null, "7f985451-94c0-4c52-94d5-a3dca45fca2b");
+                _trafficInfo = new RepoItemInfo(this, "Traffic", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']", 30000, null, "3c6e75db-1a88-4516-a6b9-746500eaf85b");
+                _traffic_rowInfo = new RepoItemInfo(this, "Traffic_Row", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']", 30000, null, "68dfaadb-9655-446e-ad38-414cbcbb9449");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("b98a70ba-2c3b-491e-96af-a80fd0669a29")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("b98a70ba-2c3b-491e-96af-a80fd0669a29")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close_Window item.
+            /// </summary>
+            [RepositoryItem("2a8d4ac5-bacf-459f-bb54-13a533c31e5b")]
+            public virtual Ranorex.Button Close_Window
+            {
+                get
+                {
+                    return _close_windowInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close_Window item info.
+            /// </summary>
+            [RepositoryItemInfo("2a8d4ac5-bacf-459f-bb54-13a533c31e5b")]
+            public virtual RepoItemInfo Close_WindowInfo
+            {
+                get
+                {
+                    return _close_windowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Expand item.
+            /// </summary>
+            [RepositoryItem("2858bf1c-9213-470a-b604-f7d635297ba5")]
+            public virtual Ranorex.Button Flight_Expand
+            {
+                get
+                {
+                    return _flight_expandInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Expand item info.
+            /// </summary>
+            [RepositoryItemInfo("2858bf1c-9213-470a-b604-f7d635297ba5")]
+            public virtual RepoItemInfo Flight_ExpandInfo
+            {
+                get
+                {
+                    return _flight_expandInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Count item.
+            /// </summary>
+            [RepositoryItem("c93729ed-9097-46ce-b88d-11e69bb1b49c")]
+            public virtual Ranorex.Text Flight_Count
+            {
+                get
+                {
+                    return _flight_countInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Count item info.
+            /// </summary>
+            [RepositoryItemInfo("c93729ed-9097-46ce-b88d-11e69bb1b49c")]
+            public virtual RepoItemInfo Flight_CountInfo
+            {
+                get
+                {
+                    return _flight_countInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Count_Row item.
+            /// </summary>
+            [RepositoryItem("66ebd1ec-e6b9-4a8d-8189-d6ec8bcbabec")]
+            public virtual Ranorex.Row Flight_Count_Row
+            {
+                get
+                {
+                    return _flight_count_rowInfo.CreateAdapter<Ranorex.Row>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Count_Row item info.
+            /// </summary>
+            [RepositoryItemInfo("66ebd1ec-e6b9-4a8d-8189-d6ec8bcbabec")]
+            public virtual RepoItemInfo Flight_Count_RowInfo
+            {
+                get
+                {
+                    return _flight_count_rowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Traffic_Expand item.
+            /// </summary>
+            [RepositoryItem("7f985451-94c0-4c52-94d5-a3dca45fca2b")]
+            public virtual Ranorex.Button Traffic_Expand
+            {
+                get
+                {
+                    return _traffic_expandInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Traffic_Expand item info.
+            /// </summary>
+            [RepositoryItemInfo("7f985451-94c0-4c52-94d5-a3dca45fca2b")]
+            public virtual RepoItemInfo Traffic_ExpandInfo
+            {
+                get
+                {
+                    return _traffic_expandInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Traffic item.
+            /// </summary>
+            [RepositoryItem("3c6e75db-1a88-4516-a6b9-746500eaf85b")]
+            public virtual Ranorex.Text Traffic
+            {
+                get
+                {
+                    return _trafficInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Traffic item info.
+            /// </summary>
+            [RepositoryItemInfo("3c6e75db-1a88-4516-a6b9-746500eaf85b")]
+            public virtual RepoItemInfo TrafficInfo
+            {
+                get
+                {
+                    return _trafficInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Traffic_Row item.
+            /// </summary>
+            [RepositoryItem("68dfaadb-9655-446e-ad38-414cbcbb9449")]
+            public virtual Ranorex.Row Traffic_Row
+            {
+                get
+                {
+                    return _traffic_rowInfo.CreateAdapter<Ranorex.Row>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Traffic_Row item info.
+            /// </summary>
+            [RepositoryItemInfo("68dfaadb-9655-446e-ad38-414cbcbb9449")]
+            public virtual RepoItemInfo Traffic_RowInfo
+            {
+                get
+                {
+                    return _traffic_rowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Report_Tab folder.
+            /// </summary>
+            [RepositoryFolder("b334a0cc-dfa8-441b-aaba-09b6b6f8f9ac")]
+            public virtual UAT2RepositoryFolders.Report_TabFolder Report_Tab
+            {
+                get { return _report_tab; }
+            }
+        }
+
+        /// <summary>
+        /// The Report_TabFolder folder.
+        /// </summary>
+        [RepositoryFolder("b334a0cc-dfa8-441b-aaba-09b6b6f8f9ac")]
+        public partial class Report_TabFolder : RepoGenBaseFolder
+        {
+            UAT2RepositoryFolders.Forcast_Report_MetricsFolder _forcast_report_metrics;
+            Report_PageInfoClass _report_pageInfo;
+
+            /// <summary>
+            /// Creates a new Report_Tab  folder.
+            /// </summary>
+            public Report_TabFolder(RepoGenBaseFolder parentFolder) :
+                    base("Report_Tab", "", parentFolder, 0, null, false, "b334a0cc-dfa8-441b-aaba-09b6b6f8f9ac", "")
+            {
+                _forcast_report_metrics = new UAT2RepositoryFolders.Forcast_Report_MetricsFolder(this);
+                _report_pageInfo = new Report_PageInfoClass(this);
+            }
+
+            /// <summary>
+            /// The Report_PageInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("f0ab2441-6923-4bdc-8cc1-11748a3f59dc")]
+            public class Report_PageInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Report_PageInfoClass class constructor.
+                /// </summary>
+                public Report_PageInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Report_Page", "indicator", 30000, null, "f0ab2441-6923-4bdc-8cc1-11748a3f59dc")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("2f301309-82e4-4cd9-8d9a-3b169438dc59")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("2f301309-82e4-4cd9-8d9a-3b169438dc59");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("2f301309-82e4-4cd9-8d9a-3b169438dc59")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("2f301309-82e4-4cd9-8d9a-3b169438dc59", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("b334a0cc-dfa8-441b-aaba-09b6b6f8f9ac")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Report_Page item.
+            /// </summary>
+            [RepositoryItem("f0ab2441-6923-4bdc-8cc1-11748a3f59dc")]
+            public virtual Ranorex.Indicator Report_Page
+            {
+                get
+                {
+                    return _report_pageInfo.CreateAdapter<Ranorex.Indicator>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Report_Page item info.
+            /// </summary>
+            [RepositoryItemInfo("f0ab2441-6923-4bdc-8cc1-11748a3f59dc")]
+            public virtual Report_PageInfoClass Report_PageInfo
+            {
+                get
+                {
+                    return _report_pageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Forcast_Report_Metrics folder.
+            /// </summary>
+            [RepositoryFolder("2c210d6e-df41-4da5-a313-313c430542e8")]
+            public virtual UAT2RepositoryFolders.Forcast_Report_MetricsFolder Forcast_Report_Metrics
+            {
+                get { return _forcast_report_metrics; }
+            }
+        }
+
+        /// <summary>
+        /// The Forcast_Report_MetricsFolder folder.
+        /// </summary>
+        [RepositoryFolder("2c210d6e-df41-4da5-a313-313c430542e8")]
+        public partial class Forcast_Report_MetricsFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _flight_expandInfo;
+            RepoItemInfo _flight_countInfo;
+            RepoItemInfo _flight_count_rowInfo;
+            RepoItemInfo _traffic_expandInfo;
+            RepoItemInfo _trafficInfo;
+            RepoItemInfo _traffic_rowInfo;
+
+            /// <summary>
+            /// Creates a new Forcast_Report_Metrics  folder.
+            /// </summary>
+            public Forcast_Report_MetricsFolder(RepoGenBaseFolder parentFolder) :
+                    base("Forcast_Report_Metrics", "", parentFolder, 0, null, false, "2c210d6e-df41-4da5-a313-313c430542e8", "")
+            {
+                _flight_expandInfo = new RepoItemInfo(this, "Flight_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", 30000, null, "50aa56f5-81d8-4733-a1b1-fc51337452c2");
+                _flight_countInfo = new RepoItemInfo(this, "Flight_Count", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "aa903007-9de8-40c9-bd39-5f2d4a652564");
+                _flight_count_rowInfo = new RepoItemInfo(this, "Flight_Count_Row", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "68ba51de-8dd2-415e-8e89-fbe67f5829ed");
+                _traffic_expandInfo = new RepoItemInfo(this, "Traffic_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']", 30000, null, "65775857-ccb3-4b70-b4c3-c0cc934e7c5e");
+                _trafficInfo = new RepoItemInfo(this, "Traffic", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']", 30000, null, "5562087c-d33a-4ed5-881d-91bd56674141");
+                _traffic_rowInfo = new RepoItemInfo(this, "Traffic_Row", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']", 30000, null, "8679fa66-be59-4b7d-a386-0ee1ea0df06e");
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("2c210d6e-df41-4da5-a313-313c430542e8")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Expand item.
+            /// </summary>
+            [RepositoryItem("50aa56f5-81d8-4733-a1b1-fc51337452c2")]
+            public virtual Ranorex.Button Flight_Expand
+            {
+                get
+                {
+                    return _flight_expandInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Expand item info.
+            /// </summary>
+            [RepositoryItemInfo("50aa56f5-81d8-4733-a1b1-fc51337452c2")]
+            public virtual RepoItemInfo Flight_ExpandInfo
+            {
+                get
+                {
+                    return _flight_expandInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Count item.
+            /// </summary>
+            [RepositoryItem("aa903007-9de8-40c9-bd39-5f2d4a652564")]
+            public virtual Ranorex.Text Flight_Count
+            {
+                get
+                {
+                    return _flight_countInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Count item info.
+            /// </summary>
+            [RepositoryItemInfo("aa903007-9de8-40c9-bd39-5f2d4a652564")]
+            public virtual RepoItemInfo Flight_CountInfo
+            {
+                get
+                {
+                    return _flight_countInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Count_Row item.
+            /// </summary>
+            [RepositoryItem("68ba51de-8dd2-415e-8e89-fbe67f5829ed")]
+            public virtual Ranorex.Row Flight_Count_Row
+            {
+                get
+                {
+                    return _flight_count_rowInfo.CreateAdapter<Ranorex.Row>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Count_Row item info.
+            /// </summary>
+            [RepositoryItemInfo("68ba51de-8dd2-415e-8e89-fbe67f5829ed")]
+            public virtual RepoItemInfo Flight_Count_RowInfo
+            {
+                get
+                {
+                    return _flight_count_rowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Traffic_Expand item.
+            /// </summary>
+            [RepositoryItem("65775857-ccb3-4b70-b4c3-c0cc934e7c5e")]
+            public virtual Ranorex.Button Traffic_Expand
+            {
+                get
+                {
+                    return _traffic_expandInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Traffic_Expand item info.
+            /// </summary>
+            [RepositoryItemInfo("65775857-ccb3-4b70-b4c3-c0cc934e7c5e")]
+            public virtual RepoItemInfo Traffic_ExpandInfo
+            {
+                get
+                {
+                    return _traffic_expandInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Traffic item.
+            /// </summary>
+            [RepositoryItem("5562087c-d33a-4ed5-881d-91bd56674141")]
+            public virtual Ranorex.Text Traffic
+            {
+                get
+                {
+                    return _trafficInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Traffic item info.
+            /// </summary>
+            [RepositoryItemInfo("5562087c-d33a-4ed5-881d-91bd56674141")]
+            public virtual RepoItemInfo TrafficInfo
+            {
+                get
+                {
+                    return _trafficInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Traffic_Row item.
+            /// </summary>
+            [RepositoryItem("8679fa66-be59-4b7d-a386-0ee1ea0df06e")]
+            public virtual Ranorex.Row Traffic_Row
+            {
+                get
+                {
+                    return _traffic_rowInfo.CreateAdapter<Ranorex.Row>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Traffic_Row item info.
+            /// </summary>
+            [RepositoryItemInfo("8679fa66-be59-4b7d-a386-0ee1ea0df06e")]
+            public virtual RepoItemInfo Traffic_RowInfo
+            {
+                get
+                {
+                    return _traffic_rowInfo;
                 }
             }
         }

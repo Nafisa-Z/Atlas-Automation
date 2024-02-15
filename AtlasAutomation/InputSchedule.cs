@@ -106,51 +106,59 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(3));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContextMenu.S23AmadeusSampleNew' at 45;12.", repo.ContextMenu.S23AmadeusSampleNewInfo, new RecordItemIndex(4));
-            repo.ContextMenu.S23AmadeusSampleNew.Click("45;12");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContextMenu.S23AmadeusSampleNew' at 45;12.", repo.ContextMenu.S23AmadeusSampleNewInfo, new RecordItemIndex(4));
+            //repo.ContextMenu.S23AmadeusSampleNew.Click("45;12");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.EasyJET1AS23Base0205241' at Center.", repo.SkySuiteEasyJetUAT2.EasyJET1AS23Base0205241Info, new RecordItemIndex(5));
+            repo.SkySuiteEasyJetUAT2.EasyJET1AS23Base0205241.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(6));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.OA_Dates' at 58;12.", repo.JobWindow.TC_01.OA_DatesInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.OA_Dates' at 58;12.", repo.JobWindow.TC_01.OA_DatesInfo, new RecordItemIndex(7));
             repo.JobWindow.TC_01.OA_Dates.Click("58;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesMed' with focus on 'JobWindow.TC_01.OA_Dates'.", repo.JobWindow.TC_01.OA_DatesInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesMed' with focus on 'JobWindow.TC_01.OA_Dates'.", repo.JobWindow.TC_01.OA_DatesInfo, new RecordItemIndex(8));
             repo.JobWindow.TC_01.OA_Dates.PressKeys(datesMed);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Replacement_Toggle' at 7;14.", repo.JobWindow.TC_01.Replacement_ToggleInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Replacement_Toggle' at 7;14.", repo.JobWindow.TC_01.Replacement_ToggleInfo, new RecordItemIndex(9));
             repo.JobWindow.TC_01.Replacement_Toggle.Click("7;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(10));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContextMenu.S23AmadeusSampleNew' at 66;13.", repo.ContextMenu.S23AmadeusSampleNewInfo, new RecordItemIndex(10));
-            repo.ContextMenu.S23AmadeusSampleNew.Click("66;13");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContextMenu.S23AmadeusSampleNew' at 66;13.", repo.ContextMenu.S23AmadeusSampleNewInfo, new RecordItemIndex(11));
+            //repo.ContextMenu.S23AmadeusSampleNew.Click("66;13");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.EasyJET1AS23Base0205241' at Center.", repo.SkySuiteEasyJetUAT2.EasyJET1AS23Base0205241Info, new RecordItemIndex(12));
+            repo.SkySuiteEasyJetUAT2.EasyJET1AS23Base0205241.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(13));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Replacement_Dates' at 19;11.", repo.JobWindow.TC_01.Replacement_DatesInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_01.Replacement_Dates' at 19;11.", repo.JobWindow.TC_01.Replacement_DatesInfo, new RecordItemIndex(14));
             repo.JobWindow.TC_01.Replacement_Dates.Click("19;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesMed' with focus on 'JobWindow.TC_01.Replacement_Dates'.", repo.JobWindow.TC_01.Replacement_DatesInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$datesMed' with focus on 'JobWindow.TC_01.Replacement_Dates'.", repo.JobWindow.TC_01.Replacement_DatesInfo, new RecordItemIndex(15));
             repo.JobWindow.TC_01.Replacement_Dates.PressKeys(datesMed);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(16));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Job_Inputs.Schedule_Expand' at 21;17.", repo.JobWindow.Job_Inputs.Schedule_ExpandInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.Job_Inputs.Schedule_Expand' at 21;17.", repo.JobWindow.Job_Inputs.Schedule_ExpandInfo, new RecordItemIndex(17));
             repo.JobWindow.Job_Inputs.Schedule_Expand.Click("21;17");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(18));
             Delay.Duration(1000, false);
             
         }

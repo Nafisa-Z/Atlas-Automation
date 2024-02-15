@@ -93,25 +93,33 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(3));
             Delay.Duration(100, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.S23MASTEROptimizationParametersPreUA' at 218;19.", repo.SkySuiteEasyJetUAT2.S23MASTEROptimizationParametersPreUAInfo, new RecordItemIndex(4));
-            repo.SkySuiteEasyJetUAT2.S23MASTEROptimizationParametersPreUA.Click("218;19");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.S23MASTEROptimizationParametersPreUA' at 218;19.", repo.SkySuiteEasyJetUAT2.S23MASTEROptimizationParametersPreUAInfo, new RecordItemIndex(4));
+            //repo.SkySuiteEasyJetUAT2.S23MASTEROptimizationParametersPreUA.Click("218;19");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.OptimizationParameters1AS23Base0205' at Center.", repo.SkySuiteEasyJetUAT2.OptimizationParameters1AS23Base0205Info, new RecordItemIndex(5));
+            repo.SkySuiteEasyJetUAT2.OptimizationParameters1AS23Base0205.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(6));
             Delay.Duration(100, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_04.Optimisation_Configuration' at Center.", repo.JobWindow.TC_04.Optimisation_ConfigurationInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_04.Optimisation_Configuration' at Center.", repo.JobWindow.TC_04.Optimisation_ConfigurationInfo, new RecordItemIndex(7));
             repo.JobWindow.TC_04.Optimisation_Configuration.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(8));
             Delay.Duration(100, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.S23MASTERClientConfigPreUATV2' at Center.", repo.SkySuiteEasyJetUAT2.S23MASTERClientConfigPreUATV2Info, new RecordItemIndex(8));
-            repo.SkySuiteEasyJetUAT2.S23MASTERClientConfigPreUATV2.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.S23MASTERClientConfigPreUATV2' at Center.", repo.SkySuiteEasyJetUAT2.S23MASTERClientConfigPreUATV2Info, new RecordItemIndex(9));
+            //repo.SkySuiteEasyJetUAT2.S23MASTERClientConfigPreUATV2.Click();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.ClientConfig1AS23Base020524' at Center.", repo.SkySuiteEasyJetUAT2.ClientConfig1AS23Base020524Info, new RecordItemIndex(10));
+            repo.SkySuiteEasyJetUAT2.ClientConfig1AS23Base020524.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(11));
             Delay.Duration(100, false);
             
         }

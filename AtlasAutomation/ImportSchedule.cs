@@ -154,11 +154,14 @@ namespace AtlasAutomation
             repo.ImportSchedule.Self.Click("949;30");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ImportSchedule.ImportScheduleFormImportButton' at 11;17.", repo.ImportSchedule.ImportScheduleFormImportButtonInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(17));
+            Delay.Duration(300, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ImportSchedule.ImportScheduleFormImportButton' at 11;17.", repo.ImportSchedule.ImportScheduleFormImportButtonInfo, new RecordItemIndex(18));
             repo.ImportSchedule.ImportScheduleFormImportButton.Click("11;17");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(19));
             Delay.Duration(10000, false);
             
         }

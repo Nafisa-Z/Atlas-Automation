@@ -252,14 +252,6 @@
 			name="SelectNewScenario"
 			ref="a1128dc6-7cc6-4dfd-b6d1-11f75bdc2c1b"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="workspaceName"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="3013f374-57e1-4896-b74b-5663b612e152"
-					variablename="workspaceName">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Workspace_Name"
@@ -268,6 +260,14 @@
 					variablename="Workspace_Name">
 					</var>
 				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="workspaceName"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="3013f374-57e1-4896-b74b-5663b612e152"
+					variablename="workspaceName">
+					</var>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="451b4125-4e6b-48cf-88f0-857316a8c277"
@@ -280,28 +280,6 @@
 			name="ExportJobSetup"
 			ref="af0eb9fd-654e-4dcd-a51c-9e130bbc685d"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="5401f2e6-a92e-4440-b441-bbf30c48327c"
-			name="ValidateReportMetricsIndustry"
-			ref="26b7cc31-aaef-46b1-8099-dd5bc2daea79"
-			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="JbWindow_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
-					</var>
-				</missingdatabinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="Jb1Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
-					</var>
-				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="578059fb-ae03-47a4-a93b-c4272b5d7385"
@@ -699,14 +677,6 @@
 			name="SelectNewScenario"
 			ref="a1128dc6-7cc6-4dfd-b6d1-11f75bdc2c1b"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="workspaceName"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="3013f374-57e1-4896-b74b-5663b612e152"
-					variablename="workspaceName">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Workspace_Name"
@@ -715,6 +685,14 @@
 					variablename="Workspace_Name">
 					</var>
 				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="workspaceName"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="3013f374-57e1-4896-b74b-5663b612e152"
+					variablename="workspaceName">
+					</var>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="b9f82d0b-6ad4-40f4-867b-8ffd684879e5"
@@ -816,6 +794,12 @@
 			id="d90f5f8f-9cb7-4879-a12f-f4267e96bb98"
 			name="Login">
 			</testcase>
+			<testmodule
+			id="d9f4bb35-5d88-4ed5-addf-88cbf692fafa"
+			name="IndustryMedReportValidationUAT2"
+			ref="abf64066-9d5f-457c-b8dd-517dd95c3fd2"
+			type="Recording">
+			</testmodule>
 			<testcase
 			datasource="JobCreationData"
 			id="e681bd88-23b3-47cb-97f6-f5b50c881c1c"
@@ -1082,8 +1066,8 @@
 						name="ValidateReportGenerated">
 						</testmodule>
 						<testmodule
-						id="5401f2e6-a92e-4440-b441-bbf30c48327c"
-						name="ValidateReportMetricsIndustry">
+						id="d9f4bb35-5d88-4ed5-addf-88cbf692fafa"
+						name="IndustryMedReportValidationUAT2">
 						</testmodule>
 					</testcase>
 					<testcase

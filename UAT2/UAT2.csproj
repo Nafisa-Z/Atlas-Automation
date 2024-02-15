@@ -144,6 +144,18 @@
       <UserCode>true</UserCode>
       <id>23d7c0dc-d7ac-491a-83a5-b2fb3ac3e07b</id>
     </Compile>
+    <Compile Include="Modules\CLickSceduleTab.cs">
+      <BoundTo>8c05d2e5-f14e-4a77-be13-f8e3b834c3ca</BoundTo>
+      <DependentUpon>CLickSceduleTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5acc93e2-8fcc-467a-8256-7aa0427f9847</id>
+    </Compile>
+    <Compile Include="Modules\CLickSceduleTab.UserCode.cs">
+      <BoundTo>8c05d2e5-f14e-4a77-be13-f8e3b834c3ca</BoundTo>
+      <DependentUpon>CLickSceduleTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aee3ef90-4f94-4f52-8ade-9d2584a3f3fb</id>
+    </Compile>
     <Compile Include="Modules\ExportSchedule.cs">
       <BoundTo>15108f37-a291-40de-9254-75828f084202</BoundTo>
       <DependentUpon>ExportSchedule.rxrec</DependentUpon>
@@ -156,6 +168,18 @@
       <UserCode>true</UserCode>
       <id>c02edb73-757c-4650-9737-758b132a7df5</id>
     </Compile>
+    <Compile Include="Modules\IndustryMedReportValidationUAT2.cs">
+      <BoundTo>62082c1f-0588-4f5c-a9a6-dbc3b82a6228</BoundTo>
+      <DependentUpon>IndustryMedReportValidationUAT2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b97f5357-547d-4ba0-aea7-ebb77589ff11</id>
+    </Compile>
+    <Compile Include="Modules\IndustryMedReportValidationUAT2.UserCode.cs">
+      <BoundTo>62082c1f-0588-4f5c-a9a6-dbc3b82a6228</BoundTo>
+      <DependentUpon>IndustryMedReportValidationUAT2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9480fc2f-468b-418a-98f0-a76bacd4b79b</id>
+    </Compile>
     <Compile Include="Modules\Login.cs">
       <BoundTo>b09592d9-53c9-48bb-99d5-b4bc43c9e611</BoundTo>
       <DependentUpon>Login.rxrec</DependentUpon>
@@ -167,6 +191,18 @@
       <DependentUpon>Login.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>40d240e7-2223-493d-8790-7dcd05361010</id>
+    </Compile>
+    <Compile Include="Modules\Recording1.cs">
+      <BoundTo>dd4c8d15-e9e2-4755-b878-bd0e85e30ea4</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>61427085-0bac-45e4-b43b-a2a865c460c1</id>
+    </Compile>
+    <Compile Include="Modules\Recording1.UserCode.cs">
+      <BoundTo>dd4c8d15-e9e2-4755-b878-bd0e85e30ea4</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b02d0299-bcf9-4440-8c2e-6a055cc2eec8</id>
     </Compile>
     <Compile Include="Modules\SearchSkySuiteApp.cs">
       <BoundTo>932e3c79-afac-41a8-b753-9861311b3663</BoundTo>
@@ -224,15 +260,30 @@
       <BoundTo>b511bfd3-5a73-42be-b076-97ce440546e4</BoundTo>
       <recordtableid>0ddd72ec-3d91-4f2f-a45a-060cf5bcfe06</recordtableid>
     </None>
+    <None Include="Modules\CLickSceduleTab.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>8c05d2e5-f14e-4a77-be13-f8e3b834c3ca</id>
+      <recordtableid>78ae0ead-741a-4515-ad0e-b5c5cb4e72d9</recordtableid>
+    </None>
     <None Include="Modules\ExportSchedule.rxrec">
       <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
       <id>15108f37-a291-40de-9254-75828f084202</id>
       <recordtableid>0e0848a0-3ef0-4a2a-ad96-3159fbd83efa</recordtableid>
     </None>
+    <None Include="Modules\IndustryMedReportValidationUAT2.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>62082c1f-0588-4f5c-a9a6-dbc3b82a6228</id>
+      <recordtableid>abf64066-9d5f-457c-b8dd-517dd95c3fd2</recordtableid>
+    </None>
     <None Include="Modules\Login.rxrec">
       <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
       <id>b09592d9-53c9-48bb-99d5-b4bc43c9e611</id>
       <recordtableid>9ca68fc5-322d-43a3-bd19-76700a8b792b</recordtableid>
+    </None>
+    <None Include="Modules\Recording1.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>dd4c8d15-e9e2-4755-b878-bd0e85e30ea4</id>
+      <recordtableid>43256216-d3ca-4a74-926a-97e3330c149d</recordtableid>
     </None>
     <None Include="Modules\SearchSkySuiteApp.rxrec">
       <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>

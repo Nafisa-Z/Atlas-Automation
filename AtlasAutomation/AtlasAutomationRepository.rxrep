@@ -141,7 +141,7 @@ name="AtlasAutomationRepository">
 			refimgid="d27a75ba-1d3a-4348-af48-690ee164370a"
 			robustPath=""
 			searchtimeout="30000ms">
-				/form[@name='Root']//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]
+				/form[@name='Root']//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/cell[1]
 			</item>
 			<item
 			addcaps="cell,wpfelement,wpfgroupelement"
@@ -172,7 +172,7 @@ name="AtlasAutomationRepository">
 			refimgid="1aeedee4-fef6-4b59-9bc5-2bc3cfa7335d"
 			robustPath=""
 			searchtimeout="30000ms">
-				/form[@name='Root']//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']//row[1]//button[@automationid='PART_ExpandButton']
+				/form[@name='Root']//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']
 			</item>
 			<item
 			addcaps="button,wpfelement,wpfgroupelement"
@@ -180,9 +180,9 @@ name="AtlasAutomationRepository">
 			id="335d5545-795a-4455-bcf6-6e63c62ca53e"
 			name="industryJobs"
 			refimgid="1aeedee4-fef6-4b59-9bc5-2bc3cfa7335d"
-			robustPath="/form[@name='Root']//table[@automationid='scenarioTreeListView']"
+			robustPath=""
 			searchtimeout="30000ms">
-				/form[@name='Root']/tabpagelist/?/?/tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/row[1]/button[@automationid='PART_ExpandButton']
+				/form[@name='Root']//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']
 			</item>
 			<item
 			addcaps="treeitem,wpfelement,wpfgroupelement"
@@ -227,6 +227,83 @@ name="AtlasAutomationRepository">
 			searchtimeout="30000ms">
 				/form[@name='Root']//toolbar[@automationid='ScenariosTabToolbar']/container/button[@automationid='PART_Toggle']
 			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="d1b4cf22-ae0b-4126-9250-e64f65a89688"
+			name="ScenariosTabToolbarNewScenarioButton"
+			refimgid="a6b754b6-1ed2-4ae7-a442-137ef04bc2cb"
+			refpath="/form[@name='Root']/tabpagelist/indicator[1]/tabpagelist/toolbar/button[@automationid='ScenariosTabToolbar_NewScenarioButton']"
+			robustPath="/form[@name='Root']//button[@automationid='ScenariosTabToolbar_NewScenarioButton']"
+			searchtimeout="30000ms">
+				/form[@name='Root']//toolbar[@automationid='ScenariosTabToolbar']/button[@automationid='ScenariosTabToolbar_NewScenarioButton']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="7f828f7f-5095-4375-86d9-e8f58217c778"
+			name="TextScenarios"
+			refimgid="f5475565-e9d5-496a-ad0f-a2086bb04d62"
+			refpath="/form[@name='Root']/tabpagelist/indicator[1]/tabpagelist/container[@automationid='HeaderPanel']/tabpage[@title='_Scenarios']/text[@caption='_Scenarios']"
+			robustPath="/form[@name='Root']//text[@caption='_Scenarios']"
+			searchtimeout="30000ms">
+				/form[@name='Root']//tabpagelist[@automationid='workbenchTabControl']//text[@caption='_Scenarios']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="988f187c-de04-403b-a3fb-99f280bcf81c"
+			name="PARTExpandButton"
+			refimgid="f99990f0-e0c7-4747-848b-9df761b1a930"
+			refpath="/form[@name='Root']/tabpagelist/indicator[1]/tabpagelist[@automationid='workbenchTabControl']/indicator[1]/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']"
+			robustPath="/form[@name='Root']//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']"
+			searchtimeout="30000ms">
+				/form[@name='Root']//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']
+			</item>
+			<folder
+			capname="container"
+			id="94886bf5-f68b-4cd4-b866-477c0455346b"
+			isrooted="True"
+			name="SomeContainer"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="35a4fe8c-eb08-40fa-8d67-daa9939364a9"
+				name="ToggleButton"
+				refimgid="03259719-519b-4137-9943-40c59f50afcf"
+				refpath="/form[@name='Root' and @title>'evaljobs(1) -- eval1 (OPT']/indicator/tabpagelist/indicator/container[@caption='']/button[3]/indicator/container[2]/indicator/table/container[@automationid='PART_GridViewVirtualizingPanel']/row[18]/list/cell[2]/container[@automationid='stackPanel']/combobox/button[@automationid='toggleButton']"
+				robustPath="/form[@name='Root']//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				searchtimeout="30000ms">
+					/form[@name='Root']/?/?/tabpagelist/indicator/container[@caption='']/button[3]//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[18]/list[@automationid='PART_DataCellsPresenter']/?/?/container[@automationid='stackPanel']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="abb01b12-24ae-4a54-9c32-3db5242bdf79"
+				name="PARTExpandButton2"
+				refimgid="4b47121a-38f8-4a08-9db9-4bee6ab612ea"
+				refpath="/form[@name='Root' and @title>'evaljobs(1) -- eval1 (OPT']/indicator/tabpagelist/indicator/container[@caption='']/button[3]/indicator/container[2]/indicator/table/container[@automationid='PART_GridViewVirtualizingPanel']/row[16]/button[@automationid='PART_ExpandButton']"
+				robustPath="/form[@name='Root']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[16]/button[@automationid='PART_ExpandButton']"
+				searchtimeout="30000ms">
+					/form[@name='Root']/?/?/tabpagelist/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[16]/button[@automationid='PART_ExpandButton']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="6ad0950e-5dcc-440a-9bb0-6d112537cbf5"
+				name="PARTExpandButton1"
+				refimgid="d4df12c5-b198-47c7-bde2-07bfd72c876e"
+				refpath="/form[@name='Root' and @title>'evaljobs(1) -- eval1 (OPT']/indicator/tabpagelist/indicator/container[@caption='']/button[3]/indicator/container[2]/indicator/table/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				robustPath="/form[@name='Root']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				searchtimeout="30000ms">
+					/form[@name='Root']/?/?/tabpagelist/indicator/container[@caption='']/button[3]/indicator[@automationid='JobInputsBusyIndicator']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']
+				</item>
+				<basepath>
+					/form[@name='Root']/?/?/tabpagelist/indicator/container[@caption='']
+				</basepath>
+			</folder>
 			<basepath>
 				/form[@name='Root']
 			</basepath>
@@ -856,6 +933,138 @@ TkSuQmCC
 			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/menuitem[@automationid='ScenariosTabToolbar_LogsMenuItem']"
 			searchtimeout="30000ms">
 				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/menuitem[@automationid='ScenariosTabToolbar_LogsMenuItem']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="b404c220-4533-4743-a704-89e3fbbe2fd2"
+			name="MEDFleetSize"
+			refimgid="d5b67cf5-b590-47cf-9446-4543a2e09a68"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text='MED_FleetSize']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text='MED_FleetSize']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text='MED_FleetSize']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="a4b95486-ee98-491f-bffe-5ee1c4cc6e0f"
+			name="FleetSize1AS23TC07020524"
+			refimgid="4d1a582c-9cd9-4cca-952a-a7a950047d6b"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'FleetSize_1A_S23_TC07_02.']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'FleetSize_1A_S23_TC07_02.']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'FleetSize_1A_S23_TC07_02.']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="002b3eb0-519c-4b2e-ac6d-6c84d6efeef3"
+			name="EasyJET1AS23Base0205241"
+			refimgid="436790df-67f8-411c-a2a5-6aaf9575858d"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'easyJET_1A_S23_Base_02.05']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'easyJET_1A_S23_Base_02.05']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'easyJET_1A_S23_Base_02.05']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="287585bc-1162-442e-99fe-99933bfc60d6"
+			name="AircraftSeat1AS23Base020524"
+			refimgid="19835c0f-f763-4f9e-a569-8f879786f76b"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/container[@automationid='ItemsPresenter']/listitem[@text>'AircraftSeat_1A_S23_Base_' and @index='6']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@index='6']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button[@automationid='PART_HeaderExpander']//listitem[@index='6']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="e8de93d6-b6de-43a3-8372-493817830787"
+			name="Partnership1AS23Base020524"
+			refimgid="2b969f6f-b24b-4f01-bcd6-36e60c34dcc8"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'Partnership_1A_S23_Base_0']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'Partnership_1A_S23_Base_0']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'Partnership_1A_S23_Base_0']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="fd1060dd-6936-4553-bef6-7591ba7a79ad"
+			name="OptimizationParameters1AS23Base0205"
+			refimgid="7ca1e73f-a9b6-4709-9db7-40d376fdf673"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'OptimizationParameters_1A']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'OptimizationParameters_1A']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'OptimizationParameters_1A']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="73bbd3f7-b85d-4d72-8ba2-fdb60ce1dabc"
+			name="ClientConfig1AS23Base020524"
+			refimgid="1b346972-1269-47ee-b0aa-3590f93db455"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'ClientConfig_1A_S23_Base_']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'ClientConfig_1A_S23_Base_']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'ClientConfig_1A_S23_Base_']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="e4bd81fd-a2cc-4b65-a683-5fa353cfdd36"
+			name="FleetSize1AS23TC08020524"
+			refimgid="af27c841-5fe9-4e69-bda7-6813ff344551"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'FleetSize_1A_S23_TC08_02.']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'FleetSize_1A_S23_TC08_02.']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'FleetSize_1A_S23_TC08_02.']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="96679c71-c6ff-4acc-8db5-43db65b35ee0"
+			name="RONBalance1AS23TC08020524"
+			refimgid="2a237db5-c5cb-48f8-a6a2-6432afed1d74"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'RONBalance_1A_S23_TC08_02']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'RONBalance_1A_S23_TC08_02']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'RONBalance_1A_S23_TC08_02']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="a4d585bc-afe2-43f8-8a62-036070983bcc"
+			name="TODFrequency1AS23TC08020524"
+			refimgid="e6c910b8-4cf1-497a-8e70-7dbcee134921"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'TODFrequency_1A_S23_TC08_']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'TODFrequency_1A_S23_TC08_']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'TODFrequency_1A_S23_TC08_']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="18e4840b-3418-42ed-a372-88a8d1856dc8"
+			name="FleetSize1AS23TC09020524"
+			refimgid="7755a538-9027-41cb-8b7e-3afdfb6ceb79"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'FleetSize_1A_S23_TC09_02.']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'FleetSize_1A_S23_TC09_02.']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'FleetSize_1A_S23_TC09_02.']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="2cb3b6d6-575f-4958-a401-08f0cd629025"
+			name="RONBalance1AS23TC09020524"
+			refimgid="f193d6a7-3445-4fc0-af08-7c5e3bf3ad93"
+			refpath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/button/text[@automationid='noResultsTextBlock']/listitem[@text>'RONBalance_1A_S23_TC09_02']"
+			robustPath="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text>'RONBalance_1A_S23_TC09_02']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']//listitem[@text&gt;'RONBalance_1A_S23_TC09_02']
 			</item>
 			<basepath>
 				/contextmenu[@processname='Sky.Suite.EasyJet UAT2']
@@ -1586,10 +1795,9 @@ TkSuQmCC
 			id="66f6dfcd-10c4-4d9e-b1b9-b3252bc1659e"
 			name="LOWFleetSizeV1V1"
 			refimgid="46fa8851-d154-4da6-ada0-7da00bd06b61"
-			refpath="/form[@title='Add Dataset from Database']/container[1]/tabpagelist/tabpage[@title='Data_base']/container[2]/indicator[2]/table/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/cell[2]/text[@caption='LOW_FleetSize - v.1 - v.1']"
-			robustPath="/form[@title='Add Dataset from Database']//text[@caption='LOW_FleetSize - v.1 - v.1']"
+			robustPath=""
 			searchtimeout="30000ms">
-				/form[@title='Add Dataset from Database']//table[@automationid='datasetRadGridView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='LOW_FleetSize - v.1 - v.1']
+				/form[@title='Add Dataset from Database']//table[@automationid='datasetRadGridView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/?/?/text[@caption&gt;'LOW_FleetSize - v.1 - v.1' and @text='LOW_FleetSize - v.1 - v.1']
 			</item>
 			<item
 			addcaps="text,wpfelement"
@@ -1597,10 +1805,9 @@ TkSuQmCC
 			id="779b347e-5d9e-43d0-949f-3b98e964c357"
 			name="PEAKFleetSizeV2V1"
 			refimgid="82d86157-14c6-4170-a22f-ef5cd808c2fc"
-			refpath="/form[@title='Add Dataset from Database']/container[1]/tabpagelist/tabpage[@title='Data_base']/container[2]/indicator[2]/table/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/list[@automationid='PART_DataCellsPresenter']/cell[2]/text[@caption>'PEAK_FleetSize - v.2 - v.']"
 			robustPath="/form[@title='Add Dataset from Database']//text[@caption>'PEAK_FleetSize - v.2 - v.']"
 			searchtimeout="30000ms">
-				/form[@title='Add Dataset from Database']//table[@automationid='datasetRadGridView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption&gt;'PEAK_FleetSize - v.2 - v.']
+				/form[@title='Add Dataset from Database']//table[@automationid='datasetRadGridView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/?/?/?/?/text[@caption&gt;'PEAK_FleetSize - v.2 - v.' and @text='PEAK_FleetSize - v.2 - v.1']
 			</item>
 			<item
 			addcaps="text,wpfelement,wpfgroupelement"
@@ -3852,11 +4059,11 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 				addcaps="button,wpfelement,wpfgroupelement"
 				capname="button"
 				id="83037181-c26b-4199-bc14-e42cae4e8924"
-				name="Aircraft_Togggle"
+				name="Aircraft_Toggle"
 				refimgid="48605a5c-628b-4a47-8015-2518dca5ca13"
 				robustPath="/form[@title='nafisaEval(1) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']"
 				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[8]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[9]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
 				</item>
 				<item
 				addcaps="button,wpfelement,wpfgroupelement"
@@ -3886,7 +4093,7 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 				refimgid="46b711d1-289b-419e-a3ef-82416907f37d"
 				robustPath="/form[@title='nafisaEval(4) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']"
 				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[18]/button[@automationid='PART_ExpandButton']
 				</item>
 				<item
 				addcaps="button,wpfelement,wpfgroupelement"
@@ -3896,7 +4103,7 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 				refimgid="d107fcc4-f3dd-4125-a6fa-41030c4ffc8e"
 				robustPath="/form[@title='nafisaEval(4) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']"
 				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[17]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[19]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
 				</item>
 				<item
 				addcaps="button,wpfelement,wpfgroupelement"
@@ -3906,7 +4113,37 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 				refimgid="9417b4e3-3a5a-487a-9bb5-2be61b581076"
 				robustPath="/form[@title='nafisaEval(4) -- eval1 (OPT)' and @name='Root']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']"
 				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[19]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[21]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="20a44404-b1f2-4d05-a029-6c201fb325d4"
+				name="Network_Expand"
+				refimgid="d4df12c5-b198-47c7-bde2-07bfd72c876e"
+				robustPath="/form[@name='Root']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']"
+				searchtimeout="30000ms">
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/button[@automationid='PART_ExpandButton']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="dca862ef-54ad-4db5-bef7-26670fb6cb1c"
+				name="Partnership_Toggle"
+				refimgid="03259719-519b-4137-9943-40c59f50afcf"
+				robustPath="/form[@name='Root']//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
+				searchtimeout="30000ms">
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[18]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="dfc1308d-3031-4900-a0da-f137f0275598"
+				name="Network_Collapse"
+				refimgid="4b47121a-38f8-4a08-9db9-4bee6ab612ea"
+				robustPath="/form[@name='Root']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[16]/button[@automationid='PART_ExpandButton']"
+				searchtimeout="30000ms">
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[16]/button[@automationid='PART_ExpandButton']
 				</item>
 				<basepath>
 					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']
@@ -3928,7 +4165,7 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 				refimgid="9f26bdc4-975d-41c1-8127-685a00ab223b"
 				robustPath="/form[@name='Root' and @title='nafisaEval(1) -- eval2 (OPT)']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[12]"
 				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[9]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[12]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
 				</item>
 				<item
 				addcaps="button,wpfelement,wpfgroupelement"
@@ -3954,11 +4191,11 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 				addcaps="button,wpfelement,wpfgroupelement"
 				capname="button"
 				id="21d10302-24ba-4816-9892-dbaf40c258cc"
-				name="Market_Frequency_Toggle"
+				name="TOD_Frequency_Toggle"
 				refimgid="b286aba2-a715-494a-b274-3daa5bb525dc"
 				robustPath="/form[@name='Root' and @title='nafisaEval(1) -- eval2 (OPT)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']"
 				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[17]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[21]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
 				</item>
 				<item
 				addcaps="button,wpfelement,wpfgroupelement"
@@ -3978,7 +4215,7 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 				refimgid="358447ae-d4e4-485d-a541-973dfde1c75e"
 				robustPath="/form[@name='Root' and @title='nafisaEval(1) -- eval2 (OPT)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']"
 				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[14]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
 				</item>
 				<basepath>
 					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']
@@ -4020,7 +4257,7 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 				refimgid="33e71bc4-b0bf-451a-8a07-ad2bfd2f8dee"
 				robustPath="/form[@name='Root' and @title='nafisaEval(1) -- eval3 (OPT)']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']"
 				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[14]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
 				</item>
 				<item
 				addcaps="button,wpfelement,wpfgroupelement"
@@ -4050,7 +4287,7 @@ YBVB4fCJRqYvfjAzB4t84V92N/xgBnYwHBeSUwShCEIRhCIIRRDKBZotlslzT2bQ7tDK4/mSslol
 				refimgid="76b46372-fbd9-4b07-95a9-69c751162bf8"
 				robustPath="/form[@name='Root' and @title='nafisaEval(1) -- eval3 (OPT)']//table[@automationid='jobInputRadTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[9]/list[@automationid='PART_DataCellsPresenter']/cell[2]/container[@automationid='stackPanel']/combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']"
 				searchtimeout="30000ms">
-					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[9]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
+					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']//container[@automationid='PART_GridViewVirtualizingPanel']/row[12]//combobox[@automationid='inputFilterableComboBox']/button[@automationid='toggleButton']
 				</item>
 				<basepath>
 					/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/indicator/container[@caption='']

@@ -86,18 +86,22 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_05.Market_Frequency_Toggle' at 16;13.", repo.JobWindow.TC_05.Market_Frequency_ToggleInfo, new RecordItemIndex(2));
-            repo.JobWindow.TC_05.Market_Frequency_Toggle.Click("16;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_05.TOD_Frequency_Toggle' at 16;13.", repo.JobWindow.TC_05.TOD_Frequency_ToggleInfo, new RecordItemIndex(2));
+            repo.JobWindow.TC_05.TOD_Frequency_Toggle.Click("16;13");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(3));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.PEAKMarketFrequencyV1' at 44;12.", repo.SkySuiteEasyJetUAT2.PEAKMarketFrequencyV1Info, new RecordItemIndex(4));
-            repo.SkySuiteEasyJetUAT2.PEAKMarketFrequencyV1.Click("44;12");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.PEAKMarketFrequencyV1' at 44;12.", repo.SkySuiteEasyJetUAT2.PEAKMarketFrequencyV1Info, new RecordItemIndex(4));
+            //repo.SkySuiteEasyJetUAT2.PEAKMarketFrequencyV1.Click("44;12");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.TODFrequency1AS23TC08020524' at Center.", repo.SkySuiteEasyJetUAT2.TODFrequency1AS23TC08020524Info, new RecordItemIndex(5));
+            repo.SkySuiteEasyJetUAT2.TODFrequency1AS23TC08020524.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(6));
             Delay.Duration(1000, false);
             
         }

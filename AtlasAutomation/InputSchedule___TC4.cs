@@ -108,8 +108,8 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(7));
             Delay.Duration(100, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContextMenu.S23AmadeusSampleNew' at 67;11.", repo.ContextMenu.S23AmadeusSampleNewInfo, new RecordItemIndex(8));
-            repo.ContextMenu.S23AmadeusSampleNew.Click("67;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.EasyJET1AS23Base0205241' at 67;11.", repo.SkySuiteEasyJetUAT2.EasyJET1AS23Base0205241Info, new RecordItemIndex(8));
+            repo.SkySuiteEasyJetUAT2.EasyJET1AS23Base0205241.Click("67;11");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(9));

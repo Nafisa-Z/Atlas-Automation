@@ -514,6 +514,12 @@
 					</var>
 				</missingdatavariablesbinding>
 			</testmodule>
+			<testmodule
+			id="4932b74c-25a2-456d-bbe8-03846ce5fe4d"
+			name="Input_Network___TC4"
+			ref="f58ccb07-97e8-4768-8945-dd9545abe2be"
+			type="Recording">
+			</testmodule>
 			<testcase
 			datasource="JobCreationData"
 			id="4a1e3d3b-8367-465a-b4fa-f0b30a45ec8f"
@@ -673,28 +679,6 @@
 			name="ValidateJobCreation"
 			ref="7ae14ca4-6dc8-4812-a2d7-a14496d17a68"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="5fd88276-87ac-4042-8d9d-13aea4e3a9ed"
-			name="FilloutTC05"
-			ref="f06526c5-9dba-46c3-b537-f4890e8c7820"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="jb5Name"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="c9b7c31a-e5c8-4f88-970d-f3d93bd2bf9a"
-					variablename="jbName5">
-					</var>
-				</databinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="jb7Name"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="0eefe93e-2063-4c07-ae68-f49c05adabbb"
-					variablename="jb7Name">
-					</var>
-				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="61bf49dd-9472-4ae7-abda-dfc5c7dea422"
@@ -894,14 +878,6 @@
 			name="SelectNewScenario"
 			ref="a1128dc6-7cc6-4dfd-b6d1-11f75bdc2c1b"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="workspaceName"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="3013f374-57e1-4896-b74b-5663b612e152"
-					variablename="workspaceName">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Workspace_Name"
@@ -910,6 +886,14 @@
 					variablename="Workspace_Name">
 					</var>
 				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="workspaceName"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="3013f374-57e1-4896-b74b-5663b612e152"
+					variablename="workspaceName">
+					</var>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="73323b2d-7ee3-4c60-b4bc-398fcc0057b6"
@@ -982,18 +966,11 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="80991a3a-696e-4f06-8c42-2dfb81180293"
 			name="InputMarket___TC6"
 			ref="105ef789-1764-43ab-a1d8-0aa1e4a18e25"
 			type="Recording">
-				<missingdatavariablesbinding>
-					<var
-					dataname="Jb6Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="72b779ad-7d7b-48ae-9408-339bde87d2b2"
-					variablename="Jb6Window_Title">
-					</var>
-				</missingdatavariablesbinding>
 			</testmodule>
 			<testcase
 			datasource="JobCreationData"
@@ -1011,14 +988,6 @@
 			name="SelectNewScenario"
 			ref="a1128dc6-7cc6-4dfd-b6d1-11f75bdc2c1b"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="workspaceName"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="3013f374-57e1-4896-b74b-5663b612e152"
-					variablename="workspaceName">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Workspace_Name"
@@ -1027,6 +996,14 @@
 					variablename="Workspace_Name">
 					</var>
 				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="workspaceName"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="3013f374-57e1-4896-b74b-5663b612e152"
+					variablename="workspaceName">
+					</var>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="898ed0f4-de62-412b-9381-3fbbc20785fa"
@@ -1605,14 +1582,6 @@
 					variablename="Param_Search9">
 					</var>
 				</missingdatabinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="Jb9Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="d66cd471-5e9b-4286-b830-7543e5980022"
-					variablename="Jb9Window_Title">
-					</var>
-				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="ca7024bc-ef25-4623-b967-54dfa5731649"
@@ -2098,6 +2067,10 @@
 						name="InputAircraft___TC4">
 						</testmodule>
 						<testmodule
+						id="4932b74c-25a2-456d-bbe8-03846ce5fe4d"
+						name="Input_Network___TC4">
+						</testmodule>
+						<testmodule
 						id="6bb1548d-3895-4cf6-a487-3c2953b48750"
 						name="InputParameters___TC4">
 						</testmodule>
@@ -2160,10 +2133,6 @@
 						<testmodule
 						id="99f8462d-f827-40d4-9cfb-00adff357a3a"
 						name="ValidateReportMetricsEval">
-						</testmodule>
-						<testmodule
-						id="5fd88276-87ac-4042-8d9d-13aea4e3a9ed"
-						name="FilloutTC05">
 						</testmodule>
 					</testcase>
 					<testcase

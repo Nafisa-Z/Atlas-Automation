@@ -1,15 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modulegroupdoc>
-  <testsuiteentryhierarchy>
-    <flatlistofchildren>
-      <modulegroups
-      name="UAT2"
-      id="687a8640-a5f1-439e-98e8-f8cda145bcb2"/>
-    </flatlistofchildren>
-    <childhierarchy>
-      <modulegroups
-      name="UAT2"
-      id="687a8640-a5f1-439e-98e8-f8cda145bcb2"/>
-    </childhierarchy>
-  </testsuiteentryhierarchy>
+<modulegroupdoc
+rxversion="10.7">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="687a8640-a5f1-439e-98e8-f8cda145bcb2"
+			name="UAT2">
+			</modulegroups>
+			<modulegroupdef
+			id="76409d45-3af1-4fbd-aa96-c171db478236"
+			name="ModuleGroup">
+			</modulegroupdef>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="687a8640-a5f1-439e-98e8-f8cda145bcb2"
+			name="UAT2">
+				<modulegroupdef
+				id="76409d45-3af1-4fbd-aa96-c171db478236"
+				name="ModuleGroup">
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
 </modulegroupdoc>

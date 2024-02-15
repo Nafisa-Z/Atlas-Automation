@@ -53,16 +53,6 @@ namespace AtlasAutomation
 
 #region Variables
 
-        /// <summary>
-        /// Gets or sets the value of variable workspaceName.
-        /// </summary>
-        [TestVariable("3013f374-57e1-4896-b74b-5663b612e152")]
-        public string workspaceName
-        {
-            get { return repo.workspaceName; }
-            set { repo.workspaceName = value; }
-        }
-
 #endregion
 
         /// <summary>
@@ -93,16 +83,12 @@ namespace AtlasAutomation
             repo.SkySuite.Self.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.workbenchFolderList' at 196;1030.", repo.SkySuite.workbenchFolderListInfo, new RecordItemIndex(1));
-            repo.SkySuite.workbenchFolderList.Click("196;1030");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.tabPageScenarios' at Center.", repo.SkySuite.tabPageScenariosInfo, new RecordItemIndex(1));
+            repo.SkySuite.tabPageScenarios.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.workspace' at Center.", repo.SkySuite.workspaceInfo, new RecordItemIndex(2));
-            repo.SkySuite.workspace.Click(System.Windows.Forms.MouseButtons.Right);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.NewScenario' at 220;16.", repo.SkySuiteEasyJetUAT2.NewScenarioInfo, new RecordItemIndex(3));
-            repo.SkySuiteEasyJetUAT2.NewScenario.Click("220;16");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.ScenariosTabToolbarNewScenarioButton' at Center.", repo.SkySuite.ScenariosTabToolbarNewScenarioButtonInfo, new RecordItemIndex(2));
+            repo.SkySuite.ScenariosTabToolbarNewScenarioButton.Click();
             Delay.Milliseconds(0);
             
         }

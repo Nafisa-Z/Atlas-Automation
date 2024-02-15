@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="17.2s"
+		durationms="17196"
+		type="root"
+		rid="1bc57ad2e14100bd"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="15/02/2024 14:21:32"
+		timestampiso="2024-02-15T14:21:32"
+		endtime="15/02/2024 14:21:49"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="8.96s"
+			durationms="8955"
+			type="test-suite"
+			rid="9b2f0baeb807250"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="UAT1"
+			headertext="UAT1"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="6.83s"
+				durationms="6834"
+				type="iteration-container"
+				rid="ed1d558a902945c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="TC_02"
+				headertext="TC_02"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="b0093f69-1c08-42f4-9420-5ec729da32f8"
+				datasource="JobCreationData"
+				dataiterationcount="1">
+				<activity
+					result="Failed"
+					duration="6.82s"
+					durationms="6818"
+					type="test-case"
+					rid="23c2a2135ca6f2e6"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="TC_02"
+					testcontainerid="b0093f69-1c08-42f4-9420-5ec729da32f8"
+					headertext="TC_02"
+					displayName="TC_02"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="workbench">
+							AtlasAutomation2024-02-15 14-21-43
+						</field>
+						<field
+							name="workspaceName">
+							Atlas_Cycle12024-02-15 14-21-43
+						</field>
+						<field
+							name="planningPeriod">
+							3/26/2023 to 10/28/2023
+						</field>
+						<field
+							name="schSearch">
+							easyJET_1A_S23_Base_02.05.24_1
+						</field>
+						<field
+							name="scNameIB">
+							IB_Jobs 2024-02-15 14-21-43
+						</field>
+						<field
+							name="jb1Name">
+							TC-01 2024-02-15 14-21-43
+						</field>
+						<field
+							name="datesMed">
+							18Sep2023 to 24Sep2023
+						</field>
+						<field
+							name="paramSearch1">
+							TC_01_PreCalibration_IB_Med_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="jb2Name">
+							TC-02 2024-02-15 14-21-43
+						</field>
+						<field
+							name="datesPeak">
+							21Aug2023 to 27Aug2023
+						</field>
+						<field
+							name="jb3Name">
+							TC-03 2024-02-15 14-21-43
+						</field>
+						<field
+							name="datesLow">
+							15May2023 to 21May2023
+						</field>
+						<field
+							name="paramSearch3">
+							TC_03_PreCalibration_IB_Low_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="scNameEval">
+							Eval_Jobs 2024-02-15 14-21-43
+						</field>
+						<field
+							name="jb4Name">
+							TC-04 2024-02-15 14-21-43
+						</field>
+						<field
+							name="paramSearch4">
+							TC_04_Eval_Med_OPT_Evaluation_Def_Param
+						</field>
+						<field
+							name="jb5Name">
+							TC-05 2024-02-15 14-21-43
+						</field>
+						<field
+							name="jb6Name">
+							TC-06 2024-02-15 14-21-43
+						</field>
+						<field
+							name="jb7Name">
+							TC-07 2024-02-15 14-21-43
+						</field>
+						<field
+							name="paramSearch7">
+							TC_07_Adapt_Med_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="jb8Name">
+							TC-08 2024-02-15 14-21-43
+						</field>
+						<field
+							name="paramSearch8">
+							TC_08_Adapt_Peak_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="jb9Name">
+							TC-09 2024-02-15 14-21-43
+						</field>
+						<field
+							name="paramSearch9">
+							TC_09_Adapt_Low_OPT_Adapt_Def_Param
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="6.75s"
+						durationms="6748"
+						type="test-module"
+						rid="f045b7922a66652"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="DuplicateTC01___TC2"
+						displayName="DuplicateTC01___TC2"
+						moduleid="d042634a-e01e-456b-b0be-100bb5bae92b"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Element is not visible in the UI and thus click can't be perfomed.
+						</errormessage>
+						<varbindings>
+							<varbinding
+								name="jb2Name"
+								value="TC-02 2024-02-15 14-21-43">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.217"
+							timeRelativeToTestModuleStartTime="00:00.016"
+							timeWallClock="14:21:42"
+							time="00:02.217"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$jb2Name = 'TC-02 2024-02-15 14-21-43'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.321"
+							timeRelativeToTestModuleStartTime="00:00.121"
+							timeWallClock="14:21:43"
+							time="00:02.321"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SkySuite' at 502;26.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']"
+								itempath="/form[@name='Root']"
+								fullname="AtlasAutomationRepository.SkySuite.Self"
+								id="12f9a8e2bf2141d6a2223baa984f5626"
+								timeout="30000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\DuplicateTC01___TC2.cs"
+								codeline="95"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.619"
+							timeRelativeToTestModuleStartTime="00:03.419"
+							timeWallClock="14:21:46"
+							time="00:05.619"
+							level="Info"
+							category="Mouse"
+							errimg="images_UAT1_202_55770a17\UAT1_202_55770a17_0f35bc9c_trace.jpg"
+							errthumb="images_UAT1_202_55770a17\UAT1_202_55770a17_0f35bc9c_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'SkySuite.tabPageScenarios' at 47;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/tabpage[@title='_Scenarios']"
+								itempath=".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/tabpage[@title='_Scenarios']"
+								fullname="AtlasAutomationRepository.SkySuite.tabPageScenarios"
+								id="5c21ea2bca4e4784b18fcb0d8cdc5b28"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\DuplicateTC01___TC2.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.109"
+							timeRelativeToTestModuleStartTime="00:04.909"
+							timeWallClock="14:21:47"
+							time="00:07.109"
+							level="Info"
+							category="Mouse"
+							errimg="images_UAT1_202_55770a17\UAT1_202_55770a17_c7f1f52b_trace.jpg"
+							errthumb="images_UAT1_202_55770a17\UAT1_202_55770a17_c7f1f52b_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'SkySuite.industryJobs' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root']//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/button[@automationid='PART_ExpandButton']"
+								itempath=".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/?/button[@automationid='PART_ExpandButton']"
+								fullname="AtlasAutomationRepository.SkySuite.industryJobs"
+								id="335d5545795a4455bcf66e63c62ca53e"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\DuplicateTC01___TC2.cs"
+								codeline="103"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.701"
+							timeRelativeToTestModuleStartTime="00:06.500"
+							timeWallClock="14:21:49"
+							time="00:08.701"
+							level="Error"
+							category="Module"
+							errimg="images_UAT1_202_55770a17\UAT1_202_55770a17_caaddef2_trace.jpg"
+							errthumb="images_UAT1_202_55770a17\UAT1_202_55770a17_caaddef2_trace_thumb.jpg">
+							<message>
+								Element is not visible in the UI and thus click can't be perfomed.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click()
+   at AtlasAutomation.DuplicateTC01___TC2.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\DuplicateTC01___TC2.cs:line 104
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\DuplicateTC01___TC2.cs"
+								codeline="104"
+								loglvl="Error"
+								itemindex="2">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -86,25 +86,29 @@ namespace AtlasAutomation
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(1));
             Delay.Duration(100, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_04.Aircraft_Togggle' at 17;14.", repo.JobWindow.TC_04.Aircraft_TogggleInfo, new RecordItemIndex(2));
-            repo.JobWindow.TC_04.Aircraft_Togggle.Click("17;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_04.Aircraft_Toggle' at 17;14.", repo.JobWindow.TC_04.Aircraft_ToggleInfo, new RecordItemIndex(2));
+            repo.JobWindow.TC_04.Aircraft_Toggle.Click("17;14");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(3));
             Delay.Duration(100, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.S23MASTERAircraftSeatSubfleetAligned' at 39;17.", repo.SkySuiteEasyJetUAT2.S23MASTERAircraftSeatSubfleetAlignedInfo, new RecordItemIndex(4));
-            repo.SkySuiteEasyJetUAT2.S23MASTERAircraftSeatSubfleetAligned.Click("39;17");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.S23MASTERAircraftSeatSubfleetAligned' at 39;17.", repo.SkySuiteEasyJetUAT2.S23MASTERAircraftSeatSubfleetAlignedInfo, new RecordItemIndex(4));
+            //repo.SkySuiteEasyJetUAT2.S23MASTERAircraftSeatSubfleetAligned.Click("39;17");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.AircraftSeat1AS23Base020524' at Center.", repo.SkySuiteEasyJetUAT2.AircraftSeat1AS23Base020524Info, new RecordItemIndex(5));
+            repo.SkySuiteEasyJetUAT2.AircraftSeat1AS23Base020524.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(6));
             Delay.Duration(100, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_04.Aircraft_Collapse' at Center.", repo.JobWindow.TC_04.Aircraft_CollapseInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'JobWindow.TC_04.Aircraft_Collapse' at Center.", repo.JobWindow.TC_04.Aircraft_CollapseInfo, new RecordItemIndex(7));
             repo.JobWindow.TC_04.Aircraft_Collapse.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 100ms.", new RecordItemIndex(8));
             Delay.Duration(100, false);
             
         }
