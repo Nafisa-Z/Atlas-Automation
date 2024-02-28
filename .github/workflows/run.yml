@@ -1,0 +1,22 @@
+
+name: Ranorex Run
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: [self-hosted, Windows]
+
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Cd
+        uses: cd "D:\Users\CatherineB\Documents\Ranorex\RanorexStudio Projects\Atlas-Automation-main\AtlasAutomation\bin\Debug"
+
+      - name: ls
+        uses: ls 
