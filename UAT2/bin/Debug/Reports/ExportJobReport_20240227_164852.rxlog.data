@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.37s"
+		durationms="12374"
+		type="root"
+		rid="1c0dec45a9c72c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="27/02/2024 16:48:56"
+		timestampiso="2024-02-27T16:48:56"
+		endtime="27/02/2024 16:49:09"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ExportJobReport">
+		<detail>
+			ExportJobReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.519"
+			timeRelativeToTestModuleStartTime="00:05.519"
+			timeWallClock="16:49:02"
+			time="00:05.519"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Export_Report_Button' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[1]"
+				itempath=".//container[@automationid='tabWhitespaceContent']/button[1]"
+				fullname="UAT2Repository.JobWindow.Export_Report_Button"
+				id="03ba25820cf047c5bfcc7605d4fbfceb"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ExportJobReport.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.201"
+			timeRelativeToTestModuleStartTime="00:10.201"
+			timeWallClock="16:49:06"
+			time="00:10.201"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ExportJobAnalysis'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Export job analysis']"
+				itempath="/form[@title='Export job analysis']"
+				fullname="UAT2Repository.ExportJobAnalysis.Self"
+				id="a71daca060654b418efea82f1312d92b"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ExportJobReport.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.560"
+			timeRelativeToTestModuleStartTime="00:10.560"
+			timeWallClock="16:49:07"
+			time="00:10.560"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Self' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Export job analysis']"
+				itempath="/form[@title='Export job analysis']"
+				fullname="UAT2Repository.ExportJobAnalysis.Self"
+				id="a71daca060654b418efea82f1312d92b"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ExportJobReport.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.769"
+			timeRelativeToTestModuleStartTime="00:10.769"
+			timeWallClock="16:49:07"
+			time="00:10.769"
+			level="Info"
+			category="User"
+			errimg="images_ExportJo_2de051e2\ExportJo_109e5767_rxlog.jpg"
+			errthumb="images_ExportJo_2de051e2\ExportJo_109e5767_rxlog_thumb.jpg">
+			<message>
+				Job Export Window<br/>
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ExportJobReport.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.773"
+			timeRelativeToTestModuleStartTime="00:10.773"
+			timeWallClock="16:49:07"
+			time="00:10.773"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ExportJobAnalysis.Export' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Export job analysis']//button[@text='Export']"
+				itempath=".//button[@text='Export']"
+				fullname="UAT2Repository.ExportJobAnalysis.Export"
+				id="44e180d520fc40458791644d9e2389d9"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ExportJobReport.cs"
+				codeline="92"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.569"
+			timeRelativeToTestModuleStartTime="00:11.569"
+			timeWallClock="16:49:08"
+			time="00:11.569"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 1m to exist. Associated repository item: 'SkySuiteEasyJetUAT2.Export_Notification'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/list[@automationid='notificationsList']/listitem[@index='0']/button"
+				itempath="?/?/list[@automationid='notificationsList']/listitem[@index='0']/button"
+				fullname="UAT2Repository.SkySuiteEasyJetUAT2.Export_Notification"
+				id="07803de535f84f628c58f32019e87468"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ExportJobReport.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.373"
+			timeRelativeToTestModuleStartTime="00:12.373"
+			timeWallClock="16:49:09"
+			time="00:12.373"
+			level="Info"
+			category="User"
+			errimg="images_ExportJo_2de051e2\ExportJo_109e5768_rxlog.jpg"
+			errthumb="images_ExportJo_2de051e2\ExportJo_109e5768_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ExportJobReport.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

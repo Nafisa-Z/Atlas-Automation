@@ -2,39 +2,54 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testcase
+			datasource="JobCreationData"
+			id="023cdea6-f511-46eb-9df0-f39463838e6a"
+			name="TC_01">
+			</testcase>
 			<testmodule
-			id="01e0fa16-cc07-4a4d-a2eb-5eeb5f218e00"
-			name="ImportParameters___TC1"
-			ref="ee973372-d72a-4551-95d7-8b32445dc7cf"
+			id="03f7231b-4754-485b-abdf-ac4710e72539"
+			name="FilloutTC07"
+			ref="73bcc5cc-0422-4982-b224-87f1b45f2f11"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="paramSearch1"
+					dataname="jb7Name"
 					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="82fee5d7-7c7e-4de9-9bb3-5a97cd2f0b26"
-					variablename="paramSearch">
+					variableid="f734959e-987e-4151-ac70-e82d3fb915ec"
+					variablename="jb7Name">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="072eef2e-15e2-4d1b-b269-9f2a72939e47"
+			name="ImportSchedule"
+			ref="16ae0c26-7e6e-4237-b917-44cd424ce098"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="schSearch"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="c8fbc78c-5ca6-46da-adf0-1a745691b3d1"
+					variablename="schSearch">
 					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
-					dataname="Param_Search_1"
+					dataname="Sch_Search"
 					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="82fee5d7-7c7e-4de9-9bb3-5a97cd2f0b26"
-					variablename="Param_Search">
-					</var>
-					<var
-					dataname="Jb1Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
+					variableid="c8fbc78c-5ca6-46da-adf0-1a745691b3d1"
+					variablename="Sch_Search">
 					</var>
 				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="02fb0227-3fcb-4bfb-b0af-384bdcab2a38"
-			name="ValidateReportAdapt"
-			ref="5ed79878-39a9-4985-80cb-e7dbf31008f4"
-			type="Recording">
+				<missingdatavariablesbinding>
+					<var
+					dataname="Planning_Period"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="3013f374-57e1-4896-b74b-5663b612e152"
+					variablename="Workspace_Name">
+					</var>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="0ff22494-7d8d-4926-ac2a-e31694edd89f"
@@ -43,29 +58,35 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="10ccbc7f-d6e5-48a3-bf1d-5b9494233eae"
-			name="SaveandRun___Industry"
-			ref="817f1aad-7497-4968-accb-02566c796991"
+			id="110247f3-80e9-490b-9d28-801c2128540d"
+			name="InputSchedule"
+			ref="a21464cf-05dc-4b78-b531-54fb8162eefa"
 			type="Recording">
-				<missingdatabinding>
+				<databinding>
 					<var
-					dataname="JbWindow_Title"
+					dataname="datesMed"
 					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
+					variableid="0b2e0f63-89dc-44cf-aaaf-34c6bfbb9921"
+					variablename="datesMed">
 					</var>
-				</missingdatabinding>
-				<missingdatavariablesbinding>
+				</databinding>
+				<missingdatabinding>
 					<var
 					dataname="Jb1Window_Title"
 					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
 					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
 					variablename="JbWindow_Title">
 					</var>
-				</missingdatavariablesbinding>
+					<var
+					dataname="Dates_Med"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="0b2e0f63-89dc-44cf-aaaf-34c6bfbb9921"
+					variablename="Dates_Med">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			id="1ac20c78-c70f-4eff-abd3-ce8206742fe1"
+			id="149ede0b-3b90-468e-8ce5-c2b5f96a0614"
 			name="SaveandRun___Evaluation_Adapt"
 			ref="7e5cf435-9d47-4457-9ae8-4fde49853efe"
 			type="Recording">
@@ -75,6 +96,20 @@
 			id="1cd1a35e-cc04-4d0c-b12f-3263636d1b59"
 			name="Create&amp;CancelActions">
 			</testcase>
+			<testmodule
+			id="21e92987-5474-42ee-9317-d60c2db81dac"
+			name="InputRevenue"
+			ref="dcf04c9c-e63e-448d-bb92-a92fdebef4e8"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Jb1Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<testsuite
 			ExportColumnList="None"
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -107,23 +142,15 @@
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<testmodule
-			id="2491e4cd-070a-432e-a05c-b0998f73b944"
-			name="ImportBuild___TC4"
-			ref="4eb26172-577d-40fc-8a90-43462b2c6baa"
+			id="2403c3aa-a9f5-442c-90ea-8b765420a3fa"
+			name="ValidateReportMetricsEval"
+			ref="fbcaae69-d1b1-437d-96a4-9370041f562a"
 			type="Recording">
-				<missingdatavariablesbinding>
-					<var
-					dataname="Jb4Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="ae54d0d2-abe7-47c0-b8d6-da10da7c3c09"
-					variablename="Jb4Window_Title">
-					</var>
-				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
-			id="29c9c953-1a4f-4a48-aebe-d83dbcbe2629"
-			name="InputNetwork"
-			ref="47b6d959-6f19-41cc-b358-872552cc8ea3"
+			id="26f0281a-2440-4d2b-9ba1-16b322617429"
+			name="InputMarket"
+			ref="6bc4b5f2-5a89-42a8-86d5-0f86e4d80766"
 			type="Recording">
 				<missingdatabinding>
 					<var
@@ -131,28 +158,6 @@
 					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
 					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
 					variablename="JbWindow_Title">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="2a7b7e50-84bf-4dc3-ae27-616547398945"
-			name="SelectNewWorkspace"
-			ref="f28eb76c-5c72-4cff-ad85-ea2c7aa9e4f9"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="workbench"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="174dfc9d-41ec-4e4b-a91e-c57f6048bf92"
-					variablename="workbenchName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Workbench"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="174dfc9d-41ec-4e4b-a91e-c57f6048bf92"
-					variablename="FolderName">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -168,87 +173,13 @@
 			name="TC_07">
 			</testcase>
 			<testmodule
-			id="336f024c-3b26-4eb3-a449-d00be21f214d"
-			name="ValidateNewFolder"
-			ref="421fa0b9-0935-4fc9-a2e1-ab669d456ad7"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="workbench"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="174dfc9d-41ec-4e4b-a91e-c57f6048bf92"
-					variablename="workbenchName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Workbench"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="174dfc9d-41ec-4e4b-a91e-c57f6048bf92"
-					variablename="FolderName">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="3b959cf0-e087-4ab6-bc2e-2b459b5e74fa"
-			name="ImportParameters___TC4"
-			ref="508f51ae-64c3-4d83-af45-cf6f6a43647c"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="paramSearch4"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="25f19b28-5300-41eb-a5f3-4b2fbc9faf01"
-					variablename="paramSearch4">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Param_Search_4"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="25f19b28-5300-41eb-a5f3-4b2fbc9faf01"
-					variablename="Param_Search_4">
-					</var>
-				</missingdatabinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="Jb4Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="ae54d0d2-abe7-47c0-b8d6-da10da7c3c09"
-					variablename="Jb4Window_Title">
-					</var>
-				</missingdatavariablesbinding>
-			</testmodule>
-			<testmodule
-			id="3bfc9eb1-6d3d-402e-8483-37d476b42b7a"
-			name="ValidateNewWorkspace"
-			ref="f68e3657-5cf5-414f-a86c-dfd8a7b9bd47"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="workspaceName"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="3013f374-57e1-4896-b74b-5663b612e152"
-					variablename="workspaceName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Workspace_Name"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="3013f374-57e1-4896-b74b-5663b612e152"
-					variablename="Workspace_Name">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="3c349c09-66c0-4928-89db-34acab10cb72"
-			name="SaveandRun___Evaluation_Adapt"
-			ref="7e5cf435-9d47-4457-9ae8-4fde49853efe"
+			id="2db8d692-7e36-42eb-a90a-324b757d363e"
+			name="ValidateNewScenarioPopup"
+			ref="0e737123-6727-4679-85bc-207fb0d9e097"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="40d88a20-49b9-41ac-86c8-8e13a33ce176"
+			id="34c36105-45d1-4e75-9ebb-93c1e735e378"
 			name="SelectNewScenario"
 			ref="a1128dc6-7cc6-4dfd-b6d1-11f75bdc2c1b"
 			type="Recording">
@@ -270,27 +201,15 @@
 				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
-			id="451b4125-4e6b-48cf-88f0-857316a8c277"
-			name="ValidateJobCreation"
-			ref="7ae14ca4-6dc8-4812-a2d7-a14496d17a68"
+			id="3c349c09-66c0-4928-89db-34acab10cb72"
+			name="SaveandRun___Evaluation_Adapt"
+			ref="7e5cf435-9d47-4457-9ae8-4fde49853efe"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="4cf5a353-0ba0-4790-bc4f-9a724a129d26"
-			name="ExportJobSetup"
-			ref="af0eb9fd-654e-4dcd-a51c-9e130bbc685d"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="578059fb-ae03-47a4-a93b-c4272b5d7385"
-			name="ValidateJobCreation"
-			ref="7ae14ca4-6dc8-4812-a2d7-a14496d17a68"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="60e68f71-2490-4fa0-93a6-c4d99d80beb5"
-			name="InputCalibrationDemand"
-			ref="6cfd94e1-5d30-42c7-823d-c1ce53920c96"
+			id="4171b789-506c-4b54-ade1-1bb19af00f38"
+			name="InputNetwork"
+			ref="47b6d959-6f19-41cc-b358-872552cc8ea3"
 			type="Recording">
 				<missingdatabinding>
 					<var
@@ -302,61 +221,59 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			id="6a848d34-3482-47b8-aa58-e909297868c3"
-			name="SelectNewFolderButton"
-			ref="52eed58e-6188-4aaa-92c7-672417f60443"
+			id="4489d4d0-21c8-4065-af4b-68781965e28b"
+			name="ValidateNewWorkspacePopup"
+			ref="e9786604-a8d8-4bd6-a1f5-a4b43637f3f3"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="6f696126-f3a4-4e98-9079-d10cf75452b6"
-			name="DuplicateTC04___TC7"
-			ref="d7ad5546-edcc-460f-a65a-0cbd23c3df39"
+			id="4a11dc34-aad0-43d2-b004-8ec3a15e28a1"
+			name="DuplicateTC_04"
+			ref="e864cf89-d470-4205-9ac6-45d28ddd8a7a"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="4cf5a353-0ba0-4790-bc4f-9a724a129d26"
+			name="ExportJobSetup"
+			ref="af0eb9fd-654e-4dcd-a51c-9e130bbc685d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="4d97948c-9aac-464d-9006-27bce70d42ee"
+			name="ValidateNewScenarioPopup"
+			ref="0e737123-6727-4679-85bc-207fb0d9e097"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="4f9dbe1f-5d9e-4454-8a84-36c625b90bf8"
+			name="ImportParameters___TC1"
+			ref="ee973372-d72a-4551-95d7-8b32445dc7cf"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="jb7Name"
+					dataname="paramSearch1"
 					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="5f8e52f0-8e2f-4b8e-81fc-1f44452975fc"
-					variablename="jb7Name">
+					variableid="82fee5d7-7c7e-4de9-9bb3-5a97cd2f0b26"
+					variablename="paramSearch">
 					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
-					dataname="Jb7_Name"
+					dataname="Param_Search_1"
 					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="5f8e52f0-8e2f-4b8e-81fc-1f44452975fc"
-					variablename="Jb7_Name">
+					variableid="82fee5d7-7c7e-4de9-9bb3-5a97cd2f0b26"
+					variablename="Param_Search">
+					</var>
+					<var
+					dataname="Jb1Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
 					</var>
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			id="706256fd-8cd4-46c9-bb1a-29de158bec30"
-			name="InputParameters___TC4"
-			ref="a301c1cb-8721-4f16-bf30-30aa700f7a9e"
-			type="Recording">
-				<missingdatavariablesbinding>
-					<var
-					dataname="Jb4Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="ae54d0d2-abe7-47c0-b8d6-da10da7c3c09"
-					variablename="Jb4Window_Title">
-					</var>
-				</missingdatavariablesbinding>
-			</testmodule>
-			<testmodule
-			id="785870e4-1fcf-46aa-9712-f86bc47190ba"
-			name="ValidateReportMetricsEval"
-			ref="fbcaae69-d1b1-437d-96a4-9370041f562a"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="7b259604-da25-4647-a2d9-5a93dbe42dd9"
-			name="ExportJobLogs"
-			ref="9441e04b-623f-4e42-896c-389a35016a4e"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="7d63975c-8275-493e-ae5b-9c8048965019"
+			id="546e2a10-d217-4de7-b8d1-59bdf0abb01b"
 			name="Create_Workspace"
 			ref="a197f43b-fb20-4534-b03b-84e096df5644"
 			type="Recording">
@@ -398,45 +315,337 @@
 				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
+			id="54a18434-5e3e-4509-a13b-cd597102d26f"
+			name="ValidateDuplicationWindow"
+			ref="07155e59-cf58-4842-a764-d06d409f9ebf"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="59ae4d57-2e7d-4390-ae32-e4336ce5b11b"
+			name="ImportParameters___TC4"
+			ref="508f51ae-64c3-4d83-af45-cf6f6a43647c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="paramSearch4"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="25f19b28-5300-41eb-a5f3-4b2fbc9faf01"
+					variablename="paramSearch4">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Param_Search_4"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="25f19b28-5300-41eb-a5f3-4b2fbc9faf01"
+					variablename="Param_Search_4">
+					</var>
+				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="Jb4Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="ae54d0d2-abe7-47c0-b8d6-da10da7c3c09"
+					variablename="Jb4Window_Title">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<testmodule
+			id="600df5bf-a6f7-4902-a343-5c88c6eae14d"
+			name="SelectNewWorkspace"
+			ref="f28eb76c-5c72-4cff-ad85-ea2c7aa9e4f9"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="workbench"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="174dfc9d-41ec-4e4b-a91e-c57f6048bf92"
+					variablename="workbenchName">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Workbench"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="174dfc9d-41ec-4e4b-a91e-c57f6048bf92"
+					variablename="FolderName">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="60925edf-8649-4843-a406-14af99f87bf2"
+			name="InputAircraft___TC4"
+			ref="afefea4a-4f5d-4579-8538-e0a240c851c5"
+			type="Recording">
+				<missingdatavariablesbinding>
+					<var
+					dataname="Jb4Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="ae54d0d2-abe7-47c0-b8d6-da10da7c3c09"
+					variablename="Jb4Window_Title">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<testmodule
+			id="625f0e8f-c73f-45b2-9efc-2e31925d17a0"
+			name="ValidateJobCreation"
+			ref="7ae14ca4-6dc8-4812-a2d7-a14496d17a68"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="67c7bdec-2f01-48e8-ba79-617dbd64472d"
+			name="ValidateNewWorkspace"
+			ref="f68e3657-5cf5-414f-a86c-dfd8a7b9bd47"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="workspaceName"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="3013f374-57e1-4896-b74b-5663b612e152"
+					variablename="workspaceName">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Workspace_Name"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="3013f374-57e1-4896-b74b-5663b612e152"
+					variablename="Workspace_Name">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="70103414-d60a-415c-96ba-802e5997c5ea"
+			name="SaveandRun___Industry"
+			ref="817f1aad-7497-4968-accb-02566c796991"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="JbWindow_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
+					</var>
+				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="Jb1Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<testmodule
+			id="77cf1fa8-fba1-4412-b4ac-72389bd49110"
+			name="ValidateAdaptReportMetrics"
+			ref="de38de2e-3dd0-41f1-aafd-00c358143fe5"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="7b259604-da25-4647-a2d9-5a93dbe42dd9"
+			name="ExportJobLogs"
+			ref="9441e04b-623f-4e42-896c-389a35016a4e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="7d518fbe-942e-45f6-a3ad-3d50a8dfd055"
+			name="ValidateNewFolder"
+			ref="421fa0b9-0935-4fc9-a2e1-ab669d456ad7"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="workbench"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="174dfc9d-41ec-4e4b-a91e-c57f6048bf92"
+					variablename="workbenchName">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Workbench"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="174dfc9d-41ec-4e4b-a91e-c57f6048bf92"
+					variablename="FolderName">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="7ec88862-43d3-4884-9fa8-e3beb600d699"
 			name="SearchSkySuiteApp"
 			ref="fdc8a3fd-33a3-4930-bc93-6e54d869d2bc"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="89483545-f01c-4710-9612-f48d236594fc"
-			name="ImportSchedule"
-			ref="16ae0c26-7e6e-4237-b917-44cd424ce098"
+			id="82dbaa97-0cb9-472b-b37f-9aa69c845daf"
+			name="InputParameters___TC4"
+			ref="a301c1cb-8721-4f16-bf30-30aa700f7a9e"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="schSearch"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="c8fbc78c-5ca6-46da-adf0-1a745691b3d1"
-					variablename="schSearch">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Sch_Search"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="c8fbc78c-5ca6-46da-adf0-1a745691b3d1"
-					variablename="Sch_Search">
-					</var>
-				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
-					dataname="Planning_Period"
+					dataname="Jb4Window_Title"
 					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="3013f374-57e1-4896-b74b-5663b612e152"
-					variablename="Workspace_Name">
+					variableid="ae54d0d2-abe7-47c0-b8d6-da10da7c3c09"
+					variablename="Jb4Window_Title">
 					</var>
 				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
-			id="8d9be448-6c99-421f-9710-e6ce7aeb1faa"
-			name="InputMarket"
-			ref="6bc4b5f2-5a89-42a8-86d5-0f86e4d80766"
+			id="85c9362e-425e-43f8-96bd-254f6a49f63a"
+			name="FilloutTC01"
+			ref="e26b1c17-4430-48bf-a0db-7e3611d6770d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="jb1Name"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="0933a35d-c702-402a-828a-751c7a015205"
+					variablename="jb1Name">
+					</var>
+					<var
+					dataname="datesMed"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="54f5d2b5-d8d9-4087-8c0f-79289445f518"
+					variablename="datesMed">
+					</var>
+					<var
+					dataname="scNameIB"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="ef8a5b07-c4cd-4eb7-b47b-6d47d7cbb0b0"
+					variablename="scName">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="ScNameIB"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="ef8a5b07-c4cd-4eb7-b47b-6d47d7cbb0b0"
+					variablename="ScName">
+					</var>
+					<var
+					dataname="JbWindow_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
+					</var>
+					<var
+					dataname="Jb1_Name"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="0933a35d-c702-402a-828a-751c7a015205"
+					variablename="Jb1_Name">
+					</var>
+					<var
+					dataname="Dates_Med"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="54f5d2b5-d8d9-4087-8c0f-79289445f518"
+					variablename="Dates_Med">
+					</var>
+				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="Jb1Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<testmodule
+			id="8c2b6793-4ed3-4a48-ba98-15f0b8cc5853"
+			name="ValidateReportMetricsIndustry"
+			ref="26b7cc31-aaef-46b1-8099-dd5bc2daea79"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="JbWindow_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
+					</var>
+				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="Jb1Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<testmodule
+			id="8e3c00c5-4103-403b-8537-c62f408dc6e7"
+			name="ValidateSuccessfulExport"
+			ref="45f28363-b505-440a-9179-afe4297c983b"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="90efef1f-28f3-4936-a235-c9dea54bb880"
+			name="ExportJobReport"
+			ref="e27ef247-c466-49ba-bda2-16b9300b15c4"
+			type="Recording">
+			</testmodule>
+			<testcase
+			datasource="JobCreationData"
+			id="960c9297-1653-48de-a89a-ca09b02ea62e"
+			name="TC_04">
+			</testcase>
+			<testmodule
+			id="98881dfd-f375-4fc0-a164-d2d3026bdfee"
+			name="ValidateReportGenerated"
+			ref="8cb6a6a3-7be3-4974-9ca9-373a91fd2c78"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="a0b47f82-bdb3-4704-abc4-5d57abdbc2b7"
+			name="AdjustBuild"
+			ref="82a846b1-2e7d-4471-a4c2-120a5ef1e8e4"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="datesLow"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="7d71d56e-cbc5-497b-b395-d3ef9bf79a53"
+					variablename="datesLow">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Dates_Low"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="7d71d56e-cbc5-497b-b395-d3ef9bf79a53"
+					variablename="Dates_Low">
+					</var>
+				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="Jb9Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="d66cd471-5e9b-4286-b830-7543e5980022"
+					variablename="Jb9Window_Title">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<testcase
+			id="a12a01ce-c4b6-4908-999c-02f0c791b7f9"
+			name="UAT2"
+			reportlevel="Info;20">
+			</testcase>
+			<testmodule
+			id="a22c3daf-a716-4c55-8f7d-e5f588dc712f"
+			name="ValidateJobCreation"
+			ref="7ae14ca4-6dc8-4812-a2d7-a14496d17a68"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="a4c51033-b51f-4d8f-8804-edff1a8b0351"
+			name="CompareJobs"
+			ref="d3281d46-4d8a-4187-acbc-59996d87505c"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="a5680bab-dc49-4e7e-84a8-86c654e1ecc7"
+			name="InputAircraft"
+			ref="27001ae6-8f7d-4121-a222-77f298327dcf"
 			type="Recording">
 				<missingdatabinding>
 					<var
@@ -448,13 +657,99 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			id="8e3c00c5-4103-403b-8537-c62f408dc6e7"
-			name="ValidateSuccessfulExport"
-			ref="45f28363-b505-440a-9179-afe4297c983b"
+			id="a8242c18-91c3-463e-9c81-a600e17e7ebc"
+			name="CreateNewFolder"
+			ref="034b6de2-17c9-438c-a624-50b10a3aedb0"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="workbench"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="032670c3-3d82-4fe8-b971-9320dc6b5111"
+					variablename="workbenchName">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Workbench"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="032670c3-3d82-4fe8-b971-9320dc6b5111"
+					variablename="FolderName">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="add28447-7a09-434f-8a7c-7a53d74a145c"
+			name="ValidateNewJobPopup"
+			ref="b841bafd-c8b9-47fc-90cd-279c7c101192"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="8fc112a4-e749-4cea-87ed-ba6df131b5f1"
+			id="b19a4c83-148a-4015-99d2-910c2c57aab7"
+			name="InputCalibrationDemand2"
+			ref="d1847639-8828-4eb5-94b2-54eec5fa9880"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Jb1Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="b4e9582f-4fb4-44d7-8b3b-00c0b16e5879"
+			name="ValidateReportGenerated"
+			ref="8cb6a6a3-7be3-4974-9ca9-373a91fd2c78"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b907b5c3-0655-42e2-a887-898ecdddfd1f"
+			name="SelectNewScenario"
+			ref="a1128dc6-7cc6-4dfd-b6d1-11f75bdc2c1b"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Workspace_Name"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="3013f374-57e1-4896-b74b-5663b612e152"
+					variablename="Workspace_Name">
+					</var>
+				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="workspaceName"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="3013f374-57e1-4896-b74b-5663b612e152"
+					variablename="workspaceName">
+					</var>
+				</missingdatavariablesbinding>
+			</testmodule>
+			<testmodule
+			id="b920fc9a-2e84-417f-a5dd-1c0ccc07ef3e"
+			name="ValidateNewFolderPopup"
+			ref="ee20b5d4-f0f1-4d17-8428-18bd727d0d9a"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="ba4f66f0-893c-4352-ba1f-59db7d78e71a"
+			name="ValidateJobCancelled"
+			ref="73c41e39-d681-4bcb-97e1-ca4b65a87b8e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="bdd390a6-880b-4929-8282-3bae22eaee89"
+			name="ValidateJobCreation"
+			ref="7ae14ca4-6dc8-4812-a2d7-a14496d17a68"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="bf3519be-360d-4a82-9f39-a84b468c5eda"
+			name="ExportJobOutput">
+			</testcase>
+			<testmodule
+			id="c0304330-76ac-40e5-9ddc-080e41fda816"
 			name="FilloutTC04"
 			ref="30701a83-5693-489b-b9f5-b3336727caf4"
 			type="Recording">
@@ -520,118 +815,55 @@
 				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
-			id="90aa9836-afed-4d27-b2d8-b4087a68972f"
-			name="ValidateDuplicationWindow"
-			ref="07155e59-cf58-4842-a764-d06d409f9ebf"
+			id="cc685526-0622-42fd-9469-3c0276659a3e"
+			name="ImportBuild___TC4"
+			ref="4eb26172-577d-40fc-8a90-43462b2c6baa"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="98cd09ab-197e-4187-94b4-2db7fbff8ade"
-			name="FilloutTC01"
-			ref="e26b1c17-4430-48bf-a0db-7e3611d6770d"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="jb1Name"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="0933a35d-c702-402a-828a-751c7a015205"
-					variablename="jb1Name">
-					</var>
-					<var
-					dataname="datesMed"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="54f5d2b5-d8d9-4087-8c0f-79289445f518"
-					variablename="datesMed">
-					</var>
-					<var
-					dataname="scNameIB"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="ef8a5b07-c4cd-4eb7-b47b-6d47d7cbb0b0"
-					variablename="scName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="ScNameIB"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="ef8a5b07-c4cd-4eb7-b47b-6d47d7cbb0b0"
-					variablename="ScName">
-					</var>
-					<var
-					dataname="JbWindow_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
-					</var>
-					<var
-					dataname="Jb1_Name"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="0933a35d-c702-402a-828a-751c7a015205"
-					variablename="Jb1_Name">
-					</var>
-					<var
-					dataname="Dates_Med"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="54f5d2b5-d8d9-4087-8c0f-79289445f518"
-					variablename="Dates_Med">
-					</var>
-				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
-					dataname="Jb1Window_Title"
+					dataname="Jb4Window_Title"
 					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
+					variableid="ae54d0d2-abe7-47c0-b8d6-da10da7c3c09"
+					variablename="Jb4Window_Title">
 					</var>
 				</missingdatavariablesbinding>
 			</testmodule>
+			<testmodule
+			id="cd5b0cb3-fe05-4579-982d-6c29eb9e4b7c"
+			name="InputCalibrationDemand"
+			ref="6cfd94e1-5d30-42c7-823d-c1ce53920c96"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Jb1Window_Title"
+					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
+					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
+					variablename="JbWindow_Title">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="d1062287-1730-4d1c-9b79-98c45b6fe2ed"
+			name="AdaptReportValidationUAT2"
+			ref="0ddd72ec-3d91-4f2f-a45a-060cf5bcfe06"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d3012316-6a51-4df4-a9c8-85685aae6bc6"
+			name="ValidateKPIPanel"
+			ref="2336aa68-39dc-4264-9876-8bb565fecf78"
+			type="Recording">
+			</testmodule>
 			<testcase
-			id="a12a01ce-c4b6-4908-999c-02f0c791b7f9"
-			name="UAT2"
-			reportlevel="Info;20">
+			id="d77c19d9-987f-49f4-95e7-f471f2322a08"
+			name="ExportSchedule">
+			</testcase>
+			<testcase
+			id="d90f5f8f-9cb7-4879-a12f-f4267e96bb98"
+			name="Login">
 			</testcase>
 			<testmodule
-			id="a2f5e9d1-f076-4d86-8bf6-39baf8bbebaf"
-			name="ValidateNewFolderPopup"
-			ref="ee20b5d4-f0f1-4d17-8428-18bd727d0d9a"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="a8b76588-003e-43d4-9088-2fd548f7d200"
-			name="InputAircraft"
-			ref="27001ae6-8f7d-4121-a222-77f298327dcf"
-			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Jb1Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="a98bd3e6-57dc-4683-8b6d-6f66c0f7692a"
-			name="InputCalibrationDemand2"
-			ref="d1847639-8828-4eb5-94b2-54eec5fa9880"
-			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Jb1Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="add28447-7a09-434f-8a7c-7a53d74a145c"
-			name="ValidateNewJobPopup"
-			ref="b841bafd-c8b9-47fc-90cd-279c7c101192"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="ae769037-092e-429a-b8f3-461e6870294e"
+			id="edb444da-e22a-45d7-b5c1-abf93f0cdc32"
 			name="InputSchedule___TC4"
 			ref="61f09ac2-e62d-46e6-95b1-84c90aaf86df"
 			type="Recording">
@@ -645,57 +877,25 @@
 				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
-			id="b31909a9-9e63-44b3-9a2d-acbf78f79e01"
-			name="InputSchedule"
-			ref="a21464cf-05dc-4b78-b531-54fb8162eefa"
+			id="f0923990-76fa-4a02-ae49-a47a0eb7ce0f"
+			name="SelectNewFolderButton"
+			ref="52eed58e-6188-4aaa-92c7-672417f60443"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="datesMed"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="0b2e0f63-89dc-44cf-aaaf-34c6bfbb9921"
-					variablename="datesMed">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Jb1Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
-					</var>
-					<var
-					dataname="Dates_Med"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="0b2e0f63-89dc-44cf-aaaf-34c6bfbb9921"
-					variablename="Dates_Med">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			id="b927d2e0-356f-4a5e-8873-2604d0bcf64b"
-			name="SelectNewScenario"
-			ref="a1128dc6-7cc6-4dfd-b6d1-11f75bdc2c1b"
+			id="f3314c66-bc38-4dc6-8080-fceeb98270bb"
+			name="ValidateSuccessfulExport"
+			ref="45f28363-b505-440a-9179-afe4297c983b"
 			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Workspace_Name"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="3013f374-57e1-4896-b74b-5663b612e152"
-					variablename="Workspace_Name">
-					</var>
-				</missingdatabinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="workspaceName"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="3013f374-57e1-4896-b74b-5663b612e152"
-					variablename="workspaceName">
-					</var>
-				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
-			id="b9f82d0b-6ad4-40f4-867b-8ffd684879e5"
+			id="f50a3b2b-3be9-454b-a3c2-4b2b9d31423a"
+			name="Input_Network___TC4"
+			ref="f58ccb07-97e8-4768-8945-dd9545abe2be"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="f5bdadd6-e09d-4476-978f-289be3671e72"
 			name="InputCalibrationNetwork"
 			ref="65362fe7-7bec-4482-a07e-fd36e97d9999"
 			type="Recording">
@@ -709,180 +909,16 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			id="ba4f66f0-893c-4352-ba1f-59db7d78e71a"
-			name="ValidateJobCancelled"
-			ref="73c41e39-d681-4bcb-97e1-ca4b65a87b8e"
-			type="Recording">
-			</testmodule>
-			<testcase
-			id="bf3519be-360d-4a82-9f39-a84b468c5eda"
-			name="ExportJobOutput">
-			</testcase>
-			<testmodule
-			id="c102a2ff-557e-47f5-84a2-f2b3ae541509"
-			name="CreateNewFolder"
-			ref="034b6de2-17c9-438c-a624-50b10a3aedb0"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="workbench"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="032670c3-3d82-4fe8-b971-9320dc6b5111"
-					variablename="workbenchName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Workbench"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="032670c3-3d82-4fe8-b971-9320dc6b5111"
-					variablename="FolderName">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
-			id="c21126b5-a3f7-4cf7-a046-f6577a3acf77"
-			name="ValidateReportGenerated"
-			ref="8cb6a6a3-7be3-4974-9ca9-373a91fd2c78"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="c395da8e-69db-405e-b2b3-0c3d60050007"
-			name="FilloutTC07"
-			ref="73bcc5cc-0422-4982-b224-87f1b45f2f11"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="jb7Name"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="f734959e-987e-4151-ac70-e82d3fb915ec"
-					variablename="jb7Name">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="ce47b8f7-99f2-4c79-a18f-8f6a179c327e"
-			name="ValidateNewWorkspacePopup"
-			ref="e9786604-a8d8-4bd6-a1f5-a4b43637f3f3"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="d1062287-1730-4d1c-9b79-98c45b6fe2ed"
-			name="AdaptReportValidationUAT2"
-			ref="0ddd72ec-3d91-4f2f-a45a-060cf5bcfe06"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="d459b143-3125-4432-a134-7056e073db82"
-			name="InputRevenue"
-			ref="dcf04c9c-e63e-448d-bb92-a92fdebef4e8"
-			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Jb1Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="adf59c56-3149-4ee6-bffd-8a261f7a9b4c"
-					variablename="JbWindow_Title">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testcase
-			id="d77c19d9-987f-49f4-95e7-f471f2322a08"
-			name="ExportSchedule">
-			</testcase>
-			<testcase
-			id="d90f5f8f-9cb7-4879-a12f-f4267e96bb98"
-			name="Login">
-			</testcase>
-			<testmodule
-			id="d9f4bb35-5d88-4ed5-addf-88cbf692fafa"
-			name="IndustryMedReportValidationUAT2"
-			ref="abf64066-9d5f-457c-b8dd-517dd95c3fd2"
-			type="Recording">
-			</testmodule>
-			<testcase
-			datasource="JobCreationData"
-			id="e681bd88-23b3-47cb-97f6-f5b50c881c1c"
-			name="TC_01">
-			</testcase>
-			<testmodule
-			id="e68a81f3-7374-45b9-adaf-ed0de2bfa185"
-			name="InputAircraft___TC4"
-			ref="afefea4a-4f5d-4579-8538-e0a240c851c5"
-			type="Recording">
-				<missingdatavariablesbinding>
-					<var
-					dataname="Jb4Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="ae54d0d2-abe7-47c0-b8d6-da10da7c3c09"
-					variablename="Jb4Window_Title">
-					</var>
-				</missingdatavariablesbinding>
-			</testmodule>
-			<testmodule
-			id="e6fbb717-8ab5-490e-9471-15097d3cda8d"
-			name="ValidateNewScenarioPopup"
-			ref="0e737123-6727-4679-85bc-207fb0d9e097"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="e8bbaeb1-c25d-4bf3-b805-837b4e48a90f"
-			name="ValidateJobCreation"
-			ref="7ae14ca4-6dc8-4812-a2d7-a14496d17a68"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="eb6230a8-a465-414b-9ed5-d82d5c09b40c"
-			name="ValidateNewScenarioPopup"
-			ref="0e737123-6727-4679-85bc-207fb0d9e097"
-			type="Recording">
-			</testmodule>
-			<testcase
-			datasource="JobCreationData"
-			id="f1bcfeb4-7b9c-447b-8f18-2b539f3947e4"
-			name="TC_04">
-			</testcase>
-			<testmodule
-			id="f3314c66-bc38-4dc6-8080-fceeb98270bb"
-			name="ValidateSuccessfulExport"
-			ref="45f28363-b505-440a-9179-afe4297c983b"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="f69a5145-a1a0-4da8-aec1-71f3b32bdef2"
 			name="CreateJobfromExistingScenario"
 			ref="9d575bf9-289e-4589-b59d-089cbaf29ae1"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="f742533e-5f9d-485c-a78a-ceb0aed896a4"
-			name="AdjustBuild"
-			ref="82a846b1-2e7d-4471-a4c2-120a5ef1e8e4"
+			id="f7242601-559e-472d-a6b8-1d410382f123"
+			name="CloseJob_UAT2"
+			ref="7305dd86-4561-4b2a-bbd8-02453ea68eb0"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="datesLow"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="7d71d56e-cbc5-497b-b395-d3ef9bf79a53"
-					variablename="datesLow">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Dates_Low"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="7d71d56e-cbc5-497b-b395-d3ef9bf79a53"
-					variablename="Dates_Low">
-					</var>
-				</missingdatabinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="Jb9Window_Title"
-					datasourceid="d3928bba-c45f-479b-81a6-78e29b5384ba"
-					variableid="d66cd471-5e9b-4286-b830-7543e5980022"
-					variablename="Jb9Window_Title">
-					</var>
-				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="f7b8a94c-69cc-4944-a351-fb7886cfb17d"
@@ -909,12 +945,6 @@
 					variablename="scName">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			id="f9c1ec39-0d90-4c52-a0f5-bd40833d125b"
-			name="ValidateReportGenerated"
-			ref="8cb6a6a3-7be3-4974-9ca9-373a91fd2c78"
-			type="Recording">
 			</testmodule>
 			<testmodule
 			id="fc8ec1e4-ac1c-4a8e-ad21-27a333435b56"
@@ -967,158 +997,162 @@
 						</testmodule>
 					</testcase>
 					<testcase
-					id="e681bd88-23b3-47cb-97f6-f5b50c881c1c"
+					id="023cdea6-f511-46eb-9df0-f39463838e6a"
 					name="TC_01">
 						<testmodule
-						id="6a848d34-3482-47b8-aa58-e909297868c3"
+						id="f0923990-76fa-4a02-ae49-a47a0eb7ce0f"
 						name="SelectNewFolderButton">
 						</testmodule>
 						<testmodule
-						id="a2f5e9d1-f076-4d86-8bf6-39baf8bbebaf"
+						id="b920fc9a-2e84-417f-a5dd-1c0ccc07ef3e"
 						name="ValidateNewFolderPopup">
 						</testmodule>
 						<testmodule
-						id="c102a2ff-557e-47f5-84a2-f2b3ae541509"
+						id="a8242c18-91c3-463e-9c81-a600e17e7ebc"
 						name="CreateNewFolder">
 						</testmodule>
 						<testmodule
-						id="336f024c-3b26-4eb3-a449-d00be21f214d"
+						id="7d518fbe-942e-45f6-a3ad-3d50a8dfd055"
 						name="ValidateNewFolder">
 						</testmodule>
 						<testmodule
-						id="2a7b7e50-84bf-4dc3-ae27-616547398945"
+						id="600df5bf-a6f7-4902-a343-5c88c6eae14d"
 						name="SelectNewWorkspace">
 						</testmodule>
 						<testmodule
-						id="ce47b8f7-99f2-4c79-a18f-8f6a179c327e"
+						id="4489d4d0-21c8-4065-af4b-68781965e28b"
 						name="ValidateNewWorkspacePopup">
 						</testmodule>
 						<testmodule
-						id="7d63975c-8275-493e-ae5b-9c8048965019"
+						id="546e2a10-d217-4de7-b8d1-59bdf0abb01b"
 						name="Create_Workspace">
 						</testmodule>
 						<testmodule
-						id="3bfc9eb1-6d3d-402e-8483-37d476b42b7a"
+						id="67c7bdec-2f01-48e8-ba79-617dbd64472d"
 						name="ValidateNewWorkspace">
 						</testmodule>
 						<testmodule
-						id="89483545-f01c-4710-9612-f48d236594fc"
+						id="072eef2e-15e2-4d1b-b269-9f2a72939e47"
 						name="ImportSchedule">
 						</testmodule>
 						<testmodule
-						id="b927d2e0-356f-4a5e-8873-2604d0bcf64b"
+						id="b907b5c3-0655-42e2-a887-898ecdddfd1f"
 						name="SelectNewScenario">
 						</testmodule>
 						<testmodule
-						id="eb6230a8-a465-414b-9ed5-d82d5c09b40c"
+						id="2db8d692-7e36-42eb-a90a-324b757d363e"
 						name="ValidateNewScenarioPopup">
 						</testmodule>
 						<testmodule
-						id="98cd09ab-197e-4187-94b4-2db7fbff8ade"
+						id="85c9362e-425e-43f8-96bd-254f6a49f63a"
 						name="FilloutTC01">
 						</testmodule>
 						<testmodule
-						id="e8bbaeb1-c25d-4bf3-b805-837b4e48a90f"
+						id="625f0e8f-c73f-45b2-9efc-2e31925d17a0"
 						name="ValidateJobCreation">
 						</testmodule>
 						<testmodule
-						id="01e0fa16-cc07-4a4d-a2eb-5eeb5f218e00"
+						id="4f9dbe1f-5d9e-4454-8a84-36c625b90bf8"
 						name="ImportParameters___TC1">
 						</testmodule>
 						<testmodule
-						id="b31909a9-9e63-44b3-9a2d-acbf78f79e01"
+						id="110247f3-80e9-490b-9d28-801c2128540d"
 						name="InputSchedule">
 						</testmodule>
 						<testmodule
-						id="a8b76588-003e-43d4-9088-2fd548f7d200"
+						id="a5680bab-dc49-4e7e-84a8-86c654e1ecc7"
 						name="InputAircraft">
 						</testmodule>
 						<testmodule
-						id="60e68f71-2490-4fa0-93a6-c4d99d80beb5"
+						id="cd5b0cb3-fe05-4579-982d-6c29eb9e4b7c"
 						name="InputCalibrationDemand">
 						</testmodule>
 						<testmodule
-						id="a98bd3e6-57dc-4683-8b6d-6f66c0f7692a"
+						id="b19a4c83-148a-4015-99d2-910c2c57aab7"
 						name="InputCalibrationDemand2">
 						</testmodule>
 						<testmodule
-						id="b9f82d0b-6ad4-40f4-867b-8ffd684879e5"
+						id="f5bdadd6-e09d-4476-978f-289be3671e72"
 						name="InputCalibrationNetwork">
 						</testmodule>
 						<testmodule
-						id="8d9be448-6c99-421f-9710-e6ce7aeb1faa"
+						id="26f0281a-2440-4d2b-9ba1-16b322617429"
 						name="InputMarket">
 						</testmodule>
 						<testmodule
-						id="29c9c953-1a4f-4a48-aebe-d83dbcbe2629"
+						id="4171b789-506c-4b54-ade1-1bb19af00f38"
 						name="InputNetwork">
 						</testmodule>
 						<testmodule
-						id="d459b143-3125-4432-a134-7056e073db82"
+						id="21e92987-5474-42ee-9317-d60c2db81dac"
 						name="InputRevenue">
 						</testmodule>
 						<testmodule
-						id="10ccbc7f-d6e5-48a3-bf1d-5b9494233eae"
+						id="70103414-d60a-415c-96ba-802e5997c5ea"
 						name="SaveandRun___Industry">
 						</testmodule>
 						<testmodule
-						id="f9c1ec39-0d90-4c52-a0f5-bd40833d125b"
+						id="b4e9582f-4fb4-44d7-8b3b-00c0b16e5879"
 						name="ValidateReportGenerated">
 						</testmodule>
 						<testmodule
-						id="d9f4bb35-5d88-4ed5-addf-88cbf692fafa"
-						name="IndustryMedReportValidationUAT2">
+						id="8c2b6793-4ed3-4a48-ba98-15f0b8cc5853"
+						name="ValidateReportMetricsIndustry">
 						</testmodule>
 					</testcase>
 					<testcase
-					id="f1bcfeb4-7b9c-447b-8f18-2b539f3947e4"
+					id="960c9297-1653-48de-a89a-ca09b02ea62e"
 					name="TC_04">
 						<testmodule
-						id="40d88a20-49b9-41ac-86c8-8e13a33ce176"
+						id="34c36105-45d1-4e75-9ebb-93c1e735e378"
 						name="SelectNewScenario">
 						</testmodule>
 						<testmodule
-						id="e6fbb717-8ab5-490e-9471-15097d3cda8d"
+						id="4d97948c-9aac-464d-9006-27bce70d42ee"
 						name="ValidateNewScenarioPopup">
 						</testmodule>
 						<testmodule
-						id="8fc112a4-e749-4cea-87ed-ba6df131b5f1"
+						id="c0304330-76ac-40e5-9ddc-080e41fda816"
 						name="FilloutTC04">
 						</testmodule>
 						<testmodule
-						id="451b4125-4e6b-48cf-88f0-857316a8c277"
+						id="bdd390a6-880b-4929-8282-3bae22eaee89"
 						name="ValidateJobCreation">
 						</testmodule>
 						<testmodule
-						id="2491e4cd-070a-432e-a05c-b0998f73b944"
+						id="cc685526-0622-42fd-9469-3c0276659a3e"
 						name="ImportBuild___TC4">
 						</testmodule>
 						<testmodule
-						id="3b959cf0-e087-4ab6-bc2e-2b459b5e74fa"
+						id="59ae4d57-2e7d-4390-ae32-e4336ce5b11b"
 						name="ImportParameters___TC4">
 						</testmodule>
 						<testmodule
-						id="ae769037-092e-429a-b8f3-461e6870294e"
+						id="edb444da-e22a-45d7-b5c1-abf93f0cdc32"
 						name="InputSchedule___TC4">
 						</testmodule>
 						<testmodule
-						id="e68a81f3-7374-45b9-adaf-ed0de2bfa185"
+						id="60925edf-8649-4843-a406-14af99f87bf2"
 						name="InputAircraft___TC4">
 						</testmodule>
 						<testmodule
-						id="706256fd-8cd4-46c9-bb1a-29de158bec30"
+						id="f50a3b2b-3be9-454b-a3c2-4b2b9d31423a"
+						name="Input_Network___TC4">
+						</testmodule>
+						<testmodule
+						id="82dbaa97-0cb9-472b-b37f-9aa69c845daf"
 						name="InputParameters___TC4">
 						</testmodule>
 						<testmodule
-						id="1ac20c78-c70f-4eff-abd3-ce8206742fe1"
+						id="149ede0b-3b90-468e-8ce5-c2b5f96a0614"
 						name="SaveandRun___Evaluation_Adapt">
 						</testmodule>
 						<testmodule
-						id="c21126b5-a3f7-4cf7-a046-f6577a3acf77"
+						id="98881dfd-f375-4fc0-a164-d2d3026bdfee"
 						name="ValidateReportGenerated">
 						</testmodule>
 						<testmodule
-						id="785870e4-1fcf-46aa-9712-f86bc47190ba"
+						id="2403c3aa-a9f5-442c-90ea-8b765420a3fa"
 						name="ValidateReportMetricsEval">
 						</testmodule>
 					</testcase>
@@ -1126,23 +1160,23 @@
 					id="2cff2d60-628c-4937-9457-e023b93f3b7d"
 					name="TC_07">
 						<testmodule
-						id="6f696126-f3a4-4e98-9079-d10cf75452b6"
-						name="DuplicateTC04___TC7">
+						id="4a11dc34-aad0-43d2-b004-8ec3a15e28a1"
+						name="DuplicateTC_04">
 						</testmodule>
 						<testmodule
-						id="90aa9836-afed-4d27-b2d8-b4087a68972f"
+						id="54a18434-5e3e-4509-a13b-cd597102d26f"
 						name="ValidateDuplicationWindow">
 						</testmodule>
 						<testmodule
-						id="c395da8e-69db-405e-b2b3-0c3d60050007"
+						id="03f7231b-4754-485b-abdf-ac4710e72539"
 						name="FilloutTC07">
 						</testmodule>
 						<testmodule
-						id="578059fb-ae03-47a4-a93b-c4272b5d7385"
+						id="a22c3daf-a716-4c55-8f7d-e5f588dc712f"
 						name="ValidateJobCreation">
 						</testmodule>
 						<testmodule
-						id="f742533e-5f9d-485c-a78a-ceb0aed896a4"
+						id="a0b47f82-bdb3-4704-abc4-5d57abdbc2b7"
 						name="AdjustBuild">
 						</testmodule>
 						<testmodule
@@ -1158,8 +1192,24 @@
 						name="AdaptReportValidationUAT2">
 						</testmodule>
 						<testmodule
-						id="02fb0227-3fcb-4bfb-b0af-384bdcab2a38"
-						name="ValidateReportAdapt">
+						id="d3012316-6a51-4df4-a9c8-85685aae6bc6"
+						name="ValidateKPIPanel">
+						</testmodule>
+						<testmodule
+						id="77cf1fa8-fba1-4412-b4ac-72389bd49110"
+						name="ValidateAdaptReportMetrics">
+						</testmodule>
+						<testmodule
+						id="a4c51033-b51f-4d8f-8804-edff1a8b0351"
+						name="CompareJobs">
+						</testmodule>
+						<testmodule
+						id="90efef1f-28f3-4936-a235-c9dea54bb880"
+						name="ExportJobReport">
+						</testmodule>
+						<testmodule
+						id="f7242601-559e-472d-a6b8-1d410382f123"
+						name="CloseJob_UAT2">
 						</testmodule>
 					</testcase>
 					<testcase
@@ -1307,10 +1357,16 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="023cdea6-f511-46eb-9df0-f39463838e6a">
+			</testcontainer>
+			<testcontainer
 			id="1cd1a35e-cc04-4d0c-b12f-3263636d1b59">
 			</testcontainer>
 			<testcontainer
 			id="2cff2d60-628c-4937-9457-e023b93f3b7d">
+			</testcontainer>
+			<testcontainer
+			id="960c9297-1653-48de-a89a-ca09b02ea62e">
 			</testcontainer>
 			<testcontainer
 			id="a12a01ce-c4b6-4908-999c-02f0c791b7f9">
@@ -1320,15 +1376,6 @@
 			</testcontainer>
 			<testcontainer
 			id="d77c19d9-987f-49f4-95e7-f471f2322a08">
-			</testcontainer>
-			<testcontainer
-			id="d90f5f8f-9cb7-4879-a12f-f4267e96bb98">
-			</testcontainer>
-			<testcontainer
-			id="e681bd88-23b3-47cb-97f6-f5b50c881c1c">
-			</testcontainer>
-			<testcontainer
-			id="f1bcfeb4-7b9c-447b-8f18-2b539f3947e4">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

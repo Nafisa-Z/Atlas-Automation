@@ -31,6 +31,7 @@ namespace UAT2
         UAT2RepositoryFolders.ExportScheduleAppFolder _exportschedule;
         UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder _skysuiteeasyjetuat2;
         UAT2RepositoryFolders.JobWindowAppFolder _jobwindow;
+        UAT2RepositoryFolders.ExportJobAnalysisAppFolder _exportjobanalysis;
 
         /// <summary>
         /// Gets the singleton class instance representing the UAT2Repository element repository.
@@ -51,6 +52,7 @@ namespace UAT2
             _exportschedule = new UAT2RepositoryFolders.ExportScheduleAppFolder(this);
             _skysuiteeasyjetuat2 = new UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder(this);
             _jobwindow = new UAT2RepositoryFolders.JobWindowAppFolder(this);
+            _exportjobanalysis = new UAT2RepositoryFolders.ExportJobAnalysisAppFolder(this);
         }
 
 #region Variables
@@ -104,6 +106,15 @@ namespace UAT2
         {
             get { return _jobwindow; }
         }
+
+        /// <summary>
+        /// The ExportJobAnalysis folder.
+        /// </summary>
+        [RepositoryFolder("a71daca0-6065-4b41-8efe-a82f1312d92b")]
+        public virtual UAT2RepositoryFolders.ExportJobAnalysisAppFolder ExportJobAnalysis
+        {
+            get { return _exportjobanalysis; }
+        }
     }
 
     /// <summary>
@@ -118,9 +129,13 @@ namespace UAT2
         [RepositoryFolder("73143b3f-e210-402c-89d6-cacdb456f339")]
         public partial class SkySuiteAppFolder : RepoGenBaseFolder
         {
+            UAT2RepositoryFolders.ScenarioTreeListView1Folder _scenariotreelistview1;
             RepoItemInfo _schedulesInfo;
             RepoItemInfo _schedulestabtoolbarssimexportbuttonInfo;
             RepoItemInfo _notificationsInfo;
+            RepoItemInfo _evalmed3Info;
+            RepoItemInfo _evalmedInfo;
+            RepoItemInfo _evaluationjobsInfo;
 
             /// <summary>
             /// Creates a new SkySuite  folder.
@@ -128,9 +143,13 @@ namespace UAT2
             public SkySuiteAppFolder(RepoGenBaseFolder parentFolder) :
                     base("SkySuite", "/form[@name='Root']", parentFolder, 30000, null, false, "73143b3f-e210-402c-89d6-cacdb456f339", "")
             {
+                _scenariotreelistview1 = new UAT2RepositoryFolders.ScenarioTreeListView1Folder(this);
                 _schedulesInfo = new RepoItemInfo(this, "ScheduLes", ".//tabpagelist[@automationid='workbenchTabControl']//text[@caption='Schedu_les']", ".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/tabpage[@title='Schedu_les']/text[@caption='Schedu_les']", 30000, null, "3f0d6ef8-8e47-4c10-a4d9-a31c7170de9c");
                 _schedulestabtoolbarssimexportbuttonInfo = new RepoItemInfo(this, "SchedulesTabToolbarSSIMExportButton", ".//toolbar[@automationid='SchedulesTabToolbar']/button[@automationid='SchedulesTabToolbar_SSIMExportButton']", ".//button[@automationid='SchedulesTabToolbar_SSIMExportButton']", 30000, null, "2214a82d-e343-40b2-84e2-51dd4b06cc9d");
                 _notificationsInfo = new RepoItemInfo(this, "Notifications", "container[@automationid='content']//button[@automationid='PART_Toggle']", "?/?/container[@caption='TitleBar']/container[@caption='']/button[@automationid='PART_Toggle']", 30000, null, "6a261917-bf27-4bef-9bc5-8ce4816f24d6");
+                _evalmed3Info = new RepoItemInfo(this, "evalMed3", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "3dc24d85-5ff2-4b20-bdf4-2f2f8a08fab8");
+                _evalmedInfo = new RepoItemInfo(this, "evalMed", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "28ad0feb-58e1-4bcd-9c23-74e4996782a3");
+                _evaluationjobsInfo = new RepoItemInfo(this, "evaluationJobs", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", "", 30000, null, "46f527f3-bfa5-492d-b562-ce0f3214f144");
             }
 
             /// <summary>
@@ -228,6 +247,205 @@ namespace UAT2
                     return _notificationsInfo;
                 }
             }
+
+            /// <summary>
+            /// The evalMed3 item.
+            /// </summary>
+            [RepositoryItem("3dc24d85-5ff2-4b20-bdf4-2f2f8a08fab8")]
+            public virtual Ranorex.Cell evalMed3
+            {
+                get
+                {
+                    return _evalmed3Info.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The evalMed3 item info.
+            /// </summary>
+            [RepositoryItemInfo("3dc24d85-5ff2-4b20-bdf4-2f2f8a08fab8")]
+            public virtual RepoItemInfo evalMed3Info
+            {
+                get
+                {
+                    return _evalmed3Info;
+                }
+            }
+
+            /// <summary>
+            /// The evalMed item.
+            /// </summary>
+            [RepositoryItem("28ad0feb-58e1-4bcd-9c23-74e4996782a3")]
+            public virtual Ranorex.Cell evalMed
+            {
+                get
+                {
+                    return _evalmedInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The evalMed item info.
+            /// </summary>
+            [RepositoryItemInfo("28ad0feb-58e1-4bcd-9c23-74e4996782a3")]
+            public virtual RepoItemInfo evalMedInfo
+            {
+                get
+                {
+                    return _evalmedInfo;
+                }
+            }
+
+            /// <summary>
+            /// The evaluationJobs item.
+            /// </summary>
+            [RepositoryItem("46f527f3-bfa5-492d-b562-ce0f3214f144")]
+            public virtual Ranorex.Button evaluationJobs
+            {
+                get
+                {
+                    return _evaluationjobsInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The evaluationJobs item info.
+            /// </summary>
+            [RepositoryItemInfo("46f527f3-bfa5-492d-b562-ce0f3214f144")]
+            public virtual RepoItemInfo evaluationJobsInfo
+            {
+                get
+                {
+                    return _evaluationjobsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ScenarioTreeListView1 folder.
+            /// </summary>
+            [RepositoryFolder("afb016f4-932e-425e-8b02-b6311a1091bc")]
+            public virtual UAT2RepositoryFolders.ScenarioTreeListView1Folder ScenarioTreeListView1
+            {
+                get { return _scenariotreelistview1; }
+            }
+        }
+
+        /// <summary>
+        /// The ScenarioTreeListView1Folder folder.
+        /// </summary>
+        [RepositoryFolder("afb016f4-932e-425e-8b02-b6311a1091bc")]
+        public partial class ScenarioTreeListView1Folder : RepoGenBaseFolder
+        {
+            RepoItemInfo _scenariotreelistviewInfo;
+            RepoItemInfo _partexpandbuttonInfo;
+            RepoItemInfo _nameInfo;
+
+            /// <summary>
+            /// Creates a new ScenarioTreeListView1  folder.
+            /// </summary>
+            public ScenarioTreeListView1Folder(RepoGenBaseFolder parentFolder) :
+                    base("ScenarioTreeListView1", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']", parentFolder, 30000, null, false, "afb016f4-932e-425e-8b02-b6311a1091bc", "")
+            {
+                _scenariotreelistviewInfo = new RepoItemInfo(this, "ScenarioTreeListView", "", "", 30000, null, "cd6b9c81-3d3c-4f43-853a-e58ef590d87f");
+                _partexpandbuttonInfo = new RepoItemInfo(this, "PARTExpandButton", "container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", "", 30000, null, "ef50331f-2a49-46b4-ab10-e8f16ab3f433");
+                _nameInfo = new RepoItemInfo(this, "Name", "container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']//text[@automationid='name']", "container[@automationid='PART_ContentPresenter']/text[@automationid='name']", 30000, null, "400bc735-881b-4664-a055-eb7b5aab631b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("afb016f4-932e-425e-8b02-b6311a1091bc")]
+            public virtual Ranorex.Table Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Table>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("afb016f4-932e-425e-8b02-b6311a1091bc")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ScenarioTreeListView item.
+            /// </summary>
+            [RepositoryItem("cd6b9c81-3d3c-4f43-853a-e58ef590d87f")]
+            public virtual Ranorex.Table ScenarioTreeListView
+            {
+                get
+                {
+                    return _scenariotreelistviewInfo.CreateAdapter<Ranorex.Table>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ScenarioTreeListView item info.
+            /// </summary>
+            [RepositoryItemInfo("cd6b9c81-3d3c-4f43-853a-e58ef590d87f")]
+            public virtual RepoItemInfo ScenarioTreeListViewInfo
+            {
+                get
+                {
+                    return _scenariotreelistviewInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PARTExpandButton item.
+            /// </summary>
+            [RepositoryItem("ef50331f-2a49-46b4-ab10-e8f16ab3f433")]
+            public virtual Ranorex.Button PARTExpandButton
+            {
+                get
+                {
+                    return _partexpandbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PARTExpandButton item info.
+            /// </summary>
+            [RepositoryItemInfo("ef50331f-2a49-46b4-ab10-e8f16ab3f433")]
+            public virtual RepoItemInfo PARTExpandButtonInfo
+            {
+                get
+                {
+                    return _partexpandbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Name item.
+            /// </summary>
+            [RepositoryItem("400bc735-881b-4664-a055-eb7b5aab631b")]
+            public virtual Ranorex.Text Name
+            {
+                get
+                {
+                    return _nameInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Name item info.
+            /// </summary>
+            [RepositoryItemInfo("400bc735-881b-4664-a055-eb7b5aab631b")]
+            public virtual RepoItemInfo NameInfo
+            {
+                get
+                {
+                    return _nameInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -303,6 +521,10 @@ namespace UAT2
         public partial class SkySuiteEasyJetUAT2AppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _notification_itemInfo;
+            RepoItemInfo _duplicateInfo;
+            RepoItemInfo _tocurrentscenarioInfo;
+            RepoItemInfo _export_notificationInfo;
+            RepoItemInfo _c2adpbntc0720240227145729Info;
 
             /// <summary>
             /// Creates a new SkySuiteEasyJetUAT2  folder.
@@ -311,6 +533,10 @@ namespace UAT2
                     base("SkySuiteEasyJetUAT2", "/contextmenu[@processname='Sky.Suite.EasyJet UAT2']", parentFolder, 30000, null, false, "51f914af-50b0-4f0e-9e91-a5f25f59168c", "")
             {
                 _notification_itemInfo = new RepoItemInfo(this, "Notification_Item", "?/?/list[@automationid='notificationsList']/listitem[@index='0']", "", 30000, null, "f5d4a0a1-b7ab-46bb-ad44-1c3ab4c0b410");
+                _duplicateInfo = new RepoItemInfo(this, "DUplicate", "menuitem[@text='D_uplicate']", "", 30000, null, "ce1a3cb8-73d8-4dcc-a894-954b57830825");
+                _tocurrentscenarioInfo = new RepoItemInfo(this, "ToCurrentScenario", "?/?/menuitem[@text='To current scenario...']", "menuitem[@text='To current scenario...']", 30000, null, "3d0ca303-7797-4260-94f2-1f33ecdad755");
+                _export_notificationInfo = new RepoItemInfo(this, "Export_Notification", "?/?/list[@automationid='notificationsList']/listitem[@index='0']/button", ".//listitem[@index='0']/button", 30000, null, "07803de5-35f8-4f62-8c58-f32019e87468");
+                _c2adpbntc0720240227145729Info = new RepoItemInfo(this, "C2ADPBNTC0720240227145729", "?/?/listitem[@text~'C']", "", 30000, null, "33be9878-5d8f-4ddb-af12-d47fc8faae31");
             }
 
             /// <summary>
@@ -360,6 +586,102 @@ namespace UAT2
                     return _notification_itemInfo;
                 }
             }
+
+            /// <summary>
+            /// The DUplicate item.
+            /// </summary>
+            [RepositoryItem("ce1a3cb8-73d8-4dcc-a894-954b57830825")]
+            public virtual Ranorex.MenuItem DUplicate
+            {
+                get
+                {
+                    return _duplicateInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DUplicate item info.
+            /// </summary>
+            [RepositoryItemInfo("ce1a3cb8-73d8-4dcc-a894-954b57830825")]
+            public virtual RepoItemInfo DUplicateInfo
+            {
+                get
+                {
+                    return _duplicateInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ToCurrentScenario item.
+            /// </summary>
+            [RepositoryItem("3d0ca303-7797-4260-94f2-1f33ecdad755")]
+            public virtual Ranorex.MenuItem ToCurrentScenario
+            {
+                get
+                {
+                    return _tocurrentscenarioInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ToCurrentScenario item info.
+            /// </summary>
+            [RepositoryItemInfo("3d0ca303-7797-4260-94f2-1f33ecdad755")]
+            public virtual RepoItemInfo ToCurrentScenarioInfo
+            {
+                get
+                {
+                    return _tocurrentscenarioInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Export_Notification item.
+            /// </summary>
+            [RepositoryItem("07803de5-35f8-4f62-8c58-f32019e87468")]
+            public virtual Ranorex.Button Export_Notification
+            {
+                get
+                {
+                    return _export_notificationInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Export_Notification item info.
+            /// </summary>
+            [RepositoryItemInfo("07803de5-35f8-4f62-8c58-f32019e87468")]
+            public virtual RepoItemInfo Export_NotificationInfo
+            {
+                get
+                {
+                    return _export_notificationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The C2ADPBNTC0720240227145729 item.
+            /// </summary>
+            [RepositoryItem("33be9878-5d8f-4ddb-af12-d47fc8faae31")]
+            public virtual Ranorex.ListItem C2ADPBNTC0720240227145729
+            {
+                get
+                {
+                    return _c2adpbntc0720240227145729Info.CreateAdapter<Ranorex.ListItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The C2ADPBNTC0720240227145729 item info.
+            /// </summary>
+            [RepositoryItemInfo("33be9878-5d8f-4ddb-af12-d47fc8faae31")]
+            public virtual RepoItemInfo C2ADPBNTC0720240227145729Info
+            {
+                get
+                {
+                    return _c2adpbntc0720240227145729Info;
+                }
+            }
         }
 
         /// <summary>
@@ -369,6 +691,7 @@ namespace UAT2
         public partial class JobWindowAppFolder : RepoGenBaseFolder
         {
             UAT2RepositoryFolders.Report_TabFolder _report_tab;
+            UAT2RepositoryFolders.TabsFolder _tabs;
             RepoItemInfo _close_windowInfo;
             RepoItemInfo _flight_expandInfo;
             RepoItemInfo _flight_countInfo;
@@ -376,6 +699,19 @@ namespace UAT2
             RepoItemInfo _traffic_expandInfo;
             RepoItemInfo _trafficInfo;
             RepoItemInfo _traffic_rowInfo;
+            RepoItemInfo _bydaytoggleInfo;
+            RepoItemInfo _wednesdayInfo;
+            RepoItemInfo _dowtoggleInfo;
+            RepoItemInfo _tc07Info;
+            RepoItemInfo _export_report_buttonInfo;
+            RepoItemInfo _kpi_headerInfo;
+            Compare_ButtonInfoClass _compare_buttonInfo;
+            RepoItemInfo _togglebuttonInfo;
+            RepoItemInfo _hide__compare_panelInfo;
+            Report_PageInfoClass _report_pageInfo;
+            RepoItemInfo _flight_expand1Info;
+            RepoItemInfo _total_flights_rowInfo;
+            RepoItemInfo _flight_expand2Info;
 
             /// <summary>
             /// Creates a new JobWindow  folder.
@@ -384,6 +720,7 @@ namespace UAT2
                     base("JobWindow", "/form[@name='Root' and @title~'Jobs']", parentFolder, 30000, null, false, "b98a70ba-2c3b-491e-96af-a80fd0669a29", "")
             {
                 _report_tab = new UAT2RepositoryFolders.Report_TabFolder(this);
+                _tabs = new UAT2RepositoryFolders.TabsFolder(this);
                 _close_windowInfo = new RepoItemInfo(this, "Close_Window", "?/?/button[@automationid='PART_CloseButton']", "?/button[@automationid='PART_CloseButton']", 30000, null, "2a8d4ac5-bacf-459f-bb54-13a533c31e5b");
                 _flight_expandInfo = new RepoItemInfo(this, "Flight_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", 30000, null, "2858bf1c-9213-470a-b604-f7d635297ba5");
                 _flight_countInfo = new RepoItemInfo(this, "Flight_Count", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Flight Count - Schedule']", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "c93729ed-9097-46ce-b88d-11e69bb1b49c");
@@ -391,6 +728,89 @@ namespace UAT2
                 _traffic_expandInfo = new RepoItemInfo(this, "Traffic_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[11]/button[@automationid='PART_ExpandButton']", 30000, null, "7f985451-94c0-4c52-94d5-a3dca45fca2b");
                 _trafficInfo = new RepoItemInfo(this, "Traffic", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Traffic']", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']", 30000, null, "3c6e75db-1a88-4516-a6b9-746500eaf85b");
                 _traffic_rowInfo = new RepoItemInfo(this, "Traffic_Row", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[13]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[13]/list[@automationid='PART_DataCellsPresenter']/cell[1]/text[@caption='Traffic']", 30000, null, "68dfaadb-9655-446e-ad38-414cbcbb9449");
+                _bydaytoggleInfo = new RepoItemInfo(this, "ByDayToggle", ".//tabpagelist[@automationid='tabs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']//button[@automationid='byDayToggle']", ".//button[@automationid='byDayToggle']", 30000, null, "1603cc56-6094-451e-b04e-94f54f74e75b");
+                _wednesdayInfo = new RepoItemInfo(this, "Wednesday", "indicator//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Wednesday']", ".//text[@caption='Wednesday']", 30000, null, "6f34a0d7-8840-4eed-a3e2-1e86c47bb8ac");
+                _dowtoggleInfo = new RepoItemInfo(this, "DowToggle", ".//tabpagelist[@automationid='tabs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']//button[@automationid='dowToggle']", ".//button[@automationid='dowToggle']", 30000, null, "b617103c-ed2a-465a-8117-1527d5b2410b");
+                _tc07Info = new RepoItemInfo(this, "TC07", ".//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@text~'TC']", "", 30000, null, "aa149dc2-c419-4f34-805b-f2f987552027");
+                _export_report_buttonInfo = new RepoItemInfo(this, "Export_Report_Button", ".//container[@automationid='tabWhitespaceContent']/button[1]", ".//container[@automationid='tabWhitespaceContent']/button[1]", 30000, null, "03ba2582-0cf0-47c5-bfcc-7605d4fbfceb");
+                _kpi_headerInfo = new RepoItemInfo(this, "KPI_Header", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']", ".//row[@automationid='PART_HeaderRow']", 30000, null, "45ebb270-f840-456a-88cd-83877baad704");
+                _compare_buttonInfo = new Compare_ButtonInfoClass(this);
+                _togglebuttonInfo = new RepoItemInfo(this, "ToggleButton", "?/?/tabpagelist[@automationid='TabControl']/tabpagelist[@automationid='tabs']//container[@automationid='OptCompareView']/?/?/button[@name='HeaderSite' and @text='Current Job']//button[@automationid='toggleButton']", ".//button[@name='HeaderSite' and @text='Current Job']/indicator/list/combobox/button[@automationid='toggleButton']", 30000, null, "e78af842-74c1-4dfe-8890-0b36117bc6cc");
+                _hide__compare_panelInfo = new RepoItemInfo(this, "Hide__Compare_Panel", "?/?/tabpagelist[@automationid='TabControl']/tabpagelist[@automationid='tabs']//button[@automationid='HeaderSite']", ".//button[@automationid='HeaderSite']", 30000, null, "4254028f-f90a-4f89-8d55-0712e1764485");
+                _report_pageInfo = new Report_PageInfoClass(this);
+                _flight_expand1Info = new RepoItemInfo(this, "Flight_Expand1", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/button[@automationid='PART_ExpandButton']", "", 30000, null, "6269c316-1066-4469-974f-efcba395cd9a");
+                _total_flights_rowInfo = new RepoItemInfo(this, "Total_Flights_Row", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "7fb4ff50-a116-46c8-9fcf-77139ae114bb");
+                _flight_expand2Info = new RepoItemInfo(this, "Flight_Expand2", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/button[@automationid='PART_ExpandButton']", "", 30000, null, "09cc45e3-33ad-4a6a-8c22-3d06d26f9fa2");
+            }
+
+            /// <summary>
+            /// The Compare_ButtonInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("6fc6ada3-d0fe-44ac-a91a-044a7b7663ce")]
+            public class Compare_ButtonInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Compare_ButtonInfoClass class constructor.
+                /// </summary>
+                public Compare_ButtonInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Compare_Button", ".//tabpagelist[@automationid='tabs']/indicator", 30000, null, "6fc6ada3-d0fe-44ac-a91a-044a7b7663ce")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <returns>The Screenshot2 image.</returns>
+                [RepositoryImage("e8165da8-214b-4460-a1a5-74ff3fc5482b")]
+                public CompressedImage GetScreenshot2()
+                {
+                    return GetImage("e8165da8-214b-4460-a1a5-74ff3fc5482b");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("e8165da8-214b-4460-a1a5-74ff3fc5482b")]
+                public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("e8165da8-214b-4460-a1a5-74ff3fc5482b", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Report_PageInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("22f29a0d-a14a-4639-a895-e6d11ce8e9ee")]
+            public class Report_PageInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Report_PageInfoClass class constructor.
+                /// </summary>
+                public Report_PageInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Report_Page", "indicator", 30000, null, "22f29a0d-a14a-4639-a895-e6d11ce8e9ee")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("2f301309-82e4-4cd9-8d9a-3b169438dc59")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("2f301309-82e4-4cd9-8d9a-3b169438dc59");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("2f301309-82e4-4cd9-8d9a-3b169438dc59")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("2f301309-82e4-4cd9-8d9a-3b169438dc59", cropRect);
+                }
             }
 
             /// <summary>
@@ -586,12 +1006,333 @@ namespace UAT2
             }
 
             /// <summary>
+            /// The ByDayToggle item.
+            /// </summary>
+            [RepositoryItem("1603cc56-6094-451e-b04e-94f54f74e75b")]
+            public virtual Ranorex.Button ByDayToggle
+            {
+                get
+                {
+                    return _bydaytoggleInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ByDayToggle item info.
+            /// </summary>
+            [RepositoryItemInfo("1603cc56-6094-451e-b04e-94f54f74e75b")]
+            public virtual RepoItemInfo ByDayToggleInfo
+            {
+                get
+                {
+                    return _bydaytoggleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Wednesday item.
+            /// </summary>
+            [RepositoryItem("6f34a0d7-8840-4eed-a3e2-1e86c47bb8ac")]
+            public virtual Ranorex.Text Wednesday
+            {
+                get
+                {
+                    return _wednesdayInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Wednesday item info.
+            /// </summary>
+            [RepositoryItemInfo("6f34a0d7-8840-4eed-a3e2-1e86c47bb8ac")]
+            public virtual RepoItemInfo WednesdayInfo
+            {
+                get
+                {
+                    return _wednesdayInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DowToggle item.
+            /// </summary>
+            [RepositoryItem("b617103c-ed2a-465a-8117-1527d5b2410b")]
+            public virtual Ranorex.Button DowToggle
+            {
+                get
+                {
+                    return _dowtoggleInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DowToggle item info.
+            /// </summary>
+            [RepositoryItemInfo("b617103c-ed2a-465a-8117-1527d5b2410b")]
+            public virtual RepoItemInfo DowToggleInfo
+            {
+                get
+                {
+                    return _dowtoggleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TC07 item.
+            /// </summary>
+            [RepositoryItem("aa149dc2-c419-4f34-805b-f2f987552027")]
+            public virtual Ranorex.Text TC07
+            {
+                get
+                {
+                    return _tc07Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TC07 item info.
+            /// </summary>
+            [RepositoryItemInfo("aa149dc2-c419-4f34-805b-f2f987552027")]
+            public virtual RepoItemInfo TC07Info
+            {
+                get
+                {
+                    return _tc07Info;
+                }
+            }
+
+            /// <summary>
+            /// The Export_Report_Button item.
+            /// </summary>
+            [RepositoryItem("03ba2582-0cf0-47c5-bfcc-7605d4fbfceb")]
+            public virtual Ranorex.Button Export_Report_Button
+            {
+                get
+                {
+                    return _export_report_buttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Export_Report_Button item info.
+            /// </summary>
+            [RepositoryItemInfo("03ba2582-0cf0-47c5-bfcc-7605d4fbfceb")]
+            public virtual RepoItemInfo Export_Report_ButtonInfo
+            {
+                get
+                {
+                    return _export_report_buttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The KPI_Header item.
+            /// </summary>
+            [RepositoryItem("45ebb270-f840-456a-88cd-83877baad704")]
+            public virtual Ranorex.Row KPI_Header
+            {
+                get
+                {
+                    return _kpi_headerInfo.CreateAdapter<Ranorex.Row>(true);
+                }
+            }
+
+            /// <summary>
+            /// The KPI_Header item info.
+            /// </summary>
+            [RepositoryItemInfo("45ebb270-f840-456a-88cd-83877baad704")]
+            public virtual RepoItemInfo KPI_HeaderInfo
+            {
+                get
+                {
+                    return _kpi_headerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Compare_Button item.
+            /// </summary>
+            [RepositoryItem("6fc6ada3-d0fe-44ac-a91a-044a7b7663ce")]
+            public virtual Ranorex.Indicator Compare_Button
+            {
+                get
+                {
+                    return _compare_buttonInfo.CreateAdapter<Ranorex.Indicator>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Compare_Button item info.
+            /// </summary>
+            [RepositoryItemInfo("6fc6ada3-d0fe-44ac-a91a-044a7b7663ce")]
+            public virtual Compare_ButtonInfoClass Compare_ButtonInfo
+            {
+                get
+                {
+                    return _compare_buttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ToggleButton item.
+            /// </summary>
+            [RepositoryItem("e78af842-74c1-4dfe-8890-0b36117bc6cc")]
+            public virtual Ranorex.Button ToggleButton
+            {
+                get
+                {
+                    return _togglebuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ToggleButton item info.
+            /// </summary>
+            [RepositoryItemInfo("e78af842-74c1-4dfe-8890-0b36117bc6cc")]
+            public virtual RepoItemInfo ToggleButtonInfo
+            {
+                get
+                {
+                    return _togglebuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Hide__Compare_Panel item.
+            /// </summary>
+            [RepositoryItem("4254028f-f90a-4f89-8d55-0712e1764485")]
+            public virtual Ranorex.Button Hide__Compare_Panel
+            {
+                get
+                {
+                    return _hide__compare_panelInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Hide__Compare_Panel item info.
+            /// </summary>
+            [RepositoryItemInfo("4254028f-f90a-4f89-8d55-0712e1764485")]
+            public virtual RepoItemInfo Hide__Compare_PanelInfo
+            {
+                get
+                {
+                    return _hide__compare_panelInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Report_Page item.
+            /// </summary>
+            [RepositoryItem("22f29a0d-a14a-4639-a895-e6d11ce8e9ee")]
+            public virtual Ranorex.Indicator Report_Page
+            {
+                get
+                {
+                    return _report_pageInfo.CreateAdapter<Ranorex.Indicator>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Report_Page item info.
+            /// </summary>
+            [RepositoryItemInfo("22f29a0d-a14a-4639-a895-e6d11ce8e9ee")]
+            public virtual Report_PageInfoClass Report_PageInfo
+            {
+                get
+                {
+                    return _report_pageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Expand1 item.
+            /// </summary>
+            [RepositoryItem("6269c316-1066-4469-974f-efcba395cd9a")]
+            public virtual Ranorex.Button Flight_Expand1
+            {
+                get
+                {
+                    return _flight_expand1Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Expand1 item info.
+            /// </summary>
+            [RepositoryItemInfo("6269c316-1066-4469-974f-efcba395cd9a")]
+            public virtual RepoItemInfo Flight_Expand1Info
+            {
+                get
+                {
+                    return _flight_expand1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Total_Flights_Row item.
+            /// </summary>
+            [RepositoryItem("7fb4ff50-a116-46c8-9fcf-77139ae114bb")]
+            public virtual Ranorex.Row Total_Flights_Row
+            {
+                get
+                {
+                    return _total_flights_rowInfo.CreateAdapter<Ranorex.Row>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Total_Flights_Row item info.
+            /// </summary>
+            [RepositoryItemInfo("7fb4ff50-a116-46c8-9fcf-77139ae114bb")]
+            public virtual RepoItemInfo Total_Flights_RowInfo
+            {
+                get
+                {
+                    return _total_flights_rowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Expand2 item.
+            /// </summary>
+            [RepositoryItem("09cc45e3-33ad-4a6a-8c22-3d06d26f9fa2")]
+            public virtual Ranorex.Button Flight_Expand2
+            {
+                get
+                {
+                    return _flight_expand2Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Flight_Expand2 item info.
+            /// </summary>
+            [RepositoryItemInfo("09cc45e3-33ad-4a6a-8c22-3d06d26f9fa2")]
+            public virtual RepoItemInfo Flight_Expand2Info
+            {
+                get
+                {
+                    return _flight_expand2Info;
+                }
+            }
+
+            /// <summary>
             /// The Report_Tab folder.
             /// </summary>
             [RepositoryFolder("b334a0cc-dfa8-441b-aaba-09b6b6f8f9ac")]
             public virtual UAT2RepositoryFolders.Report_TabFolder Report_Tab
             {
                 get { return _report_tab; }
+            }
+
+            /// <summary>
+            /// The Tabs folder.
+            /// </summary>
+            [RepositoryFolder("75278441-1a1a-4d43-8e6e-b54a445e359c")]
+            public virtual UAT2RepositoryFolders.TabsFolder Tabs
+            {
+                get { return _tabs; }
             }
         }
 
@@ -875,6 +1616,216 @@ namespace UAT2
                 get
                 {
                     return _traffic_rowInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The TabsFolder folder.
+        /// </summary>
+        [RepositoryFolder("75278441-1a1a-4d43-8e6e-b54a445e359c")]
+        public partial class TabsFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _loadInfo;
+            RepoItemInfo _delete_schedule_comparisonInfo;
+            RepoItemInfo _applyInfo;
+            RepoItemInfo _total_flightsInfo;
+
+            /// <summary>
+            /// Creates a new Tabs  folder.
+            /// </summary>
+            public TabsFolder(RepoGenBaseFolder parentFolder) :
+                    base("Tabs", ".//tabpagelist[@automationid='tabs']", parentFolder, 30000, null, false, "75278441-1a1a-4d43-8e6e-b54a445e359c", "")
+            {
+                _loadInfo = new RepoItemInfo(this, "Load", ".//button[@automationid='Apply']/text[@caption='Load']", "", 30000, null, "0aedcf66-d706-4ed3-b2bb-2dd051fe9b8a");
+                _delete_schedule_comparisonInfo = new RepoItemInfo(this, "Delete_Schedule_Comparison", ".//container[@automationid='OptCompareView']/?/?/button[@name='HeaderSite' and @text='Current Job']/?/?/list/button", "indicator/list/button", 30000, null, "2ec4c7a1-c24c-42b7-9796-96a795f71b22");
+                _applyInfo = new RepoItemInfo(this, "Apply", ".//container[@automationid='OptCompareView']/button[@automationid='Apply']", "", 30000, null, "c49716fc-bd4c-4ddb-b8a2-cb5f0d0ef9f0");
+                _total_flightsInfo = new RepoItemInfo(this, "Total_Flights", "indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[16]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']", "table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "d9f1a5b4-6585-4bf6-ae5c-e5ab9ed9f3a2");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("75278441-1a1a-4d43-8e6e-b54a445e359c")]
+            public virtual Ranorex.TabPageList Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.TabPageList>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("75278441-1a1a-4d43-8e6e-b54a445e359c")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Load item.
+            /// </summary>
+            [RepositoryItem("0aedcf66-d706-4ed3-b2bb-2dd051fe9b8a")]
+            public virtual Ranorex.Text Load
+            {
+                get
+                {
+                    return _loadInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Load item info.
+            /// </summary>
+            [RepositoryItemInfo("0aedcf66-d706-4ed3-b2bb-2dd051fe9b8a")]
+            public virtual RepoItemInfo LoadInfo
+            {
+                get
+                {
+                    return _loadInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Delete_Schedule_Comparison item.
+            /// </summary>
+            [RepositoryItem("2ec4c7a1-c24c-42b7-9796-96a795f71b22")]
+            public virtual Ranorex.Button Delete_Schedule_Comparison
+            {
+                get
+                {
+                    return _delete_schedule_comparisonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Delete_Schedule_Comparison item info.
+            /// </summary>
+            [RepositoryItemInfo("2ec4c7a1-c24c-42b7-9796-96a795f71b22")]
+            public virtual RepoItemInfo Delete_Schedule_ComparisonInfo
+            {
+                get
+                {
+                    return _delete_schedule_comparisonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Apply item.
+            /// </summary>
+            [RepositoryItem("c49716fc-bd4c-4ddb-b8a2-cb5f0d0ef9f0")]
+            public virtual Ranorex.Button Apply
+            {
+                get
+                {
+                    return _applyInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Apply item info.
+            /// </summary>
+            [RepositoryItemInfo("c49716fc-bd4c-4ddb-b8a2-cb5f0d0ef9f0")]
+            public virtual RepoItemInfo ApplyInfo
+            {
+                get
+                {
+                    return _applyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Total_Flights item.
+            /// </summary>
+            [RepositoryItem("d9f1a5b4-6585-4bf6-ae5c-e5ab9ed9f3a2")]
+            public virtual Ranorex.Text Total_Flights
+            {
+                get
+                {
+                    return _total_flightsInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Total_Flights item info.
+            /// </summary>
+            [RepositoryItemInfo("d9f1a5b4-6585-4bf6-ae5c-e5ab9ed9f3a2")]
+            public virtual RepoItemInfo Total_FlightsInfo
+            {
+                get
+                {
+                    return _total_flightsInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExportJobAnalysisAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("a71daca0-6065-4b41-8efe-a82f1312d92b")]
+        public partial class ExportJobAnalysisAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _exportInfo;
+
+            /// <summary>
+            /// Creates a new ExportJobAnalysis  folder.
+            /// </summary>
+            public ExportJobAnalysisAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ExportJobAnalysis", "/form[@title='Export job analysis']", parentFolder, 30000, null, false, "a71daca0-6065-4b41-8efe-a82f1312d92b", "")
+            {
+                _exportInfo = new RepoItemInfo(this, "Export", ".//button[@text='Export']", ".//button[@text='Export']", 30000, null, "44e180d5-20fc-4045-8791-644d9e2389d9");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("a71daca0-6065-4b41-8efe-a82f1312d92b")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("a71daca0-6065-4b41-8efe-a82f1312d92b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Export item.
+            /// </summary>
+            [RepositoryItem("44e180d5-20fc-4045-8791-644d9e2389d9")]
+            public virtual Ranorex.Button Export
+            {
+                get
+                {
+                    return _exportInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Export item info.
+            /// </summary>
+            [RepositoryItemInfo("44e180d5-20fc-4045-8791-644d9e2389d9")]
+            public virtual RepoItemInfo ExportInfo
+            {
+                get
+                {
+                    return _exportInfo;
                 }
             }
         }

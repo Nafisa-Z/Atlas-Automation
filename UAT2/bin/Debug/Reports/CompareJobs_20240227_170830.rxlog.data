@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="42.71s"
+		durationms="42714"
+		type="root"
+		rid="10dd8433d876d1a4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="27/02/2024 17:08:33"
+		timestampiso="2024-02-27T17:08:33"
+		endtime="27/02/2024 17:09:15"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CompareJobs">
+		<detail>
+			CompareJobs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.663"
+			timeRelativeToTestModuleStartTime="00:02.663"
+			timeWallClock="17:08:35"
+			time="00:02.663"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']"
+				itempath="/form[@name='Root' and @title~'Jobs']"
+				fullname="UAT2Repository.JobWindow.Self"
+				id="b98a70ba2c3b491e96afa80fd0669a29"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.784"
+			timeRelativeToTestModuleStartTime="00:10.784"
+			timeWallClock="17:08:43"
+			time="00:10.784"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Compare_Button' at 13;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator"
+				itempath=".//tabpagelist[@automationid='tabs']/indicator"
+				fullname="UAT2Repository.JobWindow.Compare_Button"
+				id="6fc6ada3d0fe44aca91a044a7b7663ce"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.492"
+			timeRelativeToTestModuleStartTime="00:12.492"
+			timeWallClock="17:08:45"
+			time="00:12.492"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.ToggleButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/tabpagelist[@automationid='tabs']//container[@automationid='OptCompareView']/?/?/button[@name='HeaderSite' and @text='Current Job']//button[@automationid='toggleButton']"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/tabpagelist[@automationid='tabs']//container[@automationid='OptCompareView']/?/?/button[@name='HeaderSite' and @text='Current Job']//button[@automationid='toggleButton']"
+				fullname="UAT2Repository.JobWindow.ToggleButton"
+				id="e78af84274c14dfe88900b36117bc6cc"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.976"
+			timeRelativeToTestModuleStartTime="00:33.976"
+			timeWallClock="17:09:07"
+			time="00:33.976"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SkySuiteEasyJetUAT2.C2ADPBNTC0720240227145729' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Sky.Suite.EasyJet UAT2']/?/?/listitem[@text>'C2_ADP_BN_TC-07 2024-02-27']"
+				itempath="?/?/listitem[@text>'C2_ADP_BN_TC-07 2024-02-27']"
+				fullname="UAT2Repository.SkySuiteEasyJetUAT2.C2ADPBNTC0720240227145729"
+				id="33be98785d8f4ddbaf12d47fc8faae31"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.526"
+			timeRelativeToTestModuleStartTime="00:34.526"
+			timeWallClock="17:09:07"
+			time="00:34.526"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Tabs.Apply' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']//container[@automationid='OptCompareView']/button[@automationid='Apply']"
+				itempath=".//container[@automationid='OptCompareView']/button[@automationid='Apply']"
+				fullname="UAT2Repository.JobWindow.Tabs.Apply"
+				id="c49716fcbd4c4ddbb8a2cb5f0d0ef9f0"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.812"
+			timeRelativeToTestModuleStartTime="00:35.812"
+			timeWallClock="17:09:08"
+			time="00:35.812"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='TC-07 2024-02-27 14-57-29_v2') on item 'JobWindow.TC07'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@text~'TC']"
+				itempath=".//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@text~'TC']"
+				fullname="UAT2Repository.JobWindow.TC07"
+				id="aa149dc2c4194f34805bf2f987552027"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.057"
+			timeRelativeToTestModuleStartTime="00:38.057"
+			timeWallClock="17:09:11"
+			time="00:38.057"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'UAT2Repository.JobWindow.TC07' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@text~'TC']"
+				itempath=".//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@text~'TC']"
+				fullname="UAT2Repository.JobWindow.TC07"
+				id="aa149dc2c4194f34805bf2f987552027"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.166"
+			timeRelativeToTestModuleStartTime="00:38.166"
+			timeWallClock="17:09:11"
+			time="00:38.166"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Tabs.Delete_Schedule_Comparison' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']//container[@automationid='OptCompareView']/?/?/button[@name='HeaderSite' and @text='Current Job']/?/?/list/button"
+				itempath=".//container[@automationid='OptCompareView']/?/?/button[@name='HeaderSite' and @text='Current Job']/?/?/list/button"
+				fullname="UAT2Repository.JobWindow.Tabs.Delete_Schedule_Comparison"
+				id="2ec4c7a1c24c42b7979696a795f71b22"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.643"
+			timeRelativeToTestModuleStartTime="00:39.643"
+			timeWallClock="17:09:12"
+			time="00:39.643"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Tabs.Load' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']//button[@automationid='Apply']/text[@caption='Load']"
+				itempath=".//button[@automationid='Apply']/text[@caption='Load']"
+				fullname="UAT2Repository.JobWindow.Tabs.Load"
+				id="0aedcf66d7064ed3b2bb2dd051fe9b8a"
+				timeout="90000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.196"
+			timeRelativeToTestModuleStartTime="00:41.196"
+			timeWallClock="17:09:14"
+			time="00:41.196"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Hide__Compare_Panel' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/?/?/tabpagelist[@automationid='TabControl']/tabpagelist[@automationid='tabs']//button[@automationid='HeaderSite']"
+				itempath="?/?/tabpagelist[@automationid='TabControl']/tabpagelist[@automationid='tabs']//button[@automationid='HeaderSite']"
+				fullname="UAT2Repository.JobWindow.Hide__Compare_Panel"
+				id="4254028ff90a4f898d550712e1764485"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

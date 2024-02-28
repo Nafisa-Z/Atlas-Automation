@@ -156,6 +156,42 @@
       <UserCode>true</UserCode>
       <id>aee3ef90-4f94-4f52-8ade-9d2584a3f3fb</id>
     </Compile>
+    <Compile Include="Modules\CompareJobs.cs">
+      <BoundTo>6670c00d-07d4-46af-b86e-b3c3549e6aee</BoundTo>
+      <DependentUpon>CompareJobs.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>258a0369-7d9e-4741-8986-f143e98c98a1</id>
+    </Compile>
+    <Compile Include="Modules\CompareJobs.UserCode.cs">
+      <BoundTo>6670c00d-07d4-46af-b86e-b3c3549e6aee</BoundTo>
+      <DependentUpon>CompareJobs.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>27c684a7-d034-4098-ab35-b32c1959bbfb</id>
+    </Compile>
+    <Compile Include="Modules\DuplicateTC_04.cs">
+      <BoundTo>c7d2874a-0714-41d8-9bbc-42dc7ee26e53</BoundTo>
+      <DependentUpon>DuplicateTC_04.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>238e407a-ff1e-4baa-b3ee-e0ce61969bd2</id>
+    </Compile>
+    <Compile Include="Modules\DuplicateTC_04.UserCode.cs">
+      <BoundTo>c7d2874a-0714-41d8-9bbc-42dc7ee26e53</BoundTo>
+      <DependentUpon>DuplicateTC_04.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f9e892bf-768b-4b2f-8b53-ad6c155e6645</id>
+    </Compile>
+    <Compile Include="Modules\ExportJobReport.cs">
+      <BoundTo>ce650531-2e72-4dc6-87c3-6ba5ab574a78</BoundTo>
+      <DependentUpon>ExportJobReport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>24977b93-4700-45d5-b834-ac6059a86a17</id>
+    </Compile>
+    <Compile Include="Modules\ExportJobReport.UserCode.cs">
+      <BoundTo>ce650531-2e72-4dc6-87c3-6ba5ab574a78</BoundTo>
+      <DependentUpon>ExportJobReport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4339b1ee-1cc2-4277-b082-b6adc269c408</id>
+    </Compile>
     <Compile Include="Modules\ExportSchedule.cs">
       <BoundTo>15108f37-a291-40de-9254-75828f084202</BoundTo>
       <DependentUpon>ExportSchedule.rxrec</DependentUpon>
@@ -228,6 +264,42 @@
       <id>03cde2be-43c8-4e52-a52b-dc4ea120097c</id>
       <BoundTo>379a8e6b-42a6-45e2-a584-067dee1e18e7</BoundTo>
     </Compile>
+    <Compile Include="Modules\CloseJob_UAT2.cs">
+      <BoundTo>b3f3a22a-b40e-4086-b762-387c0d683192</BoundTo>
+      <DependentUpon>CloseJob_UAT2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ab6c3efe-e06e-4a9f-a088-06b1f97ae039</id>
+    </Compile>
+    <Compile Include="Modules\CloseJob_UAT2.UserCode.cs">
+      <BoundTo>b3f3a22a-b40e-4086-b762-387c0d683192</BoundTo>
+      <DependentUpon>CloseJob_UAT2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d15d27bd-d979-47e8-9e67-bd38d60a799d</id>
+    </Compile>
+    <Compile Include="Modules\ValidateAdaptReportMetrics.cs">
+      <BoundTo>e8466832-9dc2-41dd-a94a-b9206ab08365</BoundTo>
+      <DependentUpon>ValidateAdaptReportMetrics.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f40409b7-4a70-4d77-977f-e93a82e551f1</id>
+    </Compile>
+    <Compile Include="Modules\ValidateAdaptReportMetrics.UserCode.cs">
+      <BoundTo>e8466832-9dc2-41dd-a94a-b9206ab08365</BoundTo>
+      <DependentUpon>ValidateAdaptReportMetrics.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b479be2-3c0a-429b-9de1-e3183717e697</id>
+    </Compile>
+    <Compile Include="Modules\ValidateKPIPanel.cs">
+      <BoundTo>81d3a22f-23aa-4d61-aadf-bd027e585bef</BoundTo>
+      <DependentUpon>ValidateKPIPanel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c9060192-57dc-45d6-81f0-4eaf77759bd3</id>
+    </Compile>
+    <Compile Include="Modules\ValidateKPIPanel.UserCode.cs">
+      <BoundTo>81d3a22f-23aa-4d61-aadf-bd027e585bef</BoundTo>
+      <DependentUpon>ValidateKPIPanel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>40d80ea5-e3f8-46de-9a6b-750501ca8cf6</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>190f5691-f3e5-4c7e-b67d-90625899aed3</id>
     </Compile>
@@ -265,6 +337,21 @@
       <id>8c05d2e5-f14e-4a77-be13-f8e3b834c3ca</id>
       <recordtableid>78ae0ead-741a-4515-ad0e-b5c5cb4e72d9</recordtableid>
     </None>
+    <None Include="Modules\CompareJobs.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>6670c00d-07d4-46af-b86e-b3c3549e6aee</id>
+      <recordtableid>d3281d46-4d8a-4187-acbc-59996d87505c</recordtableid>
+    </None>
+    <None Include="Modules\DuplicateTC_04.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>c7d2874a-0714-41d8-9bbc-42dc7ee26e53</id>
+      <recordtableid>e864cf89-d470-4205-9ac6-45d28ddd8a7a</recordtableid>
+    </None>
+    <None Include="Modules\ExportJobReport.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>ce650531-2e72-4dc6-87c3-6ba5ab574a78</id>
+      <recordtableid>e27ef247-c466-49ba-bda2-16b9300b15c4</recordtableid>
+    </None>
     <None Include="Modules\ExportSchedule.rxrec">
       <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
       <id>15108f37-a291-40de-9254-75828f084202</id>
@@ -294,6 +381,21 @@
       <BoundTo>b511bfd3-5a73-42be-b076-97ce440546e4</BoundTo>
       <id>379a8e6b-42a6-45e2-a584-067dee1e18e7</id>
       <recordtableid>09a8f96c-ddec-4f73-ad2c-8cf0e32f8438</recordtableid>
+    </None>
+    <None Include="Modules\CloseJob_UAT2.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>b3f3a22a-b40e-4086-b762-387c0d683192</id>
+      <recordtableid>7305dd86-4561-4b2a-bbd8-02453ea68eb0</recordtableid>
+    </None>
+    <None Include="Modules\ValidateAdaptReportMetrics.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>e8466832-9dc2-41dd-a94a-b9206ab08365</id>
+      <recordtableid>de38de2e-3dd0-41f1-aafd-00c358143fe5</recordtableid>
+    </None>
+    <None Include="Modules\ValidateKPIPanel.rxrec">
+      <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>
+      <id>81d3a22f-23aa-4d61-aadf-bd027e585bef</id>
+      <recordtableid>2336aa68-39dc-4264-9876-8bb565fecf78</recordtableid>
     </None>
     <None Include="UAT2Repository.rximg">
       <BoundTo>ffe4ce7b-8037-401d-b34a-533d99bdfe88</BoundTo>

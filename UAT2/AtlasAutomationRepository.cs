@@ -42,6 +42,7 @@ namespace AtlasAutomation
         AtlasAutomationRepositoryFolders.JobWindowAppFolder _jobwindow;
         AtlasAutomationRepositoryFolders.ExportJobSetupAppFolder _exportjobsetup;
         AtlasAutomationRepositoryFolders.ExportLogsAppFolder _exportlogs;
+        RepoItemInfo _fleetsize1as23tc08020524Info;
 
         /// <summary>
         /// Gets the singleton class instance representing the AtlasAutomationRepository element repository.
@@ -73,6 +74,7 @@ namespace AtlasAutomation
             _jobwindow = new AtlasAutomationRepositoryFolders.JobWindowAppFolder(this);
             _exportjobsetup = new AtlasAutomationRepositoryFolders.ExportJobSetupAppFolder(this);
             _exportlogs = new AtlasAutomationRepositoryFolders.ExportLogsAppFolder(this);
+            _fleetsize1as23tc08020524Info = new RepoItemInfo(this, "FleetSize1AS23TC08020524", "/form[@title='Add Dataset from Database']//table[@automationid='datasetRadGridView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption>'FleetSize_1A_S23_TC08_02.']", 30000, null, "338507a9-3cd8-43e0-8eb0-46e334fc88fc");
         }
 
 #region Variables
@@ -244,6 +246,30 @@ namespace AtlasAutomation
             get
             {
                 return _selfInfo;
+            }
+        }
+
+        /// <summary>
+        /// The FleetSize1AS23TC08020524 item.
+        /// </summary>
+        [RepositoryItem("338507a9-3cd8-43e0-8eb0-46e334fc88fc")]
+        public virtual Ranorex.Text FleetSize1AS23TC08020524
+        {
+            get
+            {
+                 return _fleetsize1as23tc08020524Info.CreateAdapter<Ranorex.Text>(true);
+            }
+        }
+
+        /// <summary>
+        /// The FleetSize1AS23TC08020524 item info.
+        /// </summary>
+        [RepositoryItemInfo("338507a9-3cd8-43e0-8eb0-46e334fc88fc")]
+        public virtual RepoItemInfo FleetSize1AS23TC08020524Info
+        {
+            get
+            {
+                return _fleetsize1as23tc08020524Info;
             }
         }
 
@@ -424,7 +450,7 @@ namespace AtlasAutomation
             /// Creates a new SkySuite  folder.
             /// </summary>
             public SkySuiteAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SkySuite", "/form[@name='Root']", parentFolder, 30000, null, true, "12f9a8e2-bf21-41d6-a222-3baa984f5626", "")
+                    base("SkySuite", "/form[@name='Root']", parentFolder, 30000, null, false, "12f9a8e2-bf21-41d6-a222-3baa984f5626", "")
             {
                 _somecontainer = new AtlasAutomationRepositoryFolders.SomeContainerFolder(this);
                 _workbenchbuttonInfo = new RepoItemInfo(this, "workbenchButton", "?/?/list[@automationid='LeftPanelMainList']/listitem[@index='1']/radiobutton", ".//listitem[@index='1']/radiobutton", 30000, null, "30857447-b394-4b30-b92b-5627caff8e46");
@@ -438,11 +464,11 @@ namespace AtlasAutomation
                 _job1Info = new RepoItemInfo(this, "job1", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", 30000, null, "b00d5957-264b-4b62-b036-ab84d20d759d");
                 _job1_tc03Info = new RepoItemInfo(this, "job1_TC03", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]/container[@automationid='PART_ContentPresenter']/text[@automationid='name']", 30000, null, "f75b3bdc-0b8e-4bb6-b969-4b03957c4ce4");
                 _evalmedInfo = new RepoItemInfo(this, "evalMed", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "28ad0feb-58e1-4bcd-9c23-74e4996782a3");
-                _evalmed2Info = new RepoItemInfo(this, "evalMed2", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[3]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "22045ea4-6766-4cfa-af70-170ab3cf1e27");
+                _evalmed2Info = new RepoItemInfo(this, "evalMed2", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[4]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "22045ea4-6766-4cfa-af70-170ab3cf1e27");
                 _evalmed3Info = new RepoItemInfo(this, "evalMed3", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "cb7381ac-14d4-4538-9323-bd4a6d5dd89c");
                 _tabpagescenariosInfo = new RepoItemInfo(this, "tabPageScenarios", ".//tabpagelist[@automationid='workbenchTabControl']/container[@automationid='HeaderPanel']/tabpage[@title='_Scenarios']", ".//tabpage[@title='_Scenarios']", 30000, null, "5c21ea2b-ca4e-4784-b18f-cb0d8cdc5b28");
-                _evaluationjobsInfo = new RepoItemInfo(this, "evaluationJobs", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']", "", 30000, null, "46f527f3-bfa5-492d-b562-ce0f3214f144");
-                _industryjobsInfo = new RepoItemInfo(this, "industryJobs", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", "", 30000, null, "335d5545-795a-4455-bcf6-6e63c62ca53e");
+                _evaluationjobsInfo = new RepoItemInfo(this, "evaluationJobs", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/button[@automationid='PART_ExpandButton']", "", 30000, null, "46f527f3-bfa5-492d-b562-ce0f3214f144");
+                _industryjobsInfo = new RepoItemInfo(this, "industryJobs", ".//tabpagelist[@automationid='workbenchTabControl']/?/?/table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/button[@automationid='PART_ExpandButton']", "", 30000, null, "335d5545-795a-4455-bcf6-6e63c62ca53e");
                 _workspaceInfo = new RepoItemInfo(this, "workspace", ".//toolbar[@automationid='WorkbenchToolbar']/tree[@automationid='workbenchTreeView']//picture[@automationid='icon']/container[@caption='']/text[@automationid='nodeText' and @text=$workspaceName]", "", 30000, null, "bc768678-1a3a-4600-a47f-34794c90c691");
                 _evalpeakInfo = new RepoItemInfo(this, "evalPeak", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[5]/list[@automationid='PART_DataCellsPresenter']/cell[1]", "", 30000, null, "e886293c-a331-4545-8164-b7df47c8f2e0");
                 _existingscenarioInfo = new RepoItemInfo(this, "ExistingScenario", ".//table[@automationid='scenarioTreeListView']/container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/list[@automationid='PART_DataCellsPresenter']/cell[1]", ".//container[@automationid='PART_GridViewVirtualizingPanel']/row[1]/list[@automationid='PART_DataCellsPresenter']/cell[1]", 30000, null, "73f62101-dbe6-496a-8fc5-359d361b9643");
@@ -1404,7 +1430,7 @@ namespace AtlasAutomation
                 _partnership1as23base020524Info = new RepoItemInfo(this, "Partnership1AS23Base020524", ".//listitem[@text>'Partnership_1A_S23_Base_0']", ".//listitem[@text>'Partnership_1A_S23_Base_0']", 30000, null, "e8de93d6-b6de-43a3-8372-493817830787");
                 _optimizationparameters1as23base0205Info = new RepoItemInfo(this, "OptimizationParameters1AS23Base0205", ".//listitem[@text>'OptimizationParameters_1A']", ".//listitem[@text>'OptimizationParameters_1A']", 30000, null, "fd1060dd-6936-4553-bef6-7591ba7a79ad");
                 _clientconfig1as23base020524Info = new RepoItemInfo(this, "ClientConfig1AS23Base020524", ".//listitem[@text>'ClientConfig_1A_S23_Base_']", ".//listitem[@text>'ClientConfig_1A_S23_Base_']", 30000, null, "73bbd3f7-b85d-4d72-8ba2-fdb60ce1dabc");
-                _fleetsize1as23tc08020524Info = new RepoItemInfo(this, "FleetSize1AS23TC08020524", ".//listitem[@text>'FleetSize_1A_S23_TC08_02.']", ".//listitem[@text>'FleetSize_1A_S23_TC08_02.']", 30000, null, "e4bd81fd-a2cc-4b65-a683-5fa353cfdd36");
+                _fleetsize1as23tc08020524Info = new RepoItemInfo(this, "FleetSize1AS23TC08020524", ".//listitem[@text>'FleetSize_1A_S23_TC08']", ".//listitem[@text>'FleetSize_1A_S23_TC08_02.']", 30000, null, "e4bd81fd-a2cc-4b65-a683-5fa353cfdd36");
                 _ronbalance1as23tc08020524Info = new RepoItemInfo(this, "RONBalance1AS23TC08020524", ".//listitem[@text>'RONBalance_1A_S23_TC08_02']", ".//listitem[@text>'RONBalance_1A_S23_TC08_02']", 30000, null, "96679c71-c6ff-4acc-8db5-43db65b35ee0");
                 _todfrequency1as23tc08020524Info = new RepoItemInfo(this, "TODFrequency1AS23TC08020524", ".//listitem[@text>'TODFrequency_1A_S23_TC08_']", ".//listitem[@text>'TODFrequency_1A_S23_TC08_']", 30000, null, "a4d585bc-afe2-43f8-8a62-036070983bcc");
                 _fleetsize1as23tc09020524Info = new RepoItemInfo(this, "FleetSize1AS23TC09020524", ".//listitem[@text>'FleetSize_1A_S23_TC09_02.']", ".//listitem[@text>'FleetSize_1A_S23_TC09_02.']", 30000, null, "18e4840b-3418-42ed-a372-88a8d1856dc8");
@@ -4846,7 +4872,7 @@ namespace AtlasAutomation
                 _adapt_report_metrics = new AtlasAutomationRepositoryFolders.Adapt_Report_MetricsFolder(this);
                 _selfInfo = new SelfInfoClass(this);
                 _report_pageInfo = new Report_PageInfoClass(this);
-                _adaptmedscheduleInfo = new RepoItemInfo(this, "AdaptMedSchedule", ".//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C2']", ".//text[@caption='C2_ADP_BN_TC_07_Adapt_Med']", 30000, null, "1033091f-558b-4242-8de2-e623c2f1b35a");
+                _adaptmedscheduleInfo = new RepoItemInfo(this, "AdaptMedSchedule", ".//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C']", ".//text[@caption='C2_ADP_BN_TC_07_Adapt_Med']", 30000, null, "1033091f-558b-4242-8de2-e623c2f1b35a");
                 _exportjobreportbuttonInfo = new RepoItemInfo(this, "ExportJobReportButton", ".//container[@automationid='tabWhitespaceContent']/button[1]", ".//container[@automationid='tabWhitespaceContent']/button[1]", 30000, null, "be96a7c4-97dc-4f5d-90a6-b8c5d7f1b1cd");
                 _editjobInfo = new EditJobInfoClass(this);
                 _duplicate_job_buttonInfo = new Duplicate_Job_ButtonInfoClass(this);
@@ -5275,8 +5301,8 @@ namespace AtlasAutomation
             public Eval_Report_MetricsFolder(RepoGenBaseFolder parentFolder) :
                     base("Eval_Report_Metrics", "", parentFolder, 0, null, false, "e4843c97-3d36-44ba-87ba-a4ee632107f3", "")
             {
-                _flights_expandInfo = new RepoItemInfo(this, "Flights_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[20]/button[@automationid='PART_ExpandButton']", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "30f8ad56-c6ef-4842-a75c-02f022a8d33e");
-                _totalflightsInfo = new RepoItemInfo(this, "TotalFlights", ".//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[30]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']", "", 30000, null, "0e1eb807-87a6-4ec8-bc54-2a4a7fcf600a");
+                _flights_expandInfo = new RepoItemInfo(this, "Flights_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[19]/button[@automationid='PART_ExpandButton']", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "30f8ad56-c6ef-4842-a75c-02f022a8d33e");
+                _totalflightsInfo = new RepoItemInfo(this, "TotalFlights", ".//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[29]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']", "", 30000, null, "0e1eb807-87a6-4ec8-bc54-2a4a7fcf600a");
                 _flights_rowInfo = new RepoItemInfo(this, "Flights_Row", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[30]", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "70b75ac2-8160-403d-b55e-91c8ab3e05fe");
                 _totalrevenueInfo = new RepoItemInfo(this, "TotalRevenue", ".//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Revenue']", ".//text[@caption='Total Revenue']", 30000, null, "c945eb25-625b-4ccb-94f1-fbf6d788353c");
                 _revenue_rowInfo = new RepoItemInfo(this, "Revenue_Row", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[2]", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "99423633-177b-4651-84a9-f634f5fb162e");
@@ -5690,8 +5716,8 @@ namespace AtlasAutomation
             public Adapt_Report_MetricsFolder(RepoGenBaseFolder parentFolder) :
                     base("Adapt_Report_Metrics", "", parentFolder, 0, null, false, "4f4a4959-ebe6-4187-a74e-7a10b2dffe8f", "")
             {
-                _flight_expandInfo = new RepoItemInfo(this, "Flight_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']", "", 30000, null, "784bada5-9318-47df-bb3f-5011d0b0f754");
-                _total_flightsInfo = new RepoItemInfo(this, "Total_Flights", ".//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "1c996bf1-cc6e-4872-b3b7-cc291bbbbe40");
+                _flight_expandInfo = new RepoItemInfo(this, "Flight_Expand", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[6]/button[@automationid='PART_ExpandButton']", "", 30000, null, "784bada5-9318-47df-bb3f-5011d0b0f754");
+                _total_flightsInfo = new RepoItemInfo(this, "Total_Flights", ".//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[16]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "1c996bf1-cc6e-4872-b3b7-cc291bbbbe40");
                 _total_flights_rowInfo = new RepoItemInfo(this, "Total_Flights_Row", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]", ".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']", 30000, null, "f298ad82-827c-4ea1-954f-7ad71bcafb79");
             }
 

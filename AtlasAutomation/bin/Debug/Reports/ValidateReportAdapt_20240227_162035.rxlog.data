@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="19.64s"
+		durationms="19638"
+		type="root"
+		rid="6524c439f74c9ba"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="27/02/2024 16:20:39"
+		timestampiso="2024-02-27T16:20:39"
+		endtime="27/02/2024 16:20:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ValidateReportAdapt">
+		<detail>
+			ValidateReportAdapt
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.737"
+			timeRelativeToTestModuleStartTime="00:05.737"
+			timeWallClock="16:20:44"
+			time="00:05.737"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Report_Tab.Report_Page' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator"
+				itempath="indicator"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page"
+				id="8008f399f0774af8b690a795f9671eae"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ValidateReportAdapt.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.649"
+			timeRelativeToTestModuleStartTime="00:09.649"
+			timeWallClock="16:20:48"
+			time="00:09.649"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ValidateReportAdapt.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.649"
+			timeRelativeToTestModuleStartTime="00:10.649"
+			timeWallClock="16:20:49"
+			time="00:10.649"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Report_Tab.Adapt_Report_Metrics.Flight_Expand' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']"
+				itempath=".//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[7]/button[@automationid='PART_ExpandButton']"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Adapt_Report_Metrics.Flight_Expand"
+				id="784bada5931847dfbb3f5011d0b0f754"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ValidateReportAdapt.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.279"
+			timeRelativeToTestModuleStartTime="00:13.279"
+			timeWallClock="16:20:52"
+			time="00:13.279"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Total Flights') on item 'JobWindow.Report_Tab.Adapt_Report_Metrics.Total_Flights'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']"
+				itempath=".//tabpagelist[@automationid='tabs']/indicator/grip/button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']/container[@automationid='PART_ItemsScrollViewer']/container[@automationid='PART_GridViewVirtualizingPanel']/row[17]/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Total Flights']"
+				fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Adapt_Report_Metrics.Total_Flights"
+				id="1c996bf1cc6e4872b3b7cc291bbbbe40"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\ValidateReportAdapt.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.634"
+			timeRelativeToTestModuleStartTime="00:19.634"
+			timeWallClock="16:20:58"
+			time="00:19.634"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

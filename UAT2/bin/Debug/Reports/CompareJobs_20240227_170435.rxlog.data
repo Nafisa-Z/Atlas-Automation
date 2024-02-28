@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="14.27s"
+		durationms="14273"
+		type="root"
+		rid="30565b5133d49caf"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="27/02/2024 17:04:37"
+		timestampiso="2024-02-27T17:04:37"
+		endtime="27/02/2024 17:04:52"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CompareJobs">
+		<detail>
+			CompareJobs
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.562"
+			timeRelativeToTestModuleStartTime="00:03.562"
+			timeWallClock="17:04:41"
+			time="00:03.562"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']"
+				itempath="/form[@name='Root' and @title~'Jobs']"
+				fullname="UAT2Repository.JobWindow.Self"
+				id="b98a70ba2c3b491e96afa80fd0669a29"
+				timeout="30000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.488"
+			timeRelativeToTestModuleStartTime="00:12.488"
+			timeWallClock="17:04:50"
+			time="00:12.488"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Compare_Button' at 13;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']/indicator"
+				itempath=".//tabpagelist[@automationid='tabs']/indicator"
+				fullname="UAT2Repository.JobWindow.Compare_Button"
+				id="6fc6ada3d0fe44aca91a044a7b7663ce"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\CompareJobs.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

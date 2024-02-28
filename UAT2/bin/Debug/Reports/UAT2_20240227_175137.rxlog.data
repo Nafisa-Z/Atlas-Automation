@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="23.52s"
+		durationms="23518"
+		type="root"
+		rid="1bcb0aee219329c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="27/02/2024 17:51:37"
+		timestampiso="2024-02-27T17:51:37"
+		endtime="27/02/2024 17:52:01"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="17.69s"
+			durationms="17693"
+			type="test-suite"
+			rid="4c721d53a8ae90b"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="UAT2"
+			headertext="UAT2"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="16.28s"
+				durationms="16277"
+				type="iteration-container"
+				rid="2038a278c565b900"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="TC_07"
+				headertext="TC_07"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="2cff2d60-628c-4937-9457-e023b93f3b7d"
+				datasource="JobCreationData"
+				dataiterationcount="1">
+				<activity
+					result="Failed"
+					duration="16.27s"
+					durationms="16267"
+					type="test-case"
+					rid="607992889708d6"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="TC_07"
+					testcontainerid="2cff2d60-628c-4937-9457-e023b93f3b7d"
+					headertext="TC_07"
+					displayName="TC_07"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="workbench">
+							AtlasAutomation2024-02-27 17-51-45
+						</field>
+						<field
+							name="workspaceName">
+							Atlas_Cycle12024-02-27 17-51-45
+						</field>
+						<field
+							name="planningPeriod">
+							3/26/2023 to 10/28/2023
+						</field>
+						<field
+							name="schSearch">
+							easyJET_1A_S23_Base_02.05.24_1
+						</field>
+						<field
+							name="scNameIB">
+							IB_Jobs 2024-02-27 17-51-45
+						</field>
+						<field
+							name="jb1Name">
+							TC-01 2024-02-27 17-51-45
+						</field>
+						<field
+							name="datesMed">
+							18Sep2023 to 24Sep2023
+						</field>
+						<field
+							name="paramSearch1">
+							TC_01_PreCalibration_IB_Med_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="jb2Name">
+							TC-02 2024-02-27 17-51-45
+						</field>
+						<field
+							name="datesPeak">
+							21Aug2023 to 27Aug2023
+						</field>
+						<field
+							name="jb3Name">
+							TC-03 2024-02-27 17-51-45
+						</field>
+						<field
+							name="datesLow">
+							15May2023 to 21May2023
+						</field>
+						<field
+							name="paramSearch3">
+							TC_03_PreCalibration_IB_Low_FOR_IndustryBuild_Def_Param
+						</field>
+						<field
+							name="scNameEval">
+							Eval_Jobs 2024-02-27 17-51-45
+						</field>
+						<field
+							name="jb4Name">
+							TC-04 2024-02-27 17-51-45
+						</field>
+						<field
+							name="paramSearch4">
+							TC_04_Eval_Med_OPT_Evaluation_Def_Param
+						</field>
+						<field
+							name="jb5Name">
+							TC-05 2024-02-27 17-51-45
+						</field>
+						<field
+							name="jb6Name">
+							TC-06 2024-02-27 17-51-45
+						</field>
+						<field
+							name="jb7Name">
+							TC-07 2024-02-27 17-51-45
+						</field>
+						<field
+							name="paramSearch7">
+							TC_07_Adapt_Med_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="jb8Name">
+							TC-08 2024-02-27 17-51-45
+						</field>
+						<field
+							name="paramSearch8">
+							TC_08_Adapt_Peak_OPT_Adapt_Def_Param
+						</field>
+						<field
+							name="jb9Name">
+							TC-09 2024-02-27 17-51-45
+						</field>
+						<field
+							name="paramSearch9">
+							TC_09_Adapt_Low_OPT_Adapt_Def_Param
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="16.22s"
+						durationms="16220"
+						type="test-module"
+						rid="31110d9164bb5e0"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="AdaptReportValidationUAT2"
+						displayName="AdaptReportValidationUAT2"
+						moduleid="0ddd72ec-3d91-4f2f-a45a-060cf5bcfe06"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Screenshot of item 'AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page' does not match the specified image.
+						</errormessage>
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.478"
+							timeRelativeToTestModuleStartTime="00:00.014"
+							timeWallClock="17:51:45"
+							time="00:01.478"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'JobWindow.Report_Tab.Report_Page' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root' and @title~'Jobs']/indicator"
+								itempath="indicator"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page"
+								id="8008f399f0774af8b690a795f9671eae"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.600"
+							timeRelativeToTestModuleStartTime="00:03.136"
+							timeWallClock="17:51:48"
+							time="00:04.600"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'JobWindow.Report_Tab.AdaptMedSchedule'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C']"
+								itempath=".//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C']"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.AdaptMedSchedule"
+								id="1033091f558b42428de2e623c2f1b35a"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.823"
+							timeRelativeToTestModuleStartTime="00:04.359"
+							timeWallClock="17:51:49"
+							time="00:05.823"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'AdaptMedSchedule' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C']"
+								itempath=".//container[@automationid='tabWhitespaceContent']/?/?/text[@caption~'C']"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.AdaptMedSchedule"
+								id="1033091f558b42428de2e623c2f1b35a"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="87"
+								loglvl="Success"
+								itemindex="1">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.125"
+							timeRelativeToTestModuleStartTime="00:05.660"
+							timeWallClock="17:51:50"
+							time="00:07.125"
+							level="Info"
+							category="User"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_f99c4f3a_rxlog.jpg"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_f99c4f3a_rxlog_thumb.jpg">
+							<message>
+								Adapt Schedule<br/>
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="90"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.127"
+							timeRelativeToTestModuleStartTime="00:05.662"
+							timeWallClock="17:51:50"
+							time="00:07.127"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'JobWindow.Report_Tab.ExportJobReportButton'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[1]"
+								itempath=".//container[@automationid='tabWhitespaceContent']/button[1]"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.ExportJobReportButton"
+								id="be96a7c497dc4f5d90a6b8c5d7f1b1cd"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="92"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.140"
+							timeRelativeToTestModuleStartTime="00:06.676"
+							timeWallClock="17:51:51"
+							time="00:08.140"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'ExportJobReportButton' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[1]"
+								itempath=".//container[@automationid='tabWhitespaceContent']/button[1]"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.ExportJobReportButton"
+								id="be96a7c497dc4f5d90a6b8c5d7f1b1cd"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="93"
+								loglvl="Success"
+								itemindex="3">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.140"
+							timeRelativeToTestModuleStartTime="00:07.676"
+							timeWallClock="17:51:52"
+							time="00:09.140"
+							level="Info"
+							category="User"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_f99b4f3a_rxlog.jpg"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_f99b4f3a_rxlog_thumb.jpg">
+							<message>
+								Export Job Report Button<br/>
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="96"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.140"
+							timeRelativeToTestModuleStartTime="00:07.676"
+							timeWallClock="17:51:52"
+							time="00:09.140"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=42,Height=36}) on item 'JobWindow.Report_Tab.EditJob'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[2]"
+								itempath=".//container[@automationid='tabWhitespaceContent']/button[2]"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.EditJob"
+								id="916d7484ec4e420fa910648275a554e5"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="98"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.717"
+							timeRelativeToTestModuleStartTime="00:09.253"
+							timeWallClock="17:51:54"
+							time="00:10.717"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'AtlasAutomationRepository.JobWindow.Report_Tab.EditJob' does match the specified image.
+							</message>
+							<metainfo
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="99"
+								loglvl="Success"
+								id="916d7484ec4e420fa910648275a554e5"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[2]"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.EditJob"
+								itemindex="5">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.701"
+							timeRelativeToTestModuleStartTime="00:10.237"
+							timeWallClock="17:51:55"
+							time="00:11.701"
+							level="Info"
+							category="User"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_f99e4f3a_rxlog.jpg"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_f99e4f3a_rxlog_thumb.jpg">
+							<message>
+								Edit Job Button<br/>
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="102"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.703"
+							timeRelativeToTestModuleStartTime="00:10.239"
+							timeWallClock="17:51:55"
+							time="00:11.703"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=42,Height=36}) on item 'JobWindow.Report_Tab.Duplicate_Job_Button'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/form[@automationid='PART_Popup']/button[@automationid='PART_Button']"
+								itempath=".//container[@automationid='tabWhitespaceContent']/form[@automationid='PART_Popup']/button[@automationid='PART_Button']"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Duplicate_Job_Button"
+								id="1f53193aee6d490986ec7eaa77540242"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="104"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.201"
+							timeRelativeToTestModuleStartTime="00:11.736"
+							timeWallClock="17:51:56"
+							time="00:13.201"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'AtlasAutomationRepository.JobWindow.Report_Tab.Duplicate_Job_Button' does match the specified image.
+							</message>
+							<metainfo
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="105"
+								loglvl="Success"
+								id="1f53193aee6d490986ec7eaa77540242"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/form[@automationid='PART_Popup']/button[@automationid='PART_Button']"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Duplicate_Job_Button"
+								itemindex="7">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.201"
+							timeRelativeToTestModuleStartTime="00:12.737"
+							timeWallClock="17:51:57"
+							time="00:14.201"
+							level="Info"
+							category="User"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_f99d4f3a_rxlog.jpg"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_f99d4f3a_rxlog_thumb.jpg">
+							<message>
+								Duplicate Job Button<br/>
+							</message>
+							<metainfo
+								itemindex="8"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="108"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.204"
+							timeRelativeToTestModuleStartTime="00:12.740"
+							timeWallClock="17:51:57"
+							time="00:14.204"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=42,Height=36}) on item 'JobWindow.Report_Tab.NewJobButton'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[4]"
+								itempath=".//container[@automationid='tabWhitespaceContent']/button[4]"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.NewJobButton"
+								id="b30be8146ee74261a82d2ec557124fc9"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="110"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.684"
+							timeRelativeToTestModuleStartTime="00:14.220"
+							timeWallClock="17:51:59"
+							time="00:15.684"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'AtlasAutomationRepository.JobWindow.Report_Tab.NewJobButton' does match the specified image.
+							</message>
+							<metainfo
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="111"
+								loglvl="Success"
+								id="b30be8146ee74261a82d2ec557124fc9"
+								path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[4]"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.NewJobButton"
+								itemindex="9">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.701"
+							timeRelativeToTestModuleStartTime="00:15.237"
+							timeWallClock="17:52:00"
+							time="00:16.701"
+							level="Info"
+							category="User"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_f9a04f3a_rxlog.jpg"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_f9a04f3a_rxlog_thumb.jpg">
+							<message>
+								New Job Button<br/>
+							</message>
+							<metainfo
+								itemindex="10"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="114"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.702"
+							timeRelativeToTestModuleStartTime="00:15.238"
+							timeWallClock="17:52:00"
+							time="00:16.702"
+							level="Info"
+							category="Validation"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_efc92d42_5c47e3af_trace.jpg"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_efc92d42_5c47e3af_trace_thumb.jpg">
+							<message>
+								Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=2254,Height=1400}) on item 'JobWindow.Report_Tab.Report_Page'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name='Root' and @title~'Jobs']/indicator"
+								itempath="indicator"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page"
+								id="8008f399f0774af8b690a795f9671eae"
+								timeout="60000"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="116"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.415"
+							timeRelativeToTestModuleStartTime="00:15.951"
+							timeWallClock="17:52:01"
+							time="00:17.415"
+							level="Failure"
+							category="Validation"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_efc92d42_bb09beea_trace.jpg"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_efc92d42_bb09beea_trace_thumb.jpg">
+							<message>
+								Screenshot of item 'AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page' does not match the specified image.
+							</message>
+							<metainfo
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="117"
+								loglvl="Failure"
+								id="8008f399f0774af8b690a795f9671eae"
+								path="/form[@name='Root' and @title~'Jobs']/indicator"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page"
+								itemindex="11">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.500"
+							timeRelativeToTestModuleStartTime="00:16.036"
+							timeWallClock="17:52:01"
+							time="00:17.500"
+							level="Failure"
+							category="Expected image"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_f99f4f3a_rxlog.png"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_f99f4f3a_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								fullSizeImage="true"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="117"
+								loglvl="Failure"
+								itemindex="11">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.528"
+							timeRelativeToTestModuleStartTime="00:16.064"
+							timeWallClock="17:52:01"
+							time="00:17.528"
+							level="Failure"
+							category="Actual image"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_f9a24f3a_rxlog.png"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_f9a24f3a_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								fullSizeImage="true"
+								replaceImage="true"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="117"
+								loglvl="Failure"
+								itemindex="11">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.546"
+							timeRelativeToTestModuleStartTime="00:16.082"
+							timeWallClock="17:52:01"
+							time="00:17.546"
+							level="Error"
+							category="Module"
+							errimg="images_UAT2_202_efc92d42\UAT2_202_efc92d42_26a316b9_trace.jpg"
+							errthumb="images_UAT2_202_efc92d42\UAT2_202_efc92d42_26a316b9_trace_thumb.jpg">
+							<message>
+								Module execution was aborted because a validation step has failed. Screenshot of item 'AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page' does not match the specified image.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at UAT2.Modules.AdaptReportValidationUAT2.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs:line 117
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+								codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\AdaptReportValidationUAT2.cs"
+								codeline="117"
+								loglvl="Error"
+								id="8008f399f0774af8b690a795f9671eae"
+								path="/form[@name='Root' and @title~'Jobs']/indicator"
+								fullname="AtlasAutomationRepository.JobWindow.Report_Tab.Report_Page"
+								itemindex="11">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

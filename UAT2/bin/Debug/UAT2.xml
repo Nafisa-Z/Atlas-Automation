@@ -89,6 +89,16 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:AtlasAutomation.AtlasAutomationRepository.FleetSize1AS23TC08020524">
+            <summary>
+            The FleetSize1AS23TC08020524 item.
+            </summary>
+        </member>
+        <member name="P:AtlasAutomation.AtlasAutomationRepository.FleetSize1AS23TC08020524Info">
+            <summary>
+            The FleetSize1AS23TC08020524 item info.
+            </summary>
+        </member>
         <member name="P:AtlasAutomation.AtlasAutomationRepository.SkySuite">
             <summary>
             The SkySuite folder.
@@ -3472,6 +3482,133 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:UAT2.Modules.CompareJobs">
+             <summary>
+            The CompareJobs recording.
+             </summary>
+        </member>
+        <member name="F:UAT2.Modules.CompareJobs.repo">
+            <summary>
+            Holds an instance of the global::UAT2.UAT2Repository repository.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.CompareJobs.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:UAT2.Modules.CompareJobs.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.CompareJobs.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:UAT2.Modules.CompareJobs.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.CompareJobs.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="P:UAT2.Modules.CompareJobs.Compare_Button_Screenshot2">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:UAT2.Modules.CompareJobs.Compare_Button_Screenshot2_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.CompareJobs.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:UAT2.Modules.DuplicateTC_04">
+             <summary>
+            The DuplicateTC_04 recording.
+             </summary>
+        </member>
+        <member name="F:UAT2.Modules.DuplicateTC_04.repo">
+            <summary>
+            Holds an instance of the global::UAT2.UAT2Repository repository.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.DuplicateTC_04.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:UAT2.Modules.DuplicateTC_04.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.DuplicateTC_04.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:UAT2.Modules.DuplicateTC_04.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.DuplicateTC_04.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:UAT2.Modules.DuplicateTC_04.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:UAT2.Modules.ExportJobReport">
+             <summary>
+            The ExportJobReport recording.
+             </summary>
+        </member>
+        <member name="F:UAT2.Modules.ExportJobReport.repo">
+            <summary>
+            Holds an instance of the global::UAT2.UAT2Repository repository.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.ExportJobReport.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:UAT2.Modules.ExportJobReport.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.ExportJobReport.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:UAT2.Modules.ExportJobReport.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.ExportJobReport.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:UAT2.Modules.ExportJobReport.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:UAT2.Modules.ExportSchedule">
              <summary>
             The ExportSchedule recording.
@@ -3706,6 +3843,123 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:UAT2.Modules.CloseJob_UAT2">
+             <summary>
+            The CloseJob_UAT2 recording.
+             </summary>
+        </member>
+        <member name="F:UAT2.Modules.CloseJob_UAT2.repo">
+            <summary>
+            Holds an instance of the global::UAT2.UAT2Repository repository.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.CloseJob_UAT2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:UAT2.Modules.CloseJob_UAT2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.CloseJob_UAT2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:UAT2.Modules.CloseJob_UAT2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.CloseJob_UAT2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:UAT2.Modules.CloseJob_UAT2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:UAT2.Modules.ValidateAdaptReportMetrics">
+             <summary>
+            The ValidateAdaptReportMetrics recording.
+             </summary>
+        </member>
+        <member name="F:UAT2.Modules.ValidateAdaptReportMetrics.repo">
+            <summary>
+            Holds an instance of the global::UAT2.UAT2Repository repository.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.ValidateAdaptReportMetrics.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:UAT2.Modules.ValidateAdaptReportMetrics.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.ValidateAdaptReportMetrics.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:UAT2.Modules.ValidateAdaptReportMetrics.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.ValidateAdaptReportMetrics.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:UAT2.Modules.ValidateAdaptReportMetrics.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:UAT2.Modules.ValidateKPIPanel">
+             <summary>
+            The ValidateKPIPanel recording.
+             </summary>
+        </member>
+        <member name="F:UAT2.Modules.ValidateKPIPanel.repo">
+            <summary>
+            Holds an instance of the global::UAT2.UAT2Repository repository.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.ValidateKPIPanel.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:UAT2.Modules.ValidateKPIPanel.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.ValidateKPIPanel.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:UAT2.Modules.ValidateKPIPanel.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:UAT2.Modules.ValidateKPIPanel.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:UAT2.Modules.ValidateKPIPanel.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:UAT2.UAT2Repository">
             <summary>
             The class representing the UAT2Repository element repository.
@@ -3744,6 +3998,11 @@
         <member name="P:UAT2.UAT2Repository.JobWindow">
             <summary>
             The JobWindow folder.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2Repository.ExportJobAnalysis">
+            <summary>
+            The ExportJobAnalysis folder.
             </summary>
         </member>
         <member name="T:UAT2.UAT2RepositoryFolders">
@@ -3799,6 +4058,91 @@
         <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteAppFolder.NotificationsInfo">
             <summary>
             The Notifications item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteAppFolder.evalMed3">
+            <summary>
+            The evalMed3 item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteAppFolder.evalMed3Info">
+            <summary>
+            The evalMed3 item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteAppFolder.evalMed">
+            <summary>
+            The evalMed item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteAppFolder.evalMedInfo">
+            <summary>
+            The evalMed item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteAppFolder.evaluationJobs">
+            <summary>
+            The evaluationJobs item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteAppFolder.evaluationJobsInfo">
+            <summary>
+            The evaluationJobs item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteAppFolder.ScenarioTreeListView1">
+            <summary>
+            The ScenarioTreeListView1 folder.
+            </summary>
+        </member>
+        <member name="T:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder">
+            <summary>
+            The ScenarioTreeListView1Folder folder.
+            </summary>
+        </member>
+        <member name="M:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ScenarioTreeListView1  folder.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder.ScenarioTreeListView">
+            <summary>
+            The ScenarioTreeListView item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder.ScenarioTreeListViewInfo">
+            <summary>
+            The ScenarioTreeListView item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder.PARTExpandButton">
+            <summary>
+            The PARTExpandButton item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder.PARTExpandButtonInfo">
+            <summary>
+            The PARTExpandButton item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder.Name">
+            <summary>
+            The Name item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ScenarioTreeListView1Folder.NameInfo">
+            <summary>
+            The Name item info.
             </summary>
         </member>
         <member name="T:UAT2.UAT2RepositoryFolders.ExportScheduleAppFolder">
@@ -3861,6 +4205,46 @@
             The Notification_Item item info.
             </summary>
         </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder.DUplicate">
+            <summary>
+            The DUplicate item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder.DUplicateInfo">
+            <summary>
+            The DUplicate item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder.ToCurrentScenario">
+            <summary>
+            The ToCurrentScenario item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder.ToCurrentScenarioInfo">
+            <summary>
+            The ToCurrentScenario item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder.Export_Notification">
+            <summary>
+            The Export_Notification item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder.Export_NotificationInfo">
+            <summary>
+            The Export_Notification item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder.C2ADPBNTC0720240227145729">
+            <summary>
+            The C2ADPBNTC0720240227145729 item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.SkySuiteEasyJetUAT2AppFolder.C2ADPBNTC0720240227145729Info">
+            <summary>
+            The C2ADPBNTC0720240227145729 item info.
+            </summary>
+        </member>
         <member name="T:UAT2.UAT2RepositoryFolders.JobWindowAppFolder">
             <summary>
             The JobWindowAppFolder folder.
@@ -3870,6 +4254,52 @@
             <summary>
             Creates a new JobWindow  folder.
             </summary>
+        </member>
+        <member name="T:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Compare_ButtonInfoClass">
+            <summary>
+            The Compare_ButtonInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Compare_ButtonInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Compare_ButtonInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Compare_ButtonInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Compare_ButtonInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Report_PageInfoClass">
+            <summary>
+            The Report_PageInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Report_PageInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Report_PageInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Report_PageInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Report_PageInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
         </member>
         <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Self">
             <summary>
@@ -3951,9 +4381,144 @@
             The Traffic_Row item info.
             </summary>
         </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.ByDayToggle">
+            <summary>
+            The ByDayToggle item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.ByDayToggleInfo">
+            <summary>
+            The ByDayToggle item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Wednesday">
+            <summary>
+            The Wednesday item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.WednesdayInfo">
+            <summary>
+            The Wednesday item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.DowToggle">
+            <summary>
+            The DowToggle item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.DowToggleInfo">
+            <summary>
+            The DowToggle item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.TC07">
+            <summary>
+            The TC07 item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.TC07Info">
+            <summary>
+            The TC07 item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Export_Report_Button">
+            <summary>
+            The Export_Report_Button item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Export_Report_ButtonInfo">
+            <summary>
+            The Export_Report_Button item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.KPI_Header">
+            <summary>
+            The KPI_Header item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.KPI_HeaderInfo">
+            <summary>
+            The KPI_Header item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Compare_Button">
+            <summary>
+            The Compare_Button item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Compare_ButtonInfo">
+            <summary>
+            The Compare_Button item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.ToggleButton">
+            <summary>
+            The ToggleButton item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.ToggleButtonInfo">
+            <summary>
+            The ToggleButton item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Hide__Compare_Panel">
+            <summary>
+            The Hide__Compare_Panel item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Hide__Compare_PanelInfo">
+            <summary>
+            The Hide__Compare_Panel item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Report_Page">
+            <summary>
+            The Report_Page item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Report_PageInfo">
+            <summary>
+            The Report_Page item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Flight_Expand1">
+            <summary>
+            The Flight_Expand1 item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Flight_Expand1Info">
+            <summary>
+            The Flight_Expand1 item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Total_Flights_Row">
+            <summary>
+            The Total_Flights_Row item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Total_Flights_RowInfo">
+            <summary>
+            The Total_Flights_Row item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Flight_Expand2">
+            <summary>
+            The Flight_Expand2 item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Flight_Expand2Info">
+            <summary>
+            The Flight_Expand2 item info.
+            </summary>
+        </member>
         <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Report_Tab">
             <summary>
             The Report_Tab folder.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.JobWindowAppFolder.Tabs">
+            <summary>
+            The Tabs folder.
             </summary>
         </member>
         <member name="T:UAT2.UAT2RepositoryFolders.Report_TabFolder">
@@ -4082,6 +4647,96 @@
         <member name="P:UAT2.UAT2RepositoryFolders.Forcast_Report_MetricsFolder.Traffic_RowInfo">
             <summary>
             The Traffic_Row item info.
+            </summary>
+        </member>
+        <member name="T:UAT2.UAT2RepositoryFolders.TabsFolder">
+            <summary>
+            The TabsFolder folder.
+            </summary>
+        </member>
+        <member name="M:UAT2.UAT2RepositoryFolders.TabsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Tabs  folder.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.Load">
+            <summary>
+            The Load item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.LoadInfo">
+            <summary>
+            The Load item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.Delete_Schedule_Comparison">
+            <summary>
+            The Delete_Schedule_Comparison item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.Delete_Schedule_ComparisonInfo">
+            <summary>
+            The Delete_Schedule_Comparison item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.Apply">
+            <summary>
+            The Apply item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.ApplyInfo">
+            <summary>
+            The Apply item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.Total_Flights">
+            <summary>
+            The Total_Flights item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.TabsFolder.Total_FlightsInfo">
+            <summary>
+            The Total_Flights item info.
+            </summary>
+        </member>
+        <member name="T:UAT2.UAT2RepositoryFolders.ExportJobAnalysisAppFolder">
+            <summary>
+            The ExportJobAnalysisAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:UAT2.UAT2RepositoryFolders.ExportJobAnalysisAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ExportJobAnalysis  folder.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ExportJobAnalysisAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ExportJobAnalysisAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ExportJobAnalysisAppFolder.Export">
+            <summary>
+            The Export item.
+            </summary>
+        </member>
+        <member name="P:UAT2.UAT2RepositoryFolders.ExportJobAnalysisAppFolder.ExportInfo">
+            <summary>
+            The Export item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

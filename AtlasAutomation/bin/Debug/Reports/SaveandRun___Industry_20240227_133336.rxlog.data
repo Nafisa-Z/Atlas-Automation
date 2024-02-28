@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="50.58s"
+		durationms="50580"
+		type="root"
+		rid="da0f5e35ee259c3"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="27/02/2024 13:33:40"
+		timestampiso="2024-02-27T13:33:40"
+		endtime="27/02/2024 13:34:30"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SaveandRun___Industry">
+		<detail>
+			SaveandRun___Industry
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.466"
+			timeRelativeToTestModuleStartTime="00:05.466"
+			timeWallClock="13:33:45"
+			time="00:05.466"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Save' at 22;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[2]"
+				itempath=".//container[@automationid='tabWhitespaceContent']/button[2]"
+				fullname="AtlasAutomationRepository.JobWindow.Save"
+				id="43c0335579d440fab76a34a65531972a"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRun___Industry.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.922"
+			timeRelativeToTestModuleStartTime="00:09.922"
+			timeWallClock="13:33:50"
+			time="00:09.922"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRun___Industry.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.928"
+			timeRelativeToTestModuleStartTime="00:12.928"
+			timeWallClock="13:33:53"
+			time="00:12.928"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.Run' at 13;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//container[@automationid='tabWhitespaceContent']/button[10]"
+				itempath=".//container[@automationid='tabWhitespaceContent']/button[10]"
+				fullname="AtlasAutomationRepository.JobWindow.Run"
+				id="3a3f5b27410549b1810eacc110283a7a"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRun___Industry.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.985"
+			timeRelativeToTestModuleStartTime="00:13.985"
+			timeWallClock="13:33:54"
+			time="00:13.985"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 9m.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\AtlasAutomation\SaveandRun___Industry.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.575"
+			timeRelativeToTestModuleStartTime="00:50.575"
+			timeWallClock="13:34:30"
+			time="00:50.575"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

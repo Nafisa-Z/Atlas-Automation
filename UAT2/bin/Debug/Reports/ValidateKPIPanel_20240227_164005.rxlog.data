@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="17.93s"
+		durationms="17927"
+		type="root"
+		rid="18bbc94f84a567ef"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NafisaZ"
+		rxversion="10.7.4.0"
+		host="EJWIN10183100"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2256x1504"
+		timestamp="27/02/2024 16:40:09"
+		timestampiso="2024-02-27T16:40:09"
+		endtime="27/02/2024 16:40:27"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ValidateKPIPanel">
+		<detail>
+			ValidateKPIPanel
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'UAT2Repository.JobWindow.Wednesday' does not match the specified value (actual='Wednesday', expected='').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.910"
+			timeRelativeToTestModuleStartTime="00:05.910"
+			timeWallClock="16:40:15"
+			time="00:05.910"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'JobWindow.ByDayToggle' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']//tabpagelist[@automationid='tabs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']//button[@automationid='byDayToggle']"
+				itempath=".//tabpagelist[@automationid='tabs']//button[@automationid='PART_HeaderExpander']/table[@automationid='KpiListView']//button[@automationid='byDayToggle']"
+				fullname="UAT2Repository.JobWindow.ByDayToggle"
+				id="1603cc566094451eb04e94f54f74e75b"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ValidateKPIPanel.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.290"
+			timeRelativeToTestModuleStartTime="00:11.290"
+			timeWallClock="16:40:21"
+			time="00:11.290"
+			level="Info"
+			category="Validation"
+			errimg="images_Validate_95bf1dab\Validate_95bf1dab_129a63c7_trace.jpg"
+			errthumb="images_Validate_95bf1dab\Validate_95bf1dab_129a63c7_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='') on item 'JobWindow.Wednesday'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Wednesday']"
+				itempath="indicator//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Wednesday']"
+				fullname="UAT2Repository.JobWindow.Wednesday"
+				id="6f34a0d788404eeda3e21e86c47bb8ac"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ValidateKPIPanel.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.708"
+			timeRelativeToTestModuleStartTime="00:17.708"
+			timeWallClock="16:40:27"
+			time="00:17.708"
+			level="Failure"
+			category="Validation"
+			errimg="images_Validate_95bf1dab\Validate_95bf1dab_4d0dc8d7_trace.jpg"
+			errthumb="images_Validate_95bf1dab\Validate_95bf1dab_4d0dc8d7_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'UAT2Repository.JobWindow.Wednesday' does not match the specified value (actual='Wednesday', expected='').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Wednesday']"
+				itempath="indicator//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Wednesday']"
+				fullname="UAT2Repository.JobWindow.Wednesday"
+				id="6f34a0d788404eeda3e21e86c47bb8ac"
+				timeout="60000"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ValidateKPIPanel.cs"
+				codeline="87"
+				loglvl="Failure"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.720"
+			timeRelativeToTestModuleStartTime="00:17.720"
+			timeWallClock="16:40:27"
+			time="00:17.720"
+			level="Error"
+			category="Module"
+			errimg="images_Validate_95bf1dab\Validate_95bf1dab_4d0dc8d7_trace.jpg"
+			errthumb="images_Validate_95bf1dab\Validate_95bf1dab_4d0dc8d7_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'UAT2Repository.JobWindow.Wednesday' does not match the specified value (actual='Wednesday', expected='').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at UAT2.Modules.ValidateKPIPanel.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ValidateKPIPanel.cs:line 87
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\nafisa.zaman@easyjet.com\Documents\AtlasAutomation\UAT2\Modules\ValidateKPIPanel.cs"
+				codeline="87"
+				type="repoitem"
+				path="/form[@name='Root' and @title~'Jobs']/indicator//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Wednesday']"
+				itempath="indicator//table[@automationid='KpiListView']/?/?/row[@automationid='PART_HeaderRow']/list[@automationid='PART_DataCellsPresenter']/?/?/text[@caption='Wednesday']"
+				fullname="UAT2Repository.JobWindow.Wednesday"
+				id="6f34a0d788404eeda3e21e86c47bb8ac"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

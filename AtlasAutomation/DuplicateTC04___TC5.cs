@@ -96,19 +96,23 @@ namespace AtlasAutomation
             repo.SkySuite.Self.Click("1390;32");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.evaluationJobs' at 15;13.", repo.SkySuite.evaluationJobsInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.workbenchView' at Center.", repo.SkySuite.workbenchViewInfo, new RecordItemIndex(1));
+            repo.SkySuite.workbenchView.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuite.evaluationJobs' at 15;13.", repo.SkySuite.evaluationJobsInfo, new RecordItemIndex(2));
             repo.SkySuite.evaluationJobs.Click("15;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.evalMed' at 43;18.", repo.SkySuite.evalMedInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SkySuite.evalMed' at 43;18.", repo.SkySuite.evalMedInfo, new RecordItemIndex(3));
             repo.SkySuite.evalMed.Click(System.Windows.Forms.MouseButtons.Right, "43;18");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.DUplicate' at 44;14.", repo.SkySuiteEasyJetUAT2.DUplicateInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.DUplicate' at 44;14.", repo.SkySuiteEasyJetUAT2.DUplicateInfo, new RecordItemIndex(4));
             repo.SkySuiteEasyJetUAT2.DUplicate.Click("44;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.ToCurrentScenario' at 27;14.", repo.SkySuiteEasyJetUAT2.ToCurrentScenarioInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SkySuiteEasyJetUAT2.ToCurrentScenario' at 27;14.", repo.SkySuiteEasyJetUAT2.ToCurrentScenarioInfo, new RecordItemIndex(5));
             repo.SkySuiteEasyJetUAT2.ToCurrentScenario.Click("27;14");
             Delay.Milliseconds(0);
             
